@@ -1,0 +1,48 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Local environments and IDE files
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Experiment outputs and datasets
+results/
+examples/results/
+logs/
+runs/
+wandb/
+outputs/
+checkpoints/
+data/
+datasets/
+
+# Large ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.npz
+*.npy
+*.h5
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Downloaded papers and reports
+*.pdf
+
+# Small CRL shutter templates required by the codebase
+!CRL-SemCom-VidCI/shutters/shutter_templates/
+!CRL-SemCom-VidCI/shutters/shutter_templates/*.pt

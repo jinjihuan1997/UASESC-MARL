@@ -1,0 +1,9 @@
+{
+  "pid": 391511,
+  "uid": 1000,
+  "state": "R",
+  "start_ticks": 408206641,
+  "command": "/home/king/miniconda3/envs/harl_sionna/bin/python -u /home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_aoi_ref8/supervisor.py run ",
+  "utc": "2026-09-10T08:34:58.516658+00:00",
+  "manifest_sha256": "29f10890b46c3c5ac9a2b8ad5503f96b56939518ebc45e4c2e17ab0b1f8cfbe2"
+}

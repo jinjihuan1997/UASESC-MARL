@@ -1,0 +1,769 @@
+{
+  "state": "PASS",
+  "selected_seeds": [
+    810974,
+    85,
+    218
+  ],
+  "rows": [
+    {
+      "seed": 85,
+      "selected": true,
+      "by_method": {
+        "selector": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -2.9009776942063503,
+              "fixed_0": -1.2901320049120395,
+              "fixed_1": -15.033357469570669,
+              "fixed_2": 9.964912246634523
+            },
+            "2000000": {
+              "overall": -2.8978932037625764,
+              "fixed_0": -1.2901320049120395,
+              "fixed_1": -15.033357469570669,
+              "fixed_2": 9.982013920386388
+            }
+          },
+          "score_change_1m_to_2m": 0.003084490443773902,
+          "trained_actor_ids": [
+            "selector"
+          ],
+          "final_actor_lr": [
+            9.999999999999999e-06
+          ],
+          "final_entropy_coefficient": 0.001,
+          "last50_mean_policy_entropy": 0.5039461064338684,
+          "last50_mean_actor_gradient_norm": 0.11632492184638978,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training"
+        },
+        "joint_continue": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.060757136572884,
+              "fixed_0": -1.4419388984587977,
+              "fixed_1": -14.976928760149766,
+              "fixed_2": 9.553050355288542
+            },
+            "2000000": {
+              "overall": -3.011512255431322,
+              "fixed_0": -1.2667569511814314,
+              "fixed_1": -14.884802383452165,
+              "fixed_2": 9.435874616663433
+            }
+          },
+          "score_change_1m_to_2m": 0.04924488114156178,
+          "trained_actor_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "final_actor_lr": [
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06
+          ],
+          "final_entropy_coefficient": 0.008,
+          "last50_mean_policy_entropy": 1.1053591251373291,
+          "last50_mean_actor_gradient_norm": 0.3417409032583237,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training"
+        }
+      }
+    },
+    {
+      "seed": 218,
+      "selected": true,
+      "by_method": {
+        "selector": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -2.9090691964395856,
+              "fixed_0": -1.435482933589114,
+              "fixed_1": -15.112869491397731,
+              "fixed_2": 10.191576541368176
+            },
+            "2000000": {
+              "overall": -2.9153223872183958,
+              "fixed_0": -1.4459391095578615,
+              "fixed_1": -15.116019640322955,
+              "fixed_2": 10.192257283367482
+            }
+          },
+          "score_change_1m_to_2m": -0.006253190778810147,
+          "trained_actor_ids": [
+            "selector"
+          ],
+          "final_actor_lr": [
+            9.999999999999999e-06
+          ],
+          "final_entropy_coefficient": 0.001,
+          "last50_mean_policy_entropy": 0.6173483324050903,
+          "last50_mean_actor_gradient_norm": 0.11267212614417076,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training"
+        },
+        "joint_continue": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.1996418824965276,
+              "fixed_0": -1.7428435752169336,
+              "fixed_1": -15.029253389605504,
+              "fixed_2": 9.437728658126238
+            },
+            "2000000": {
+              "overall": -3.026481421741574,
+              "fixed_0": -1.343209279946887,
+              "fixed_1": -15.046771255888913,
+              "fixed_2": 9.588349961995881
+            }
+          },
+          "score_change_1m_to_2m": 0.1731604607549535,
+          "trained_actor_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "final_actor_lr": [
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06
+          ],
+          "final_entropy_coefficient": 0.008,
+          "last50_mean_policy_entropy": 1.1016618824005127,
+          "last50_mean_actor_gradient_norm": 0.3311108618974686,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training"
+        }
+      }
+    },
+    {
+      "seed": 966,
+      "selected": false,
+      "by_method": {
+        "selector": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -2.980388746377627,
+              "fixed_0": -1.1426191051697665,
+              "fixed_1": -15.067575133337414,
+              "fixed_2": 9.524180890993529
+            },
+            "2000000": {
+              "overall": -2.980388746377627,
+              "fixed_0": -1.1426191051697665,
+              "fixed_1": -15.067575133337414,
+              "fixed_2": 9.524180890993529
+            }
+          },
+          "score_change_1m_to_2m": 0.0,
+          "trained_actor_ids": [
+            "selector"
+          ],
+          "final_actor_lr": [
+            9.999999999999999e-06
+          ],
+          "final_entropy_coefficient": 0.001,
+          "last50_mean_policy_entropy": 0.3718667674064636,
+          "last50_mean_actor_gradient_norm": 0.08534281484782696,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training"
+        },
+        "joint_continue": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.0908499401021086,
+              "fixed_0": -1.4735747595497202,
+              "fixed_1": -14.980802952810343,
+              "fixed_2": 9.432139210618997
+            },
+            "2000000": {
+              "overall": -3.0736862302230397,
+              "fixed_0": -1.506859379106352,
+              "fixed_1": -15.068475482195327,
+              "fixed_2": 9.594099084963846
+            }
+          },
+          "score_change_1m_to_2m": 0.0171637098790689,
+          "trained_actor_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "final_actor_lr": [
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06
+          ],
+          "final_entropy_coefficient": 0.008,
+          "last50_mean_policy_entropy": 1.0829012179374695,
+          "last50_mean_actor_gradient_norm": 0.33943518579006193,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training"
+        }
+      }
+    },
+    {
+      "seed": 268966,
+      "selected": false,
+      "by_method": {
+        "selector": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.0137506515248895,
+              "fixed_0": -1.5295581711487758,
+              "fixed_1": -15.116704287738225,
+              "fixed_2": 9.945960391507153
+            },
+            "2000000": {
+              "overall": -3.0125886597007234,
+              "fixed_0": -1.5291386897205514,
+              "fixed_1": -15.11770213370597,
+              "fixed_2": 9.940955665733275
+            }
+          },
+          "score_change_1m_to_2m": 0.0011619918241660976,
+          "trained_actor_ids": [
+            "selector"
+          ],
+          "final_actor_lr": [
+            9.999999999999999e-06
+          ],
+          "final_entropy_coefficient": 0.001,
+          "last50_mean_policy_entropy": 0.591204309463501,
+          "last50_mean_actor_gradient_norm": 0.11258213579654694,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation"
+        },
+        "joint_continue": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -2.9325390010522914,
+              "fixed_0": -1.0779531623500982,
+              "fixed_1": -15.036978135534959,
+              "fixed_2": 9.575217109318578
+            },
+            "2000000": {
+              "overall": -3.109696378583793,
+              "fixed_0": -1.470942469903153,
+              "fixed_1": -15.015070205022324,
+              "fixed_2": 9.423009332491176
+            }
+          },
+          "score_change_1m_to_2m": -0.17715737753150185,
+          "trained_actor_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "final_actor_lr": [
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06
+          ],
+          "final_entropy_coefficient": 0.008,
+          "last50_mean_policy_entropy": 1.1068529748916627,
+          "last50_mean_actor_gradient_norm": 0.343917675614357,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation"
+        }
+      }
+    },
+    {
+      "seed": 810974,
+      "selected": true,
+      "by_method": {
+        "selector": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -2.849659397765494,
+              "fixed_0": -1.310684237157399,
+              "fixed_1": -15.118139812433878,
+              "fixed_2": 10.273416102804688
+            },
+            "2000000": {
+              "overall": -2.849659397765494,
+              "fixed_0": -1.310684237157399,
+              "fixed_1": -15.118139812433878,
+              "fixed_2": 10.273416102804688
+            }
+          },
+          "score_change_1m_to_2m": 0.0,
+          "trained_actor_ids": [
+            "selector"
+          ],
+          "final_actor_lr": [
+            9.999999999999999e-06
+          ],
+          "final_entropy_coefficient": 0.001,
+          "last50_mean_policy_entropy": 0.5595195186138153,
+          "last50_mean_actor_gradient_norm": 0.10288598097860813,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation"
+        },
+        "joint_continue": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.335738929604438,
+              "fixed_0": -2.0366789957317706,
+              "fixed_1": -15.029046141330586,
+              "fixed_2": 9.347779685232679
+            },
+            "2000000": {
+              "overall": -3.3542899690354693,
+              "fixed_0": -2.083832862440449,
+              "fixed_1": -15.012286767396244,
+              "fixed_2": 9.319930933465608
+            }
+          },
+          "score_change_1m_to_2m": -0.018551039431031313,
+          "trained_actor_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "final_actor_lr": [
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06
+          ],
+          "final_entropy_coefficient": 0.008,
+          "last50_mean_policy_entropy": 1.0678793716430663,
+          "last50_mean_actor_gradient_norm": 0.34498546600341795,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation"
+        }
+      }
+    },
+    {
+      "seed": 771611,
+      "selected": false,
+      "by_method": {
+        "selector": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.135749639656799,
+              "fixed_0": -1.7697286089610205,
+              "fixed_1": -14.959630624813128,
+              "fixed_2": 9.631018684164102
+            },
+            "2000000": {
+              "overall": -3.0133631191141843,
+              "fixed_0": -1.7697286089610205,
+              "fixed_1": -14.964095849492379,
+              "fixed_2": 10.051377793617974
+            }
+          },
+          "score_change_1m_to_2m": 0.1223865205426149,
+          "trained_actor_ids": [
+            "selector"
+          ],
+          "final_actor_lr": [
+            9.999999999999999e-06
+          ],
+          "final_entropy_coefficient": 0.001,
+          "last50_mean_policy_entropy": 0.6012145483493805,
+          "last50_mean_actor_gradient_norm": 0.1108050861954689,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation"
+        },
+        "joint_continue": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.5280117290657396,
+              "fixed_0": -2.350277954397493,
+              "fixed_1": -15.091211598874693,
+              "fixed_2": 9.138076416766815
+            },
+            "2000000": {
+              "overall": -3.411978592393236,
+              "fixed_0": -2.247579400774452,
+              "fixed_1": -15.052421398762153,
+              "fixed_2": 9.344900793854098
+            }
+          },
+          "score_change_1m_to_2m": 0.11603313667250337,
+          "trained_actor_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "final_actor_lr": [
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06
+          ],
+          "final_entropy_coefficient": 0.008,
+          "last50_mean_policy_entropy": 1.0852257657051085,
+          "last50_mean_actor_gradient_norm": 0.3402278274297714,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation"
+        }
+      }
+    },
+    {
+      "seed": 779709,
+      "selected": false,
+      "by_method": {
+        "selector": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.3032488493021672,
+              "fixed_0": -1.7379927328355218,
+              "fixed_1": -15.189232496187344,
+              "fixed_2": 9.22376468511302
+            },
+            "2000000": {
+              "overall": -3.0211276899080044,
+              "fixed_0": -1.168167348465715,
+              "fixed_1": -15.13423777605751,
+              "fixed_2": 9.421763136213093
+            }
+          },
+          "score_change_1m_to_2m": 0.2821211593941628,
+          "trained_actor_ids": [
+            "selector"
+          ],
+          "final_actor_lr": [
+            9.999999999999999e-06
+          ],
+          "final_entropy_coefficient": 0.001,
+          "last50_mean_policy_entropy": 0.6655226957798004,
+          "last50_mean_actor_gradient_norm": 0.12143287733197212,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation"
+        },
+        "joint_continue": {
+          "checkpoints": {
+            "1000000": {
+              "overall": -3.1010311363186744,
+              "fixed_0": -1.581771713182895,
+              "fixed_1": -15.085710642971756,
+              "fixed_2": 9.648637202595152
+            },
+            "2000000": {
+              "overall": -3.1176253711302557,
+              "fixed_0": -1.5051716431559523,
+              "fixed_1": -15.074656758992145,
+              "fixed_2": 9.425127845891689
+            }
+          },
+          "score_change_1m_to_2m": -0.016594234811581288,
+          "trained_actor_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "final_actor_lr": [
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06,
+            2.000000000000001e-06
+          ],
+          "final_entropy_coefficient": 0.008,
+          "last50_mean_policy_entropy": 1.0549273872375489,
+          "last50_mean_actor_gradient_norm": 0.32635846495628357,
+          "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation"
+        }
+      }
+    }
+  ],
+  "means": {
+    "selected_three": {
+      "selector": {
+        "1000000": -2.88656876280381,
+        "2000000": -2.887624996248822
+      },
+      "joint_continue": {
+        "1000000": -3.1987126495579496,
+        "2000000": -3.1307612154027886
+      }
+    },
+    "all_seven": {
+      "selector": {
+        "1000000": -3.013263453610416,
+        "2000000": -2.9557633148352864
+      },
+      "joint_continue": {
+        "1000000": -3.1783671078875235,
+        "2000000": -3.157895745505527
+      }
+    }
+  },
+  "joint_10m_to_12m": {
+    "810974": {
+      "joint": -3.1997145772411346,
+      "joint_continue": -3.3542899690354693
+    },
+    "85": {
+      "joint": -2.9919379873142304,
+      "joint_continue": -3.011512255431322
+    },
+    "218": {
+      "joint": -3.1022142016028367,
+      "joint_continue": -3.026481421741574
+    }
+  },
+  "feasible_headroom_example": {
+    "training_seed": 218,
+    "selector_score": -2.9153223872183958,
+    "feasible_quality_only_equal_score": -2.874503854342685,
+    "rule": "Use equal resources only for current quality instruction; otherwise original frozen SUT output. Same frozen UAV actors.",
+    "source": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only",
+    "interpretation": "A known feasible policy in the same binary resource-choice family is better on this diagnostic evaluation; not a learned improvement or an independent-test guarantee."
+  },
+  "original_three_joint_curve_x100": {
+    "1000000": -3.8557013398727857,
+    "3000000": -3.466032862582575,
+    "5000000": -3.1659345914129915,
+    "10000000": -3.0248469784315644
+  },
+  "original_curve_seeds": [
+    85,
+    218,
+    966
+  ],
+  "source_hashes": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/REPORT.md": "1df8e384414aba5b55232bcdb72758ae2ffe1bb163cdf9d37fd9bd9178dfa937",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/report/switch_recovery.json": "db430337b77002896e2679ae1f4e6646f4964cb9e230bac143d04c2d80124f46",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/report/trace_hashes.json": "8007f487a31eec926df2292cf677a1a1aad4e36e19448b976322318acd0975b0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/report/audit.json": "25a998dd49d079e5c3ee79faacee34debbeee5f6120ec94dec83484f90024909",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/report/behavior.json": "ad103d5ae55bbdb24fdb2cfe39c3e7af883a9e573eeb2388b2d8b6f041b2a09d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/report/results.json": "4b5e96994c51b0b14dc8f1535bc3f0c4c8fd841ec1f6749267291fc2269b8494",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/training_metrics.jsonl": "c1c4e3c8dc3c1b5490277eda236f9cba313064b71451154f8f7d14e411c4aa6d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_1000000/actor_agent3.pt": "5f87464caf5a88ecb9769949f1bd81929dfe57a9e3e043492d7cfb150c41bbf2",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_1000000/value_normalizer.pt": "b128f1eb9f7b501611358eb9a9c87d53df97f8f34b39ba5a873cecda29ba4803",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_1000000/actor_agent2.pt": "e69b15206500d3cc2d7cbbe06cf0ebbf34e94342503aaa08edc062ee9ced8715",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_1000000/selector.pt": "82d115c82e8418db2c5f1a8a7ca806d75ebdff8aae3c7da41fb79655ad23de6c",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_1000000/critic_agent.pt": "cc6c850d87bb5a04f0d1b25cd643f532cc6ec6e0aee28941cbb4359dc18a987d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_1000000/actor_agent1.pt": "51fe0bc67cf251adc3aec7a7a19da4d1e4dd9d5fe8c870f154beb78e59fd9169",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_1000000/actor_agent0.pt": "92b19f1ec6abbf14ea4dbb279c6deaf035ad474d13b720c57f1e1be6427f45f4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_2000000/actor_agent3.pt": "5f87464caf5a88ecb9769949f1bd81929dfe57a9e3e043492d7cfb150c41bbf2",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_2000000/value_normalizer.pt": "ebaf227c540aaf6af9835ef2e74ba2d573c11466964ee9779e988f8a84027dc0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_2000000/actor_agent2.pt": "e69b15206500d3cc2d7cbbe06cf0ebbf34e94342503aaa08edc062ee9ced8715",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_2000000/selector.pt": "d0b0b459a2b54134cee3acb3948cf8ff897282813eed8606c456c70e2471591a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_2000000/critic_agent.pt": "ca4bb2a002e099724af91c04d21f9cb55fe11d9b2ab99b64f4d31a16799a8682",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_2000000/actor_agent1.pt": "51fe0bc67cf251adc3aec7a7a19da4d1e4dd9d5fe8c870f154beb78e59fd9169",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/selector/milestones/steps_2000000/actor_agent0.pt": "92b19f1ec6abbf14ea4dbb279c6deaf035ad474d13b720c57f1e1be6427f45f4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/training_metrics.jsonl": "81cbdc7df2c00dcceb0d198931e05a930a2a2d2cb81582f6d18b8f991dd7507d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_1000000/actor_agent3.pt": "596313da283b94b4ebdffd5f1cb79e66f4c2dd55927d6321ef62af1c69a766de",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_1000000/value_normalizer.pt": "83ec4ffe8fe31596970267bb39a951ef4221871ca77d2a06254e1aed0d8af247",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_1000000/actor_agent2.pt": "364ef83694a262ba17ab2cce984711f68eb06d661d4b074a5c9070395e26250f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_1000000/critic_agent.pt": "e347484463ca1a36e914b615840a0cdf6dc9002b113facac5fb4a1680c279240",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_1000000/actor_agent1.pt": "f75c62ce581ab8788fbe3d07c1f855cca422a3a625b5998f18aa6c98ae220f10",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_1000000/actor_agent0.pt": "041e9163c5cb4884af9e10606e563566135aea86f6a3cda318aadc0a1a7a79de",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_2000000/actor_agent3.pt": "2c2139b82bfe24d729e655272ddc7c53bc507d537a9bea413127dd2625d546ca",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_2000000/value_normalizer.pt": "c4298413ee618c1a6e045d22e9a2f6b57b2f81f7e60ac6ef634a02000870f6c7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_2000000/actor_agent2.pt": "47202552b3c33c619c51bae7bb6721c7ba9bd43e8f4570ee1755c9c242f29b34",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_2000000/critic_agent.pt": "ad4b558eca04ee47ea458ae71b04f202b4c519e4bf7e5c39f592ffc9e6367026",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_2000000/actor_agent1.pt": "06db8f402d18d4d63ce9295dbfc9cbaf327eab7b5fbf32044d6847f29ba14db2",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_85/joint_continue/milestones/steps_2000000/actor_agent0.pt": "273955b435658a03a3d2e4ab9839caac06f02acb23a976d3ca02157d9592da7d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/training_metrics.jsonl": "4fa6359b74247072d6dbc5eeed6210f820103ae17696495d90da52b6e9ac914a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_1000000/actor_agent3.pt": "18eea0570321bb3e801c33ba3ba07c220a048d871577a9509d8c5bc3783c4e30",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_1000000/value_normalizer.pt": "f827afabf54974a57c16b48fe76a5f4c73cb87dbd7c7abfe26204ec8a67a94cc",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_1000000/actor_agent2.pt": "489f03adae12b62ffc04c6df84c73f0083bcdae20f84af8853f238f8336f12c7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_1000000/selector.pt": "ffb51871c248c76248d892de7588ace08d017b5fa0d970ecaaae5461a68777d2",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_1000000/critic_agent.pt": "6dc9be7e654180f6e3c9c212f7aefc9b02f21b17c9fc903e7dbe0ddcd01f2d59",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_1000000/actor_agent1.pt": "4196d0554dd2a205c93cb51aeea8b9644f3821e21433dbb258dafa40c640e6b4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_1000000/actor_agent0.pt": "78ea8b481310ba3ddfbe9464c1c28e79267fcb23c29870bf7de29498053f4d86",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent3.pt": "18eea0570321bb3e801c33ba3ba07c220a048d871577a9509d8c5bc3783c4e30",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/value_normalizer.pt": "4b3f0f00e6c12900e0a8d6411c84fb5a9922efb67dc31d01d09bb8c27e37a169",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent2.pt": "489f03adae12b62ffc04c6df84c73f0083bcdae20f84af8853f238f8336f12c7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/selector.pt": "4910559d9058fa52fa9ec88ca05f5265d15325a17b8fcdaa623a5ed55dd2933a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/critic_agent.pt": "f8c185322152b9e792b74b4316f7aa992b11018806c98f7a0eba6abf4d2cd73e",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent1.pt": "4196d0554dd2a205c93cb51aeea8b9644f3821e21433dbb258dafa40c640e6b4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent0.pt": "78ea8b481310ba3ddfbe9464c1c28e79267fcb23c29870bf7de29498053f4d86",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/training_metrics.jsonl": "fe9e5ca4c8683069faf42412c20230dff5faa47ed745c42bc6b1c6700f208882",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_1000000/actor_agent3.pt": "256af1d3b074664326db14d8353df72415b105738d61869b9a5fc633ddd0e4ce",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_1000000/value_normalizer.pt": "7aec5beb19e35dfc55541dc6b9c9a6697ab3d6c35f089c22823b2bed9397d2ff",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_1000000/actor_agent2.pt": "b137acb9f0a62578e35af339192372a701100f0aa68ab363cb735a88607c9f9c",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_1000000/critic_agent.pt": "f593b63a3f989aa6df2f09da742fe16fdff4e8a47997730327858df7b9a4cc0e",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_1000000/actor_agent1.pt": "aa7cf373ce9f9ac6aaf228d77b4db2cc2fa6ab5b144d6b02b2e31fbdb7566e60",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_1000000/actor_agent0.pt": "62496277297a8c329f3a92b1dc7d9494219d8bb3bb972714a5f86439d415b684",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_2000000/actor_agent3.pt": "439aec37c9fcb78e995f9c331ff689d3fcc8b4a2c54997c24d76162c712474da",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_2000000/value_normalizer.pt": "f5669a86e9fc252b35a1e8a193a61f959908ab61396ec30ff4abf97d486f32b8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_2000000/actor_agent2.pt": "a0c314ffed2308d286500099e0f1446a8887fb0c5ee5e25cda86ef5eea5c2151",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_2000000/critic_agent.pt": "3b35557e772c15fc5b193a53f2d97ddae63a9569198fe5834272e299ac3538e1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_2000000/actor_agent1.pt": "d54e0987b4692ab9c9d2011c2ac9972a5f3e33890a2bb3db8b3991f869f64725",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/joint_continue/milestones/steps_2000000/actor_agent0.pt": "005f5b11db2f6676b429898fc18885fbaef9eee3a4749c0a8f2cc812fc864da6",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/training_metrics.jsonl": "56d0746ec09db5b4a4fe415521e4850271bf0901b044ad1ca2aa1d290557017b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_1000000/actor_agent3.pt": "a9256ff21ac661de7418ccac66cfc216b2db4a56d4392e224def9a898b3a0ac6",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_1000000/value_normalizer.pt": "a255512890bd25cf1214a6309ea1c6e6e500167cd59f5507766eb7b4836a83f8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_1000000/actor_agent2.pt": "c17b00406f764505bb2eeab1685e3338f3b4ff9d539d4895bba8778e2477df3a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_1000000/selector.pt": "8b7c318ea0ba10cdebcb6883943a35a1732854ef348c22b92b833f52bc508cc1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_1000000/critic_agent.pt": "625685dc2a4d4ddd9b017001a04db66e09ce5356cd74d554d66ba1461347fa9d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_1000000/actor_agent1.pt": "6e8a323c8576b28f1da398fba310fcef76884dc5590fc04acece6dedc8fe7b2b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_1000000/actor_agent0.pt": "aa1ca66a81653d0441f4d15fc1f28cec3722adbfb41a0483a1c211e1f221dbbb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_2000000/actor_agent3.pt": "a9256ff21ac661de7418ccac66cfc216b2db4a56d4392e224def9a898b3a0ac6",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_2000000/value_normalizer.pt": "c7581db56085fcd2c1e1537b5751b6a04c278e5e8b515b0ec711d3b1e79a87ce",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_2000000/actor_agent2.pt": "c17b00406f764505bb2eeab1685e3338f3b4ff9d539d4895bba8778e2477df3a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_2000000/selector.pt": "155272b9319e13654d11881d49a87f9a78c3663ff4193bfbd93130314a688bd1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_2000000/critic_agent.pt": "9b1cde1dea1a54878b7376136ae38308f4790affca5dbcafa1bc7787d7ff470d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_2000000/actor_agent1.pt": "6e8a323c8576b28f1da398fba310fcef76884dc5590fc04acece6dedc8fe7b2b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/selector/milestones/steps_2000000/actor_agent0.pt": "aa1ca66a81653d0441f4d15fc1f28cec3722adbfb41a0483a1c211e1f221dbbb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/training_metrics.jsonl": "6b6395f1367ab96cdb2c229b0a6a8305e8f19760be3451ffe479d2ed4057d3cd",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_1000000/actor_agent3.pt": "b70ea049fd2a05f7e4679413d477320043fd2314d12718d3d5bf7dd0ed54335f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_1000000/value_normalizer.pt": "407e901e0da84e8fb4c18c1553e5e8e48fd57b7b9512823e94a6f7ecf4027b4e",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_1000000/actor_agent2.pt": "17fb26b5cce5e746499f6e74f188586e0389a476a00cf95b8288bad69a82cdd8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_1000000/critic_agent.pt": "0e37ae73758b6a81a49f8f65b87130ba5c05f75345b97b4a2ca64b3f6b09d4d1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_1000000/actor_agent1.pt": "f469b0dfb185c21f6251668c34fe099bbee2e1d9473076189191399b3d7f6e9b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_1000000/actor_agent0.pt": "55f599b141dad4308a140802732a4a08e43d997594e1179c202b1d32cae94f95",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_2000000/actor_agent3.pt": "96efd9e0acd5de121bf8312c5d5cd3c6fef2f0b63d7550a364ba9a3a6db3488a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_2000000/value_normalizer.pt": "802d68a5ef2c542108675288be46c507399cebfbf8a5f2268533595b13a78086",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_2000000/actor_agent2.pt": "868d23037c5a63152e76b68dcb6e558f3fe192ca096f3a4f9e42ecdfe08f7c0c",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_2000000/critic_agent.pt": "e0a4f0d07384f2a53cfb0cda0845b4155dabe02b2d574422b5f9aeed8eb5c2d4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_2000000/actor_agent1.pt": "134a1e6efde24245a13d57506dd1e77be4131938237d1a1eac70334399648c53",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_966/joint_continue/milestones/steps_2000000/actor_agent0.pt": "1d0bfef96055439ab58ab1eed53df3e93e196182232a4f54e9d036a51575ec27",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/REPORT.md": "4d8c0baec1a3b7a5b028258417386be9ea548f6eaeb86b6e0c94bb147e577b74",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/report/switch_recovery.json": "2503f8b5c694e02c91f6dc4344b0f41583e3b3990fa10890f1fabd225750a318",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/report/trace_hashes.json": "949eac9c2b3995fd6742f478007e2a3eb2bd33d58ffa96affcbd4593188673b5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/report/audit.json": "66b67e2a90232648556abfd374de04790e3f55d7bdbdfba5c91d52aff49fbe02",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/report/behavior.json": "9cceb09a284ea7cf3ccb8a0a76c5c5cc88102e9a18e29dfddade28d7d5687ab7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/report/results.json": "c2be44bd4d189e0a4788ab912425d95401aae2e506e2716d68693c11cbac9ede",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/training_metrics.jsonl": "1acb6784ac553435a2f4fe3c912449480a2ed2dbcf3807a2353af63350051fe5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_1000000/actor_agent3.pt": "6ed49d3693c8c2f3106aae4f6065bc31c339f67803602cce73c773cc3151f858",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_1000000/value_normalizer.pt": "dca76db8c201858e336fa579006b9ddde20572a497536d91132cd2421e9d861f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_1000000/actor_agent2.pt": "7908c7d61cb05339bde3f4ae72c7fd221eeb891937ed6b8b9c21635f6e3a3e41",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_1000000/selector.pt": "933d0e0f4d0d1ef99b7be4d6b41d2b31ecb0fe421fc9c4340cf67c32438d8528",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_1000000/critic_agent.pt": "d01054d1e5388f03f911f44ba506e9da6932e53d8dbb9dc6d90b157bbad96750",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_1000000/actor_agent1.pt": "09897cf6d1be1f5fa6736b610981f78e68702d87df91cd2b06d9cd08b3195b65",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_1000000/actor_agent0.pt": "44e531672fbc3dfa5abda18df2a68caf0b53d73c0680fec82fa4bfd5f7175f72",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_2000000/actor_agent3.pt": "6ed49d3693c8c2f3106aae4f6065bc31c339f67803602cce73c773cc3151f858",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_2000000/value_normalizer.pt": "058b658114a93679adbbd53f0eee351d9809feeafbb764729f713da98f41aad8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_2000000/actor_agent2.pt": "7908c7d61cb05339bde3f4ae72c7fd221eeb891937ed6b8b9c21635f6e3a3e41",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_2000000/selector.pt": "a62023ee8a8c66c8293077074a851c86745a5dbfac5563c99a1c238fb4ba1e21",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_2000000/critic_agent.pt": "95fe2dd040b07df22b08b2729b88f4496f2833db7db0605b2c1b28cfabcf35ee",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_2000000/actor_agent1.pt": "09897cf6d1be1f5fa6736b610981f78e68702d87df91cd2b06d9cd08b3195b65",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/selector/milestones/steps_2000000/actor_agent0.pt": "44e531672fbc3dfa5abda18df2a68caf0b53d73c0680fec82fa4bfd5f7175f72",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/training_metrics.jsonl": "9f9dab820ff89a859b375a19228533b74e2796d26d1ac69b1bb9dfa2629739cd",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_1000000/actor_agent3.pt": "9a55a7621245178f92cd622c74bae934a9b7ccf4d16db4ab1351b501b20aed62",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_1000000/value_normalizer.pt": "ef5a50d03f4fab33c2e55cb81a27f6174d0de593d1bbd795460220fafe899b43",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_1000000/actor_agent2.pt": "eb58ecd29ae1ca80ac3ee78795ea223b4372458f6aeaf46c131a0733ce6f96bf",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_1000000/critic_agent.pt": "6e23553c95e692564d1efaf7fd602f0fb6043f9e87e96d62555904a264cc47b4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_1000000/actor_agent1.pt": "c5f5b0881788fcaabc5025b663af0716d7887d08b01dba576d84044f55410279",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_1000000/actor_agent0.pt": "0f8ebd46544b91d900c804bc5c9d51add7b95753e8b454fa8f38620460d66c78",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_2000000/actor_agent3.pt": "200ea0a5e449d9752fc45b0be06f4e551114cd7ebd9ff93c6bd1ebe6a25af380",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_2000000/value_normalizer.pt": "1ebda64d374ae39e385c27745213820aa38f671d73a92de934197e2412d541da",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_2000000/actor_agent2.pt": "344ab0f1b37fa4178568c45d58c191a71fe08aa90e64fdbdea480ec691495077",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_2000000/critic_agent.pt": "ca007d07a4cc1d5532e6ef72dece02b03cf909641c428c99f44d711dbec94108",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_2000000/actor_agent1.pt": "8146d90ee90046fe19de18f12da17ee3e2f5593b347b2a75f8ffd66ff7630578",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/jobs/seed_268966/joint_continue/milestones/steps_2000000/actor_agent0.pt": "bb33f0d2319d8e5639936c90a94a1ff5e41c08cb8760954bcbdd0f539e15b4eb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/REPORT.md": "a00ec1f80280ba300b2a7bf67afc3d64af6f1ea11afbf73559aa42e56104e485",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/report/switch_recovery.json": "933d529e59fd6f2dc9a303d5d87c5c9d104af70bd9eb71716b4b78208a4bc086",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/report/trace_hashes.json": "28f9d1ea3d208e384a886acea6df749e7539b51a7993a1515c40194e8aa3d6e0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/report/audit.json": "25a998dd49d079e5c3ee79faacee34debbeee5f6120ec94dec83484f90024909",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/report/behavior.json": "8dedf7b53efd01285dd154a7d11cace2be3b33818018ec5fada4bc8cf2f2defa",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/report/results.json": "7a7ce2e75273445469f42bcf334719942b9fc0127d56b79b80cbd13350fb93c1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/training_metrics.jsonl": "fab293ebad0d57a9c406e35b1d3137d2c99dd4bdebf9a1e0acd187dc77aa62cc",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_1000000/actor_agent3.pt": "c981dee0eff9e9b0c95213cc72d9eab7d137eaed515a01fc69afd3ea7b4f84b9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_1000000/value_normalizer.pt": "87be832560de9398afcd3d6d2ecae23e0a8d73f0ff6f66ca5b1feb863c4874eb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_1000000/actor_agent2.pt": "5b7aeb64264efd9c4a3798b1c64b4371ffcef5bb8233554059b63cf85e494eaa",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_1000000/selector.pt": "ad3633f750a3cf594e1468997b773c7dda40ab0d0fa4d16eaf3e0ebe8029fde9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_1000000/critic_agent.pt": "e12e37669fa29a9c63f65a9dcc006b5b64c08bf797c4a0d8bdfb65de9975bd90",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_1000000/actor_agent1.pt": "07a6b19e5ad342fc730b813f88d463435efdf9550145ef1b740f28f5b1209c9d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_1000000/actor_agent0.pt": "b4410009d2def443820b6c81aee9017c03cae41b65ec4b926da2aeadea0a4b88",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_2000000/actor_agent3.pt": "c981dee0eff9e9b0c95213cc72d9eab7d137eaed515a01fc69afd3ea7b4f84b9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_2000000/value_normalizer.pt": "7f1d1a1dcd2e40028c52ba1e988dca70430771cbd2f2da7bb044ee0575937da0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_2000000/actor_agent2.pt": "5b7aeb64264efd9c4a3798b1c64b4371ffcef5bb8233554059b63cf85e494eaa",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_2000000/selector.pt": "19e3c67c1a24bedeb349aa062cae9ad6f0ef1cabca937876f656b46aa734d0fc",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_2000000/critic_agent.pt": "2a63e47a6b99b1f3519fa228e7b6752681767f5466a7f2cd5f141b5fdd7213bf",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_2000000/actor_agent1.pt": "07a6b19e5ad342fc730b813f88d463435efdf9550145ef1b740f28f5b1209c9d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/selector/milestones/steps_2000000/actor_agent0.pt": "b4410009d2def443820b6c81aee9017c03cae41b65ec4b926da2aeadea0a4b88",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/training_metrics.jsonl": "e0d7c1b020dc279c467ad09509b9fed61cbdcb0f5c20a22308c19ddbbc3c8748",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_1000000/actor_agent3.pt": "f7881ec54fe61c806d5a3ad3ff33fc539dafbfa761eafb5702d2d4e13b5f434f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_1000000/value_normalizer.pt": "bd8f81532d1e6c234d9d63ed7696e995be324ae4652c412aea692ff3987f3aa7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_1000000/actor_agent2.pt": "ee580e8d6d03c7a8ee00e853902aad6a77914b2bc37919cb48683dbbf88af8c0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_1000000/critic_agent.pt": "2e2ebf385fd274d760c27792c06ac41e21b662ec2bff82602f879b86039c7bc9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_1000000/actor_agent1.pt": "525cfc7bb6dcb81f0ee2b4ce0b00bc2fb947f6523ef5434c3bc6d5c39ef752f5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_1000000/actor_agent0.pt": "f67603534df00a048292121c8057b4c075614e9dbe4f5db7b33c70cd2bc93ab1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_2000000/actor_agent3.pt": "f8aca808c564aa4ac4a3fc51c8a93dcf6c226a4e711ee44ab57d140dacad6191",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_2000000/value_normalizer.pt": "70bae4bad30eb529a48d39fcd4787df95121b0ee8e08b7af0da303b7d16987d5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_2000000/actor_agent2.pt": "0d9921a6c7f5d63c3bc033679394346603c39914f7a68da13ee77cd779248540",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_2000000/critic_agent.pt": "b796246d97a43cba12c4c235d6e9fc15a99106325bd58f58f797064531bacd30",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_2000000/actor_agent1.pt": "f2c246f0d2c614541efcd0a1f4f0fbd79ec2912b369bfb0198e4cde299dac7d3",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_810974/joint_continue/milestones/steps_2000000/actor_agent0.pt": "9dd9045ba484075e0a9ad903ab2634686adae28cd8e4c8ba1040a80a7140b097",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/training_metrics.jsonl": "3d9d27bb266aecfab6bce5be9bc65e618760f9da2cd825c26e771ac7ef110ad4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_1000000/actor_agent3.pt": "a22f96ce5b2c860bf7cb4cb49b754c15d6b1134e6021a1b3addce7a3350dcd87",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_1000000/value_normalizer.pt": "8f69a4b90471608a3db416d59c9b1236b8ea4c8d623d39704c2841dcc1046fad",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_1000000/actor_agent2.pt": "7b9790c94d2a7ec75278c1d3b689ab05bc364a29e43a716a60bc25bb34f107cb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_1000000/selector.pt": "ee860c2653f5cc8d38c75addc5e780e3ec5c8d64b8ce4608a4c70865c8c85fe7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_1000000/critic_agent.pt": "46bbf4b1989a7c8649a05ff87b560d40ec4b6d09bd72f05661e8806cf52a91b7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_1000000/actor_agent1.pt": "68ea856c34b3f50dd091249066a75e25a79cee19e1c80921e8e03696ba806fe6",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_1000000/actor_agent0.pt": "9df38a4fa6f3047f7174583ba7dc4cf3ab008f2517d3f69c9bf416a85bb72480",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_2000000/actor_agent3.pt": "a22f96ce5b2c860bf7cb4cb49b754c15d6b1134e6021a1b3addce7a3350dcd87",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_2000000/value_normalizer.pt": "fa5df11f11a7fe10e400878b890a2dc7ee6dc1dd1abde58880da1667c8fb9bd4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_2000000/actor_agent2.pt": "7b9790c94d2a7ec75278c1d3b689ab05bc364a29e43a716a60bc25bb34f107cb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_2000000/selector.pt": "395f87ce336dc37ea368e7b1b037f936003b9cb3c3b015271da3cf3b08fc39b9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_2000000/critic_agent.pt": "5dff12ebc51d8a597286f64aa0364d4f3f1abffc8d11d76436f355985897d181",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_2000000/actor_agent1.pt": "68ea856c34b3f50dd091249066a75e25a79cee19e1c80921e8e03696ba806fe6",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/selector/milestones/steps_2000000/actor_agent0.pt": "9df38a4fa6f3047f7174583ba7dc4cf3ab008f2517d3f69c9bf416a85bb72480",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/training_metrics.jsonl": "50e8db1ccc1c527ca7cc5aa3363ce98750e9230566cfbdefa4242ead05d8e26d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_1000000/actor_agent3.pt": "2a41a0d33401bd75907f0932f606b28ba5ffbd84bb5509151cac71c901c8f0a2",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_1000000/value_normalizer.pt": "7e6fd5d51e9feb3faf84375e8a5b8298bc801a0c47a7a02dec2912fd928e99e9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_1000000/actor_agent2.pt": "1c598dd6f145c7f08d6d5afd13d8d9545ed83c914878ef8fb1368dafad2333bf",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_1000000/critic_agent.pt": "0ffb7f24e400984a9a4283de3fb42d93e0f9df137366bf8b71486b995b159345",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_1000000/actor_agent1.pt": "1bf47c6458432d4288c65a6f8ffa31f2b7bd95acc5210028637948647bac1c6f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_1000000/actor_agent0.pt": "b079b399e7392450263bf90e8e009d933c4ad2b525f6b8357ec6bb1d2fce8bec",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_2000000/actor_agent3.pt": "67fc85aa0c08512702f40887ad27da58e2fd2f9b5c4790f0e081b6697f309777",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_2000000/value_normalizer.pt": "dcd0d8afa2e61af20d7edcfab22bbaf648f1410a5584d6a1179d059f468ff647",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_2000000/actor_agent2.pt": "e6381f7273a818c2a1e742ba5d5ff706be89dfa4b24a3b65ebc81ce3cfe5b74c",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_2000000/critic_agent.pt": "1d05001d7be796735bf02d1643dbee8824b0c389db6a8152ec6078f25c4fc9d3",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_2000000/actor_agent1.pt": "9500d62dffce0db7f9397bf92364e3e8d714f420b7d92b62ab083139fb27c13d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_771611/joint_continue/milestones/steps_2000000/actor_agent0.pt": "51e66abd277f56cc97c4a2e4836760f384ba4a9b0510fec2c148de46789e95a7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/training_metrics.jsonl": "707c971f876b71e112b867d885cd3750ba27349264011eaeabea6eb61e135661",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_1000000/actor_agent3.pt": "e63d3648fb2cf4d664554c6fa37a78b69dba26fbf1f2cb30b2e7c6e4a4c6d507",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_1000000/value_normalizer.pt": "941fddce63ddcf3514bea69bbb342fdd60f64f2a09b292e761043f2baa9f2d1a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_1000000/actor_agent2.pt": "2cffd93eb46eb1c2618a057ff313c9bb530be36e4948be5def4cc8c67590757a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_1000000/selector.pt": "b6267c2ca730d1f651b5983b400a02bac8e23d0b4be2d79a527a54778995753d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_1000000/critic_agent.pt": "f1c93dcf194312cdcfc6f9812b23c1d67c9f489aacacef636176be76a86c4e29",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_1000000/actor_agent1.pt": "7cced07fe6d3df1338b7cb0e68550f89acc9d403047e4e90c36c4f25e7250621",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_1000000/actor_agent0.pt": "123cf3ecfd59c8b9a0529279de76b48660cd51b70e5bb0dfd4e4b88b23ad50a4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_2000000/actor_agent3.pt": "e63d3648fb2cf4d664554c6fa37a78b69dba26fbf1f2cb30b2e7c6e4a4c6d507",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_2000000/value_normalizer.pt": "ab8ff950d96729677abc787fcbaf61ab50c2d52f01d089115136f233e42cdac5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_2000000/actor_agent2.pt": "2cffd93eb46eb1c2618a057ff313c9bb530be36e4948be5def4cc8c67590757a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_2000000/selector.pt": "df733fec3bb68a9acb272c02008167a93cf6379fcb77ffef5efc2480b9ee7d0b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_2000000/critic_agent.pt": "bfda29a2d63744a1556be1a50f8b5aa71238cab0b231b93965c9436d0b9822cd",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_2000000/actor_agent1.pt": "7cced07fe6d3df1338b7cb0e68550f89acc9d403047e4e90c36c4f25e7250621",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/selector/milestones/steps_2000000/actor_agent0.pt": "123cf3ecfd59c8b9a0529279de76b48660cd51b70e5bb0dfd4e4b88b23ad50a4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/training_metrics.jsonl": "fa59efeb6337e48d2461b12cdbf03f25cb601a60c47cd547898777dff0ed77fb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_1000000/actor_agent3.pt": "eb60f05004fec0bd3b4c69e1bcd27415de69b3709ebeda5815891eb5520dd2b5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_1000000/value_normalizer.pt": "8088fdb806f0796cd933182fbf09acf414a76a290b8d8d3b5ad2bc505605d780",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_1000000/actor_agent2.pt": "88ef1e3a4a74b2b083380bcfc96aa743807f9bb6ab9a4a6826176b10e6e34b49",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_1000000/critic_agent.pt": "1e1795f14f890aecb3f4b6fb603641f9aa6aab9afc03bbd81393da022f4c187f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_1000000/actor_agent1.pt": "1aea2ce01122ec42ce1741bdd52de61801bb75df396ad1e2e97bb0a33a1c6aca",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_1000000/actor_agent0.pt": "e09183592e79fad8b28f48d7da65f6b52afadc1af0765ed980392e11c7ed08e4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_2000000/actor_agent3.pt": "6b5bb912295cf1064bf34434576d1a7523a1cc22339563ed9352343e72e2f80b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_2000000/value_normalizer.pt": "867a5f613379d2c19e05e1382ccfe70d46d6687faad0f1158334894bd2bbbffe",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_2000000/actor_agent2.pt": "73d3aa7c2f9f01ed3d6f931b69108e626d6a939966cc9f64655283109fa574e9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_2000000/critic_agent.pt": "42ce6feebe4d560e5dd924f7f286934add0bc9ede88cfee7302129bbba4e3484",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_2000000/actor_agent1.pt": "06b08920b63436fb3a87c11eed9dc3f791483ab6ae03535ba94b4fb0d8de4d42",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/jobs/seed_779709/joint_continue/milestones/steps_2000000/actor_agent0.pt": "0532b7de1ef86fa0e5803054b5fdff9c77762c65c91fccb25350073f1a9b2ab0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/fixed_0.npz": "87cb7aea01932849ff664773a8d3b9395d8d04a05cc532768d28bf32b0a42b90",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/fixed_1.npz": "2db2dd95016497a054437d5a0063efd35ba7c1d8a4945eec7b0d986340e083d1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/fixed_2.npz": "2414286d779563380819d6313f5e7d90ea71d6359516520e1c4329cfc89e3d3a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/switch300_0_to_1.npz": "e6000f57c18954007b0be4bf2426682ebd00f7e93c6bae26db503d695b3d2d64",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/switch300_0_to_2.npz": "85803fa7062a962aa47b55fa6dae095d35b0f1f24984367e141f515cfffe5efb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/switch300_1_to_0.npz": "a4f4b50168a45f489478243bbc845920da0a3aeebc2f031796879e42046f3b5b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/switch300_1_to_2.npz": "32e39830aa1a82ef66b36d57f5169bf75c3b188627ee46c68f56a986ee129f55",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/switch300_2_to_0.npz": "f2f412a3de2de093330b46ef6e4d94122cfd0d7193c2f57e932bf24f1547c7f1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/switch300_2_to_1.npz": "eb65ab03822d0a4e54bc8e56b8765eafee714a8405b06546844d3f0088f69bde",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/early50_0_to_1.npz": "220e6e9fb090fa38fd9c471db4d96267c160e75b51502297f96051efb34aea8e",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/late550_0_to_2.npz": "8e2f28877c9efa6ce0b67278a5601adc5d201a2854a82ec3013ab51552d541a3",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/multi_0_1_2.npz": "f802b59f67177e7dea9229af401fe0bd7151a4da498ea3895f666af9e89a0e9b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/multi_2_1_0.npz": "29c16f20e561aa75bcfd71edc4036f6eeb6de0c72612ac23108abf856247de69",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/summary.json": "543c43158ac68a1673ef24ff5eb7cccbed03f51717eb4a352da24825e9c560b5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/REPORT.md": "eb15b7200f0929a78ef5483b0347500ef0ddc5c6ea686607685df7ee715455b2",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/report/switch_recovery.json": "427f41b200612b5ba6f3ab901f038316d8ac4f2c68679bd9b8fb796846ecba22",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/report/trace_hashes.json": "888fd589e36701ae13fe92a6f914693d010c8c5af21d04c2effb4f554161e9e4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/report/audit.json": "fd179030f181f11ec16b720d5530f31e2d144f271a6c0888e52c14c9885d6fee",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/report/behavior.json": "6bcbc50d9dd23cc659296852acd9737228c73b0ac9452f506a14fa78f539ce7e",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/report/results.json": "a678ba23309e8ef847f03fac6752cd146863f692323058eeebdae1f4242a027b"
+  },
+  "limitations": [
+    "Two selector evaluation checkpoints do not prove convergence.",
+    "Training remains stochastic while reported deployment uses deterministic actions.",
+    "All evaluations use the existing repeatedly consulted diagnostic split.",
+    "No matched-information ablation has yet quantified causal contributions to the rule gap."
+  ]
+}

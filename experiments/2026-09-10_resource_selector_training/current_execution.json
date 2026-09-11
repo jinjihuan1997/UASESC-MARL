@@ -1,0 +1,9 @@
+{
+  "pid": 591465,
+  "uid": 1000,
+  "state": "R",
+  "start_ticks": 410423279,
+  "command": "/home/king/miniconda3/envs/harl_sionna/bin/python -u /home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/supervisor_adjusted.py run --resume ",
+  "utc": "2026-09-10T14:44:24.892025+00:00",
+  "manifest_sha256": "0025aaa57dede75791bc1f6e9448762e05d8cee91e2a4b53da40f5ff9db1db6d"
+}

@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-09-10T07:29:26.712023+00:00",
+  "completed_training_steps": 12000000,
+  "completed_training_jobs": 12,
+  "evaluation_episodes": 4680,
+  "report": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_reward_pilot/REPORT.md",
+  "science_status": "results_ready_for_interpretation"
+}

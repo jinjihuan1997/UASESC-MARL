@@ -1,0 +1,15 @@
+{
+  "state": "PASS",
+  "matched_transferred_weights_and_optimizer_history_all_seeds": true,
+  "inherited_finite_episode_and_exogenous_sequences": true,
+  "exact_original_and_quality_equal_replay_episodes": 360,
+  "selector_likelihood_replayed": true,
+  "only_selector_actor_trained": true,
+  "exact_checkpoint_resume": [
+    "joint_continue",
+    "selector"
+  ],
+  "snapshot_evaluation_idempotent": true,
+  "full_evaluation_audit_episodes": 42,
+  "old_inputs_unchanged": true
+}

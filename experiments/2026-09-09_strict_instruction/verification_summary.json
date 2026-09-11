@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": {
+    "interface_checks": {
+      "passed": true,
+      "sha256": "0e2fae3b42075c090f4787ed3655dc46dbac02e6ba2557db69c227008b127c26"
+    },
+    "physics_preservation": {
+      "passed": true,
+      "sha256": "1c190f29e7c4f4e65e7907b80658264dbd609799f4a2a02592b54c991ff6a16a"
+    },
+    "validation_cpu": {
+      "passed": true,
+      "sha256": "aff29d3d0948f225260637fee29e5becadc7c8b60594bdf576aaa8e55f1393f0",
+      "slots": 9080,
+      "discrete_checks": 72640
+    },
+    "validation_gpu": {
+      "passed": true,
+      "sha256": "b59ec56b0be6ab5c9388f08dc80322f0850ceb24621ea86103370233f2f89bd1",
+      "slots": 9080,
+      "discrete_checks": 72640
+    },
+    "resume_checks": {
+      "passed": true,
+      "sha256": "09b923985815a64730a5046f80b561f0c7fdd72891a6ced2812e480aeb7a0925"
+    },
+    "resume_checks_gpu": {
+      "passed": true,
+      "sha256": "5524113981ec057389cbe275bd409abe46b9d617a9f6dc767eca177719278350"
+    },
+    "evaluation_smoke": {
+      "passed": true,
+      "sha256": "a4e9695fc237ef28993ac6c6ed078b38e04539a5e68f2cd5904b35fb8df54603"
+    }
+  },
+  "same_initial_networks": true,
+  "old_frozen_run_unchanged": true,
+  "new_run_inputs_frozen": true,
+  "prior_manuscript_unchanged": true,
+  "new_manuscript": "/home/king/Downloads/Projects/2_th_paper_TMC/Manuscript/main_tccn_strict_20260909.tex",
+  "new_manuscript_sha256": "b3e55a4102f20771b2adf719b120ca7ac0f0113dafc89e4421393fbb499805b8",
+  "utc": "2026-09-09T07:30:42.679873+00:00",
+  "latex_passed": true
+}

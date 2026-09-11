@@ -1,0 +1,21 @@
+{
+  "parent_run": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_long_training/runs/three_seed_sc_20260909",
+  "parent_manifest_sha256": "102b0a0a6d4346dd0b7ada760f8a56971710be234888e90e3b4fdb8193b65173",
+  "copied_sources": {
+    "formal_train.py": "152e51935454c6d513f5b00fb841f9f65ea6c60d0ef336dd56031faabad64159",
+    "multiseed_protocol.py": "d1ba12616d19c22d89262ac2e1ffb709e34aab12b71515f3aff20ec7392edd3b",
+    "tensor_env.py": "afb5b0cfff3d69293fcda903be36f9a334314d36503c468b05b26af35a067221",
+    "three_seed_train.py": "da67a51daaa932d90bc873ad3ce8d0b485f60574f5ae07781136c01d77bd87a0",
+    "audit_readiness.py": "44c4ffb331ddbceda556fe9cc7663bc0317dc3279b5639b63889f41d9853e515",
+    "common.py": "835cbff06951b1baa48b7f80d5fc767d150bc5c74928a0f854d98c5a8e445324",
+    "run_suite.py": "0cb72244984ebbc2a5cf24141f3e03c1ce50e9392367dabbcb0ae8e9e2e91e98",
+    "episode_source.py": "3b534bf0e1db86ed581e4f5648b9f04b221b9f052363c5972402d4eaf4262257",
+    "training_checkpoint.py": "af2b437a47477f465556bb50546f7f822b69dd33c57fdba2c9a367aeb9e07285",
+    "formal_eval.py": "40c55ca25485b0d64bcb796f451149d8458efbf4dc0c9a911deaa144d8e39a46",
+    "tensor_train.py": "f4c3195618a92b50a5973752d53d8a26edcf158f8e426b714986c87a123056ab",
+    "aggregate_seeds.py": "441a139480c3ac2864ef5ebfb7a2c0a98b04e3bd28930631c43b70889fb1a848"
+  },
+  "cc_profile_sha256": "1577cd5ee5cfe0f74c325f42d32e59fe5f417c13bc1f51a4539d2b4addad7a96",
+  "profile_measurements": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_profile_rebuild/runs/rgb8_nfs_v1",
+  "purpose": "Extend frozen SC protocol with two CC methods; no modifications to running SC"
+}

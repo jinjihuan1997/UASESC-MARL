@@ -1,0 +1,495 @@
+{
+  "state": "terminated_for_clean_restart",
+  "created_utc": "2026-09-08T07:41:40.824483+00:00",
+  "roots": [
+    3160380,
+    3082112,
+    3138935,
+    3160416,
+    3170318
+  ],
+  "processes": [
+    {
+      "pid": 3160380,
+      "state": "S",
+      "ppid": 2726383,
+      "pgid": 3160380,
+      "start_ticks": 390449661,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082112,
+      "state": "R",
+      "ppid": 3636,
+      "pgid": 3082112,
+      "start_ticks": 389579498,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3138935,
+      "state": "R",
+      "ppid": 3636,
+      "pgid": 3138935,
+      "start_ticks": 390284079,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160416,
+      "state": "S",
+      "ppid": 3160380,
+      "pgid": 3160416,
+      "start_ticks": 390449701,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170318,
+      "state": "R",
+      "ppid": 3160380,
+      "pgid": 3170318,
+      "start_ticks": 390550633,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082205,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579567,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082208,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579567,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082212,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579568,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082216,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579568,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082220,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579568,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082224,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579569,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082228,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579569,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082230,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579570,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082233,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579570,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3082236,
+      "state": "S",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579571,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139004,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139006,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139007,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139008,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139009,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139010,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139011,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139012,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139013,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139014,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3139015,
+      "state": "S",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284150,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160513,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449782,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160520,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160527,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160528,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160529,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160530,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160535,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449784,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160541,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160542,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160543,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3160544,
+      "state": "S",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170345,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550706,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170347,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170348,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170349,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170350,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170351,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170352,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170353,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170354,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170355,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    },
+    {
+      "pid": 3170356,
+      "state": "S",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 0,
+      "uid": 1000,
+      "was_stopped": false
+    }
+  ],
+  "paused_utc": "2026-09-08T07:41:40.868759+00:00",
+  "terminated_utc": "2026-09-08T08:24:16.587848+00:00"
+}

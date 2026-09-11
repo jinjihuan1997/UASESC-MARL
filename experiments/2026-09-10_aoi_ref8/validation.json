@@ -1,0 +1,12 @@
+{
+  "state": "PASS",
+  "cpu_tensor_slots": 2400,
+  "edge_cases": 10,
+  "frozen_actor_paired_slots": 1200,
+  "only_25_percent_age_cost_change": true,
+  "hidden_input_invariance": true,
+  "initial_networks_identical": true,
+  "optimizer_smoke_steps": 4000,
+  "independent_reward": true,
+  "checkpoint_resume_code_unchanged_from_verified_parent": true
+}

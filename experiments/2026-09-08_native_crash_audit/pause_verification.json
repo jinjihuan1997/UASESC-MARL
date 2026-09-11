@@ -1,0 +1,814 @@
+{
+  "utc": "2026-09-08T07:46:18.328102+00:00",
+  "paused_processes": 48,
+  "identity_checks_passed": true,
+  "processes": [
+    {
+      "pid": 3160380,
+      "state": "T",
+      "ppid": 2726383,
+      "pgid": 3160380,
+      "start_ticks": 390449661,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082112,
+      "state": "T",
+      "ppid": 3636,
+      "pgid": 3082112,
+      "start_ticks": 389579498,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3138935,
+      "state": "T",
+      "ppid": 3636,
+      "pgid": 3138935,
+      "start_ticks": 390284079,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160416,
+      "state": "T",
+      "ppid": 3160380,
+      "pgid": 3160416,
+      "start_ticks": 390449701,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170318,
+      "state": "T",
+      "ppid": 3160380,
+      "pgid": 3170318,
+      "start_ticks": 390550633,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082205,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579567,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082208,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579567,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082212,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579568,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082216,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579568,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082220,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579568,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082224,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579569,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082228,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579569,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082230,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579570,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082233,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579570,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3082236,
+      "state": "T",
+      "ppid": 3082112,
+      "pgid": 3082112,
+      "start_ticks": 389579571,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139004,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139006,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139007,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139008,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139009,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284148,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139010,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139011,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139012,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139013,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139014,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284149,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3139015,
+      "state": "T",
+      "ppid": 3138935,
+      "pgid": 3138935,
+      "start_ticks": 390284150,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160513,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449782,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160520,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160527,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160528,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160529,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160530,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449783,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160535,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449784,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160541,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160542,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160543,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3160544,
+      "state": "T",
+      "ppid": 3160416,
+      "pgid": 3160416,
+      "start_ticks": 390449785,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170345,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550706,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170347,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170348,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170349,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170350,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550707,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170351,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170352,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170353,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170354,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170355,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 19,
+      "uid": 1000
+    },
+    {
+      "pid": 3170356,
+      "state": "T",
+      "ppid": 3170318,
+      "pgid": 3170318,
+      "start_ticks": 390550708,
+      "wait_status": 19,
+      "uid": 1000
+    }
+  ],
+  "frozen_input_checks": [
+    {
+      "path": "configs/HAPPO_equal_resources.json",
+      "match": true
+    },
+    {
+      "path": "configs/HAPPO_fixed_mode_rule.json",
+      "match": true
+    },
+    {
+      "path": "configs/HAPPO_hidden_instruction.json",
+      "match": true
+    },
+    {
+      "path": "configs/HAPPO_no_task_aux_reward.json",
+      "match": true
+    },
+    {
+      "path": "configs/IC_HAPPO.json",
+      "match": true
+    },
+    {
+      "path": "configs/IC_MAPPO.json",
+      "match": true
+    },
+    {
+      "path": "configs/MAPPO_hidden_instruction.json",
+      "match": true
+    },
+    {
+      "path": "frozen/README.md",
+      "match": true
+    },
+    {
+      "path": "frozen/config/base_algo.json",
+      "match": true
+    },
+    {
+      "path": "frozen/config/base_env.json",
+      "match": true
+    },
+    {
+      "path": "frozen/evaluate.py",
+      "match": true
+    },
+    {
+      "path": "frozen/inputs/mode_mapping_audit.json",
+      "match": true
+    },
+    {
+      "path": "frozen/inputs/mode_registry.json",
+      "match": true
+    },
+    {
+      "path": "frozen/inputs/profile.npz",
+      "match": true
+    },
+    {
+      "path": "frozen/protocol.py",
+      "match": true
+    },
+    {
+      "path": "frozen/run.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/AGENTS.md",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/haa2c.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/had3qn.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/haddpg.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/happo.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/hasac.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/hatd3.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/hatrpo.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/maddpg.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/mappo.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/matd3.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/off_policy_base.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/actors/on_policy_base.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/critics/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/critics/continuous_q_critic.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/critics/discrete_q_critic.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/critics/soft_twin_continuous_q_critic.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/critics/twin_continuous_q_critic.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/algorithms/critics/v_critic.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/base_logger.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/buffers/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/buffers/off_policy_buffer_base.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/buffers/off_policy_buffer_ep.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/buffers/off_policy_buffer_fp.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/buffers/on_policy_actor_buffer.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/buffers/on_policy_critic_buffer_ep.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/buffers/on_policy_critic_buffer_fp.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/common/valuenorm.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/envs/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/envs/env_wrappers.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/envs/uav_escs/SC/rules.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/envs/uav_escs/SC/uav_escs_env_sc.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/envs/uav_escs/SC/uav_escs_logger_sc.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/envs/uav_escs/semantic_models/semantic_registry.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/act.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/cnn.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/distributions.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/flatten.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/mlp.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/plain_cnn.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/plain_mlp.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/base/rnn.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/policy_models/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/policy_models/deterministic_policy.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/policy_models/squashed_gaussian_policy.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/policy_models/stochastic_mlp_policy.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/policy_models/stochastic_policy.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/value_function_models/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/value_function_models/continuous_q_net.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/value_function_models/dueling_q_net.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/models/value_function_models/v_net.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/hybrid_inference.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/off_policy_base_runner.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/off_policy_ha_runner.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/off_policy_ma_runner.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/on_policy_base_runner.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/on_policy_ha_runner.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/runners/on_policy_ma_runner.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/__init__.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/configs_tools.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/discrete_util.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/envs_tools.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/models_tools.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/ratio_tools.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/trans_tools.py",
+      "match": true
+    },
+    {
+      "path": "frozen/runtime/harl/utils/trpo_util.py",
+      "match": true
+    },
+    {
+      "path": "frozen/source_provenance.json",
+      "match": true
+    },
+    {
+      "path": "frozen/tests/reference_simplex.py",
+      "match": true
+    },
+    {
+      "path": "frozen/tests/test_comparison.py",
+      "match": true
+    },
+    {
+      "path": "frozen/tests/test_execution.py",
+      "match": true
+    },
+    {
+      "path": "frozen/train.py",
+      "match": true
+    }
+  ],
+  "unchanged_input_count": 93
+}

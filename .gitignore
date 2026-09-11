@@ -1,48 +1,34 @@
-# Python/cache
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.ipynb_checkpoints/
-*.egg-info/
-build/
-dist/
+# Local installations and generated caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/node_modules/
+**/.idea/
+**/.codex
+**/.claude/
+**/.ipynb_checkpoints/
+**/.DS_Store
+**/*.tmp
+**/.lock
+**/.queue.lock
+**/.launcher.lock
 
-# Local environments and IDE files
-.env
-.venv/
-venv/
-.idea/
-.vscode/
-.DS_Store
+# Raw datasets and full training states remain local.
+CRL-SemCom-VidCI/data/
+Promptus/uav_power_analyze/raw_data/
+**/checkpoints/update_*.pt
+**/parent_checkpoint.pt
+Promptus/engine/denoise_batch_10.engine
+Promptus/engine/denoise_batch_10.onnx
+CRL-SemCom-VidCI/logs/24-03-08.zip
 
-# Experiment outputs and datasets
-results/
-examples/results/
-logs/
-runs/
-wandb/
-outputs/
-checkpoints/
-data/
-datasets/
-
-# Large ML artifacts
-*.pt
-*.pth
-*.ckpt
-*.onnx
-*.pkl
-*.npz
-*.npy
-*.h5
-*.zip
-*.tar
-*.tar.gz
-*.7z
-
-# Downloaded papers and reports
-*.pdf
-
-# Small CRL shutter templates required by the codebase
-!CRL-SemCom-VidCI/shutters/shutter_templates/
-!CRL-SemCom-VidCI/shutters/shutter_templates/*.pt
+# Local reproduction runs and private runtime configuration
+reproduction/
+**/.env
+**/.env.local
+**/id_rsa
+**/id_ed25519

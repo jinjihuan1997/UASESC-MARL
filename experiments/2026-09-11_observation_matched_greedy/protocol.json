@@ -1,0 +1,240 @@
+{
+  "created_utc": "2026-09-11T06:52:46.538337+00:00",
+  "purpose": "Strict per-actor-observation decentralized one-step greedy comparison",
+  "fit_seeds": [
+    20262401,
+    20262402,
+    20262403,
+    20262404,
+    20262405,
+    20262406,
+    20262407,
+    20262408
+  ],
+  "validation_seeds": [
+    20262409,
+    20262410
+  ],
+  "evaluation_seeds": [
+    20262501,
+    20262502,
+    20262503,
+    20262504,
+    20262505,
+    20262506,
+    20262507,
+    20262508,
+    20262509,
+    20262510,
+    20262511,
+    20262512,
+    20262513,
+    20262514,
+    20262515,
+    20262516,
+    20262517,
+    20262518,
+    20262519,
+    20262520
+  ],
+  "scenarios": {
+    "fixed_0": [
+      [
+        0,
+        0
+      ]
+    ],
+    "fixed_1": [
+      [
+        0,
+        1
+      ]
+    ],
+    "fixed_2": [
+      [
+        0,
+        2
+      ]
+    ],
+    "switch300_0_to_1": [
+      [
+        0,
+        0
+      ],
+      [
+        300,
+        1
+      ]
+    ],
+    "switch300_0_to_2": [
+      [
+        0,
+        0
+      ],
+      [
+        300,
+        2
+      ]
+    ],
+    "switch300_1_to_0": [
+      [
+        0,
+        1
+      ],
+      [
+        300,
+        0
+      ]
+    ],
+    "switch300_1_to_2": [
+      [
+        0,
+        1
+      ],
+      [
+        300,
+        2
+      ]
+    ],
+    "switch300_2_to_0": [
+      [
+        0,
+        2
+      ],
+      [
+        300,
+        0
+      ]
+    ],
+    "switch300_2_to_1": [
+      [
+        0,
+        2
+      ],
+      [
+        300,
+        1
+      ]
+    ],
+    "early50_0_to_1": [
+      [
+        0,
+        0
+      ],
+      [
+        50,
+        1
+      ]
+    ],
+    "late550_0_to_2": [
+      [
+        0,
+        0
+      ],
+      [
+        550,
+        2
+      ]
+    ],
+    "multi_0_1_2": [
+      [
+        0,
+        0
+      ],
+      [
+        200,
+        1
+      ],
+      [
+        400,
+        2
+      ]
+    ],
+    "multi_2_1_0": [
+      [
+        0,
+        2
+      ],
+      [
+        200,
+        1
+      ],
+      [
+        400,
+        0
+      ]
+    ]
+  },
+  "calibration_behavior_seed": 20260911,
+  "fit_python": "/home/king/miniconda3/bin/python",
+  "resource_candidates": [
+    "equal",
+    "backlog",
+    "urgency"
+  ],
+  "mode_candidates": {
+    "modes_3": [
+      0,
+      5,
+      10
+    ],
+    "modes_16": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "predictor_parameters": {
+    "learning_rate": 0.08,
+    "max_iter": 100,
+    "max_leaf_nodes": 15,
+    "max_depth": 6,
+    "min_samples_leaf": 50,
+    "l2_regularization": 1.0,
+    "max_bins": 63,
+    "early_stopping": false,
+    "random_state": 20260911
+  },
+  "primary_methods": [
+    "modes_3/fitted_sut",
+    "modes_16/fitted_sut"
+  ],
+  "supplementary_methods": [
+    "modes_3/calibrated_sut",
+    "modes_16/calibrated_sut"
+  ],
+  "source_hashes": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_observation_matched_greedy/fit_predictor.py": "e6ffbed0865b2b5c58adcda638012dba1a0cdb55007e9f8429553f4ba3f48b3d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_observation_matched_greedy/online_policy.py": "e51267fefae4996b6d4d0f0c7be449be1deb17c9371a1aec7cf13e7920a419e2",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_observation_matched_greedy/run_branch.py": "46f421579a712c0147ce33ee85c1cf1f7872ddd24b35992ae8145bf7c267befb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_observation_matched_greedy/runtime.py": "39297549f96c5860af28d6ae92d8163d966758f2963681ec84c95477376386d7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/helpers.py": "6425e5d906b9ae612fa5f3cf6039bfa4381a702543452e20559558ed20ad7bd9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/rule_tools.py": "25c37ff16e55916a342efbe66a0288f0a3248b0791417e9ddee2763006bdc2f0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/tensor_env.py": "2a7b70a9fde5a81535878fa3a696ed85e77bbe5316824aae88b9171dcef790dd",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/metrics.py": "75f7e754ba54e49650fa12a155d7337b468ebabf36c9d9f785e5a3467f645df1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/reference/inputs/profile.npz": "a6f721686b28d6c28ccf811ab8b63e80ae8c135a08b9d7e1b4bbfe7ca13d91cc",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/reference/inputs/mode_registry.json": "46ee337ba3f6e4ec37948d3f0787fc951a85d9bc36afaae829ade7b5125b8226"
+  },
+  "constraints": [
+    "SUT receives only obs[:,0]; each UAV receives only its own post-budget observation and action mask.",
+    "No extra messages, no online critic/global state/environment access.",
+    "Offline calibration labels may use current global training state, like a centralized critic; no evaluation seeds used for fitting.",
+    "Local greedy surrogate replaces unobservable global maximum AoI by local maximum divided by number of UAVs; true evaluation reward unchanged.",
+    "New decentralized algorithm has independent UAV mode choices (81 or 12288 nominal resource/mode combinations), not the original nine common-mode candidates; score change does not isolate information alone.",
+    "Resource candidate scoring is fitted immediate-reward regression, not a new RL run or an exact global optimum.",
+    "No hyperparameter or variant selection based on evaluation results."
+  ]
+}

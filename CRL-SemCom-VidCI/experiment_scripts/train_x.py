@@ -389,6 +389,9 @@ if __name__ == '__main__':
                              'even=even probabilities on all options,'
                              'ones=use all ones,'
                              'quad=use quad structure')
+    parser.add_argument('--legacy_action_space', action='store_true',
+                        help='Use the paper SCI action space {-1,0,1,2,3}, '
+                             'corresponding to 0,1/T,2/T,4/T,8/T ratios.')
 
     parser.add_argument('--loss', type=str, choices=['mpr', 'l1', 'l2_lpips', 'l2'], default='l2')
     parser.add_argument('--decoder', type=str,

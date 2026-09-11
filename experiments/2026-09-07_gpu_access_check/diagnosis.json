@@ -1,0 +1,18 @@
+{
+  "checked_date": "2026-09-07",
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "driver_version": "595.84",
+  "gpu_memory_mib": 16376,
+  "torch_version": "2.4.1+cu121",
+  "torch_cuda_build": "12.1",
+  "sandbox_cuda_available": false,
+  "sandbox_nvidia_device_nodes": [],
+  "host_cuda_available": true,
+  "host_cuda_matmul_finite": true,
+  "diagnosis": "The restricted execution environment exposes no /dev/nvidia* device nodes. Host nvidia-smi and an actual cuda:0 PyTorch computation succeeded.",
+  "cpu_queue_unchanged": true,
+  "test_config_sha256": {
+    "cpu_seed1.json": "70782fe7eff7a5503a27c6e4311698febe19ab45f776c1657b5b24c14fe3f1d4",
+    "gpu_seed1.json": "7a815df7262ae06bc67340d4dfb48a5b971293e72dd68295bc7cfcec5fe24201"
+  }
+}

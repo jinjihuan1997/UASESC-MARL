@@ -1,0 +1,14 @@
+[
+  {
+    "cpu": 15,
+    "gdb_returncode": 0,
+    "result_exists": true,
+    "signal": null
+  },
+  {
+    "cpu": 18,
+    "gdb_returncode": 0,
+    "result_exists": true,
+    "signal": null
+  }
+]

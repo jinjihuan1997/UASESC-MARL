@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "paired_episodes": 3,
+  "slots_total": 3600,
+  "analysis_pipeline_passed": true,
+  "proposal_diagnostics_passed": true
+}

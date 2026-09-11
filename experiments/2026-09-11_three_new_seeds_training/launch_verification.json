@@ -1,0 +1,32 @@
+{
+  "verified_utc": "2026-09-11T03:34:53.670495+00:00",
+  "state": "training_and_evaluating",
+  "workers": [
+    {
+      "seed": 810974,
+      "steps": 68000,
+      "core": 0,
+      "state": "training",
+      "initial_actor_hash": "6bafe8d1e8915b850f6bf14ed5d8c8d87d184e666c6a28ff7619a76415739c5a"
+    },
+    {
+      "seed": 771611,
+      "steps": 68000,
+      "core": 1,
+      "state": "training",
+      "initial_actor_hash": "09a5f92d00add7015bf830f00df2d417611e50a374417863d4df90aa30bc6174"
+    },
+    {
+      "seed": 779709,
+      "steps": 68000,
+      "core": 2,
+      "state": "training",
+      "initial_actor_hash": "304c93e29b5ca5ee7ce579e415c8dce0b4517958e56eb10afaf900179f49bf63"
+    }
+  ],
+  "distinct_initial_models": true,
+  "cpu_c": 58.0,
+  "gpu_c": 38.0,
+  "failed_jobs": {},
+  "base_minutes_remaining": 75.04546121796594
+}

@@ -1,0 +1,8 @@
+{
+  "state": "PASS",
+  "episodes": 0,
+  "training_steps": 30000000,
+  "final_model_and_snapshot_verified": true,
+  "learning_rate_and_budget_verified": true,
+  "evaluation": "Deferred to continuation phase"
+}

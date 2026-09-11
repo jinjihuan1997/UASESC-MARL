@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-09-11T01:24:10.819012+00:00",
+  "seed": 268966,
+  "selection": "One SystemRandom draw before any new training/evaluation, excluding training seeds in current experiment config trees.",
+  "previous_seeds": [
+    1,
+    2,
+    3,
+    85,
+    218,
+    966
+  ],
+  "trigger": "User requested one different seed after seed 966 selector chose the original allocation throughout evaluation.",
+  "base_steps": 10000000,
+  "continuation_steps_per_arm": 2000000,
+  "arms": [
+    "joint_continue",
+    "selector"
+  ],
+  "total_new_training_steps": 14000000,
+  "evaluation_seeds": [
+    20262501,
+    20262502,
+    20262503,
+    20262504,
+    20262505,
+    20262506,
+    20262507,
+    20262508,
+    20262509,
+    20262510,
+    20262511,
+    20262512,
+    20262513,
+    20262514,
+    20262515,
+    20262516,
+    20262517,
+    20262518,
+    20262519,
+    20262520
+  ],
+  "retain_seed_966": true,
+  "reporting": "Supplementary rerun; retain the original three-seed results and report all four seeds. Do not silently remove seed 966 or repeatedly draw seeds until a win.",
+  "phase_order": [
+    "train_new_joint_base",
+    "validate_transfer",
+    "parallel_joint_and_selector_continuation",
+    "evaluate_and_report"
+  ],
+  "training_device": "cpu",
+  "maximum_concurrent_training_jobs": 2,
+  "thermal_thresholds_unchanged": true
+}

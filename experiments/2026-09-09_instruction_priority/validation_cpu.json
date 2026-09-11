@@ -1,0 +1,6 @@
+{
+  "passed": false,
+  "device": "cpu",
+  "utc": "2026-09-09T06:42:28.387980+00:00",
+  "error": "AssertionError('\\nNot equal to tolerance rtol=1e-10, atol=1e-10\\nIC_HAPPO: 0 base_reward\\nMismatched elements: 1 / 1 (100%)\\nMax absolute difference: 0.04929778\\nMax relative difference: 0.41394899\\n x: array(0.069794)\\n y: array(0.119091)')"
+}

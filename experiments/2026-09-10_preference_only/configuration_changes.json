@@ -1,0 +1,90 @@
+{
+  "parent_config_sha256": "7d759e876a557403aafe839eef643698003a366965635364adbf27b8d81b4058",
+  "diagnostic_config_sha256": "1bbc654f820e3b25dd0b1cc53d65aad6720918dad2b7b5756ce3ddeba178e945",
+  "changes": [
+    {
+      "field": "algo_args.train.num_env_steps",
+      "formal": 10000000,
+      "diagnostic": 1000000
+    },
+    {
+      "field": "env_args.A_limit_by_instruction",
+      "formal": [
+        6.0,
+        4.0,
+        10.0
+      ],
+      "diagnostic": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    {
+      "field": "env_args.Q_req_by_instruction_snr_bucket",
+      "formal": [
+        [
+          25.0,
+          27.0,
+          28.0,
+          29.0
+        ],
+        [
+          21.5,
+          24.0,
+          25.0,
+          25.5
+        ],
+        [
+          28.0,
+          30.5,
+          31.5,
+          32.0
+        ]
+      ],
+      "diagnostic": [
+        [
+          21.5,
+          24.0,
+          25.0,
+          25.5
+        ],
+        [
+          21.5,
+          24.0,
+          25.0,
+          25.5
+        ],
+        [
+          21.5,
+          24.0,
+          25.0,
+          25.5
+        ]
+      ]
+    },
+    {
+      "field": "env_args.constraint_penalty_A_by_instruction",
+      "formal": [
+        0.5,
+        0.5,
+        0.05
+      ],
+      "diagnostic": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "field": "env_args.eta_recv_aoi_bonus",
+      "formal": 0.1,
+      "diagnostic": 0.0
+    },
+    {
+      "field": "env_args.use_task_auxiliary_reward",
+      "formal": true,
+      "diagnostic": false
+    }
+  ]
+}

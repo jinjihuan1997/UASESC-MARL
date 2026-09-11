@@ -1,0 +1,30 @@
+{
+  "results": {
+    "seed_85/HAPPO_fixed_mode_rule": {},
+    "seed_85/HAPPO_equal_resources": {},
+    "seed_85/IC_HAPPO": {},
+    "seed_85/HAPPO_hidden_instruction": {},
+    "seed_85/IC_MAPPO": {},
+    "seed_85/MAPPO_hidden_instruction": {},
+    "seed_85/HAPPO_no_task_aux_reward": {},
+    "seed_218/HAPPO_fixed_mode_rule": {},
+    "seed_218/HAPPO_equal_resources": {},
+    "seed_218/IC_HAPPO": {},
+    "seed_218/HAPPO_hidden_instruction": {},
+    "seed_218/IC_MAPPO": {},
+    "seed_218/MAPPO_hidden_instruction": {},
+    "seed_218/HAPPO_no_task_aux_reward": {},
+    "seed_966/HAPPO_fixed_mode_rule": {},
+    "seed_966/HAPPO_equal_resources": {},
+    "seed_966/IC_HAPPO": {},
+    "seed_966/HAPPO_hidden_instruction": {},
+    "seed_966/IC_MAPPO": {},
+    "seed_966/MAPPO_hidden_instruction": {},
+    "seed_966/HAPPO_no_task_aux_reward": {},
+    "rules/R_fixed": {},
+    "rules/G_local_greedy": {},
+    "rules/Random": {},
+    "rules/RoundRobin": {}
+  },
+  "note": "Descriptive before/after means over equal 300-slot phases; not a causal advantage over another controller."
+}

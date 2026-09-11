@@ -1,0 +1,9 @@
+{
+  "same_actor_initialization": true,
+  "same_critic_initialization": true,
+  "ab_configs_differ_only_in_exp_name_and_explicit_actor_instruction": true,
+  "smoke_steps_per_group": 8000,
+  "A_smoke_seconds": 18.775038945954293,
+  "B_smoke_seconds": 18.674515849910676,
+  "unit_test_result": "19 passed, tests.log"
+}

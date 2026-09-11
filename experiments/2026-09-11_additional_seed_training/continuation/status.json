@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-09-11T02:56:17.884439+00:00",
+  "completed_training_steps": 4000000,
+  "completed_training_jobs": 2,
+  "evaluation_episodes": 1820,
+  "report": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/continuation/REPORT.md",
+  "science_status": "results_ready_for_interpretation"
+}

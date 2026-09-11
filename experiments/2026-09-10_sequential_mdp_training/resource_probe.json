@@ -1,0 +1,59 @@
+{
+  "state": "PASS",
+  "layouts": {
+    "mixed_6cpu_3gpu": {
+      "wall_seconds": 20.487887574825436,
+      "devices": [
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cuda:0",
+        "cuda:0",
+        "cuda:0"
+      ],
+      "per_job_seconds_per_update": [
+        2.058384045958519,
+        2.0897111468948424,
+        2.0874549369327724,
+        2.0380510531831533,
+        2.046911319484934,
+        2.059195344336331,
+        5.516520936274901,
+        5.556294289883226,
+        5.751082876231521
+      ],
+      "estimated_training_seconds": 1437.7707190578803
+    },
+    "cpu_9": {
+      "wall_seconds": 10.770648923236877,
+      "devices": [
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "cpu"
+      ],
+      "per_job_seconds_per_update": [
+        2.190133780473843,
+        2.2289999935310334,
+        2.2185597450006753,
+        2.1786724536214024,
+        2.1894923876971006,
+        2.2137957618106157,
+        2.2575024385005236,
+        2.2822142229415476,
+        2.9940681199077517
+      ],
+      "estimated_training_seconds": 748.5170299769379
+    }
+  },
+  "selected": "cpu_9",
+  "rule": "Minimum measured makespan, each seed uses the same device for all three arms; estimates exclude evaluation and thermal pauses"
+}

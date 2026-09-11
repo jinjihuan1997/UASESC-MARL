@@ -1,0 +1,194 @@
+{
+  "time": 1788853363.9942846,
+  "sensors": [
+    {
+      "name": "coretemp",
+      "sensor": "temp42",
+      "input_millidegrees": 46000,
+      "label": "Core 40",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp26",
+      "input_millidegrees": 44000,
+      "label": "Core 24",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp36",
+      "input_millidegrees": 44000,
+      "label": "Core 34",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp6",
+      "input_millidegrees": 44000,
+      "label": "Core 4",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp46",
+      "input_millidegrees": 46000,
+      "label": "Core 44",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp17",
+      "input_millidegrees": 44000,
+      "label": "Core 15",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp37",
+      "input_millidegrees": 44000,
+      "label": "Core 35",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp30",
+      "input_millidegrees": 44000,
+      "label": "Core 28",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp14",
+      "input_millidegrees": 44000,
+      "label": "Core 12",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp40",
+      "input_millidegrees": 44000,
+      "label": "Core 38",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp34",
+      "input_millidegrees": 44000,
+      "label": "Core 32",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp18",
+      "input_millidegrees": 44000,
+      "label": "Core 16",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp38",
+      "input_millidegrees": 44000,
+      "label": "Core 36",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp1",
+      "input_millidegrees": 45000,
+      "label": "Package id 0",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp15",
+      "input_millidegrees": 44000,
+      "label": "Core 13",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp41",
+      "input_millidegrees": 44000,
+      "label": "Core 39",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp35",
+      "input_millidegrees": 44000,
+      "label": "Core 33",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp39",
+      "input_millidegrees": 44000,
+      "label": "Core 37",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp22",
+      "input_millidegrees": 46000,
+      "label": "Core 20",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp2",
+      "input_millidegrees": 44000,
+      "label": "Core 0",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    },
+    {
+      "name": "coretemp",
+      "sensor": "temp16",
+      "input_millidegrees": 44000,
+      "label": "Core 14",
+      "max": "85000",
+      "crit": "105000",
+      "crit_alarm": "0"
+    }
+  ]
+}

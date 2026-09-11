@@ -1,0 +1,148 @@
+# Shared configuration for HAPPO and MAPPO.
+
+seed:
+  # whether to use the specified seed
+  seed_specify: True
+  # seed
+  seed: 1
+
+device:
+  # whether to use CUDA
+  cuda: False
+  # whether to set CUDA deterministic
+  cuda_deterministic: False
+  # arg to torch.set_num_threads
+  # 吃满 CPU 的并行 rollout 场景下，建议设 1，避免过度订阅
+  torch_threads: 1
+
+train:
+  # number of parallel environments for training data collection
+  n_rollout_threads: 12
+
+  # number of total training steps
+  # 高速训练阶段：先快速迭代到 1e8，确认指令分化后再拉长
+  num_env_steps: 100000000
+
+  # number of steps per environment per training data collection
+  episode_length: 600
+
+  # logging interval (in training iterations / updates)
+  log_interval: 10
+
+  # evaluation interval (in training iterations / updates)
+  eval_interval: 200
+
+  # whether to use ValueNorm
+  use_valuenorm: True
+  # whether to use linear learning rate decay
+  use_linear_lr_decay: True
+  # whether to consider the case of truncation when an episode is done
+  use_proper_time_limits: True
+  # if set, load models from this directory; otherwise, randomly initialise the models
+  model_dir: ~
+
+eval:
+  # whether to use evaluation
+  use_eval: True
+  # number of parallel environments for evaluation
+  # 高速训练阶段默认关闭 eval；若手动打开，保持极小开销
+  n_eval_rollout_threads: 1
+  # number of episodes per evaluation
+  eval_episodes: 3
+
+render:
+  # whether to use render
+  use_render: False
+  # number of episodes to render
+  render_episodes: 10
+
+model:
+  # network parameters
+  hidden_sizes: [256, 256]
+  activation_func: relu
+  use_feature_normalization: True
+  initialization_method: orthogonal_
+  gain: 0.01
+
+  # recurrent parameters
+  use_naive_recurrent_policy: False
+  use_recurrent_policy: False
+  recurrent_n: 1
+  data_chunk_length: 1
+
+  # optimizer parameters
+  # actor learning rate
+  # 高速阶段适当提高学习率，加快早期分化
+  lr: 0.0001
+  # critic learning rate
+  critic_lr: 0.0004
+  # eps in Adam
+  opti_eps: 0.00001
+  # weight_decay in Adam
+  weight_decay: 0
+
+  # parameters of diagonal Gaussian distribution
+  std_x_coef: 1
+  # 连续动作探索强度，调低可减小大幅动作导致的数值风险
+  std_y_coef: 0.3
+
+algo:
+  # ppo parameters
+  # Main UAV-ESCS training uses stronger updates for instruction-conditioned policies.
+  ppo_epoch: 5
+  critic_epoch: 5
+
+  # whether to use clipped value loss
+  use_clipped_value_loss: True
+  # clip parameter
+  # 更保守的策略更新步长
+  clip_param: 0.1
+
+  # Split each rollout into small mini-batches to improve optimization without too much overhead.
+  actor_num_mini_batch: 2
+  # number of mini-batches per epoch for critic SC
+  critic_num_mini_batch: 2
+
+  # coefficient for entropy term in actor loss
+  entropy_coef: 0.008
+  # coefficient for value loss
+  value_loss_coef: 1
+
+  # whether to clip gradient norm
+  use_max_grad_norm: True
+  # max gradient norm
+  max_grad_norm: 1.0
+
+  # whether to use Generalized Advantage Estimation (GAE)
+  use_gae: True
+  # discount factor
+  gamma: 0.99
+  # GAE lambda
+  gae_lambda: 0.95
+
+  # whether to use huber loss
+  use_huber_loss: True
+  # whether to use policy active masks
+  use_policy_active_masks: True
+  use_instruction_adv_norm: False
+  instruction_adv_norm_min_count: 8
+  instruction_conditioned_critic: False
+  instruction_critic_type: single
+  n_instruction_modes: 0
+  instruction_feature_dim: 0
+  # huber delta（10 往往偏大，reward 尺度不大时建议 1~2）
+  huber_delta: 1.0
+
+  # method of aggregating the probability of multi-dimensional actions, choose from prod, mean
+  action_aggregation: prod
+
+  # whether to share parameter among actors
+  # HAPPO 通常不建议共享（顺序更新的假设更清晰），保持 False
+  share_param: False
+
+  # whether to use a fixed optimisation order
+  fixed_order: False
+
+logger:
+  # logging directory
+  log_dir: "./results"

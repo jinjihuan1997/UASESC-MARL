@@ -1,0 +1,72 @@
+{
+  "state": "PASS",
+  "selected": "cpu6",
+  "layouts": {
+    "cpu6": {
+      "jobs": {
+        "seed_85/IC_HAPPO": {
+          "device": "cpu",
+          "median_update_seconds": 2.221064035780728
+        },
+        "seed_85/HAPPO_hidden_instruction": {
+          "device": "cpu",
+          "median_update_seconds": 2.225608675274998
+        },
+        "seed_218/IC_HAPPO": {
+          "device": "cpu",
+          "median_update_seconds": 2.2110920259729028
+        },
+        "seed_218/HAPPO_hidden_instruction": {
+          "device": "cpu",
+          "median_update_seconds": 2.2084874152205884
+        },
+        "seed_966/IC_HAPPO": {
+          "device": "cpu",
+          "median_update_seconds": 2.2082007047720253
+        },
+        "seed_966/HAPPO_hidden_instruction": {
+          "device": "cpu",
+          "median_update_seconds": 2.2189005874097347
+        }
+      },
+      "wall_seconds": 24.49960874207318,
+      "cpu_peak_c": 78.0,
+      "gpu_peak_c": 39.0,
+      "predicted_training_seconds": 5564.021688187495
+    },
+    "cpu4_gpu2": {
+      "jobs": {
+        "seed_85/IC_HAPPO": {
+          "device": "cpu",
+          "median_update_seconds": 2.132497743703425
+        },
+        "seed_85/HAPPO_hidden_instruction": {
+          "device": "cpu",
+          "median_update_seconds": 2.1330409017391503
+        },
+        "seed_218/IC_HAPPO": {
+          "device": "cpu",
+          "median_update_seconds": 2.1194142131134868
+        },
+        "seed_218/HAPPO_hidden_instruction": {
+          "device": "cpu",
+          "median_update_seconds": 2.1200448679737747
+        },
+        "seed_966/IC_HAPPO": {
+          "device": "cuda:0",
+          "median_update_seconds": 3.6049915431067348
+        },
+        "seed_966/HAPPO_hidden_instruction": {
+          "device": "cuda:0",
+          "median_update_seconds": 3.597592730075121
+        }
+      },
+      "wall_seconds": 38.785046148113906,
+      "cpu_peak_c": 76.0,
+      "gpu_peak_c": 43.0,
+      "predicted_training_seconds": 9012.478857766837
+    }
+  },
+  "selection_basis": "lowest_estimated_slowest_job_completion_time",
+  "training_rewards_not_read": true
+}

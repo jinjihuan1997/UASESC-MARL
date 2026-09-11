@@ -1,0 +1,10 @@
+{
+  "context_pair": "full_1_to_2",
+  "cached_uav_decisions": 289440,
+  "max_absolute_load_difference": 0.0,
+  "max_absolute_quality_difference_db": 0.44000000000000483,
+  "nonduplicate_mode_pairs": {
+    "10->14": 1582,
+    "14->10": 1475
+  }
+}

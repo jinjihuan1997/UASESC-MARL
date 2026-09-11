@@ -1,0 +1,20 @@
+{
+  "state": "PASS",
+  "selected_training_seeds": [
+    810974,
+    85,
+    218
+  ],
+  "evaluated_existing_model_this_turn": 810974,
+  "new_evaluation_episodes": 260,
+  "new_training_steps": 0,
+  "audited_unique_evaluation_items": 33,
+  "audited_episodes": 8580,
+  "audited_slots": 5148000,
+  "same_environment_and_profiles": true,
+  "paired_exogenous_sequences": true,
+  "independent_reward_recomputed": true,
+  "summary_vs_trace_verified": true,
+  "verified_file_count": 1105,
+  "selection_basis": "best selector final scores among seven completed training seeds; reused diagnostic evaluation split"
+}

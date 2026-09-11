@@ -1,0 +1,31 @@
+{
+  "state": "PASS",
+  "frozen_input_and_checkpoint_hashes_verified": true,
+  "diagnostic_script_and_artifact_hashes_verified": true,
+  "episodes": 3900,
+  "physical_slots": 2340000,
+  "quality_resource_intervention_preserves_original_prefix_before_first_quality_command": 39,
+  "paired_overall_points": [
+    {
+      "seed": 85,
+      "hybrid": -2.9104889131063407,
+      "minus_joint": 0.08144907420788959,
+      "minus_R_myopic": 0.01857268113201957
+    },
+    {
+      "seed": 218,
+      "hybrid": -2.874503854342685,
+      "minus_joint": 0.2277103472601516,
+      "minus_R_myopic": 0.0545577398956755
+    },
+    {
+      "seed": 966,
+      "hybrid": -2.8553109187969676,
+      "minus_joint": 0.12507782758065938,
+      "minus_R_myopic": 0.07375067544139295
+    }
+  ],
+  "interpretation": "Development-set post-hoc intervention; not independent held-out confirmation, not a trained selector, and not explicit-instruction ablation.",
+  "nonempty_original_prefix_checks": 27,
+  "original_prefix_paired_environment_slots": 273000
+}

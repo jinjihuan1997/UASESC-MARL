@@ -1,0 +1,88 @@
+{
+  "verified_utc": "2026-09-08T08:14:34.835030+00:00",
+  "worker_tests": 7,
+  "preflight_tests": 24,
+  "thermal_guard_tests": 1,
+  "methods": [
+    {
+      "method": "IC_HAPPO",
+      "steps": 16000,
+      "attempt": 1,
+      "update_device": "cuda:0",
+      "initial_parameters_match_formal_run": true
+    },
+    {
+      "method": "IC_MAPPO",
+      "steps": 16000,
+      "attempt": 1,
+      "update_device": "cuda:0",
+      "initial_parameters_match_formal_run": true
+    },
+    {
+      "method": "HAPPO_hidden_instruction",
+      "steps": 16000,
+      "attempt": 1,
+      "update_device": "cuda:0",
+      "initial_parameters_match_formal_run": true
+    },
+    {
+      "method": "MAPPO_hidden_instruction",
+      "steps": 16000,
+      "attempt": 1,
+      "update_device": "cuda:0",
+      "initial_parameters_match_formal_run": true
+    },
+    {
+      "method": "HAPPO_fixed_mode_rule",
+      "steps": 16000,
+      "attempt": 1,
+      "update_device": "cuda:0",
+      "initial_parameters_match_formal_run": true
+    },
+    {
+      "method": "HAPPO_equal_resources",
+      "steps": 16000,
+      "attempt": 1,
+      "update_device": "cuda:0",
+      "initial_parameters_match_formal_run": true
+    },
+    {
+      "method": "HAPPO_no_task_aux_reward",
+      "steps": 16000,
+      "attempt": 1,
+      "update_device": "cuda:0",
+      "initial_parameters_match_formal_run": true
+    }
+  ],
+  "cpu_set": [
+    0,
+    2,
+    8,
+    10
+  ],
+  "parallel_jobs": 2,
+  "cpu_max_c": 72.0,
+  "temperature_samples": 158,
+  "old_frozen_inputs_unchanged": 93,
+  "new_frozen_inputs_verified": 94,
+  "original_pause_states": [
+    {
+      "journal": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/active_training_pause.json",
+      "stopped_processes": 48
+    },
+    {
+      "journal": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/resource_audit_2026-09-08/old_ab_pause.json",
+      "stopped_processes": 12
+    }
+  ],
+  "files_changed": [
+    "runtime/harl/envs/env_wrappers.py",
+    "run.py"
+  ],
+  "files_added": [
+    "tests/test_worker_failures.py",
+    "stability_check.py",
+    "recovery_tests/test_stability.py"
+  ],
+  "limitation": "Short validation passed; CPU/firmware/memory root cause is not diagnosed or repaired"
+}

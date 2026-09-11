@@ -1,0 +1,106 @@
+{
+  "recommended_default": "ran_adaptive_snr0_15_mu_grid_16modes",
+  "notes": "Numeric table rows (SCI configuration x rate); no codec-checkpoint or training-SNR mapping is asserted. Set label preserved only to match NPZ metadata.",
+  "sets": {
+    "ran_adaptive_snr0_15_mu_grid_16modes": {
+      "modes": [
+        {
+          "id": "0",
+          "name": "sci0m1_rate1",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "1",
+          "name": "sci0m1_rate2",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "2",
+          "name": "sci0m1_rate3",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "3",
+          "name": "sci0m1_rate4",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "4",
+          "name": "sci1m2_rate1",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "5",
+          "name": "sci1m2_rate2",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "6",
+          "name": "sci1m2_rate3",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "7",
+          "name": "sci1m2_rate4",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "8",
+          "name": "sci2m4_rate1",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "9",
+          "name": "sci2m4_rate2",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "10",
+          "name": "sci2m4_rate3",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "11",
+          "name": "sci2m4_rate4",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "12",
+          "name": "sci3m8_rate1",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "13",
+          "name": "sci3m8_rate2",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "14",
+          "name": "sci3m8_rate3",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        },
+        {
+          "id": "15",
+          "name": "sci3m8_rate4",
+          "family": "fixed_average_table",
+          "checkpoint": ""
+        }
+      ]
+    }
+  }
+}

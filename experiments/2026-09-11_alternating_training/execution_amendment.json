@@ -1,0 +1,17 @@
+{
+  "kind": "resource_only_after_thermal_pause",
+  "scientific_manifest_sha256": "40e0e93cac9d140f01d8f73f2632d6226b1a3823327d79b65472324bb1e431bd",
+  "cores": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "maximum_active_workers": 4,
+  "restart_not_before_utc": "2026-09-11T07:45:08.818600+00:00",
+  "initial_completed_steps": 132000,
+  "input_hashes": {
+    "execution_override.py": "722505940ed0e46605f80f4a0c51933f00e2df0c4cc3a7d7637bb9a0e995eed4",
+    "EXECUTION_AMENDMENT.md": "1103d125f622c002d5ac204a77b3ff0129f350674cad63fc8d037ec8e56bf8a7"
+  }
+}

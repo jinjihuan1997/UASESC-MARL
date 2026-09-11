@@ -1,0 +1,12 @@
+{
+  "state": "PASS",
+  "formal_trace_files": 117,
+  "formal_slots": 1404000,
+  "physical_replay_episodes": 660,
+  "physical_replay_slots": 396000,
+  "stochastic_probe_slots": 24000,
+  "parameter_updates": 0,
+  "all_source_hashes_unchanged": true,
+  "penalty_routing_synthetic_cases": 2,
+  "penalty_routing_test_passed": true
+}

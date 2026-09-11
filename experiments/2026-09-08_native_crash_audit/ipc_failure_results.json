@@ -1,0 +1,87 @@
+[
+  {
+    "phase": "waiting_for_step",
+    "time": 1788853003.7261105,
+    "pid": 3,
+    "mode": "fork",
+    "parent_alive": true,
+    "group": [
+      {
+        "pid": 3,
+        "state": "S",
+        "ppid": 2,
+        "pgid": 3,
+        "start_ticks": 390577094,
+        "wait_status": 0,
+        "uid": 1000
+      },
+      {
+        "pid": 4,
+        "state": "S",
+        "ppid": 3,
+        "pgid": 3,
+        "start_ticks": 390577159,
+        "wait_status": 0,
+        "uid": 1000
+      },
+      {
+        "pid": 5,
+        "state": "Z",
+        "ppid": 3,
+        "pgid": 3,
+        "start_ticks": 390577159,
+        "wait_status": 9,
+        "uid": 1000
+      }
+    ],
+    "wchan": "unix_stream_data_wait"
+  },
+  {
+    "phase": "closing_after_exception",
+    "time": 1788853007.1928298,
+    "pid": 6,
+    "error": "EOFError()",
+    "waiting_flag": true,
+    "mode": "spawn",
+    "parent_alive": true,
+    "group": [
+      {
+        "pid": 6,
+        "state": "S",
+        "ppid": 2,
+        "pgid": 6,
+        "start_ticks": 390577370,
+        "wait_status": 0,
+        "uid": 1000
+      },
+      {
+        "pid": 7,
+        "state": "S",
+        "ppid": 6,
+        "pgid": 6,
+        "start_ticks": 390577436,
+        "wait_status": 0,
+        "uid": 1000
+      },
+      {
+        "pid": 8,
+        "state": "S",
+        "ppid": 6,
+        "pgid": 6,
+        "start_ticks": 390577437,
+        "wait_status": 0,
+        "uid": 1000
+      },
+      {
+        "pid": 9,
+        "state": "Z",
+        "ppid": 6,
+        "pgid": 6,
+        "start_ticks": 390577437,
+        "wait_status": 9,
+        "uid": 1000
+      }
+    ],
+    "wchan": "unix_stream_data_wait"
+  }
+]

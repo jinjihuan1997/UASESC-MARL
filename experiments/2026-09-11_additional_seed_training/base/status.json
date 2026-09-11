@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-09-11T02:41:06.622071+00:00",
+  "completed_training_steps": 10000000,
+  "completed_training_jobs": 1,
+  "evaluation_episodes": 0,
+  "report": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/base/REPORT.md",
+  "science_status": "base_training_complete_pending_downstream_evaluation"
+}

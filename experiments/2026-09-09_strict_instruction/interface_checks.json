@@ -1,0 +1,2441 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T07:24:24.446338+00:00",
+  "physical_states": 270,
+  "instruction_variants": 3,
+  "table_modes": 16,
+  "hidden_input_invariant_fraction": 1.0,
+  "mask_invariant_fraction": 1.0,
+  "records": [
+    {
+      "seed": 20260911,
+      "sample": 0,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 0,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 0,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 1,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 1,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 1,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 2,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 2,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 2,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 3,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 3,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 3,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 4,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 4,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 4,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 5,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 5,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 5,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 6,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 6,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 6,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 7,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 7,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 7,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 8,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 8,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 8,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 9,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 9,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 9,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 10,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 10,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 10,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 11,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 11,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 11,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 12,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 12,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 12,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 13,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 13,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 13,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 14,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 14,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 14,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 15,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 15,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 15,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 16,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 16,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 16,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 17,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 17,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 17,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 18,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 18,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 18,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 19,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 19,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 19,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 20,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 20,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 20,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 21,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 21,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 21,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 22,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 22,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 22,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 23,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 23,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 23,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 24,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 24,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 24,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 25,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 25,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 25,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 26,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 26,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 26,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 27,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 27,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 27,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 28,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 28,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 28,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 29,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 29,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260911,
+      "sample": 29,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 0,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 0,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 0,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 1,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 1,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 1,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 2,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 2,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 2,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 3,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 3,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 3,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 4,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 4,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 4,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 5,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 5,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 5,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 6,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 6,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 6,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 7,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 7,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 7,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 8,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 8,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 8,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 9,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 9,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 9,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 10,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 10,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 10,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 11,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 11,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 11,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 12,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 12,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 12,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 13,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 13,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 13,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 14,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 14,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 14,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 15,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 15,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 15,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 16,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 16,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 16,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 17,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 17,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 17,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 18,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 18,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 18,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 19,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 19,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 19,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 20,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 20,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 20,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 21,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 21,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 21,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 22,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 22,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 22,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 23,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 23,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 23,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 24,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 24,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 24,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 25,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 25,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 25,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 26,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 26,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 26,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 27,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 27,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 27,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 28,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 28,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 28,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 29,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 29,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260912,
+      "sample": 29,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 0,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 0,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 0,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 1,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 1,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 1,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 2,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 2,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 2,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 3,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 3,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 3,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 4,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 4,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 4,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 5,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 5,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 5,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 6,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 6,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 6,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 7,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 7,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 7,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 8,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 8,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 8,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 9,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 9,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 9,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 10,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 10,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 10,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 11,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 11,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 11,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 12,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 12,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 12,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 13,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 13,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 13,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 14,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 14,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 14,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 15,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 15,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 15,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 16,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 16,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 16,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 17,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 17,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 17,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 18,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 18,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 18,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 19,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 19,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 19,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 20,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 20,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 20,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 21,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 21,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 21,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 22,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 22,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 22,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 23,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 23,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 23,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 24,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 24,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 24,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 25,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 25,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 25,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 26,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 26,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 26,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 27,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 27,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 27,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 28,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 28,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 28,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 29,
+      "cache": "full",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 29,
+      "cache": "partial",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    },
+    {
+      "seed": 20260913,
+      "sample": 29,
+      "cache": "empty",
+      "hidden_all_actor_inputs_invariant": true,
+      "all_actor_masks_invariant": true,
+      "explicit_context_retained": true,
+      "critic_identical_between_methods": true
+    }
+  ]
+}

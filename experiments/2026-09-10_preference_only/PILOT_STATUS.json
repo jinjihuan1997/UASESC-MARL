@@ -1,0 +1,6 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-09-10T03:48:55.390093+00:00",
+  "training_steps": 2000000,
+  "evaluation_report": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_preference_only/PILOT_REPORT.md"
+}

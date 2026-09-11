@@ -1,0 +1,178 @@
+[
+  {
+    "package": "python",
+    "path": "bin/python3.10",
+    "expected": "c3db3851dcc291411130477a818b53a866f609ad5d892a0575fa627357cbb08b",
+    "actual": "c3db3851dcc291411130477a818b53a866f609ad5d892a0575fa627357cbb08b",
+    "match": true,
+    "note": "Compared after Conda prefix relocation"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+    "match": true,
+    "expected": "klTQhU3XYV4R3ijXca5AiHjKgSOnrCBPIeTMejdswuU",
+    "actual": "klTQhU3XYV4R3ijXca5AiHjKgSOnrCBPIeTMejdswuU"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/core/_multiarray_tests.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "DeRvVJb8JhcVcq3CAMpUrF7kcD_EzZ9hc-OOsu4hwgs",
+    "actual": "DeRvVJb8JhcVcq3CAMpUrF7kcD_EzZ9hc-OOsu4hwgs"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/core/_multiarray_umath.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "_l7-McVTJrByyPsjmiJYGSEYJstFzTx07QrwAw5w86E",
+    "actual": "_l7-McVTJrByyPsjmiJYGSEYJstFzTx07QrwAw5w86E"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/core/_operand_flag_tests.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "fSsrco1Kut3UaGZZ5f-w9gOw6iil4v5es4h0jjsgM0c",
+    "actual": "fSsrco1Kut3UaGZZ5f-w9gOw6iil4v5es4h0jjsgM0c"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/core/_rational_tests.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "JhmDykdI9J_hx_swy42UxeFjFGDF-MEj6u3jKL32770",
+    "actual": "JhmDykdI9J_hx_swy42UxeFjFGDF-MEj6u3jKL32770"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/core/_simd.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "sslr7CDjx6Wfj3izDn_VFC0BXkLyy9JyI8PoYsU-QRM",
+    "actual": "sslr7CDjx6Wfj3izDn_VFC0BXkLyy9JyI8PoYsU-QRM"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/core/_struct_ufunc_tests.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "CSlDZ5gi01I5v-N7jHvSfRLyOJSR9JMcIV2cIq5InGo",
+    "actual": "CSlDZ5gi01I5v-N7jHvSfRLyOJSR9JMcIV2cIq5InGo"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/core/_umath_tests.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "G_1pjqWX0wE-CBY1CeWdfvaHNGEfOREmgJkzFTNYX9Q",
+    "actual": "G_1pjqWX0wE-CBY1CeWdfvaHNGEfOREmgJkzFTNYX9Q"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/fft/_pocketfft_internal.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "XzaFDzxI6s8RqdHjtZV6NrK33T630h9owQF8-rT9AAY",
+    "actual": "XzaFDzxI6s8RqdHjtZV6NrK33T630h9owQF8-rT9AAY"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/linalg/_umath_linalg.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "BYffhO2XUQkIZ6ShRB0sOUw5c1QgqjiLi_aYtyVfJL0",
+    "actual": "BYffhO2XUQkIZ6ShRB0sOUw5c1QgqjiLi_aYtyVfJL0"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/linalg/lapack_lite.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "zWHsImcTCxEkZbyF2rgrclRTDzz5E7poiDOwhOKaVRs",
+    "actual": "zWHsImcTCxEkZbyF2rgrclRTDzz5E7poiDOwhOKaVRs"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/_bounded_integers.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "zACYhBZNDJi5rXbYmdgxjLJDbkyqoANLSLZge3Dvpa0",
+    "actual": "zACYhBZNDJi5rXbYmdgxjLJDbkyqoANLSLZge3Dvpa0"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/_common.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "MaClzR2DAUNmBHlArlpsVGbr4NZRXS5eIxElj3SNFwY",
+    "actual": "MaClzR2DAUNmBHlArlpsVGbr4NZRXS5eIxElj3SNFwY"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/_generator.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "YFpOzoKFPKyS6SDrmoptosTvc55vluPMG_Su1x_hTl8",
+    "actual": "YFpOzoKFPKyS6SDrmoptosTvc55vluPMG_Su1x_hTl8"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/_mt19937.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "0wvUt9mG_CmAC9WIxw0yIxQ5Mt3IAr3EbXIZf7wJbBE",
+    "actual": "0wvUt9mG_CmAC9WIxw0yIxQ5Mt3IAr3EbXIZf7wJbBE"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/_pcg64.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "ZG1KBr34YGbShTmKifH2EGAddV-ad0slxzFtuexATqs",
+    "actual": "ZG1KBr34YGbShTmKifH2EGAddV-ad0slxzFtuexATqs"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/_philox.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "J4Bwk58gF6ftGukYM63WUlHm9w5yudN5ZOswvDg_awU",
+    "actual": "J4Bwk58gF6ftGukYM63WUlHm9w5yudN5ZOswvDg_awU"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/_sfc64.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "M57C1mIUFNGr30RKzEPM8qG2g6pB_t7sPcYLTD4nHfM",
+    "actual": "M57C1mIUFNGr30RKzEPM8qG2g6pB_t7sPcYLTD4nHfM"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/bit_generator.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "1O49cg-e7gVBVIUH3H_i8yPqSBzcM-N5Bv54vC6YGg0",
+    "actual": "1O49cg-e7gVBVIUH3H_i8yPqSBzcM-N5Bv54vC6YGg0"
+  },
+  {
+    "package": "numpy",
+    "path": "numpy/random/mtrand.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "uRfi8K2i7wCwzFCbdvFNi85IFeNkOr1YSBgDu7a1hf4",
+    "actual": "uRfi8K2i7wCwzFCbdvFNi85IFeNkOr1YSBgDu7a1hf4"
+  },
+  {
+    "package": "torch",
+    "path": "torch/_C.cpython-310-x86_64-linux-gnu.so",
+    "match": true,
+    "expected": "HF4NajEqWdwshYfqx5_6Pu3MQW550baIy68v_wInhHI",
+    "actual": "HF4NajEqWdwshYfqx5_6Pu3MQW550baIy68v_wInhHI"
+  },
+  {
+    "package": "torch",
+    "path": "torch/lib/libc10.so",
+    "match": true,
+    "expected": "_07dtd7DIHAufPGjWvOoPPL8zinGjkv-6w4L_UhyQEE",
+    "actual": "_07dtd7DIHAufPGjWvOoPPL8zinGjkv-6w4L_UhyQEE"
+  },
+  {
+    "package": "torch",
+    "path": "torch/lib/libtorch_cpu.so",
+    "match": true,
+    "expected": "Hwvj1PYe5KFQytv-lgE-qtRdHTQpu1ZzVVg9OqWycEw",
+    "actual": "Hwvj1PYe5KFQytv-lgE-qtRdHTQpu1ZzVVg9OqWycEw"
+  },
+  {
+    "package": "torch",
+    "path": "torch/lib/libtorch_python.so",
+    "match": true,
+    "expected": "Hezy40DWlpFxCAiJtXl3iuagbIunPiJhL1-JkMt9G5o",
+    "actual": "Hezy40DWlpFxCAiJtXl3iuagbIunPiJhL1-JkMt9G5o"
+  }
+]

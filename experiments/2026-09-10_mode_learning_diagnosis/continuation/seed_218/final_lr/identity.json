@@ -1,0 +1,21 @@
+{
+  "source_checkpoint": {
+    "file": "update_000250_a75f62c317dc.pt",
+    "sha256": "05db6171d4fcc7fd4d18dd270b188840c19e917c96bd9ae29aca845e99625141",
+    "update": 250,
+    "size_bytes": 57585310,
+    "selected": "current",
+    "rejected": []
+  },
+  "arm": "final_lr",
+  "actor_lr": 3.9999999999999617e-07,
+  "critic_lr": 1.5999999999999847e-06,
+  "initial_actor_hashes": [
+    "898850b36fbde00801b52cbfef69bdfb03832a0efe4b1cdad8762b130b6bd431",
+    "a993a69a4a29a205971b81d8a7d163d8e53d2d208dfa19b5aafbfbf52b828a94",
+    "422b79ba9121e1a701125369ca3de0452560a589e44c40fe1ef233effc528314",
+    "36e21dce9ba6f403cafec22c49c1a609f0ca5dac6e5b60c7e43dd67da6043cdb"
+  ],
+  "additional_steps": 200000,
+  "semantics": "diagnostic transfer with same optimizer moments and RNG; fixed LR override; no original run resume"
+}

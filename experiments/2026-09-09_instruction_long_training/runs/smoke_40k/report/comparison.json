@@ -1,0 +1,1412 @@
+{
+  "seeds": [
+    85,
+    218,
+    966
+  ],
+  "learned": {
+    "IC_HAPPO": {
+      "common_reward": {
+        "mean": -0.06122101123973852,
+        "sample_std": 0.007549393137560154,
+        "n": 3
+      },
+      "base_reward": {
+        "mean": -0.037536906301466916,
+        "sample_std": 0.0028551775098418068,
+        "n": 3
+      },
+      "mean_aoi": {
+        "mean": 4.057268518518518,
+        "sample_std": 0.058411404986614505,
+        "n": 3
+      },
+      "max_aoi": {
+        "mean": 6.176388888888889,
+        "sample_std": 0.18896158731732113,
+        "n": 3
+      },
+      "p95_aoi": {
+        "mean": 5.862527777777777,
+        "sample_std": 0.1884864529344611,
+        "n": 3
+      },
+      "aoi_exceedance_fraction": {
+        "mean": 0.03556481481481481,
+        "sample_std": 0.02677259535681809,
+        "n": 3
+      },
+      "max_aoi_violation": {
+        "mean": 0.06921296296296296,
+        "sample_std": 0.013285746485266899,
+        "n": 3
+      },
+      "infeasible_uav_fraction": {
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "n": 3
+      },
+      "delivered_predicted_psnr": {
+        "mean": 29.53796805286742,
+        "sample_std": 0.4453164633562894,
+        "n": 3
+      },
+      "deliveries_per_slot": {
+        "mean": 10.16611111111111,
+        "sample_std": 0.2961492835516373,
+        "n": 3
+      },
+      "channel_uses_per_slot": {
+        "mean": 52199.63501856043,
+        "sample_std": 553.3623821017322,
+        "n": 3
+      }
+    },
+    "IC_MAPPO": {
+      "common_reward": {
+        "mean": -0.07418728078455382,
+        "sample_std": 0.07904265171291718,
+        "n": 3
+      },
+      "base_reward": {
+        "mean": -0.03690178695739333,
+        "sample_std": 0.023751036745751915,
+        "n": 3
+      },
+      "mean_aoi": {
+        "mean": 3.957305555555555,
+        "sample_std": 0.3095845870070824,
+        "n": 3
+      },
+      "max_aoi": {
+        "mean": 6.246111111111111,
+        "sample_std": 0.9210314015236357,
+        "n": 3
+      },
+      "p95_aoi": {
+        "mean": 5.832458333333333,
+        "sample_std": 0.8036224313399779,
+        "n": 3
+      },
+      "aoi_exceedance_fraction": {
+        "mean": 0.03332407407407407,
+        "sample_std": 0.04629426754814173,
+        "n": 3
+      },
+      "max_aoi_violation": {
+        "mean": 0.09585648148148149,
+        "sample_std": 0.1112130030496664,
+        "n": 3
+      },
+      "infeasible_uav_fraction": {
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "n": 3
+      },
+      "delivered_predicted_psnr": {
+        "mean": 29.003431653843407,
+        "sample_std": 0.2704426999364664,
+        "n": 3
+      },
+      "deliveries_per_slot": {
+        "mean": 10.511944444444445,
+        "sample_std": 0.5920218026515699,
+        "n": 3
+      },
+      "channel_uses_per_slot": {
+        "mean": 51200.44218963875,
+        "sample_std": 1071.9557226859072,
+        "n": 3
+      }
+    },
+    "HAPPO_hidden_instruction": {
+      "common_reward": {
+        "mean": -0.16870182424625685,
+        "sample_std": 0.10155214017367772,
+        "n": 3
+      },
+      "base_reward": {
+        "mean": -0.06599829029563956,
+        "sample_std": 0.02829461395413667,
+        "n": 3
+      },
+      "mean_aoi": {
+        "mean": 4.492268518518519,
+        "sample_std": 0.5281811414263448,
+        "n": 3
+      },
+      "max_aoi": {
+        "mean": 7.2138888888888895,
+        "sample_std": 1.0381374659206508,
+        "n": 3
+      },
+      "p95_aoi": {
+        "mean": 6.736333333333333,
+        "sample_std": 1.0410907149408788,
+        "n": 3
+      },
+      "aoi_exceedance_fraction": {
+        "mean": 0.10076851851851851,
+        "sample_std": 0.06267007312779857,
+        "n": 3
+      },
+      "max_aoi_violation": {
+        "mean": 0.22824074074074074,
+        "sample_std": 0.14841163815210642,
+        "n": 3
+      },
+      "infeasible_uav_fraction": {
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "n": 3
+      },
+      "delivered_predicted_psnr": {
+        "mean": 29.720958918750505,
+        "sample_std": 0.6349860626638326,
+        "n": 3
+      },
+      "deliveries_per_slot": {
+        "mean": 9.306944444444444,
+        "sample_std": 0.6634988975401822,
+        "n": 3
+      },
+      "channel_uses_per_slot": {
+        "mean": 51125.13367810699,
+        "sample_std": 2858.0298699726777,
+        "n": 3
+      }
+    },
+    "MAPPO_hidden_instruction": {
+      "common_reward": {
+        "mean": -0.11003839367800793,
+        "sample_std": 0.12809327322387112,
+        "n": 3
+      },
+      "base_reward": {
+        "mean": -0.05389313133232891,
+        "sample_std": 0.04429109524315801,
+        "n": 3
+      },
+      "mean_aoi": {
+        "mean": 4.396268518518518,
+        "sample_std": 0.9189702806948717,
+        "n": 3
+      },
+      "max_aoi": {
+        "mean": 6.666666666666667,
+        "sample_std": 1.2795851649829508,
+        "n": 3
+      },
+      "p95_aoi": {
+        "mean": 6.400527777777778,
+        "sample_std": 1.4823924417215404,
+        "n": 3
+      },
+      "aoi_exceedance_fraction": {
+        "mean": 0.09501851851851852,
+        "sample_std": 0.14593590660782754,
+        "n": 3
+      },
+      "max_aoi_violation": {
+        "mean": 0.13421296296296298,
+        "sample_std": 0.16929150277412813,
+        "n": 3
+      },
+      "infeasible_uav_fraction": {
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "n": 3
+      },
+      "delivered_predicted_psnr": {
+        "mean": 29.088860607915326,
+        "sample_std": 0.3003834741402826,
+        "n": 3
+      },
+      "deliveries_per_slot": {
+        "mean": 9.92611111111111,
+        "sample_std": 1.3000422891982022,
+        "n": 3
+      },
+      "channel_uses_per_slot": {
+        "mean": 50658.544447212946,
+        "sample_std": 1493.8281606054172,
+        "n": 3
+      }
+    },
+    "HAPPO_fixed_mode_rule": {
+      "common_reward": {
+        "mean": -0.0038034057372309978,
+        "sample_std": 0.0005592703083575279,
+        "n": 3
+      },
+      "base_reward": {
+        "mean": -0.0139967082063668,
+        "sample_std": 0.0005363227993911481,
+        "n": 3
+      },
+      "mean_aoi": {
+        "mean": 3.687518518518518,
+        "sample_std": 0.014297066880978739,
+        "n": 3
+      },
+      "max_aoi": {
+        "mean": 5.3902777777777775,
+        "sample_std": 0.021284014171656266,
+        "n": 3
+      },
+      "p95_aoi": {
+        "mean": 5.133416666666666,
+        "sample_std": 0.024595300759382176,
+        "n": 3
+      },
+      "aoi_exceedance_fraction": {
+        "mean": 9.259259259259259e-06,
+        "sample_std": 1.6037507477489602e-05,
+        "n": 3
+      },
+      "max_aoi_violation": {
+        "mean": 6.944444444444444e-05,
+        "sample_std": 0.00012028130608117204,
+        "n": 3
+      },
+      "infeasible_uav_fraction": {
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "n": 3
+      },
+      "delivered_predicted_psnr": {
+        "mean": 28.802905377343397,
+        "sample_std": 0.016655739415026658,
+        "n": 3
+      },
+      "deliveries_per_slot": {
+        "mean": 11.181111111111111,
+        "sample_std": 0.017821127702605757,
+        "n": 3
+      },
+      "channel_uses_per_slot": {
+        "mean": 50972.10913928367,
+        "sample_std": 112.770807565768,
+        "n": 3
+      }
+    },
+    "HAPPO_equal_resources": {
+      "common_reward": {
+        "mean": -0.08753616642865278,
+        "sample_std": 0.11971446277902162,
+        "n": 3
+      },
+      "base_reward": {
+        "mean": -0.03762087321877624,
+        "sample_std": 0.033044541471326974,
+        "n": 3
+      },
+      "mean_aoi": {
+        "mean": 4.001611111111111,
+        "sample_std": 0.46110404027376545,
+        "n": 3
+      },
+      "max_aoi": {
+        "mean": 6.296944444444445,
+        "sample_std": 1.384987548413075,
+        "n": 3
+      },
+      "p95_aoi": {
+        "mean": 5.972624999999999,
+        "sample_std": 1.2999086432910487,
+        "n": 3
+      },
+      "aoi_exceedance_fraction": {
+        "mean": 0.0465,
+        "sample_std": 0.07127045407079143,
+        "n": 3
+      },
+      "max_aoi_violation": {
+        "mean": 0.12092592592592592,
+        "sample_std": 0.17408785006314786,
+        "n": 3
+      },
+      "infeasible_uav_fraction": {
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "n": 3
+      },
+      "delivered_predicted_psnr": {
+        "mean": 28.83265344992848,
+        "sample_std": 0.2794013072486792,
+        "n": 3
+      },
+      "deliveries_per_slot": {
+        "mean": 10.620555555555555,
+        "sample_std": 0.7059569614937445,
+        "n": 3
+      },
+      "channel_uses_per_slot": {
+        "mean": 51307.51013676955,
+        "sample_std": 509.2996166636484,
+        "n": 3
+      }
+    },
+    "HAPPO_no_task_aux_reward": {
+      "common_reward": {
+        "mean": -0.08673283395023432,
+        "sample_std": 0.04077567342629517,
+        "n": 3
+      },
+      "base_reward": {
+        "mean": -0.04055977839467876,
+        "sample_std": 0.012733022759801788,
+        "n": 3
+      },
+      "mean_aoi": {
+        "mean": 4.080592592592592,
+        "sample_std": 0.2082435108835399,
+        "n": 3
+      },
+      "max_aoi": {
+        "mean": 6.559444444444444,
+        "sample_std": 0.607865878237894,
+        "n": 3
+      },
+      "p95_aoi": {
+        "mean": 6.14311111111111,
+        "sample_std": 0.5183571911935215,
+        "n": 3
+      },
+      "aoi_exceedance_fraction": {
+        "mean": 0.04187037037037037,
+        "sample_std": 0.020308221692525347,
+        "n": 3
+      },
+      "max_aoi_violation": {
+        "mean": 0.11391203703703703,
+        "sample_std": 0.05777228261350322,
+        "n": 3
+      },
+      "infeasible_uav_fraction": {
+        "mean": 0.0,
+        "sample_std": 0.0,
+        "n": 3
+      },
+      "delivered_predicted_psnr": {
+        "mean": 29.42732308990874,
+        "sample_std": 0.23537165535197835,
+        "n": 3
+      },
+      "deliveries_per_slot": {
+        "mean": 10.293611111111112,
+        "sample_std": 0.32014572781318956,
+        "n": 3
+      },
+      "channel_uses_per_slot": {
+        "mean": 51172.28792831933,
+        "sample_std": 1185.009842474122,
+        "n": 3
+      }
+    }
+  },
+  "rules": {
+    "R_fixed": {
+      "common_reward": -0.003955216764134541,
+      "base_reward": -0.014093226023393801,
+      "training_reward": -0.00395521676413454,
+      "recv_aoi_bonus": 0.010242175925925925,
+      "mean_aoi": 3.701944444444444,
+      "max_aoi": 5.323333333333333,
+      "p95_aoi": 5.090749999999999,
+      "aoi_exceedance_fraction": 2.7777777777777776e-05,
+      "max_aoi_violation": 0.00020833333333333335,
+      "infeasible_uav_fraction": 0.0,
+      "deliveries": 13372,
+      "predicted_quality_sum": 385135.99609248503,
+      "channel_uses": 60883294.314673185,
+      "quality_violations": 0,
+      "budget_violations": 0,
+      "cache_violations": 0,
+      "delivered_predicted_psnr": 28.80167484987175,
+      "deliveries_per_slot": 11.143333333333333,
+      "channel_uses_per_slot": 50736.07859556099
+    },
+    "G_local_greedy": {
+      "common_reward": -0.005087800151716635,
+      "base_reward": -0.012477059410975896,
+      "training_reward": -0.005087800151716635,
+      "recv_aoi_bonus": 0.010305925925925927,
+      "mean_aoi": 3.695888888888889,
+      "max_aoi": 5.1,
+      "p95_aoi": 4.9679166666666665,
+      "aoi_exceedance_fraction": 0.0015,
+      "max_aoi_violation": 0.005833333333333334,
+      "infeasible_uav_fraction": 0.0002777777777777778,
+      "deliveries": 13300,
+      "predicted_quality_sum": 386098.63537537376,
+      "channel_uses": 62358065.89868101,
+      "quality_violations": 0,
+      "budget_violations": 0,
+      "cache_violations": 0,
+      "delivered_predicted_psnr": 29.02997258461457,
+      "deliveries_per_slot": 11.083333333333334,
+      "channel_uses_per_slot": 51965.0549155675
+    },
+    "Random": {
+      "common_reward": -0.3499273113912832,
+      "base_reward": -0.1190368947246165,
+      "training_reward": -0.3499273113912832,
+      "recv_aoi_bonus": 0.012237361111111112,
+      "mean_aoi": 5.474277777777777,
+      "max_aoi": 9.170833333333334,
+      "p95_aoi": 8.599833333333333,
+      "aoi_exceedance_fraction": 0.27605555555555555,
+      "max_aoi_violation": 0.5075555555555555,
+      "infeasible_uav_fraction": 0.06944444444444445,
+      "deliveries": 9414,
+      "predicted_quality_sum": 280866.0502238112,
+      "channel_uses": 57956135.437042296,
+      "quality_violations": 0,
+      "budget_violations": 0,
+      "cache_violations": 0,
+      "delivered_predicted_psnr": 29.834932039920457,
+      "deliveries_per_slot": 7.845,
+      "channel_uses_per_slot": 48296.77953086858
+    },
+    "RoundRobin": {
+      "common_reward": -0.004230263060430835,
+      "base_reward": -0.014470170467838245,
+      "training_reward": -0.004230263060430838,
+      "recv_aoi_bonus": 0.010239907407407406,
+      "mean_aoi": 3.7384722222222226,
+      "max_aoi": 5.316666666666666,
+      "p95_aoi": 5.088999999999999,
+      "aoi_exceedance_fraction": 0.0,
+      "max_aoi_violation": 0.0,
+      "infeasible_uav_fraction": 0.0,
+      "deliveries": 13372,
+      "predicted_quality_sum": 385135.99609248503,
+      "channel_uses": 60883294.314673185,
+      "quality_violations": 0,
+      "budget_violations": 0,
+      "cache_violations": 0,
+      "delivered_predicted_psnr": 28.80167484987175,
+      "deliveries_per_slot": 11.143333333333333,
+      "channel_uses_per_slot": 50736.07859556099
+    }
+  },
+  "by_scenario": {
+    "IC_HAPPO": {
+      "fixed_0": {
+        "common_reward": {
+          "mean": -0.009077520211368923,
+          "sample_std": 0.019523843959460545,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.014373507865689913,
+          "sample_std": 0.012079659044079155,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 3.739314814814815,
+          "sample_std": 0.23965327535177022,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 5.687222222222222,
+          "sample_std": 0.40486051553224744,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 5.36011111111111,
+          "sample_std": 0.48555207934809497,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.0029444444444444453,
+          "sample_std": 0.004218931466147488,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.010833333333333332,
+          "sample_std": 0.015518308581626021,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.966254109902287,
+          "sample_std": 0.2567948442866987,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 10.580555555555556,
+          "sample_std": 0.5639895914458525,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 53780.53285342264,
+          "sample_std": 459.1199497444255,
+          "n": 3
+        }
+      },
+      "multi_0_1_2": {
+        "common_reward": {
+          "mean": -0.11336450226810812,
+          "sample_std": 0.021943483643019963,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.060700304737243915,
+          "sample_std": 0.006948284548905211,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.375222222222222,
+          "sample_std": 0.12473096975015782,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.665555555555556,
+          "sample_std": 0.0926812538478784,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 6.364944444444444,
+          "sample_std": 0.1477649299970629,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.06818518518518518,
+          "sample_std": 0.05587268743890963,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.1275925925925926,
+          "sample_std": 0.033120073979559926,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.081168429243007,
+          "sample_std": 0.8090096117371387,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 9.751666666666667,
+          "sample_std": 0.425176433965947,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 50618.73718369822,
+          "sample_std": 1434.3168665270025,
+          "n": 3
+        }
+      }
+    },
+    "IC_MAPPO": {
+      "fixed_0": {
+        "common_reward": {
+          "mean": -0.07176086191850495,
+          "sample_std": 0.1389631504902125,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.02563277549875187,
+          "sample_std": 0.040999107545644,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 3.8360555555555553,
+          "sample_std": 0.546300724401388,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.148888888888889,
+          "sample_std": 1.6279386534078182,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 5.779805555555555,
+          "sample_std": 1.4151303982253651,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.04405555555555555,
+          "sample_std": 0.07630646057789553,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.1137962962962963,
+          "sample_std": 0.19710096689834725,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.72470360598182,
+          "sample_std": 0.033228035257478535,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 10.473888888888888,
+          "sample_std": 1.0759005702373412,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 52263.45607665527,
+          "sample_std": 2305.6239574290066,
+          "n": 3
+        }
+      },
+      "multi_0_1_2": {
+        "common_reward": {
+          "mean": -0.0766136996506027,
+          "sample_std": 0.019384016110822164,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.0481707984160348,
+          "sample_std": 0.006534310568433553,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.078555555555555,
+          "sample_std": 0.07293238454931689,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.343333333333333,
+          "sample_std": 0.21489015281714938,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 5.885111111111111,
+          "sample_std": 0.1927966929561158,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.022592592592592588,
+          "sample_std": 0.016300830598141317,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.07791666666666666,
+          "sample_std": 0.025833333333333337,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 28.302431582443724,
+          "sample_std": 0.42663109486301715,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 10.549999999999999,
+          "sample_std": 0.11526539424784502,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 50137.428302622226,
+          "sample_std": 421.8349585368546,
+          "n": 3
+        }
+      }
+    },
+    "HAPPO_hidden_instruction": {
+      "fixed_0": {
+        "common_reward": {
+          "mean": -0.1437252833779824,
+          "sample_std": 0.16800346209491263,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.052525283377982415,
+          "sample_std": 0.04326151049419327,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.354759259259259,
+          "sample_std": 0.7443758764718608,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 7.102777777777778,
+          "sample_std": 1.6445147319813544,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 6.607777777777776,
+          "sample_std": 1.5843485721734805,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.09053703703703703,
+          "sample_std": 0.12182330522306987,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.20509259259259258,
+          "sample_std": 0.25093441628385726,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 30.186741619479037,
+          "sample_std": 0.31816830134637786,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 9.404444444444444,
+          "sample_std": 1.2605304585915553,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 51848.621890563096,
+          "sample_std": 2338.50194984886,
+          "n": 3
+        }
+      },
+      "multi_0_1_2": {
+        "common_reward": {
+          "mean": -0.19367836511453126,
+          "sample_std": 0.058363757676012484,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.07947129721329668,
+          "sample_std": 0.014265084973105175,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.629777777777778,
+          "sample_std": 0.31451011779834864,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 7.325,
+          "sample_std": 0.5240255506917367,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 6.864888888888888,
+          "sample_std": 0.5488572998951075,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.111,
+          "sample_std": 0.017572425087528196,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.2513888888888889,
+          "sample_std": 0.09636396972153971,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.31302668021339,
+          "sample_std": 1.3048753584197768,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 9.209444444444445,
+          "sample_std": 0.1795854279331317,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 50401.6454656509,
+          "sample_std": 3379.7628119825995,
+          "n": 3
+        }
+      }
+    },
+    "MAPPO_hidden_instruction": {
+      "fixed_0": {
+        "common_reward": {
+          "mean": -0.11594804824215839,
+          "sample_std": 0.20723534684116018,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.044623665526109,
+          "sample_std": 0.06607069240684275,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.320388888888889,
+          "sample_std": 1.3214244500388563,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.640555555555556,
+          "sample_std": 2.0347142396506293,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 6.381944444444444,
+          "sample_std": 2.234613528190138,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.1320185185185185,
+          "sample_std": 0.22861467077918085,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.1648148148148148,
+          "sample_std": 0.28522710430253045,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.885776566163766,
+          "sample_std": 0.24121552408339372,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 9.882777777777777,
+          "sample_std": 1.967101882164423,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 52026.54950569925,
+          "sample_std": 2520.575045459318,
+          "n": 3
+        }
+      },
+      "multi_0_1_2": {
+        "common_reward": {
+          "mean": -0.10412873911385746,
+          "sample_std": 0.04935691166396549,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.06316259713854881,
+          "sample_std": 0.022518592399755944,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.472148148148148,
+          "sample_std": 0.5167178718154601,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.692777777777778,
+          "sample_std": 0.5265356728796398,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 6.419111111111111,
+          "sample_std": 0.7302001739122518,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.05801851851851852,
+          "sample_std": 0.06361934282820755,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.10361111111111111,
+          "sample_std": 0.05434159787178934,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 28.349544767115706,
+          "sample_std": 0.6761106901128631,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 9.969444444444445,
+          "sample_std": 0.6522319230775825,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 49290.53938872664,
+          "sample_std": 651.4009772375114,
+          "n": 3
+        }
+      }
+    },
+    "HAPPO_fixed_mode_rule": {
+      "fixed_0": {
+        "common_reward": {
+          "mean": 0.012360244800321975,
+          "sample_std": 0.0012874166785632173,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": 0.0020228991213096276,
+          "sample_std": 0.0013329122828666417,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 3.4554074074074075,
+          "sample_std": 0.03068781141670624,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 5.1066666666666665,
+          "sample_std": 0.005773502691896647,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 4.857055555555555,
+          "sample_std": 0.04593491268853902,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.736290970476624,
+          "sample_std": 0.005805623746010163,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 11.27,
+          "sample_std": 0.08535872018201199,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 54472.08752623226,
+          "sample_std": 437.88593429961895,
+          "n": 3
+        }
+      },
+      "multi_0_1_2": {
+        "common_reward": {
+          "mean": -0.01996705627478397,
+          "sample_std": 0.002392400330471633,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.030016315534043228,
+          "sample_std": 0.0023707725071977622,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 3.9196296296296294,
+          "sample_std": 0.05922415916504501,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 5.673888888888889,
+          "sample_std": 0.04130958098893638,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 5.409777777777777,
+          "sample_std": 0.06521078713877991,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 1.8518518518518518e-05,
+          "sample_std": 3.2075014954979204e-05,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.0001388888888888889,
+          "sample_std": 0.00024056261216234408,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 27.854392947417356,
+          "sample_std": 0.041168393786915655,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 11.092222222222222,
+          "sample_std": 0.07835697042902301,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 47472.13075233507,
+          "sample_std": 558.8386204577911,
+          "n": 3
+        }
+      }
+    },
+    "HAPPO_equal_resources": {
+      "fixed_0": {
+        "common_reward": {
+          "mean": -0.09801795337070188,
+          "sample_std": 0.1907189675088707,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.028217027444775965,
+          "sample_std": 0.051885472777738736,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 3.876629629629629,
+          "sample_std": 0.7092106556695459,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.3533333333333335,
+          "sample_std": 2.1881575202286823,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 6.052638888888887,
+          "sample_std": 2.0482463049950606,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.06448148148148149,
+          "sample_std": 0.11168520207323761,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.1610185185185185,
+          "sample_std": 0.2788922550335442,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.70787656897362,
+          "sample_std": 0.05647345018661916,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 10.580555555555556,
+          "sample_std": 1.133531028508965,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 53923.06044958314,
+          "sample_std": 622.7389702289818,
+          "n": 3
+        }
+      },
+      "multi_0_1_2": {
+        "common_reward": {
+          "mean": -0.07705437948660368,
+          "sample_std": 0.055153524545042985,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.04702471899277652,
+          "sample_std": 0.01595422153791826,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.126592592592592,
+          "sample_std": 0.22128430077515038,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.240555555555556,
+          "sample_std": 0.665044554341481,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 5.89261111111111,
+          "sample_std": 0.601841123907237,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.028518518518518516,
+          "sample_std": 0.03232819419512472,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.08083333333333334,
+          "sample_std": 0.07880289229040603,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 27.976614309366628,
+          "sample_std": 0.4517322639733274,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 10.660555555555556,
+          "sample_std": 0.35364111332965337,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 48691.95982395596,
+          "sample_std": 825.7367766360214,
+          "n": 3
+        }
+      }
+    },
+    "HAPPO_no_task_aux_reward": {
+      "fixed_0": {
+        "common_reward": {
+          "mean": -0.07603245928659423,
+          "sample_std": 0.07416659394849823,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.026821348175483112,
+          "sample_std": 0.0212768666650708,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 3.8605,
+          "sample_std": 0.31532494018271817,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.465,
+          "sample_std": 1.0341676739183923,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 5.978472222222221,
+          "sample_std": 0.8987286635287355,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.043925925925925924,
+          "sample_std": 0.04002473515050803,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.12,
+          "sample_std": 0.1070190937158089,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 29.995537494193087,
+          "sample_std": 0.3073399886239566,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 10.436111111111112,
+          "sample_std": 0.64883727915003,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 53070.59532143223,
+          "sample_std": 762.288208840041,
+          "n": 3
+        }
+      },
+      "multi_0_1_2": {
+        "common_reward": {
+          "mean": -0.09743320861387442,
+          "sample_std": 0.028695523832895385,
+          "n": 3
+        },
+        "base_reward": {
+          "mean": -0.05429820861387442,
+          "sample_std": 0.006731652071626566,
+          "n": 3
+        },
+        "mean_aoi": {
+          "mean": 4.300685185185185,
+          "sample_std": 0.1091564503748463,
+          "n": 3
+        },
+        "max_aoi": {
+          "mean": 6.653888888888889,
+          "sample_std": 0.3396089799449644,
+          "n": 3
+        },
+        "p95_aoi": {
+          "mean": 6.3077499999999995,
+          "sample_std": 0.264229067288215,
+          "n": 3
+        },
+        "aoi_exceedance_fraction": {
+          "mean": 0.03981481481481482,
+          "sample_std": 0.017932084953565578,
+          "n": 3
+        },
+        "max_aoi_violation": {
+          "mean": 0.10782407407407407,
+          "sample_std": 0.0476606148493589,
+          "n": 3
+        },
+        "infeasible_uav_fraction": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "n": 3
+        },
+        "delivered_predicted_psnr": {
+          "mean": 28.867886665451156,
+          "sample_std": 0.7163862593554946,
+          "n": 3
+        },
+        "deliveries_per_slot": {
+          "mean": 10.151111111111112,
+          "sample_std": 0.25719822302248885,
+          "n": 3
+        },
+        "channel_uses_per_slot": {
+          "mean": 49273.98053520644,
+          "sample_std": 1849.6358223385457,
+          "n": 3
+        }
+      }
+    }
+  },
+  "paired_common_reward_differences": {
+    "IC_MAPPO": {
+      "per_seed": {
+        "85": 0.11270808915602973,
+        "218": -0.03726836955609225,
+        "966": -0.03654091096549157
+      },
+      "mean": 0.012966269544815301,
+      "sample_std": 0.08637971540539648,
+      "n": 3
+    },
+    "HAPPO_hidden_instruction": {
+      "per_seed": {
+        "85": 0.21878736237831073,
+        "218": 0.10234556282946784,
+        "966": 0.0013095138117763666
+      },
+      "mean": 0.10748081300651831,
+      "sample_std": 0.10882982932113688,
+      "n": 3
+    },
+    "MAPPO_hidden_instruction": {
+      "per_seed": {
+        "85": 0.20487180097592164,
+        "218": -0.036426931165903224,
+        "966": -0.021992722495210212
+      },
+      "mean": 0.0488173824382694,
+      "sample_std": 0.1353396569887438,
+      "n": 3
+    },
+    "HAPPO_fixed_mode_rule": {
+      "per_seed": {
+        "85": -0.0484379692739238,
+        "218": -0.06061368075208337,
+        "966": -0.0632011664815154
+      },
+      "mean": -0.057417605502507525,
+      "sample_std": 0.007883474532100272,
+      "n": 3
+    },
+    "HAPPO_equal_resources": {
+      "per_seed": {
+        "85": 0.17203795227585034,
+        "218": -0.03041029020676913,
+        "966": -0.06268219650233843
+      },
+      "mean": 0.02631515518891426,
+      "sample_std": 0.12722703791693712,
+      "n": 3
+    },
+    "HAPPO_no_task_aux_reward": {
+      "per_seed": {
+        "85": 0.03304485807007301,
+        "218": -0.01735213659409616,
+        "966": 0.06084274665551054
+      },
+      "mean": 0.025511822710495798,
+      "sample_std": 0.03963798566906984,
+      "n": 3
+    },
+    "R_fixed": {
+      "per_seed": {
+        "85": -0.04876436311417914,
+        "218": -0.05984690381029435,
+        "966": -0.06318611650233844
+      },
+      "mean": -0.057265794475603975,
+      "sample_std": 0.007549393137560154,
+      "n": 3
+    },
+    "G_local_greedy": {
+      "per_seed": {
+        "85": -0.04763177972659705,
+        "218": -0.05871432042271226,
+        "966": -0.062053533114756344
+      },
+      "mean": -0.056133211088021884,
+      "sample_std": 0.007549393137560154,
+      "n": 3
+    },
+    "Random": {
+      "per_seed": {
+        "85": 0.29720773151296953,
+        "218": 0.2861251908168543,
+        "966": 0.2827859781248102
+      },
+      "mean": 0.2887063001515447,
+      "sample_std": 0.007549393137560172,
+      "n": 3
+    },
+    "RoundRobin": {
+      "per_seed": {
+        "85": -0.04848931681788285,
+        "218": -0.05957185751399806,
+        "966": -0.06291107020604214
+      },
+      "mean": -0.05699074817930768,
+      "sample_std": 0.007549393137560154,
+      "n": 3
+    }
+  },
+  "difference_direction": "IC_HAPPO minus comparator; positive favors IC_HAPPO",
+  "note": "Each mean/SD uses three training-seed means. Evaluation episodes are paired, not additional training seeds. Rules are evaluated once. No significance or convergence claim is inferred."
+}

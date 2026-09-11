@@ -1,0 +1,10 @@
+{
+  "state": "PASS",
+  "episodes": 2340,
+  "slots": 1404000,
+  "independent_reward_and_physics": true,
+  "paired_exogenous_tapes": true,
+  "original_inputs_unchanged": true,
+  "controller_swaps_only": true,
+  "no_optimizer_steps": true
+}

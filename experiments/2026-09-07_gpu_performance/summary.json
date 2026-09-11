@@ -1,0 +1,128 @@
+{
+  "cpu": {
+    "runs": 3,
+    "steady_steps": 36000,
+    "pooled_steady_fps": 400.4150294195169,
+    "seed_fps": [
+      401.11098300376545,
+      406.4186621188038,
+      393.91267166345807
+    ],
+    "median_fps": 401.11098300376545,
+    "min_fps": 393.91267166345807,
+    "max_fps": 406.4186621188038,
+    "mean_stage_seconds_per_update": {
+      "collect": 1.5648703367656305,
+      "insert": 0.058150838439663254,
+      "train": 6.067059539724141,
+      "logging_per_step": 0.07921732227421469,
+      "logging_update": 0.004793613372991483,
+      "compute": 0.030627581601341564,
+      "environment_and_ipc": 2.099762250255379,
+      "save": 0.0022214213386178017
+    },
+    "normalizer_checkpoint_complete": true,
+    "finite_parameters_and_metrics": true
+  },
+  "gpu": {
+    "runs": 3,
+    "steady_steps": 36000,
+    "pooled_steady_fps": 211.892369599302,
+    "seed_fps": [
+      211.46929940130397,
+      215.15725865509347,
+      209.13723558949195
+    ],
+    "median_fps": 211.46929940130397,
+    "min_fps": 209.13723558949195,
+    "max_fps": 215.15725865509347,
+    "mean_stage_seconds_per_update": {
+      "collect": 2.8534865705813797,
+      "insert": 0.05171621068277293,
+      "train": 13.65996986001523,
+      "logging_per_step": 0.06756792760764559,
+      "logging_update": 0.005747831530041165,
+      "compute": 0.07382825487810704,
+      "environment_and_ipc": 2.0881195516429014,
+      "save": 0.0018274226329392856
+    },
+    "normalizer_checkpoint_complete": false,
+    "finite_parameters_and_metrics": true
+  },
+  "cpu_vector": {
+    "runs": 3,
+    "steady_steps": 36000,
+    "pooled_steady_fps": 897.7629855587544,
+    "seed_fps": [
+      907.8987573174873,
+      899.3301382370574,
+      886.3235909617713
+    ],
+    "median_fps": 899.3301382370574,
+    "min_fps": 886.3235909617713,
+    "max_fps": 907.8987573174873,
+    "mean_stage_seconds_per_update": {
+      "collect": 1.344337861933228,
+      "insert": 0.05767100231928958,
+      "train": 0.8967810884738961,
+      "logging_per_step": 0.08122525912606054,
+      "logging_update": 0.0044189874703685445,
+      "compute": 0.028925237556298573,
+      "environment_and_ipc": 1.9579362278390262,
+      "save": 0.0015245541516277525
+    },
+    "normalizer_checkpoint_complete": true,
+    "finite_parameters_and_metrics": true
+  },
+  "gpu_vector": {
+    "runs": 3,
+    "steady_steps": 36000,
+    "pooled_steady_fps": 825.1012964955895,
+    "seed_fps": [
+      832.5519291849976,
+      807.2725854281555,
+      836.084070280464
+    ],
+    "median_fps": 832.5519291849976,
+    "min_fps": 807.2725854281555,
+    "max_fps": 836.084070280464,
+    "mean_stage_seconds_per_update": {
+      "collect": 2.341282461459438,
+      "insert": 0.04789153393357992,
+      "train": 0.25827983596051735,
+      "logging_per_step": 0.06977554524524344,
+      "logging_update": 0.0049827915823294055,
+      "compute": 0.07856360357254744,
+      "environment_and_ipc": 1.9675991140926878,
+      "save": 0.0018530936083859867
+    },
+    "normalizer_checkpoint_complete": true,
+    "finite_parameters_and_metrics": true
+  },
+  "hybrid_vector": {
+    "runs": 3,
+    "steady_steps": 36000,
+    "pooled_steady_fps": 1032.0768546719066,
+    "seed_fps": [
+      1027.4972861374151,
+      1032.5993689929062,
+      1036.1707594774728
+    ],
+    "median_fps": 1032.5993689929062,
+    "min_fps": 1027.4972861374151,
+    "max_fps": 1036.1707594774728,
+    "mean_stage_seconds_per_update": {
+      "collect": 1.3491639396072261,
+      "insert": 0.05375872536872824,
+      "hybrid_sync_within_train": 0.0021506848538087476,
+      "logging_per_step": 0.08188153223858939,
+      "train": 0.25474793712298077,
+      "logging_update": 0.005011212339417802,
+      "compute": 0.026351504700465336,
+      "environment_and_ipc": 2.0170138050905533,
+      "save": 0.001726744437797202
+    },
+    "normalizer_checkpoint_complete": true,
+    "finite_parameters_and_metrics": true
+  }
+}

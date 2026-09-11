@@ -1,0 +1,8 @@
+{
+  "cpu_only_without_torch_steps": 40000,
+  "cpu_only_with_torch_gdb_steps": 40000,
+  "alternate_build_steps": 8000,
+  "output_hashes_equal": true,
+  "cuda_initialized_in_any": false,
+  "limitation": "No exact failed action/state trace was captured; independent bounded replay cannot exclude intermittent faults."
+}

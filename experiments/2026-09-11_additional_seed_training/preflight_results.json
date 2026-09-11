@@ -1,0 +1,15 @@
+{
+  "state": "PASS",
+  "source_validation": {
+    "state": "PASS",
+    "unchanged_training_source_files": 193,
+    "only_training_seed_and_paths_changed": true,
+    "continuation_hyperparameters_unchanged": true,
+    "new_seed": 268966
+  },
+  "new_seed_base_smoke_steps": 8000,
+  "actual_updates": 2,
+  "all_exported_models_finite_and_hash_verified": true,
+  "continuation_transfer_validation": "Automatically required after the full new base finishes, before any formal continuation job starts.",
+  "smoke_result_not_used_for_seed_or_method_selection": true
+}

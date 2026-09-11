@@ -1,0 +1,10 @@
+{
+  "pid": 1405636,
+  "uid": 1000,
+  "state": "R",
+  "start_ticks": 416550979,
+  "command": "/home/king/miniconda3/envs/harl_sionna/bin/python -u /home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_alternating_training/execution_override.py run ",
+  "utc": "2026-09-11T07:45:41.895393+00:00",
+  "manifest_sha256": "40e0e93cac9d140f01d8f73f2632d6226b1a3823327d79b65472324bb1e431bd",
+  "execution_amendment_sha256": "f165af0464eae81d1c6e625a3f6725075ec9bb9a60a4547664f7865f9ea05d24"
+}

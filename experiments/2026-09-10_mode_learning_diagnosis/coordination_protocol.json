@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-09-10T09:25:35.547296+00:00",
+  "training_seeds": [
+    85,
+    218,
+    966
+  ],
+  "evaluation_seeds": [
+    20262501,
+    20262502,
+    20262503,
+    20262504,
+    20262505,
+    20262506,
+    20262507,
+    20262508,
+    20262509,
+    20262510,
+    20262511,
+    20262512,
+    20262513,
+    20262514,
+    20262515,
+    20262516,
+    20262517,
+    20262518,
+    20262519,
+    20262520
+  ],
+  "instruction": 2,
+  "patterns": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5
+    ],
+    [
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      5,
+      5
+    ],
+    [
+      5,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      5
+    ],
+    [
+      5,
+      5,
+      0
+    ],
+    [
+      5,
+      5,
+      5
+    ]
+  ],
+  "resources": "frozen original deterministic SUT policy recomputed on each trajectory",
+  "slots": 288000,
+  "training": false,
+  "role": "posthoc exploratory diagnosis; reward unchanged",
+  "script_sha256": "f7772772a7d9fb6c4b536c38b142cee7db0d8d02fff867be6970c2320739c55c"
+}

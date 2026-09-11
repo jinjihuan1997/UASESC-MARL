@@ -1,0 +1,82 @@
+{
+  "seed": {
+    "seed_specify": true,
+    "seed": 1
+  },
+  "device": {
+    "cuda": false,
+    "cuda_deterministic": false,
+    "torch_threads": 1
+  },
+  "train": {
+    "n_rollout_threads": 10,
+    "num_env_steps": 10000000,
+    "episode_length": 400,
+    "log_interval": 5,
+    "eval_interval": 125,
+    "use_valuenorm": true,
+    "use_linear_lr_decay": true,
+    "use_proper_time_limits": true,
+    "model_dir": null
+  },
+  "eval": {
+    "use_eval": false,
+    "n_eval_rollout_threads": 1,
+    "eval_episodes": 3
+  },
+  "render": {
+    "use_render": false,
+    "render_episodes": 10
+  },
+  "model": {
+    "hidden_sizes": [
+      256,
+      256
+    ],
+    "activation_func": "relu",
+    "use_feature_normalization": true,
+    "initialization_method": "orthogonal_",
+    "gain": 0.01,
+    "use_naive_recurrent_policy": false,
+    "use_recurrent_policy": false,
+    "recurrent_n": 1,
+    "data_chunk_length": 1,
+    "lr": 0.0001,
+    "critic_lr": 0.0004,
+    "opti_eps": 1e-05,
+    "weight_decay": 0,
+    "std_x_coef": 1,
+    "std_y_coef": 0.3
+  },
+  "algo": {
+    "ppo_epoch": 5,
+    "critic_epoch": 5,
+    "use_clipped_value_loss": true,
+    "clip_param": 0.1,
+    "actor_num_mini_batch": 2,
+    "critic_num_mini_batch": 2,
+    "entropy_coef": 0.008,
+    "value_loss_coef": 1,
+    "use_max_grad_norm": true,
+    "max_grad_norm": 1.0,
+    "use_gae": true,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "use_huber_loss": true,
+    "use_policy_active_masks": true,
+    "use_instruction_adv_norm": false,
+    "instruction_adv_norm_min_count": 8,
+    "instruction_conditioned_critic": false,
+    "instruction_critic_type": "single",
+    "n_instruction_modes": 3,
+    "instruction_feature_dim": 7,
+    "instruction_feature_position": "tail",
+    "huber_delta": 1.0,
+    "action_aggregation": "prod",
+    "share_param": false,
+    "fixed_order": false
+  },
+  "logger": {
+    "log_dir": "./results"
+  }
+}

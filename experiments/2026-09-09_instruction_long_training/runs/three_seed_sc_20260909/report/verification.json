@@ -1,0 +1,18 @@
+{
+  "state": "complete",
+  "utc": "2026-09-09T20:18:04.445976+00:00",
+  "purpose": "instruction_priority_formal_three_seed_sc",
+  "training_jobs": 21,
+  "training_steps": 210000000,
+  "evaluation_items": 25,
+  "evaluation_slots": 3900000,
+  "paired_external_trajectories": 260,
+  "all_executed_constraints_passed": true,
+  "files": {
+    "comparison.md": "b1822fc16f6ef242b1f11bfee66ce893cda2e4e2c27f0bd7e19f6383712f25dd",
+    "comparison.json": "8ed237620bccd63c370d4002e986a17f0026178f1b098c261c6b8e31a4bc81c3",
+    "comparison.csv": "472360c496037b06fcf99d488b5c57e71b3c751c59de2ac71fcbf90b2f6ac089",
+    "per_seed_results.json": "0c692caba698f3b290b8319213764aff7ca863199da2b7c085a06e74e199aa30",
+    "switch_response.json": "d319b461c6380c40b2ee7bed2662e72ad6140f65e9a4f31bf9882d84c958031d"
+  }
+}

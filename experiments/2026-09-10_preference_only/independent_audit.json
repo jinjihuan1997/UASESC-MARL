@@ -1,0 +1,24 @@
+{
+  "state": "PASS",
+  "episodes": 1300,
+  "slots": 780000,
+  "all_saved_statistics_reaggregated": true,
+  "hidden_physical_trajectories_identical_across_all_instructions": true,
+  "hidden_identical_scenarios": [
+    "fixed_0",
+    "fixed_1",
+    "fixed_2",
+    "switch300_0_to_1",
+    "switch300_0_to_2",
+    "switch300_1_to_0",
+    "switch300_1_to_2",
+    "switch300_2_to_0",
+    "switch300_2_to_1",
+    "early50_0_to_1",
+    "late550_0_to_2",
+    "multi_0_1_2",
+    "multi_2_1_0"
+  ],
+  "source_and_model_hashes_verified": true,
+  "source_sha256": "97334854a8840be910f056c43193c456b7eec8dd4a2d195c0f5f8c141bfa7a41"
+}

@@ -1,0 +1,12 @@
+{
+  "state": "PASS",
+  "episodes": 7020,
+  "slots": 4212000,
+  "training_steps": 60000000,
+  "paired_exogenous_sequences": true,
+  "matched_initial_networks": true,
+  "stage_actor_updates_verified": true,
+  "learning_rate_schedule_verified": true,
+  "independent_reward_and_physics": true,
+  "old_artifacts_checked": true
+}

@@ -1,0 +1,28 @@
+{
+  "verified_utc": "2026-09-08T04:07:14.636048+00:00",
+  "unit_tests_passed": 12,
+  "python_source_files_identical_to_tested_snapshot": 75,
+  "training_methods_passed": 7,
+  "training_steps_per_method": 8000,
+  "total_training_steps": 56000,
+  "trained_actors": 24,
+  "all_trainable_actor_and_critic_weights_updated": true,
+  "evaluation_episodes": 143,
+  "evaluation_slots": 85800,
+  "paired_external_trajectories": 13,
+  "physical_constraints_passed": true,
+  "independent_common_reward_check_passed": true,
+  "checkpoint_and_all_trace_hash_verification_passed": true,
+  "completed_queue_resume_skips_jobs": true,
+  "old_frozen_inputs_checked": 101,
+  "old_frozen_inputs_changed": [],
+  "formal_long_training_started": false,
+  "scope": "Smoke verification only; does not demonstrate algorithm superiority, convergence, or optimal reward weights.",
+  "details": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/smoke_validation/verification.json",
+  "comparison": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/smoke_validation/evaluation/attempt_01/comparison.md",
+  "commands": {
+    "tests": "/home/king/miniconda3/envs/harl_sionna/bin/python -m unittest discover -s experiments/2026-09-08_single_seed_comparison/tests -v",
+    "smoke": "/home/king/miniconda3/envs/harl_sionna/bin/python experiments/2026-09-08_single_seed_comparison/run.py run --smoke --output experiments/2026-09-08_single_seed_comparison/runs/smoke_validation",
+    "verify": "/home/king/miniconda3/envs/harl_sionna/bin/python experiments/2026-09-08_single_seed_comparison/run.py verify --output experiments/2026-09-08_single_seed_comparison/runs/smoke_validation"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "scalar_alternate_cpu15_trial2",
+    "cpu": 15,
+    "build": "alternate",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 43.273350118193775,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_alternate_cpu15_trial2_gdb.log"
+  },
+  {
+    "name": "scalar_alternate_cpu18_trial2",
+    "cpu": 18,
+    "build": "alternate",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 43.173682771623135,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_alternate_cpu18_trial2_gdb.log"
+  },
+  {
+    "name": "scalar_original_cpu15_trial3",
+    "cpu": 15,
+    "build": "original",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 43.755914809182286,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_original_cpu15_trial3_gdb.log"
+  },
+  {
+    "name": "scalar_original_cpu18_trial3",
+    "cpu": 18,
+    "build": "original",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 43.71618334297091,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_original_cpu18_trial3_gdb.log"
+  }
+]

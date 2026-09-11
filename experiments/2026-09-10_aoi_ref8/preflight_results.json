@@ -1,0 +1,9 @@
+{
+  "state": "PASS",
+  "exact_resume_full_state": true,
+  "optimizer_steps_executed": 32000,
+  "evaluator_episodes": 6,
+  "evaluator_idempotence": true,
+  "both_scores_independently_verified": true,
+  "preflight_models_excluded_from_formal_results": true
+}

@@ -88,6 +88,8 @@ def main(args):
         for batch_idx, (_, model_input, gt, ref_input, vid_num, clip_num) in enumerate(
             tqdm(val_dataloader, disable=False)
         ):
+            if args.max_batches > 0 and batch_idx >= args.max_batches:
+                break
             model_input = model_input.cuda()
             gt = gt.cuda()
             ref_input = ref_input.cuda()
@@ -96,6 +98,7 @@ def main(args):
                 [model_input, ref_input],
                 train=False,
                 forced_rate_level=args.eval_forced_rate_level,
+                forced_ratio_level=args.eval_forced_ratio_level,
             )
 
             val_loss = loss_fn(restored, gt)
@@ -130,6 +133,7 @@ def main(args):
         'mu_comm': args.mu_comm,
         'comm_snr_db': args.comm_snr_db,
         'eval_forced_rate_level': args.eval_forced_rate_level,
+        'eval_forced_ratio_level': args.eval_forced_ratio_level,
         'num_val_batches': len(val_psnrs),
         'loss': float(np.mean(val_losses)),
         'psnr': float(np.mean(val_psnrs)),
@@ -150,6 +154,7 @@ def main(args):
         'mu_comm': args.mu_comm,
         'comm_snr_db': args.comm_snr_db,
         'eval_forced_rate_level': args.eval_forced_rate_level,
+        'eval_forced_ratio_level': args.eval_forced_ratio_level,
         'loss': summary['loss'],
         'psnr': summary['psnr'],
         'ssim': summary['ssim'],
@@ -173,6 +178,8 @@ if __name__ == '__main__':
     parser.add_argument('--output_json', type=str, default='')
     parser.add_argument('--output_csv', type=str, default='')
     parser.add_argument('--max_logged_batches', type=int, default=10)
+    parser.add_argument('--max_batches', type=int, default=0,
+                        help='If >0, evaluate only this many validation batches for quick checks.')
     parser.add_argument('--seed', type=int, default=2023)
     parser.add_argument('--test', action='store_true')
     parser.add_argument('-b', '--block_size', default='8,256,256')
@@ -203,6 +210,7 @@ if __name__ == '__main__':
     parser.add_argument('--comm_snr_db', type=float, default=10.0)
     parser.add_argument('--comm_forced_rate_level', type=int, default=None)
     parser.add_argument('--eval_forced_rate_level', type=int, default=None)
+    parser.add_argument('--eval_forced_ratio_level', type=int, default=None)
     args = parser.parse_args()
     args.block_size = [int(item) for item in args.block_size.split(',')]
     main(args)

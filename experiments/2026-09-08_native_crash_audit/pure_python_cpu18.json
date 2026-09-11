@@ -1,0 +1,9 @@
+{
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "cpu": 18,
+  "iterations": 20000000,
+  "checksum": 150000000,
+  "elapsed_seconds": 7.178212113212794,
+  "numpy_imported": false,
+  "torch_imported": false
+}

@@ -1,0 +1,44 @@
+{
+  "ref10": {
+    "single": "m5_equal",
+    "by_instruction": [
+      "m5_equal",
+      "m0_urgency",
+      "m5_equal"
+    ],
+    "seeds": [
+      20262401,
+      20262402,
+      20262403,
+      20262404,
+      20262405,
+      20262406,
+      20262407,
+      20262408,
+      20262409,
+      20262410
+    ],
+    "selection": "independent_calibration_only"
+  },
+  "ref8": {
+    "single": "m0_urgency",
+    "by_instruction": [
+      "m5_equal",
+      "m0_urgency",
+      "m5_equal"
+    ],
+    "seeds": [
+      20262401,
+      20262402,
+      20262403,
+      20262404,
+      20262405,
+      20262406,
+      20262407,
+      20262408,
+      20262409,
+      20262410
+    ],
+    "selection": "independent_calibration_only"
+  }
+}

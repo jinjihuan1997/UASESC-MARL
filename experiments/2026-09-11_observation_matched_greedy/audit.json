@@ -1,0 +1,19 @@
+{
+  "state": "PASS",
+  "new_evaluation_episodes": 1040,
+  "new_evaluation_slots": 624000,
+  "new_calibration_episodes": 260,
+  "new_calibration_physical_steps": 156000,
+  "new_calibration_candidate_labels": 468000,
+  "no_rl_retraining": true,
+  "per_actor_information_interface_verified": true,
+  "paired_exogenous_sequences": true,
+  "independent_reward_and_physics_verified": true,
+  "all_preregistered_variants_reported": true,
+  "expanded_modes_reachable_unit_case": true,
+  "three_vs_sixteen": {
+    "fitted_sut": "all 13 scenario traces, modes, resource allocations and AoI exactly equal",
+    "calibrated_sut": "all 13 scenario traces, modes, resource allocations and AoI exactly equal"
+  },
+  "source_files_verified": 64
+}

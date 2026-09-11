@@ -1,0 +1,44 @@
+{
+  "original_tail10": {
+    "single": "m5_equal",
+    "by_instruction": [
+      "m5_equal",
+      "m0_urgency",
+      "m5_equal"
+    ],
+    "selection": "new_calibration_only",
+    "seeds": [
+      20262001,
+      20262002,
+      20262003,
+      20262004,
+      20262005,
+      20262006,
+      20262007,
+      20262008,
+      20262009,
+      20262010
+    ]
+  },
+  "candidate_tail4": {
+    "single": "m5_equal",
+    "by_instruction": [
+      "m5_equal",
+      "m0_urgency",
+      "m5_equal"
+    ],
+    "selection": "new_calibration_only",
+    "seeds": [
+      20262001,
+      20262002,
+      20262003,
+      20262004,
+      20262005,
+      20262006,
+      20262007,
+      20262008,
+      20262009,
+      20262010
+    ]
+  }
+}

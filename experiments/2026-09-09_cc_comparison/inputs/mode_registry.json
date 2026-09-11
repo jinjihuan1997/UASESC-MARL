@@ -1,0 +1,130 @@
+{
+  "recommended_default": "h264_ldpc_rgb8_20modes_v1",
+  "sets": {
+    "h264_ldpc_rgb8_20modes_v1": {
+      "description": "Measured H264 QP x LDPC rate; IDs are actions, not semantic checkpoints",
+      "modes": [
+        {
+          "id": "0",
+          "family": "h264_ldpc",
+          "h264_qp": 42,
+          "ldpc_code_rate": "1/2"
+        },
+        {
+          "id": "1",
+          "family": "h264_ldpc",
+          "h264_qp": 42,
+          "ldpc_code_rate": "2/3"
+        },
+        {
+          "id": "2",
+          "family": "h264_ldpc",
+          "h264_qp": 42,
+          "ldpc_code_rate": "3/4"
+        },
+        {
+          "id": "3",
+          "family": "h264_ldpc",
+          "h264_qp": 42,
+          "ldpc_code_rate": "5/6"
+        },
+        {
+          "id": "4",
+          "family": "h264_ldpc",
+          "h264_qp": 38,
+          "ldpc_code_rate": "1/2"
+        },
+        {
+          "id": "5",
+          "family": "h264_ldpc",
+          "h264_qp": 38,
+          "ldpc_code_rate": "2/3"
+        },
+        {
+          "id": "6",
+          "family": "h264_ldpc",
+          "h264_qp": 38,
+          "ldpc_code_rate": "3/4"
+        },
+        {
+          "id": "7",
+          "family": "h264_ldpc",
+          "h264_qp": 38,
+          "ldpc_code_rate": "5/6"
+        },
+        {
+          "id": "8",
+          "family": "h264_ldpc",
+          "h264_qp": 34,
+          "ldpc_code_rate": "1/2"
+        },
+        {
+          "id": "9",
+          "family": "h264_ldpc",
+          "h264_qp": 34,
+          "ldpc_code_rate": "2/3"
+        },
+        {
+          "id": "10",
+          "family": "h264_ldpc",
+          "h264_qp": 34,
+          "ldpc_code_rate": "3/4"
+        },
+        {
+          "id": "11",
+          "family": "h264_ldpc",
+          "h264_qp": 34,
+          "ldpc_code_rate": "5/6"
+        },
+        {
+          "id": "12",
+          "family": "h264_ldpc",
+          "h264_qp": 30,
+          "ldpc_code_rate": "1/2"
+        },
+        {
+          "id": "13",
+          "family": "h264_ldpc",
+          "h264_qp": 30,
+          "ldpc_code_rate": "2/3"
+        },
+        {
+          "id": "14",
+          "family": "h264_ldpc",
+          "h264_qp": 30,
+          "ldpc_code_rate": "3/4"
+        },
+        {
+          "id": "15",
+          "family": "h264_ldpc",
+          "h264_qp": 30,
+          "ldpc_code_rate": "5/6"
+        },
+        {
+          "id": "16",
+          "family": "h264_ldpc",
+          "h264_qp": 26,
+          "ldpc_code_rate": "1/2"
+        },
+        {
+          "id": "17",
+          "family": "h264_ldpc",
+          "h264_qp": 26,
+          "ldpc_code_rate": "2/3"
+        },
+        {
+          "id": "18",
+          "family": "h264_ldpc",
+          "h264_qp": 26,
+          "ldpc_code_rate": "3/4"
+        },
+        {
+          "id": "19",
+          "family": "h264_ldpc",
+          "h264_qp": 26,
+          "ldpc_code_rate": "5/6"
+        }
+      ]
+    }
+  }
+}

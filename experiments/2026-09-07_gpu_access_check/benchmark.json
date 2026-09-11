@@ -1,0 +1,20 @@
+{
+  "cpu": {
+    "steps": 8000,
+    "elapsed_seconds": 18.46725385589525,
+    "steps_per_second_including_setup": 433.1992218456553,
+    "all_actors_updated": true,
+    "finite_parameters": true,
+    "checkpoint_files": 6
+  },
+  "gpu": {
+    "steps": 8000,
+    "elapsed_seconds": 36.80833637388423,
+    "steps_per_second_including_setup": 217.34206943609806,
+    "all_actors_updated": true,
+    "finite_parameters": true,
+    "checkpoint_files": 6
+  },
+  "gpu_to_cpu_elapsed_ratio": 1.9931678343249724,
+  "scope": "One sequential 8,000-step run per device, seed 1, same existing code and 10 rollout workers. The original CPU training continued in the background throughout; these are access and short throughput checks, not controlled long-run performance or convergence comparisons."
+}

@@ -1,0 +1,19 @@
+{
+  "analysis_date": "2026-09-08",
+  "timing": "Specified after data collection and before inspecting aggregate outcomes; this is a pilot analysis, not a preregistered confirmatory study.",
+  "primary_contrast": "B minus A in mean per-slot reward, equal weight across the five frozen scenarios and twenty paired evaluation seeds, then across three paired training seeds.",
+  "secondary_contrasts": ["A minus G", "B minus G", "A minus R", "B minus R", "G minus R"],
+  "metrics": ["reward", "mean AoI", "mean per-slot p95 AoI", "AoI exceedance fraction", "deliveries per slot", "predicted PSNR per delivered clip", "complex channel uses per slot"],
+  "switch_windows": {"before": [0, 300], "after": [300, 600], "first_30_after": [300, 330], "late_after": [400, 600]},
+  "uncertainty": {
+    "training_seed_unit": "Three paired training seeds; report all three effects and a paired t interval with df=2, conditional on the fixed evaluation set.",
+    "bootstrap": "Resample training-seed indices and evaluation-seed indices as crossed clusters, preserving all five scenarios and all compared methods together. For rule vs rule, resample evaluation seeds only.",
+    "repetitions": 20000,
+    "rng_seed": 20260908,
+    "confidence": 0.95,
+    "limits": "Only three independent training runs per learned condition. Bootstrap and t intervals are exploratory, scenario and secondary metric intervals are unadjusted for multiple comparisons. A confidence interval covering zero does not establish equivalence."
+  },
+  "integrity_checks": ["800 unique episodes; 600 consecutive slots each", "Reconcile episode summaries against every raw trajectory", "Match exogenous channel hashes within scenario and evaluation seed", "Check configs, frozen sources, profile and final model hashes", "Check same-seed initialization and A/B configuration differences", "Verify recorded instruction switch index", "No non-finite numeric trajectory entries"],
+  "diagnostics": ["Per-seed training reward curves and last-20-percent trend", "Proposed versus executed semantic modes", "Mode distributions, resource share imbalance, and scheduling-weight variation", "Check the exact meaning of reported quality and reward"],
+  "scope": "Read existing frozen training and evaluation records. Preserve raw files, models and training code. Do not run more training or replace manuscript numerical results as part of this analysis."
+}

@@ -1,0 +1,3955 @@
+{
+  "results": {
+    "seed_85/HAPPO_fixed_mode_rule": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4515333333333333,
+          "after_mean": 2.50755,
+          "mean_change": -0.9439833333333334,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.808657545562568,
+          "after_mean": 24.8682961480906,
+          "mean_change": -4.9403613974719685,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.017460496605635346,
+          "after_mean": -0.10433610897404434,
+          "mean_change": -0.12179660557967968,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.264,
+          "after_mean": 14.983166666666667,
+          "mean_change": 3.7191666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4515333333333333,
+          "after_mean": 5.373077777777778,
+          "mean_change": 1.9215444444444445,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.808657545562568,
+          "after_mean": 31.640610335659137,
+          "mean_change": 1.8319527900965684,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.017460496605635346,
+          "after_mean": 0.05539439502883945,
+          "mean_change": 0.037933898423204104,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.264,
+          "after_mean": 7.405666666666667,
+          "mean_change": -3.8583333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.498972222222222,
+          "after_mean": 3.4672444444444444,
+          "mean_change": 0.968272222222222,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86913776515068,
+          "after_mean": 29.807566653877128,
+          "mean_change": 4.938428888726448,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10346590061723969,
+          "after_mean": 0.016704514071343893,
+          "mean_change": 0.12017041468858358,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.985166666666666,
+          "after_mean": 11.242666666666667,
+          "mean_change": -3.7425,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.498972222222222,
+          "after_mean": 5.417872222222222,
+          "mean_change": 2.9189,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86913776515068,
+          "after_mean": 31.64064431528303,
+          "mean_change": 6.771506550132352,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10346590061723969,
+          "after_mean": 0.05517392315380392,
+          "mean_change": 0.1586398237710436,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.985166666666666,
+          "after_mean": 7.4075,
+          "mean_change": -7.5776666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.3959166666666665,
+          "after_mean": 3.478311111111111,
+          "mean_change": -1.9176055555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.640664710957324,
+          "after_mean": 29.80735713093648,
+          "mean_change": -1.8333075800208423,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.055711739662487686,
+          "after_mean": 0.015297796055530296,
+          "mean_change": -0.04041394360695739,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.414,
+          "after_mean": 11.243833333333333,
+          "mean_change": 3.8298333333333336,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.3959166666666665,
+          "after_mean": 2.514733333333333,
+          "mean_change": -2.8811833333333334,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.640664710957324,
+          "after_mean": 24.86862324769595,
+          "mean_change": -6.772041463261375,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.055711739662487686,
+          "after_mean": -0.1072756249890556,
+          "mean_change": -0.1629873646515433,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.414,
+          "after_mean": 14.983333333333334,
+          "mean_change": 7.569333333333334,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_85/HAPPO_equal_resources": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 2.5124055555555556,
+          "mean_change": -0.895561111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 25.03494114314806,
+          "mean_change": -4.808895035855502,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": -0.10479510836518603,
+          "mean_change": -0.12310580241016675,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 14.961166666666667,
+          "mean_change": 3.567,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 5.5750222222222225,
+          "mean_change": 2.1670555555555557,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 31.548372440245863,
+          "mean_change": 1.704536261242301,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": 0.044858719543467755,
+          "mean_change": 0.02654802549848704,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 7.2055,
+          "mean_change": -4.188666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.5057666666666667,
+          "after_mean": 3.4163055555555557,
+          "mean_change": 0.9105388888888888,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.183481551428432,
+          "after_mean": 29.84287999354679,
+          "mean_change": 4.659398442118357,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10338886002125296,
+          "after_mean": 0.01785814794379506,
+          "mean_change": 0.12124700796504802,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.957666666666666,
+          "after_mean": 11.389833333333334,
+          "mean_change": -3.567833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.5057666666666667,
+          "after_mean": 5.60715,
+          "mean_change": 3.101383333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.183481551428432,
+          "after_mean": 31.547713119991585,
+          "mean_change": 6.364231568563152,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10338886002125296,
+          "after_mean": 0.04470964176568998,
+          "mean_change": 0.14809850178694295,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.957666666666666,
+          "after_mean": 7.2055,
+          "mean_change": -7.752166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 3.431477777777778,
+          "mean_change": -2.179555555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.548374447063043,
+          "after_mean": 29.842889823606352,
+          "mean_change": -1.7054846234566923,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04466062904179821,
+          "after_mean": 0.015915747283366817,
+          "mean_change": -0.02874488175843139,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 11.390166666666666,
+          "mean_change": 4.191833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 2.520811111111111,
+          "mean_change": -3.090222222222222,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.548374447063043,
+          "after_mean": 25.053348599191484,
+          "mean_change": -6.49502584787156,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04466062904179821,
+          "after_mean": -0.10818594422399014,
+          "mean_change": -0.15284657326578835,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 14.9625,
+          "mean_change": 7.764166666666667,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_85/IC_HAPPO": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.5286444444444447,
+          "after_mean": 2.5056833333333333,
+          "mean_change": -1.0229611111111112,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.799944758228193,
+          "after_mean": 24.865665198548008,
+          "mean_change": -4.934279559680185,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.0133249303238937,
+          "after_mean": -0.1039735271013226,
+          "mean_change": -0.1172984574252163,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.063666666666666,
+          "after_mean": 14.9915,
+          "mean_change": 3.927833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.5286444444444447,
+          "after_mean": 5.305088888888889,
+          "mean_change": 1.7764444444444445,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.799944758228193,
+          "after_mean": 31.392736547619254,
+          "mean_change": 1.59279178939106,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.0133249303238937,
+          "after_mean": 0.054896583278309076,
+          "mean_change": 0.04157165295441538,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.063666666666666,
+          "after_mean": 7.491,
+          "mean_change": -3.572666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4971722222222223,
+          "after_mean": 3.5300777777777776,
+          "mean_change": 1.0329055555555555,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.867138013386416,
+          "after_mean": 29.79443885383434,
+          "mean_change": 4.927300840447924,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10290363243181075,
+          "after_mean": 0.013256419350268764,
+          "mean_change": 0.11616005178207951,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.992666666666667,
+          "after_mean": 11.068666666666667,
+          "mean_change": -3.924,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4971722222222223,
+          "after_mean": 5.357611111111111,
+          "mean_change": 2.860438888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.867138013386416,
+          "after_mean": 31.391528442656586,
+          "mean_change": 6.524390429270171,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10290363243181075,
+          "after_mean": 0.054626032835264744,
+          "mean_change": 0.15752966526707549,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.992666666666667,
+          "after_mean": 7.493666666666667,
+          "mean_change": -7.499,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.3248,
+          "after_mean": 3.538883333333333,
+          "mean_change": -1.7859166666666668,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.392117287886684,
+          "after_mean": 29.794521227532034,
+          "mean_change": -1.5975960603546497,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.055208260315757214,
+          "after_mean": 0.011818830133200378,
+          "mean_change": -0.04338943018255684,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.505333333333334,
+          "after_mean": 11.066166666666668,
+          "mean_change": 3.5608333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.3248,
+          "after_mean": 2.51265,
+          "mean_change": -2.81215,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.392117287886684,
+          "after_mean": 24.866180257409024,
+          "mean_change": -6.525937030477659,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.055208260315757214,
+          "after_mean": -0.10680793495050915,
+          "mean_change": -0.16201619526626634,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.505333333333334,
+          "after_mean": 14.991833333333334,
+          "mean_change": 7.4865,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_85/HAPPO_hidden_instruction": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.5128666666666666,
+          "after_mean": 2.5049111111111113,
+          "mean_change": -1.0079555555555555,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.800190115373184,
+          "after_mean": 24.864773554818342,
+          "mean_change": -4.935416560554843,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.014094439065272937,
+          "after_mean": -0.10347645521471323,
+          "mean_change": -0.11757089427998617,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.099666666666666,
+          "after_mean": 14.994833333333334,
+          "mean_change": 3.895166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.5128666666666666,
+          "after_mean": 5.3247888888888895,
+          "mean_change": 1.8119222222222224,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.800190115373184,
+          "after_mean": 31.375082379350804,
+          "mean_change": 1.5748922639776202,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.014094439065272937,
+          "after_mean": 0.05341285272098062,
+          "mean_change": 0.039318413655707686,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.099666666666666,
+          "after_mean": 7.4725,
+          "mean_change": -3.6271666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.496338888888889,
+          "after_mean": 3.5223722222222222,
+          "mean_change": 1.0260333333333334,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865677059873672,
+          "after_mean": 29.79925473436319,
+          "mean_change": 4.933577674489516,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10258473963659318,
+          "after_mean": 0.013680011802848592,
+          "mean_change": 0.11626475143944176,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.996166666666667,
+          "after_mean": 11.091333333333333,
+          "mean_change": -3.9048333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.496338888888889,
+          "after_mean": 5.371838888888889,
+          "mean_change": 2.8755,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865677059873672,
+          "after_mean": 31.374610332408434,
+          "mean_change": 6.508933272534761,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10258473963659318,
+          "after_mean": 0.05309364946657957,
+          "mean_change": 0.15567838910317275,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.996166666666667,
+          "after_mean": 7.473,
+          "mean_change": -7.523166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.347138888888889,
+          "after_mean": 3.530188888888889,
+          "mean_change": -1.81695,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.376185512108705,
+          "after_mean": 29.79922374879647,
+          "mean_change": -1.5769617633122337,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05330895513231498,
+          "after_mean": 0.012273563381651064,
+          "mean_change": -0.04103539175066391,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.4695,
+          "after_mean": 11.091333333333333,
+          "mean_change": 3.6218333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.347138888888889,
+          "after_mean": 2.5118444444444443,
+          "mean_change": -2.8352944444444446,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.376185512108705,
+          "after_mean": 24.86428626709805,
+          "mean_change": -6.511899245010655,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05330895513231498,
+          "after_mean": -0.1064230903886186,
+          "mean_change": -0.15973204552093356,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.4695,
+          "after_mean": 14.995333333333333,
+          "mean_change": 7.525833333333333,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_85/IC_MAPPO": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4838555555555555,
+          "after_mean": 2.5052222222222222,
+          "mean_change": -0.9786333333333332,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.795446185180616,
+          "after_mean": 24.865437470759648,
+          "mean_change": -4.930008714420966,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.016861743375642266,
+          "after_mean": -0.10366391595675983,
+          "mean_change": -0.1205256593324021,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.173333333333334,
+          "after_mean": 14.9925,
+          "mean_change": 3.8191666666666664,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4838555555555555,
+          "after_mean": 5.333505555555556,
+          "mean_change": 1.84965,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.795446185180616,
+          "after_mean": 31.658112310219156,
+          "mean_change": 1.8626661250385435,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.016861743375642266,
+          "after_mean": 0.05574482683385077,
+          "mean_change": 0.038883083458208505,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.173333333333334,
+          "after_mean": 7.4655,
+          "mean_change": -3.7078333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.496761111111111,
+          "after_mean": 3.5063055555555556,
+          "mean_change": 1.0095444444444444,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.866911455110912,
+          "after_mean": 29.79187926343824,
+          "mean_change": 4.924967808327327,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1027585038202384,
+          "after_mean": 0.015807320938101495,
+          "mean_change": 0.1185658247583399,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994166666666667,
+          "after_mean": 11.141166666666667,
+          "mean_change": -3.8529999999999998,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.496761111111111,
+          "after_mean": 5.371938888888889,
+          "mean_change": 2.8751777777777776,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.866911455110912,
+          "after_mean": 31.65825425317986,
+          "mean_change": 6.791342798068945,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1027585038202384,
+          "after_mean": 0.05554857311581449,
+          "mean_change": 0.1583070769360529,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994166666666667,
+          "after_mean": 7.4671666666666665,
+          "mean_change": -7.527,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.375216666666667,
+          "after_mean": 3.5143666666666666,
+          "mean_change": -1.86085,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.658098312837836,
+          "after_mean": 29.791918549714833,
+          "mean_change": -1.8661797631230026,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05545545013752086,
+          "after_mean": 0.014231655746649974,
+          "mean_change": -0.041223794390870885,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.464666666666667,
+          "after_mean": 11.139333333333333,
+          "mean_change": 3.674666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.375216666666667,
+          "after_mean": 2.512322222222222,
+          "mean_change": -2.862894444444444,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.658098312837836,
+          "after_mean": 24.86554400129392,
+          "mean_change": -6.792554311543917,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05545545013752086,
+          "after_mean": -0.10669169614212025,
+          "mean_change": -0.1621471462796411,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.464666666666667,
+          "after_mean": 14.992333333333333,
+          "mean_change": 7.527666666666667,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_85/MAPPO_hidden_instruction": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.5041444444444445,
+          "after_mean": 2.50505,
+          "mean_change": -0.9990944444444443,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.80305545772068,
+          "after_mean": 24.864890337401988,
+          "mean_change": -4.938165120318693,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.013688181540662796,
+          "after_mean": -0.10374039613263739,
+          "mean_change": -0.11742857767330019,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.120333333333333,
+          "after_mean": 14.994166666666667,
+          "mean_change": 3.8738333333333332,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.5041444444444445,
+          "after_mean": 5.34455,
+          "mean_change": 1.8404055555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.80305545772068,
+          "after_mean": 31.544325405422512,
+          "mean_change": 1.7412699477018287,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.013688181540662796,
+          "after_mean": 0.05401427964774527,
+          "mean_change": 0.04032609810708248,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.120333333333333,
+          "after_mean": 7.4545,
+          "mean_change": -3.6658333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.496738888888889,
+          "after_mean": 3.5178444444444446,
+          "mean_change": 1.0211055555555557,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865663639638797,
+          "after_mean": 29.802181689110856,
+          "mean_change": 4.93651804947206,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10276777262174547,
+          "after_mean": 0.013027122266875716,
+          "mean_change": 0.11579489488862117,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994833333333334,
+          "after_mean": 11.107666666666667,
+          "mean_change": -3.887166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.496738888888889,
+          "after_mean": 5.387561111111111,
+          "mean_change": 2.8908222222222224,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865663639638797,
+          "after_mean": 31.544847151470535,
+          "mean_change": 6.679183511831739,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10276777262174547,
+          "after_mean": 0.053745089432006676,
+          "mean_change": 0.15651286205375214,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994833333333334,
+          "after_mean": 7.454,
+          "mean_change": -7.5408333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.371211111111111,
+          "after_mean": 3.5237944444444445,
+          "mean_change": -1.8474166666666667,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.546316446792858,
+          "after_mean": 29.802059823401592,
+          "mean_change": -1.7442566233912637,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.0540084514047472,
+          "after_mean": 0.011676038547537494,
+          "mean_change": -0.042332412857209706,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.451,
+          "after_mean": 11.108333333333333,
+          "mean_change": 3.6573333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.371211111111111,
+          "after_mean": 2.5120222222222224,
+          "mean_change": -2.859188888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.546316446792858,
+          "after_mean": 24.865321615914496,
+          "mean_change": -6.680994830878363,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.0540084514047472,
+          "after_mean": -0.10658127604698663,
+          "mean_change": -0.16058972745173383,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.451,
+          "after_mean": 14.9935,
+          "mean_change": 7.5424999999999995,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_85/HAPPO_no_task_aux_reward": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.5334666666666665,
+          "after_mean": 2.509427777777778,
+          "mean_change": -1.024038888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.79949839551327,
+          "after_mean": 24.868846729855587,
+          "mean_change": -4.930651665657683,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.010628528228856458,
+          "after_mean": -0.1051445549549065,
+          "mean_change": -0.11577308318376296,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.052,
+          "after_mean": 14.976166666666666,
+          "mean_change": 3.9241666666666664,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.5334666666666665,
+          "after_mean": 5.350611111111111,
+          "mean_change": 1.8171444444444445,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.79949839551327,
+          "after_mean": 31.5278746373105,
+          "mean_change": 1.7283762417972286,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.010628528228856458,
+          "after_mean": 0.054492524974092155,
+          "mean_change": 0.043863996745235695,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.052,
+          "after_mean": 7.436166666666667,
+          "mean_change": -3.6158333333333337,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.500777777777778,
+          "after_mean": 3.541838888888889,
+          "mean_change": 1.041061111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.87025501953363,
+          "after_mean": 29.796947575180365,
+          "mean_change": 4.926692555646734,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10406665536931976,
+          "after_mean": 0.010350722514462497,
+          "mean_change": 0.11441737788378226,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.977833333333333,
+          "after_mean": 11.0475,
+          "mean_change": -3.9303333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.500777777777778,
+          "after_mean": 5.390422222222222,
+          "mean_change": 2.8896444444444445,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.87025501953363,
+          "after_mean": 31.52762171524266,
+          "mean_change": 6.65736669570903,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10406665536931976,
+          "after_mean": 0.05425414113903037,
+          "mean_change": 0.15832079650835013,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.977833333333333,
+          "after_mean": 7.435666666666666,
+          "mean_change": -7.542166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.377083333333333,
+          "after_mean": 3.5490555555555554,
+          "mean_change": -1.8280277777777778,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.528425190684448,
+          "after_mean": 29.796923526513556,
+          "mean_change": -1.7315016641708934,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.054802455145528464,
+          "after_mean": 0.009085423020744948,
+          "mean_change": -0.045717032124783515,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.443666666666667,
+          "after_mean": 11.048666666666668,
+          "mean_change": 3.605,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.377083333333333,
+          "after_mean": 2.51635,
+          "mean_change": -2.860733333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.528425190684448,
+          "after_mean": 24.879713708780635,
+          "mean_change": -6.648711481903815,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.054802455145528464,
+          "after_mean": -0.1078953952858586,
+          "mean_change": -0.16269785043138707,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.443666666666667,
+          "after_mean": 14.975833333333334,
+          "mean_change": 7.532166666666667,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_218/HAPPO_fixed_mode_rule": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.485161111111111,
+          "after_mean": 2.5058,
+          "mean_change": -0.979361111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.803673305721514,
+          "after_mean": 24.86645954789101,
+          "mean_change": -4.937213757830502,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01602782510588083,
+          "after_mean": -0.10387502939555834,
+          "mean_change": -0.11990285450143918,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.173666666666668,
+          "after_mean": 14.991,
+          "mean_change": 3.817333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.485161111111111,
+          "after_mean": 5.315622222222222,
+          "mean_change": 1.830461111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.803673305721514,
+          "after_mean": 31.64150411650701,
+          "mean_change": 1.8378308107854981,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01602782510588083,
+          "after_mean": 0.05694564957833929,
+          "mean_change": 0.04091782447245845,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.173666666666668,
+          "after_mean": 7.471166666666667,
+          "mean_change": -3.7025,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4975277777777776,
+          "after_mean": 3.4960722222222222,
+          "mean_change": 0.9985444444444446,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.8668826040967,
+          "after_mean": 29.8027179140623,
+          "mean_change": 4.935835309965601,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1030419242277646,
+          "after_mean": 0.015613528268777021,
+          "mean_change": 0.11865545249654164,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.991333333333333,
+          "after_mean": 11.160666666666666,
+          "mean_change": -3.8306666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4975277777777776,
+          "after_mean": 5.354694444444444,
+          "mean_change": 2.8571666666666666,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.8668826040967,
+          "after_mean": 31.64161715763474,
+          "mean_change": 6.774734553538042,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1030419242277646,
+          "after_mean": 0.05670128718823829,
+          "mean_change": 0.1597432114160029,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.991333333333333,
+          "after_mean": 7.4705,
+          "mean_change": -7.520833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.3477500000000004,
+          "after_mean": 3.5057,
+          "mean_change": -1.8420500000000002,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.639457597387832,
+          "after_mean": 29.803008286154604,
+          "mean_change": -1.836449311233227,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05675017638677174,
+          "after_mean": 0.014274002567498067,
+          "mean_change": -0.042476173819273676,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.465166666666667,
+          "after_mean": 11.164,
+          "mean_change": 3.698833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.3477500000000004,
+          "after_mean": 2.5128222222222223,
+          "mean_change": -2.8349277777777777,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.639457597387832,
+          "after_mean": 24.867212552204915,
+          "mean_change": -6.772245045182919,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05675017638677174,
+          "after_mean": -0.10686808065676001,
+          "mean_change": -0.16361825704353175,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.465166666666667,
+          "after_mean": 14.991,
+          "mean_change": 7.525833333333334,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_218/HAPPO_equal_resources": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 2.5119,
+          "mean_change": -0.8960666666666666,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 25.008017627455335,
+          "mean_change": -4.83581855154823,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": -0.10480977351750868,
+          "mean_change": -0.1231204675624894,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 14.963666666666667,
+          "mean_change": 3.5695,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 5.5750222222222225,
+          "mean_change": 2.1670555555555557,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 31.521514939503113,
+          "mean_change": 1.6776787604995478,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": 0.04428525480272701,
+          "mean_change": 0.025974560757746293,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 7.2055,
+          "mean_change": -4.188666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.5045333333333333,
+          "after_mean": 3.416583333333333,
+          "mean_change": 0.9120499999999998,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.05816883600781,
+          "after_mean": 29.842889823606352,
+          "mean_change": 4.784720987598542,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10380244186097512,
+          "after_mean": 0.017858169505589036,
+          "mean_change": 0.12166061136656416,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.962333333333333,
+          "after_mean": 11.390166666666666,
+          "mean_change": -3.572166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.5045333333333333,
+          "after_mean": 5.606122222222222,
+          "mean_change": 3.1015888888888887,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.05816883600781,
+          "after_mean": 31.520745722767966,
+          "mean_change": 6.462576886760155,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10380244186097512,
+          "after_mean": 0.044142264876801084,
+          "mean_change": 0.1479447067377762,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.962333333333333,
+          "after_mean": 7.2055,
+          "mean_change": -7.756833333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 3.431477777777778,
+          "mean_change": -2.179555555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.52084162047538,
+          "after_mean": 29.842889823606352,
+          "mean_change": -1.677951796869028,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04408947081957598,
+          "after_mean": 0.015915747283366817,
+          "mean_change": -0.02817372353620917,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 11.390166666666666,
+          "mean_change": 4.191833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 2.52095,
+          "mean_change": -3.0900833333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.52084162047538,
+          "after_mean": 24.949642586455496,
+          "mean_change": -6.571199034019886,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04408947081957598,
+          "after_mean": -0.10890603312595415,
+          "mean_change": -0.15299550394553013,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 14.961333333333334,
+          "mean_change": 7.763,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_218/IC_HAPPO": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.5728444444444443,
+          "after_mean": 2.506511111111111,
+          "mean_change": -1.0663333333333334,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.79561115429422,
+          "after_mean": 24.86768731977793,
+          "mean_change": -4.927923834516294,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01059205401781805,
+          "after_mean": -0.10415692244645748,
+          "mean_change": -0.11474897646427552,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 10.933666666666667,
+          "after_mean": 14.989166666666666,
+          "mean_change": 4.0555,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.5728444444444443,
+          "after_mean": 5.3167,
+          "mean_change": 1.7438555555555557,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.79561115429422,
+          "after_mean": 31.51540943226625,
+          "mean_change": 1.7197982779720273,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01059205401781805,
+          "after_mean": 0.055009760782370014,
+          "mean_change": 0.044417706764551965,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 10.933666666666667,
+          "after_mean": 7.4751666666666665,
+          "mean_change": -3.4585,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4978833333333332,
+          "after_mean": 3.577427777777778,
+          "mean_change": 1.0795444444444446,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.867034131366665,
+          "after_mean": 29.79441769112432,
+          "mean_change": 4.927383559757654,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10316731890240512,
+          "after_mean": 0.010360654416318626,
+          "mean_change": 0.11352797331872375,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.989666666666666,
+          "after_mean": 10.936333333333334,
+          "mean_change": -4.053333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4978833333333332,
+          "after_mean": 5.367327777777778,
+          "mean_change": 2.8694444444444445,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.867034131366665,
+          "after_mean": 31.514579978250865,
+          "mean_change": 6.647545846884199,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10316731890240512,
+          "after_mean": 0.054635362079332825,
+          "mean_change": 0.15780268098173794,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.989666666666666,
+          "after_mean": 7.474333333333333,
+          "mean_change": -7.515333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.334922222222223,
+          "after_mean": 3.5815222222222225,
+          "mean_change": -1.7533999999999998,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.513546513295175,
+          "after_mean": 29.79367804720189,
+          "mean_change": -1.7198684660932855,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05557156420105179,
+          "after_mean": 0.009175800364156432,
+          "mean_change": -0.04639576383689536,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.4955,
+          "after_mean": 10.939,
+          "mean_change": 3.4435000000000002,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.334922222222223,
+          "after_mean": 2.5134333333333334,
+          "mean_change": -2.8214888888888887,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.513546513295175,
+          "after_mean": 24.86756967421936,
+          "mean_change": -6.645976839075814,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05557156420105179,
+          "after_mean": -0.1070851817249936,
+          "mean_change": -0.16265674592604537,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.4955,
+          "after_mean": 14.988166666666666,
+          "mean_change": 7.492666666666667,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_218/HAPPO_hidden_instruction": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.496183333333333,
+          "after_mean": 2.505361111111111,
+          "mean_change": -0.9908222222222223,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.809633815090475,
+          "after_mean": 24.865087160667365,
+          "mean_change": -4.94454665442311,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.014180499111986326,
+          "after_mean": -0.10388953707715838,
+          "mean_change": -0.1180700361891447,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.1385,
+          "after_mean": 14.993666666666666,
+          "mean_change": 3.855166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.496183333333333,
+          "after_mean": 5.314883333333333,
+          "mean_change": 1.8187,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.809633815090475,
+          "after_mean": 31.60615546027327,
+          "mean_change": 1.7965216451827943,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.014180499111986326,
+          "after_mean": 0.05694645541193543,
+          "mean_change": 0.0427659562999491,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.1385,
+          "after_mean": 7.478166666666667,
+          "mean_change": -3.660333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.496738888888889,
+          "after_mean": 3.508538888888889,
+          "mean_change": 1.0118,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865524135260912,
+          "after_mean": 29.807082090574575,
+          "mean_change": 4.941557955313664,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10274743462687062,
+          "after_mean": 0.013869591453928649,
+          "mean_change": 0.11661702608079927,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994666666666667,
+          "after_mean": 11.128166666666667,
+          "mean_change": -3.8665,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.496738888888889,
+          "after_mean": 5.367622222222222,
+          "mean_change": 2.8708833333333335,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865524135260912,
+          "after_mean": 31.605473820101654,
+          "mean_change": 6.7399496848407425,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10274743462687062,
+          "after_mean": 0.05670297457175671,
+          "mean_change": 0.15945040919862732,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994666666666667,
+          "after_mean": 7.4816666666666665,
+          "mean_change": -7.513,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.3478055555555555,
+          "after_mean": 3.5189222222222223,
+          "mean_change": -1.8288833333333332,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.606630964725262,
+          "after_mean": 29.807297352286863,
+          "mean_change": -1.7993336124383996,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05711501490362872,
+          "after_mean": 0.012479591625568635,
+          "mean_change": -0.04463542327806008,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.483833333333333,
+          "after_mean": 11.130166666666666,
+          "mean_change": 3.646333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.3478055555555555,
+          "after_mean": 2.512172222222222,
+          "mean_change": -2.835633333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.606630964725262,
+          "after_mean": 24.865662786910903,
+          "mean_change": -6.740968177814361,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05711501490362872,
+          "after_mean": -0.10655708369200229,
+          "mean_change": -0.163672098595631,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.483833333333333,
+          "after_mean": 14.993666666666666,
+          "mean_change": 7.509833333333333,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_218/IC_MAPPO": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.57615,
+          "after_mean": 2.5062,
+          "mean_change": -1.06995,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.791771411851357,
+          "after_mean": 24.866763674087323,
+          "mean_change": -4.925007737764033,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.009468661528037403,
+          "after_mean": -0.10416119662200155,
+          "mean_change": -0.11362985815003895,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 10.911,
+          "after_mean": 14.991,
+          "mean_change": 4.08,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.57615,
+          "after_mean": 5.3462499999999995,
+          "mean_change": 1.7700999999999998,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.791771411851357,
+          "after_mean": 31.48842494329593,
+          "mean_change": 1.6966535314445692,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.009468661528037403,
+          "after_mean": 0.05432971726120396,
+          "mean_change": 0.04486105573316655,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 10.911,
+          "after_mean": 7.448666666666666,
+          "mean_change": -3.4623333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4971944444444443,
+          "after_mean": 3.588233333333333,
+          "mean_change": 1.091038888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865976238305958,
+          "after_mean": 29.789829937742926,
+          "mean_change": 4.92385369943697,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10292611089210767,
+          "after_mean": 0.008869745613805017,
+          "mean_change": 0.11179585650591269,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.992833333333333,
+          "after_mean": 10.897833333333333,
+          "mean_change": -4.095,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4971944444444443,
+          "after_mean": 5.396194444444444,
+          "mean_change": 2.899,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865976238305958,
+          "after_mean": 31.48880009563591,
+          "mean_change": 6.622823857329952,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10292611089210767,
+          "after_mean": 0.053980514642499096,
+          "mean_change": 0.15690662553460674,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.992833333333333,
+          "after_mean": 7.4478333333333335,
+          "mean_change": -7.545,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.379472222222223,
+          "after_mean": 3.597061111111111,
+          "mean_change": -1.7824111111111112,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.489547208243472,
+          "after_mean": 29.79015639460759,
+          "mean_change": -1.6993908136358855,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.054439620469328515,
+          "after_mean": 0.007545860719190468,
+          "mean_change": -0.04689375975013805,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.456166666666666,
+          "after_mean": 10.8935,
+          "mean_change": 3.4373333333333336,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.379472222222223,
+          "after_mean": 2.5127333333333333,
+          "mean_change": -2.866738888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.489547208243472,
+          "after_mean": 24.86652777458099,
+          "mean_change": -6.623019433662483,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.054439620469328515,
+          "after_mean": -0.1067798951341597,
+          "mean_change": -0.1612195156034882,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.456166666666666,
+          "after_mean": 14.990833333333333,
+          "mean_change": 7.534666666666666,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_218/MAPPO_hidden_instruction": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.53,
+          "after_mean": 2.5050555555555554,
+          "mean_change": -1.0249444444444444,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.79195886302482,
+          "after_mean": 24.86517272057073,
+          "mean_change": -4.92678614245409,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01212300537639886,
+          "after_mean": -0.10370524036098934,
+          "mean_change": -0.1158282457373882,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.054166666666667,
+          "after_mean": 14.994333333333334,
+          "mean_change": 3.940166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.53,
+          "after_mean": 5.305066666666667,
+          "mean_change": 1.7750666666666668,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.79195886302482,
+          "after_mean": 31.669972422565472,
+          "mean_change": 1.8780135595406537,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01212300537639886,
+          "after_mean": 0.05814965654190703,
+          "mean_change": 0.04602665116550817,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.054166666666667,
+          "after_mean": 7.488833333333333,
+          "mean_change": -3.5653333333333332,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4963777777777776,
+          "after_mean": 3.5374666666666665,
+          "mean_change": 1.041088888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.864355387037676,
+          "after_mean": 29.790927525552995,
+          "mean_change": 4.926572138515318,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10264422021252331,
+          "after_mean": 0.011975056111768037,
+          "mean_change": 0.11461927632429135,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.996666666666666,
+          "after_mean": 11.051666666666666,
+          "mean_change": -3.945,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4963777777777776,
+          "after_mean": 5.378877777777777,
+          "mean_change": 2.8825,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.864355387037676,
+          "after_mean": 31.669677011126936,
+          "mean_change": 6.805321624089261,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10264422021252331,
+          "after_mean": 0.05764028699743834,
+          "mean_change": 0.16028450720996165,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.996666666666666,
+          "after_mean": 7.487833333333334,
+          "mean_change": -7.5088333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.352844444444444,
+          "after_mean": 3.544477777777778,
+          "mean_change": -1.8083666666666667,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.667453111830415,
+          "after_mean": 29.79060868527465,
+          "mean_change": -1.8768444265557669,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05813806065043512,
+          "after_mean": 0.010708770586389943,
+          "mean_change": -0.04742929006404518,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.498666666666667,
+          "after_mean": 11.0505,
+          "mean_change": 3.551833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.352844444444444,
+          "after_mean": 2.5117777777777777,
+          "mean_change": -2.841066666666667,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.667453111830415,
+          "after_mean": 24.866182956643556,
+          "mean_change": -6.801270155186862,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05813806065043512,
+          "after_mean": -0.10617741208572443,
+          "mean_change": -0.16431547273615954,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.498666666666667,
+          "after_mean": 14.993833333333333,
+          "mean_change": 7.495166666666666,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_218/HAPPO_no_task_aux_reward": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4819,
+          "after_mean": 2.5073666666666665,
+          "mean_change": -0.9745333333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.81435640487507,
+          "after_mean": 24.867911783640107,
+          "mean_change": -4.946444621234965,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01520776722460002,
+          "after_mean": -0.10440446808146506,
+          "mean_change": -0.11961223530606507,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.186333333333334,
+          "after_mean": 14.9845,
+          "mean_change": 3.7981666666666665,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4819,
+          "after_mean": 5.346877777777777,
+          "mean_change": 1.8649777777777776,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.81435640487507,
+          "after_mean": 31.652774176982597,
+          "mean_change": 1.838417772107527,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01520776722460002,
+          "after_mean": 0.05531827755944956,
+          "mean_change": 0.04011051033484954,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.186333333333334,
+          "after_mean": 7.4535,
+          "mean_change": -3.7328333333333337,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.499033333333333,
+          "after_mean": 3.4897555555555555,
+          "mean_change": 0.9907222222222221,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86945451272211,
+          "after_mean": 29.811695798857055,
+          "mean_change": 4.942241286134943,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10347171312318137,
+          "after_mean": 0.014957121126083576,
+          "mean_change": 0.11842883424926494,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.985,
+          "after_mean": 11.1865,
+          "mean_change": -3.7984999999999998,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.499033333333333,
+          "after_mean": 5.383711111111111,
+          "mean_change": 2.8846777777777777,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86945451272211,
+          "after_mean": 31.652461758090013,
+          "mean_change": 6.783007245367901,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10347171312318137,
+          "after_mean": 0.05507623444929371,
+          "mean_change": 0.15854794757247506,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.985,
+          "after_mean": 7.452,
+          "mean_change": -7.533,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.368922222222222,
+          "after_mean": 3.498222222222222,
+          "mean_change": -1.8707,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.65186768737443,
+          "after_mean": 29.811668540196578,
+          "mean_change": -1.8401991471778498,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05529145077358314,
+          "after_mean": 0.013588698908615459,
+          "mean_change": -0.04170275186496768,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.452833333333333,
+          "after_mean": 11.190166666666666,
+          "mean_change": 3.7373333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.368922222222222,
+          "after_mean": 2.5146166666666665,
+          "mean_change": -2.8543055555555554,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.65186768737443,
+          "after_mean": 24.868485401206655,
+          "mean_change": -6.783382286167773,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05529145077358314,
+          "after_mean": -0.1075031354885101,
+          "mean_change": -0.16279458626209323,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.452833333333333,
+          "after_mean": 14.984666666666667,
+          "mean_change": 7.531833333333333,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_966/HAPPO_fixed_mode_rule": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.524538888888889,
+          "after_mean": 2.506877777777778,
+          "mean_change": -1.0176611111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.799763494419146,
+          "after_mean": 24.867158390402228,
+          "mean_change": -4.9326051040169165,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.012220464407865528,
+          "after_mean": -0.10439173980580191,
+          "mean_change": -0.11661220421366744,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.065666666666667,
+          "after_mean": 14.9875,
+          "mean_change": 3.9218333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.524538888888889,
+          "after_mean": 5.329877777777778,
+          "mean_change": 1.805338888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.799763494419146,
+          "after_mean": 31.64940579994085,
+          "mean_change": 1.8496423055217048,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.012220464407865528,
+          "after_mean": 0.057244388912959666,
+          "mean_change": 0.04502392450509414,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.065666666666667,
+          "after_mean": 7.477,
+          "mean_change": -3.5886666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4984611111111112,
+          "after_mean": 3.53695,
+          "mean_change": 1.0384888888888888,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86795984280779,
+          "after_mean": 29.798138249515773,
+          "mean_change": 4.930178406707986,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10334069709962547,
+          "after_mean": 0.011806526997171093,
+          "mean_change": 0.11514722409679656,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9875,
+          "after_mean": 11.051333333333334,
+          "mean_change": -3.9361666666666664,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4984611111111112,
+          "after_mean": 5.36755,
+          "mean_change": 2.869088888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86795984280779,
+          "after_mean": 31.649684292821984,
+          "mean_change": 6.781724450014196,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10334069709962547,
+          "after_mean": 0.05699615589482887,
+          "mean_change": 0.16033685299445433,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9875,
+          "after_mean": 7.476,
+          "mean_change": -7.5115,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.3433222222222225,
+          "after_mean": 3.543261111111111,
+          "mean_change": -1.8000611111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.647842683246278,
+          "after_mean": 29.79829156898807,
+          "mean_change": -1.849551114258211,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05760077077628013,
+          "after_mean": 0.010625409862662161,
+          "mean_change": -0.046975360913617974,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.490166666666667,
+          "after_mean": 11.054833333333333,
+          "mean_change": 3.5646666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.3433222222222225,
+          "after_mean": 2.513311111111111,
+          "mean_change": -2.8300111111111113,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.647842683246278,
+          "after_mean": 24.867539851951122,
+          "mean_change": -6.780302831295159,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05760077077628013,
+          "after_mean": -0.10675255139101258,
+          "mean_change": -0.1643533221672927,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.490166666666667,
+          "after_mean": 14.987666666666668,
+          "mean_change": 7.4975000000000005,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_966/HAPPO_equal_resources": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 2.5114388888888888,
+          "mean_change": -0.8965277777777777,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 25.068672279201966,
+          "mean_change": -4.775163899801597,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": -0.10424270103260339,
+          "mean_change": -0.1225533950775841,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 14.9655,
+          "mean_change": 3.5713333333333335,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 5.5750222222222225,
+          "mean_change": 2.1670555555555557,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 31.63593210572655,
+          "mean_change": 1.7920959267229875,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": 0.04582608132124554,
+          "mean_change": 0.027515387276264822,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 7.2055,
+          "mean_change": -4.188666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.507077777777778,
+          "after_mean": 3.4165722222222223,
+          "mean_change": 0.9094944444444443,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.020192966667878,
+          "after_mean": 29.842883526048624,
+          "mean_change": 4.822690559380743,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.104832803420044,
+          "after_mean": 0.017862643954973192,
+          "mean_change": 0.12269544737501718,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9515,
+          "after_mean": 11.39,
+          "mean_change": -3.5615,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.507077777777778,
+          "after_mean": 5.603861111111111,
+          "mean_change": 3.096783333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.020192966667878,
+          "after_mean": 31.635842596269697,
+          "mean_change": 6.615649629601818,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.104832803420044,
+          "after_mean": 0.04569396917309739,
+          "mean_change": 0.1505267725931414,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9515,
+          "after_mean": 7.2055,
+          "mean_change": -7.746,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 3.431477777777778,
+          "mean_change": -2.179555555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.63559785811906,
+          "after_mean": 29.842889823606352,
+          "mean_change": -1.7927080345127058,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04562803363439081,
+          "after_mean": 0.015915747283366817,
+          "mean_change": -0.029712286351023996,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 11.390166666666666,
+          "mean_change": 4.191833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 2.5205277777777777,
+          "mean_change": -3.0905055555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.63559785811906,
+          "after_mean": 25.027444648854154,
+          "mean_change": -6.608153209264904,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04562803363439081,
+          "after_mean": -0.10832174855673303,
+          "mean_change": -0.15394978219112385,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 14.963333333333333,
+          "mean_change": 7.765,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_966/IC_HAPPO": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.504222222222222,
+          "after_mean": 2.5057555555555555,
+          "mean_change": -0.9984666666666665,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.798442687106608,
+          "after_mean": 24.866331828294445,
+          "mean_change": -4.932110858812163,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.014127155724633578,
+          "after_mean": -0.10393175796805545,
+          "mean_change": -0.11805891369268903,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.1215,
+          "after_mean": 14.991333333333333,
+          "mean_change": 3.8698333333333332,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.504222222222222,
+          "after_mean": 5.319288888888889,
+          "mean_change": 1.8150666666666666,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.798442687106608,
+          "after_mean": 31.65877491557198,
+          "mean_change": 1.86033222846537,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.014127155724633578,
+          "after_mean": 0.05780619479855284,
+          "mean_change": 0.04367903907391926,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.1215,
+          "after_mean": 7.491,
+          "mean_change": -3.6305,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4972,
+          "after_mean": 3.5193222222222222,
+          "mean_change": 1.0221222222222222,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.866691837786018,
+          "after_mean": 29.7966594770797,
+          "mean_change": 4.9299676392936815,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10289193209868179,
+          "after_mean": 0.013436284958077327,
+          "mean_change": 0.11632821705675912,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9925,
+          "after_mean": 11.099666666666666,
+          "mean_change": -3.8928333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4972,
+          "after_mean": 5.351677777777778,
+          "mean_change": 2.854477777777778,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.866691837786018,
+          "after_mean": 31.65958978269296,
+          "mean_change": 6.792897944906942,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10289193209868179,
+          "after_mean": 0.05761843318920938,
+          "mean_change": 0.16051036528789117,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9925,
+          "after_mean": 7.4905,
+          "mean_change": -7.502,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.3325555555555555,
+          "after_mean": 3.5262611111111113,
+          "mean_change": -1.8062944444444444,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.660285856973122,
+          "after_mean": 29.79655975077716,
+          "mean_change": -1.8637261061959616,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.058254212425494264,
+          "after_mean": 0.012284026406296325,
+          "mean_change": -0.04597018601919794,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.502,
+          "after_mean": 11.104166666666666,
+          "mean_change": 3.6021666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.3325555555555555,
+          "after_mean": 2.5126166666666667,
+          "mean_change": -2.8199388888888888,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.660285856973122,
+          "after_mean": 24.866906585301816,
+          "mean_change": -6.7933792716713075,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.058254212425494264,
+          "after_mean": -0.10667397710048296,
+          "mean_change": -0.1649281895259772,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.502,
+          "after_mean": 14.991,
+          "mean_change": 7.489,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_966/HAPPO_hidden_instruction": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.452444444444444,
+          "after_mean": 2.5051944444444443,
+          "mean_change": -0.9472499999999999,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.803900173484887,
+          "after_mean": 24.865419025769974,
+          "mean_change": -4.938481147714912,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.017818595087875935,
+          "after_mean": -0.10364753197447987,
+          "mean_change": -0.12146612706235581,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.259166666666667,
+          "after_mean": 14.992666666666667,
+          "mean_change": 3.7335000000000003,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.452444444444444,
+          "after_mean": 5.2854833333333335,
+          "mean_change": 1.8330388888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.803900173484887,
+          "after_mean": 31.666289013776904,
+          "mean_change": 1.8623888402920161,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.017818595087875935,
+          "after_mean": 0.05989782028078824,
+          "mean_change": 0.0420792251929123,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.259166666666667,
+          "after_mean": 7.503666666666667,
+          "mean_change": -3.7554999999999996,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.496722222222222,
+          "after_mean": 3.4704777777777776,
+          "mean_change": 0.9737555555555555,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.866062828540983,
+          "after_mean": 29.801399253376417,
+          "mean_change": 4.935336424835434,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1027243722098367,
+          "after_mean": 0.016967003856620044,
+          "mean_change": 0.11969137606645673,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9945,
+          "after_mean": 11.233666666666666,
+          "mean_change": -3.7608333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.496722222222222,
+          "after_mean": 5.364638888888889,
+          "mean_change": 2.8679166666666664,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.866062828540983,
+          "after_mean": 31.66669400570952,
+          "mean_change": 6.800631177168537,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1027243722098367,
+          "after_mean": 0.05945557356181777,
+          "mean_change": 0.16217994577165445,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.9945,
+          "after_mean": 7.507333333333333,
+          "mean_change": -7.487166666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.337533333333333,
+          "after_mean": 3.4804555555555554,
+          "mean_change": -1.857077777777778,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.665816492595496,
+          "after_mean": 29.80124141388814,
+          "mean_change": -1.8645750787073578,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.059813666777835436,
+          "after_mean": 0.01584937371669356,
+          "mean_change": -0.04396429306114188,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.509833333333333,
+          "after_mean": 11.235666666666667,
+          "mean_change": 3.7258333333333336,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.337533333333333,
+          "after_mean": 2.5118722222222223,
+          "mean_change": -2.825661111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.665816492595496,
+          "after_mean": 24.86601564626567,
+          "mean_change": -6.799800846329828,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.059813666777835436,
+          "after_mean": -0.10630066119168453,
+          "mean_change": -0.16611432796951997,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.509833333333333,
+          "after_mean": 14.993,
+          "mean_change": 7.4831666666666665,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_966/IC_MAPPO": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.5337,
+          "after_mean": 2.5049111111111113,
+          "mean_change": -1.028788888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.795148234756777,
+          "after_mean": 24.8652037717862,
+          "mean_change": -4.929944462970579,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.013263901107322028,
+          "after_mean": -0.10354489932718174,
+          "mean_change": -0.11680880043450376,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.038666666666666,
+          "after_mean": 14.9945,
+          "mean_change": 3.955833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.5337,
+          "after_mean": 5.319861111111111,
+          "mean_change": 1.786161111111111,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.795148234756777,
+          "after_mean": 31.60154005235567,
+          "mean_change": 1.8063918175988918,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.013263901107322028,
+          "after_mean": 0.05635538267976281,
+          "mean_change": 0.04309148157244078,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.038666666666666,
+          "after_mean": 7.478833333333333,
+          "mean_change": -3.5598333333333336,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4967166666666665,
+          "after_mean": 3.5446833333333334,
+          "mean_change": 1.0479666666666667,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865759993205394,
+          "after_mean": 29.79314300312919,
+          "mean_change": 4.927383009923796,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1027346309373722,
+          "after_mean": 0.01286313542918956,
+          "mean_change": 0.11559776636656176,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994666666666667,
+          "after_mean": 11.035166666666667,
+          "mean_change": -3.9595,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4967166666666665,
+          "after_mean": 5.366044444444444,
+          "mean_change": 2.869327777777778,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.865759993205394,
+          "after_mean": 31.60180187254296,
+          "mean_change": 6.736041879337566,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1027346309373722,
+          "after_mean": 0.05613060000252973,
+          "mean_change": 0.15886523093990193,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994666666666667,
+          "after_mean": 7.481333333333334,
+          "mean_change": -7.513333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.325411111111111,
+          "after_mean": 3.548027777777778,
+          "mean_change": -1.7773833333333335,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.603860908704036,
+          "after_mean": 29.79305564743415,
+          "mean_change": -1.8108052612698857,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05686691131584498,
+          "after_mean": 0.011649781688228526,
+          "mean_change": -0.045217129627616454,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.485166666666666,
+          "after_mean": 11.035666666666666,
+          "mean_change": 3.5505,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.325411111111111,
+          "after_mean": 2.5117,
+          "mean_change": -2.8137111111111115,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.603860908704036,
+          "after_mean": 24.8661235409477,
+          "mean_change": -6.7377373677563375,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05686691131584498,
+          "after_mean": -0.10637360590985778,
+          "mean_change": -0.16324051722570276,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.485166666666666,
+          "after_mean": 14.994166666666667,
+          "mean_change": 7.509,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_966/MAPPO_hidden_instruction": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.486883333333333,
+          "after_mean": 2.5053555555555556,
+          "mean_change": -0.9815277777777778,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.806169345040974,
+          "after_mean": 24.864891330758343,
+          "mean_change": -4.941278014282631,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01559740573106881,
+          "after_mean": -0.10370618519134209,
+          "mean_change": -0.1193035909224109,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.164333333333333,
+          "after_mean": 14.993166666666667,
+          "mean_change": 3.8288333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.486883333333333,
+          "after_mean": 5.29225,
+          "mean_change": 1.8053666666666668,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.806169345040974,
+          "after_mean": 31.55224436377429,
+          "mean_change": 1.7460750187333147,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.01559740573106881,
+          "after_mean": 0.05746189462531752,
+          "mean_change": 0.04186448889424871,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.164333333333333,
+          "after_mean": 7.487833333333334,
+          "mean_change": -3.6765,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4968222222222223,
+          "after_mean": 3.504938888888889,
+          "mean_change": 1.0081166666666665,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86637694370702,
+          "after_mean": 29.80416460320209,
+          "mean_change": 4.937787659495069,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10273736359897609,
+          "after_mean": 0.014674260810016047,
+          "mean_change": 0.11741162440899214,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994333333333334,
+          "after_mean": 11.1335,
+          "mean_change": -3.8608333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4968222222222223,
+          "after_mean": 5.3607555555555555,
+          "mean_change": 2.863933333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.86637694370702,
+          "after_mean": 31.553929483032626,
+          "mean_change": 6.687552539325604,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10273736359897609,
+          "after_mean": 0.05705500815534198,
+          "mean_change": 0.15979237175431807,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.994333333333334,
+          "after_mean": 7.489,
+          "mean_change": -7.505333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.3481555555555556,
+          "after_mean": 3.515772222222222,
+          "mean_change": -1.8323833333333335,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.55782204713349,
+          "after_mean": 29.804645470369802,
+          "mean_change": -1.7531765767636887,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05774326928010869,
+          "after_mean": 0.01341025872130694,
+          "mean_change": -0.044333010558801754,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.5005,
+          "after_mean": 11.135333333333334,
+          "mean_change": 3.6348333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.3481555555555556,
+          "after_mean": 2.5121333333333333,
+          "mean_change": -2.8360222222222222,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.55782204713349,
+          "after_mean": 24.86501192638915,
+          "mean_change": -6.692810120744337,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05774326928010869,
+          "after_mean": -0.10623206930116913,
+          "mean_change": -0.16397533858127783,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.5005,
+          "after_mean": 14.9935,
+          "mean_change": 7.493,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "seed_966/HAPPO_no_task_aux_reward": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.5297722222222223,
+          "after_mean": 2.506038888888889,
+          "mean_change": -1.0237333333333334,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.80839318326058,
+          "after_mean": 24.865774563927367,
+          "mean_change": -4.942618619333216,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.012359640395444375,
+          "after_mean": -0.10404676191552066,
+          "mean_change": -0.11640640231096504,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.0635,
+          "after_mean": 14.99,
+          "mean_change": 3.9265,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.5297722222222223,
+          "after_mean": 5.321527777777778,
+          "mean_change": 1.7917555555555558,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.80839318326058,
+          "after_mean": 31.52014103889228,
+          "mean_change": 1.7117478556316978,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.012359640395444375,
+          "after_mean": 0.055253397275348795,
+          "mean_change": 0.04289375687990442,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.0635,
+          "after_mean": 7.472833333333333,
+          "mean_change": -3.5906666666666665,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.4979722222222223,
+          "after_mean": 3.5347500000000003,
+          "mean_change": 1.036777777777778,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.868097003038685,
+          "after_mean": 29.806261045571894,
+          "mean_change": 4.93816404253321,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10318300586341314,
+          "after_mean": 0.011976903330998412,
+          "mean_change": 0.11515990919441155,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.989166666666666,
+          "after_mean": 11.064666666666666,
+          "mean_change": -3.9245,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.4979722222222223,
+          "after_mean": 5.365883333333334,
+          "mean_change": 2.8679111111111113,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.868097003038685,
+          "after_mean": 31.520326287056943,
+          "mean_change": 6.652229284018257,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.10318300586341314,
+          "after_mean": 0.05502789160563198,
+          "mean_change": 0.1582108974690451,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.989166666666666,
+          "after_mean": 7.4745,
+          "mean_change": -7.514666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.338416666666666,
+          "after_mean": 3.5380000000000003,
+          "mean_change": -1.8004166666666666,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.51871480735812,
+          "after_mean": 29.80609687071571,
+          "mean_change": -1.7126179366424077,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.055399484729150364,
+          "after_mean": 0.010803408489992426,
+          "mean_change": -0.04459607623915794,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.474833333333334,
+          "after_mean": 11.066333333333333,
+          "mean_change": 3.5915,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.338416666666666,
+          "after_mean": 2.5127333333333333,
+          "mean_change": -2.8256833333333335,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.51871480735812,
+          "after_mean": 24.86642314312087,
+          "mean_change": -6.65229166423725,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.055399484729150364,
+          "after_mean": -0.10670323091691836,
+          "mean_change": -0.1621027156460687,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.474833333333334,
+          "after_mean": 14.990333333333334,
+          "mean_change": 7.5155,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "rules/R_fixed": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 2.5106,
+          "mean_change": -0.8973666666666665,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 24.871706722266595,
+          "mean_change": -4.972129456736968,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": -0.10523870345536908,
+          "mean_change": -0.1235493975003498,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 14.968333333333334,
+          "mean_change": 3.5741666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4079666666666664,
+          "after_mean": 5.5750222222222225,
+          "mean_change": 2.1670555555555557,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 31.637937885118703,
+          "mean_change": 1.7941017061151383,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018310694044980716,
+          "after_mean": 0.046121519543467764,
+          "mean_change": 0.027810825498487048,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 7.2055,
+          "mean_change": -4.188666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.5023388888888887,
+          "after_mean": 3.4169,
+          "mean_change": 0.9145611111111109,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.87310542009794,
+          "after_mean": 29.842889823606352,
+          "mean_change": 4.969784403508415,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1043563982944984,
+          "after_mean": 0.017851936172255705,
+          "mean_change": 0.12220833446675411,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.971166666666667,
+          "after_mean": 11.390166666666666,
+          "mean_change": -3.581,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.5023388888888887,
+          "after_mean": 5.608027777777778,
+          "mean_change": 3.105688888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.87310542009794,
+          "after_mean": 31.637937885118703,
+          "mean_change": 6.764832465020765,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1043563982944984,
+          "after_mean": 0.04596819732124554,
+          "mean_change": 0.15032459561574393,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.971166666666667,
+          "after_mean": 7.2055,
+          "mean_change": -7.765666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 3.431477777777778,
+          "mean_change": -2.179555555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.637480819216456,
+          "after_mean": 29.842889823606352,
+          "mean_change": -1.7945909956101047,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04591686978253896,
+          "after_mean": 0.015915747283366817,
+          "mean_change": -0.030001122499172143,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 11.390166666666666,
+          "mean_change": 4.191833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.611033333333333,
+          "after_mean": 2.5193166666666666,
+          "mean_change": -3.0917166666666667,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.637480819216456,
+          "after_mean": 24.87225656976067,
+          "mean_change": -6.765224249455787,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04591686978253896,
+          "after_mean": -0.1088960418743813,
+          "mean_change": -0.15481291165692027,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 14.968333333333334,
+          "mean_change": 7.77,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "rules/G_local_greedy": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.3966277777777774,
+          "after_mean": 2.6355944444444446,
+          "mean_change": -0.761033333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.810390716708305,
+          "after_mean": 25.888001203540455,
+          "mean_change": -3.9223895131678534,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.022807786503336695,
+          "after_mean": -0.13299813001551802,
+          "mean_change": -0.1558059165188547,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.419,
+          "after_mean": 14.461166666666667,
+          "mean_change": 3.0421666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.3966277777777774,
+          "after_mean": 5.536661111111111,
+          "mean_change": 2.1400333333333337,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.810390716708305,
+          "after_mean": 31.614251602194994,
+          "mean_change": 1.8038608854866873,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.022807786503336695,
+          "after_mean": 0.050549704768252636,
+          "mean_change": 0.02774191826491594,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.419,
+          "after_mean": 7.217,
+          "mean_change": -4.202,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.6223666666666667,
+          "after_mean": 3.4214555555555553,
+          "mean_change": 0.7990888888888887,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.87978320503043,
+          "after_mean": 29.812621067201505,
+          "mean_change": 3.9328378621710742,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1316544217242954,
+          "after_mean": 0.021373824064753816,
+          "mean_change": 0.15302824578904922,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.474,
+          "after_mean": 11.371,
+          "mean_change": -3.103,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.6223666666666667,
+          "after_mean": 5.57875,
+          "mean_change": 2.956383333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 25.87978320503043,
+          "after_mean": 31.614388214373896,
+          "mean_change": 5.734605009343465,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1316544217242954,
+          "after_mean": 0.0504423005061181,
+          "mean_change": 0.1820967222304135,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.474,
+          "after_mean": 7.225666666666666,
+          "mean_change": -7.248333333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.557922222222222,
+          "after_mean": 3.428622222222222,
+          "mean_change": -2.1293,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.615587343056497,
+          "after_mean": 29.809566156743276,
+          "mean_change": -1.80602118631322,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05048115185870367,
+          "after_mean": 0.020391130540360968,
+          "mean_change": -0.030090021318342708,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.216,
+          "after_mean": 11.389,
+          "mean_change": 4.173,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.557922222222222,
+          "after_mean": 2.6336055555555555,
+          "mean_change": -2.924316666666667,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.615587343056497,
+          "after_mean": 25.85164899997506,
+          "mean_change": -5.763938343081438,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.05048115185870367,
+          "after_mean": -0.13619591337676068,
+          "mean_change": -0.18667706523546435,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.216,
+          "after_mean": 14.5055,
+          "mean_change": 7.2895,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "rules/Random": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.480483333333333,
+          "after_mean": 4.384483333333334,
+          "mean_change": -1.0959999999999999,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 30.487491975124332,
+          "after_mean": 27.306827907776142,
+          "mean_change": -3.1806640673481885,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.3741820309033463,
+          "after_mean": -0.6521408261273663,
+          "mean_change": -0.27795879522402006,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.711666666666667,
+          "after_mean": 9.490333333333334,
+          "mean_change": 1.7786666666666664,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 5.480483333333333,
+          "after_mean": 6.635772222222222,
+          "mean_change": 1.1552888888888888,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 30.487491975124332,
+          "after_mean": 31.528661880813303,
+          "mean_change": 1.04116990568897,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.3741820309033463,
+          "after_mean": -0.004720288066999724,
+          "mean_change": 0.36946174283634653,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.711666666666667,
+          "after_mean": 6.4398333333333335,
+          "mean_change": -1.2718333333333334,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 4.360327777777778,
+          "after_mean": 5.4829388888888895,
+          "mean_change": 1.1226111111111112,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 27.302832120818792,
+          "after_mean": 30.46302171617271,
+          "mean_change": 3.1601895953539185,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.6482198114292658,
+          "after_mean": -0.3772495701378126,
+          "mean_change": 0.27097024129145325,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 9.491166666666667,
+          "after_mean": 7.737333333333334,
+          "mean_change": -1.7538333333333331,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 4.360327777777778,
+          "after_mean": 6.623411111111111,
+          "mean_change": 2.2630833333333333,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 27.302832120818792,
+          "after_mean": 31.528612650925318,
+          "mean_change": 4.225780530106523,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.6482198114292658,
+          "after_mean": -0.0043869954259350636,
+          "mean_change": 0.6438328160033308,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 9.491166666666667,
+          "after_mean": 6.439166666666667,
+          "mean_change": -3.052,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 6.605561111111111,
+          "after_mean": 5.506572222222222,
+          "mean_change": -1.098988888888889,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.539533441170676,
+          "after_mean": 30.463012949740065,
+          "mean_change": -1.0765204914306101,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.003886357101538616,
+          "after_mean": -0.38430669049883925,
+          "mean_change": -0.38042033339730064,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 6.426833333333334,
+          "after_mean": 7.738,
+          "mean_change": 1.3111666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 6.605561111111111,
+          "after_mean": 4.393683333333334,
+          "mean_change": -2.2118777777777776,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.539533441170676,
+          "after_mean": 27.30686310032823,
+          "mean_change": -4.232670340842445,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.003886357101538616,
+          "after_mean": -0.6554983789659274,
+          "mean_change": -0.6516120218643888,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 6.426833333333334,
+          "after_mean": 9.490166666666667,
+          "mean_change": 3.063333333333333,
+          "evaluation_episodes": 20
+        }
+      }
+    },
+    "rules/RoundRobin": {
+      "switch300_0_to_1": {
+        "mean_aoi": {
+          "before_mean": 3.4306888888888887,
+          "after_mean": 2.5104944444444444,
+          "mean_change": -0.9201944444444443,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 24.871706722266595,
+          "mean_change": -4.972129456736968,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018086027378314048,
+          "after_mean": -0.10489341456648019,
+          "mean_change": -0.12297944194479424,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 14.968333333333334,
+          "mean_change": 3.5741666666666667,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_0_to_2": {
+        "mean_aoi": {
+          "before_mean": 3.4306888888888887,
+          "after_mean": 5.786788888888889,
+          "mean_change": 2.3561,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 29.843836179003564,
+          "after_mean": 31.637937885118703,
+          "mean_change": 1.7941017061151383,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.018086027378314048,
+          "after_mean": 0.044508052876801096,
+          "mean_change": 0.026422025498487052,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 11.394166666666667,
+          "after_mean": 7.2055,
+          "mean_change": -4.188666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_0": {
+        "mean_aoi": {
+          "before_mean": 2.5023388888888887,
+          "after_mean": 3.4400944444444446,
+          "mean_change": 0.9377555555555555,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.873105420097936,
+          "after_mean": 29.842889823606352,
+          "mean_change": 4.969784403508416,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1043563982944984,
+          "after_mean": 0.017665713950033482,
+          "mean_change": 0.12202211224453188,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.971166666666667,
+          "after_mean": 11.390166666666666,
+          "mean_change": -3.581,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_1_to_2": {
+        "mean_aoi": {
+          "before_mean": 2.5023388888888887,
+          "after_mean": 5.7789222222222225,
+          "mean_change": 3.2765833333333334,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 24.873105420097936,
+          "after_mean": 31.637937885118703,
+          "mean_change": 6.764832465020765,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": -0.1043563982944984,
+          "after_mean": 0.04464770843235665,
+          "mean_change": 0.14900410672685505,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 14.971166666666667,
+          "after_mean": 7.2055,
+          "mean_change": -7.765666666666666,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_0": {
+        "mean_aoi": {
+          "before_mean": 5.770883333333334,
+          "after_mean": 3.457027777777778,
+          "mean_change": -2.3138555555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.637480819216456,
+          "after_mean": 29.842889823606352,
+          "mean_change": -1.7945909956101045,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04467873644920563,
+          "after_mean": 0.016109465801885332,
+          "mean_change": -0.028569270647320292,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 11.390166666666666,
+          "mean_change": 4.191833333333333,
+          "evaluation_episodes": 20
+        }
+      },
+      "switch300_2_to_1": {
+        "mean_aoi": {
+          "before_mean": 5.770883333333334,
+          "after_mean": 2.5179277777777775,
+          "mean_change": -3.252955555555556,
+          "evaluation_episodes": 20
+        },
+        "delivered_predicted_psnr": {
+          "before_mean": 31.637480819216456,
+          "after_mean": 24.87225656976067,
+          "mean_change": -6.765224249455787,
+          "evaluation_episodes": 20
+        },
+        "common_reward": {
+          "before_mean": 0.04467873644920563,
+          "after_mean": -0.10720598631882575,
+          "mean_change": -0.1518847227680314,
+          "evaluation_episodes": 20
+        },
+        "deliveries_per_slot": {
+          "before_mean": 7.198333333333333,
+          "after_mean": 14.968333333333334,
+          "mean_change": 7.77,
+          "evaluation_episodes": 20
+        }
+      }
+    }
+  },
+  "note": "Descriptive before/after means over equal 300-slot phases; not a causal advantage over another controller."
+}

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "reference_files_verified": 87,
+  "gpu_transition_steps": 9080,
+  "gpu_discrete_checks": 72640,
+  "gpu_environment_max_absolute_float_error": 7.683411240577698e-09,
+  "cuda_update_parameter_max_absolute_error": 1.1920928955078125e-07,
+  "gpu_methods_verified": 7,
+  "gpu_steps_per_method": 16000,
+  "same_single_core_benchmark": {
+    "cpu_core": 18,
+    "threads_per_library": 1,
+    "reference_hybrid_steps_per_second": 193.4148049279464,
+    "tensor_gpu_steps_per_second": 1428.1146299104212,
+    "tensor_cpu_steps_per_second": 1411.238303937048,
+    "tensor_gpu_speedup_vs_reference": 7.383688288197186
+  },
+  "mixed_probe": {
+    "steps_per_method": 80000,
+    "wall_seconds": 64.16958226589486,
+    "temperature_peak_c": 80.0,
+    "assignments": [
+      {
+        "method": "IC_HAPPO",
+        "device": "cpu",
+        "cpu_core": 16
+      },
+      {
+        "method": "IC_MAPPO",
+        "device": "cuda:0",
+        "cpu_core": 18
+      }
+    ],
+    "per_method_steady_steps_per_second": {
+      "IC_HAPPO": 1361.5310374891542,
+      "IC_MAPPO": 1300.7832516650144
+    }
+  },
+  "limitations": [
+    "Early engineering tests, not full 10M-step learning evidence",
+    "GPU environment uses CPU setup and exogenous RNG preparation once per episode",
+    "CPU and CUDA stochastic policy draws differ; full trained weights are not assumed identical",
+    "Single-core single-method speedup is not a complete seven-method scheduling speedup",
+    "Formal reference training remained active during sequential benchmark measurements"
+  ]
+}

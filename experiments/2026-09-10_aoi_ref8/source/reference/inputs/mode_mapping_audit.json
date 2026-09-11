@@ -1,0 +1,25 @@
+{
+  "table_sha256": "a6f721686b28d6c28ccf811ab8b63e80ae8c135a08b9d7e1b4bbfe7ca13d91cc",
+  "table_mode_names": [
+    "sci0m1_rate1",
+    "sci0m1_rate2",
+    "sci0m1_rate3",
+    "sci0m1_rate4",
+    "sci1m2_rate1",
+    "sci1m2_rate2",
+    "sci1m2_rate3",
+    "sci1m2_rate4",
+    "sci2m4_rate1",
+    "sci2m4_rate2",
+    "sci2m4_rate3",
+    "sci2m4_rate4",
+    "sci3m8_rate1",
+    "sci3m8_rate2",
+    "sci3m8_rate3",
+    "sci3m8_rate4"
+  ],
+  "mode_mapping": "all 16 rows available in every SNR bucket",
+  "rejected_mapping": "4*snr_bucket + mu_id",
+  "reason": "Rows are SCI/rate combinations; trained_snr_db and mu_comm are NaN. Old codec registry IDs do not match numeric table IDs.",
+  "table_bytes_changed": false
+}

@@ -1,0 +1,17 @@
+{
+  "state": "PASS",
+  "unchanged_environment_optimizer_and_resume_kernels": true,
+  "paired_initial_weights_all_three_seeds": true,
+  "actual_budget_updates": 2500,
+  "warmup_last_update": 150,
+  "joint_first_update": 151,
+  "exact_resume_with_snapshots": [
+    "joint",
+    "staged"
+  ],
+  "snapshot_evaluator_idempotent": true,
+  "full_aggregate_audit": true,
+  "evaluation_episodes": 42,
+  "smoke_training_steps": 48000,
+  "old_artifacts_unchanged": true
+}

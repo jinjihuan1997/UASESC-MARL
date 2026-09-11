@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "utc": "2026-09-09T07:24:54.577725+00:00",
+  "wall_seconds": 30.346522628795356,
+  "results": [
+    {
+      "case": "IC_HAPPO",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "IC_MAPPO",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_hidden_instruction",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "MAPPO_hidden_instruction",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_fixed_mode_rule",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_equal_resources",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_no_task_aux_reward",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 2.9103830456733704e-11,
+      "passed": true
+    },
+    {
+      "case": "round_robin_partial_cache",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 2.3646862246096134e-11,
+      "passed": true
+    },
+    {
+      "case": "no_feasible_quality",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 2.3646862246096134e-11,
+      "passed": true
+    },
+    {
+      "case": "insufficient_budget",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 2.3646862246096134e-11,
+      "passed": true
+    },
+    {
+      "case": "deterministic_channels",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 7.275957614183426e-12,
+      "passed": true
+    },
+    {
+      "case": "no_explicit_context",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 2.3646862246096134e-11,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "state": "PASS",
+  "same_initial_actors": true,
+  "same_initial_critic": true,
+  "only_environment_difference": "actor_observe_instruction",
+  "same_seed": true,
+  "same_training_budget": true,
+  "same_backend": true
+}

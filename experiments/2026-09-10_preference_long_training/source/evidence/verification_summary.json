@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "checks": {
+    "validation_cpu_v2": {
+      "passed": true,
+      "sha256": "2c972c4b6ba9db98384ca9ed06811ef4ceef4658f9c6e0dab8633974873a00bb",
+      "slots": 9080,
+      "discrete_checks": 72640
+    },
+    "validation_gpu": {
+      "passed": true,
+      "sha256": "1207f7d2d7a682e8f233437d6a6f06184908901fd6f8c36bd414bc7be66d14e3",
+      "slots": 9080,
+      "discrete_checks": 72640
+    },
+    "model_checks": {
+      "passed": true,
+      "sha256": "4f0e62e469beecb4f06d3340c019eacf8cc2adccee6c6b7ae18c342ac971ff59"
+    },
+    "parameter_sweep": {
+      "passed": true,
+      "sha256": "289b3ac5a41a5bbc9da344f38cb14aa62028f73c5b97955311a2d7fb9070724d"
+    },
+    "resume_checks": {
+      "passed": true,
+      "sha256": "09b923985815a64730a5046f80b561f0c7fdd72891a6ced2812e480aeb7a0925"
+    },
+    "resume_checks_gpu": {
+      "passed": true,
+      "sha256": "698faabcf3ff0e32a7b3d9f0c401fd2a78f2e0d9fcc35a2daa103d278d5950da"
+    }
+  },
+  "old_reference_hashes_unchanged": true,
+  "old_reference_files": 87,
+  "gpu_training_smokes_passed": 2,
+  "evaluation_smokes_paired": true,
+  "manuscript_current_original_sha256": "e5476c99d5a6766ea43bc44f467829e1bb48feeb1f615ec0d0cd9a5f11797243",
+  "pilot_complete": {
+    "state": "complete",
+    "utc": "2026-09-09T07:12:09.790737+00:00",
+    "steps_per_method": 1000000,
+    "paired_episodes": 65,
+    "temperature_peaks": [
+      76.0,
+      61.0
+    ],
+    "training_seeds": 1
+  },
+  "pilot_analysis_sha256": "600b1d35bd8d5ef6de4a2254f18da61adfe435092fa57dfa24961a66dfbd503e",
+  "manuscript_revised_sha256": "13e2a1a396f160484b9f5d1b2236df9924ff4974e41ced4ea5e55295b1ac65dc",
+  "updated_utc": "2026-09-09T07:14:09.773645+00:00",
+  "latex_compilation_passed": true,
+  "latex_undefined_or_overfull": false,
+  "original_manuscript_unchanged_since_read": true,
+  "frozen_pilot_inputs_unchanged": true
+}

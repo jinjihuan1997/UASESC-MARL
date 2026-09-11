@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T07:24:35.087500+00:00",
+  "slots_per_version": 2480,
+  "physical_reward_trace_sha256": "c61c73980810e8aff4965636534ea2bcec671fc357d5b1807ccdce00dd4ea2e3",
+  "ast_comparison": {
+    "reference/runtime/harl/envs/uav_escs/SC/uav_escs_env_sc.py": {
+      "only_changed_methods": [
+        "_build_sut_obs",
+        "_build_action_available_masks"
+      ],
+      "step_unchanged": true
+    },
+    "tensor_env.py": {
+      "only_changed_methods": [
+        "observe"
+      ],
+      "step_unchanged": true
+    }
+  }
+}

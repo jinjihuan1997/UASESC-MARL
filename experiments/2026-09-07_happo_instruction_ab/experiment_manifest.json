@@ -1,0 +1,71 @@
+{
+  "experiment": "happo_instruction_input_ab_v1",
+  "created_utc": "2026-09-07T11:31:31.089292+00:00",
+  "jobs": [
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/A_no_explicit_instruction_seed1.json",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/B_explicit_instruction_seed1.json",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/A_no_explicit_instruction_seed2.json",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/B_explicit_instruction_seed2.json",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/A_no_explicit_instruction_seed3.json",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/B_explicit_instruction_seed3.json"
+  ],
+  "train_seeds": [
+    1,
+    2,
+    3
+  ],
+  "evaluation_seeds": [
+    20261001,
+    20261002,
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012,
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019,
+    20261020
+  ],
+  "scenarios": [
+    "fixed_balance",
+    "fixed_aoi",
+    "fixed_quality",
+    "switch300_aoi",
+    "switch300_quality"
+  ],
+  "steps_per_job": 2000000,
+  "total_training_steps": 12000000,
+  "profile_sha256": "42ae877a5d3aa1fdac1bbff81c02718cb82125587270e09e6ab32109c9a27ece",
+  "registry_sha256": "46f8d1daf4931ee9c45682345f3c0a2fba3a6a41e31c3fb66cde74b2e3be17d7",
+  "config_hashes": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/A_no_explicit_instruction_seed1.json": "2687e7c15db8408328db1c72b9914d0bd15aa5e2d30695ba0d516aee972e27b5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/B_explicit_instruction_seed1.json": "690ea49b374b13b8bcf4132bee3a37b3c67e9a79bcd4a209e439917735163421",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/A_no_explicit_instruction_seed2.json": "fed5412203fccfacbdb73d474a65572c4d7ec53ffb04721414269d89e62f3170",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/B_explicit_instruction_seed2.json": "94752da5663afde6835bec9ec4f20b8ccd0bc6d8bfb879677580f3b7f0f0415b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/A_no_explicit_instruction_seed3.json": "447f79e6b7db2c6aa1e932c45a60531d6bddcfc41d2b3cc8dacb9c044975e984",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-07_happo_instruction_ab/configs/B_explicit_instruction_seed3.json": "3475304cc49fb0018a739a3ba37941bd493d3b5740245e5ba5fc0404bad4eaff"
+  },
+  "differences": "Within each seed, only exp_name and actor_observe_instruction differ. Critic keeps full instruction state in both groups.",
+  "scope": "Five available measured modes, expected-quality scheduling. No per-video QoS or new PPO claim.",
+  "ablation_boundary": "A masks explicit task ID and target features; physical SNR bucket, task-derived availability masks and pending-load observations remain available to both groups.",
+  "changes_from_old_default": [
+    "corrected active-symbol power and masked AWGN",
+    "measured five-mode profile",
+    "all five modes selectable at every SNR",
+    "channel sampled once per slot",
+    "independent episode/topology/channel/content/instruction RNG streams",
+    "pre-action masks do not use previous SUT budget",
+    "zero-valued quality/load penalties explicitly disabled",
+    "ordinary single-head critic and global advantage normalization"
+  ]
+}

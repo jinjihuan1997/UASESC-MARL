@@ -1,0 +1,127 @@
+{
+  "state": "PASS",
+  "type": "interface_review_not_training_or_performance_trial",
+  "input_hashes": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/Manuscript/main.tex": "e5476c99d5a6766ea43bc44f467829e1bb48feeb1f615ec0d0cd9a5f11797243",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_aoi_ref8/source/tensor_env.py": "c2510364be6ba8391da49ab7bb37ad3fb9e5121146abf5c108a9aa7a7a0b7aae",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_aoi_ref8/source/tensor_train.py": "deb244d42e0e8d193d3ef21365614bdf7c12a834482c02b1579012ff75ac0828",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_aoi_ref8/configs/ref8/seed_85/IC_HAPPO.json": "aaff5e9577a7b0eafc3b063a8d960df63dc7500441d3aed3e3b6909d10111be0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_aoi_ref8/source/reference/runtime/harl/models/base/distributions.py": "508803a61e647a7a426108d947cf65510807aa899250ff15a8863387909eb7d5"
+  },
+  "budget_timing": {
+    "uav_visible_budget": [
+      [
+        20000.0,
+        20000.0,
+        20000.0
+      ]
+    ],
+    "same_slot_executed_budget": [
+      [
+        43800.00000000001,
+        8099.999999999998,
+        8099.999999999998
+      ]
+    ]
+  },
+  "terminal_alias": {
+    "slots": [
+      150,
+      599
+    ],
+    "actor_observations_identical": true,
+    "critic_inputs_identical": true,
+    "terminated": [
+      false,
+      true
+    ],
+    "scope": "constructed equal visible physical states, not two recorded natural trajectories"
+  },
+  "sut_information_alias": {
+    "observations_identical": true,
+    "cached_urgency_before": [
+      [
+        45.0,
+        10.0,
+        25.0
+      ]
+    ],
+    "cached_urgency_after": [
+      [
+        10.0,
+        45.0,
+        25.0
+      ]
+    ],
+    "scope": "constructed interface counterexample"
+  },
+  "dimensions": {
+    "sut": 14,
+    "uav": 219,
+    "padded": 219,
+    "critic": 632,
+    "repeated_quality_uav": 160,
+    "nonrepeated_quality_uav": 16,
+    "uav_after_exact_quality_dedup": 75,
+    "critic_after_exact_quality_dedup": 200
+  },
+  "aoi_observation": {
+    "scale": 600,
+    "examples": {
+      "2": 0.0033333333333333335,
+      "3": 0.005,
+      "4": 0.006666666666666667
+    },
+    "candidate_scale": 8
+  },
+  "exact_profile_equivalence_groups": [
+    [
+      0,
+      4,
+      8,
+      12
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      5,
+      9,
+      13
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ]
+  ],
+  "remaining_classes": 11,
+  "simplex_temperature_changed_but_distribution_unchanged": true,
+  "gamma_099_relative_future_weights": {
+    "100": 0.3660323412732292,
+    "300": 0.04904089407128572,
+    "599": 0.0024293023144556234
+  },
+  "gamma_note": "discount within a return; these are not the weighting of all late-episode actor minibatch samples",
+  "no_training": true,
+  "no_production_edits": true
+}

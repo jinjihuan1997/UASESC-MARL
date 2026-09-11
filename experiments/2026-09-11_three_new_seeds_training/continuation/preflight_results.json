@@ -1,0 +1,188 @@
+{
+  "state": "PASS",
+  "seeds": [
+    810974,
+    771611,
+    779709
+  ],
+  "per_seed": [
+    {
+      "state": "PASS",
+      "seed": 810974,
+      "transferred_initial_models": [
+        {
+          "arm": "joint_continue",
+          "actors": [
+            "64a5ee76a614f216e98fc10b613673b0ceb7844ea677ba649e132db9eba2a900",
+            "0c9c2bdf54215e00452c02a759dac7eafb20d8343b8a6a28a4b06ec1ac93415a",
+            "0953ee8b42d3ddeb95d8feaa8b0d1b9c59a74f576b90a02dbcb5425c7a2c68e6",
+            "5b26235f9d7ebc1564760610fe38af654962d224cce7021547cea2325c8cf8a8"
+          ],
+          "critic": "fbace293d1ddc3594a3aefd2ce540dda9c4e11a6601eb3834c9a30977aae2253",
+          "environment": [
+            "4b759b00deb18b15ae636a10cc7ef3e1637f7dd957b807cc35617211d1e06cef",
+            "4f6a26e13953f13992ac8f2c254828259acae495529a7be895ed1fbcd3e08ab1",
+            "e4ac6edc8037905496e343eb9a0b4aac759aefe231bbbfffa2688168871f960e",
+            "d8a1ee9fbeb48fc47a53346f5568c0a0ff37f7d41a0b3e259c0180107a04eff6",
+            "8e53e6729bf2ed5be6fd9f83bad8bd2f212d3db93e667630261995c428af9b53",
+            "d5b164be73087d055b5356e00429371076fd94d9ec32d86e041645b4e4b99abf",
+            "76154b5c3c8415d45bda2878e877994e283b9d2d8388f1643a47ee14f2a97fe7",
+            "4569d6ed8dfcb795ca2068faa1682e24dfc03df9ad5555ae56865c0bfdcdeb29",
+            "1e060ab66bdb3b9c138d2d95f083bd6d8e36d79b6992b0993054ee3986b6cb4c",
+            "0b1b876aad69d8453a4d081c04ac0475acbfaf85dad6cca0f1a7c1dd49131c97"
+          ],
+          "initial_selector": null
+        },
+        {
+          "arm": "selector",
+          "actors": [
+            "64a5ee76a614f216e98fc10b613673b0ceb7844ea677ba649e132db9eba2a900",
+            "0c9c2bdf54215e00452c02a759dac7eafb20d8343b8a6a28a4b06ec1ac93415a",
+            "0953ee8b42d3ddeb95d8feaa8b0d1b9c59a74f576b90a02dbcb5425c7a2c68e6",
+            "5b26235f9d7ebc1564760610fe38af654962d224cce7021547cea2325c8cf8a8"
+          ],
+          "critic": "fbace293d1ddc3594a3aefd2ce540dda9c4e11a6601eb3834c9a30977aae2253",
+          "environment": [
+            "4b759b00deb18b15ae636a10cc7ef3e1637f7dd957b807cc35617211d1e06cef",
+            "4f6a26e13953f13992ac8f2c254828259acae495529a7be895ed1fbcd3e08ab1",
+            "e4ac6edc8037905496e343eb9a0b4aac759aefe231bbbfffa2688168871f960e",
+            "d8a1ee9fbeb48fc47a53346f5568c0a0ff37f7d41a0b3e259c0180107a04eff6",
+            "8e53e6729bf2ed5be6fd9f83bad8bd2f212d3db93e667630261995c428af9b53",
+            "d5b164be73087d055b5356e00429371076fd94d9ec32d86e041645b4e4b99abf",
+            "76154b5c3c8415d45bda2878e877994e283b9d2d8388f1643a47ee14f2a97fe7",
+            "4569d6ed8dfcb795ca2068faa1682e24dfc03df9ad5555ae56865c0bfdcdeb29",
+            "1e060ab66bdb3b9c138d2d95f083bd6d8e36d79b6992b0993054ee3986b6cb4c",
+            "0b1b876aad69d8453a4d081c04ac0475acbfaf85dad6cca0f1a7c1dd49131c97"
+          ],
+          "initial_selector": "7d9454acd24ae9f88d97430aa5403558371c56b9a1d935fdf0d9fbfc0d6ef6f5"
+        }
+      ],
+      "matched_pretrained_actors_and_critic": true,
+      "matched_inherited_environment": true,
+      "selector_log_likelihood_verified": true,
+      "frozen_controllers_and_trainable_selector_verified": true,
+      "finite_actual_update_both_arms": true,
+      "smoke_physical_steps": 8000,
+      "smoke_results_used_for_model_selection": false
+    },
+    {
+      "state": "PASS",
+      "seed": 771611,
+      "transferred_initial_models": [
+        {
+          "arm": "joint_continue",
+          "actors": [
+            "57df819283cdddb1f77a8c3648035d18d55c1f608d075916d3610d58d6b7c102",
+            "b7b239522818ea6c1b4ea8becdc495cbb9feb368a04db35a5f20c94eab6ad3f6",
+            "8e3d1281f7d55070dabc285038c6f3ac12b670ff8a8370ba4ea59dcad532bd08",
+            "2a641ebabde57219a26ac901cd7145462c0b9578430ef7d3970f36aac36dc7fd"
+          ],
+          "critic": "3d5277b5798dcbb93e457bedeff4706a5344c737b4f0c24e56569a3c55f70f54",
+          "environment": [
+            "d4fcaf0dba2779de97e424cff528d8f092d00137ff3d14e6d8252a5d86785316",
+            "7330200eee1ab6af257e4e002da7a079b687b445ac138bd931f2023a45a492d1",
+            "f401d7289658ecfb5e70f7a1e27894cb08d66baea1e828954f85944f50c4b354",
+            "31f34715dcf652d1a59bbc54146cd86b8e27872d8b49773070267f461126f3e6",
+            "a5de28bb3976fb8f7b5bd0e5fc1b831a019496363396cad2fc12e86c36e1e83e",
+            "739ef05cfbeaa25f8c0954545249513fa247bacfd0c0c70a9d070ab01bcbe815",
+            "1949f073896fbfe1237698fe79edbcd3f87b11c24cb4c3a92526c80b62036113",
+            "7581fb27db1297851adb0b45662a9f285035c294b94ba776849b1a2bcdcae4e0",
+            "f095ed48aba9c9283ed3bb3f168b165edfec3a45e9270f1b97aa8ed3875010ff",
+            "3082e047860e965878804c4a6815a210f26e2f3b8abc85ef09e05156a2108a93"
+          ],
+          "initial_selector": null
+        },
+        {
+          "arm": "selector",
+          "actors": [
+            "57df819283cdddb1f77a8c3648035d18d55c1f608d075916d3610d58d6b7c102",
+            "b7b239522818ea6c1b4ea8becdc495cbb9feb368a04db35a5f20c94eab6ad3f6",
+            "8e3d1281f7d55070dabc285038c6f3ac12b670ff8a8370ba4ea59dcad532bd08",
+            "2a641ebabde57219a26ac901cd7145462c0b9578430ef7d3970f36aac36dc7fd"
+          ],
+          "critic": "3d5277b5798dcbb93e457bedeff4706a5344c737b4f0c24e56569a3c55f70f54",
+          "environment": [
+            "d4fcaf0dba2779de97e424cff528d8f092d00137ff3d14e6d8252a5d86785316",
+            "7330200eee1ab6af257e4e002da7a079b687b445ac138bd931f2023a45a492d1",
+            "f401d7289658ecfb5e70f7a1e27894cb08d66baea1e828954f85944f50c4b354",
+            "31f34715dcf652d1a59bbc54146cd86b8e27872d8b49773070267f461126f3e6",
+            "a5de28bb3976fb8f7b5bd0e5fc1b831a019496363396cad2fc12e86c36e1e83e",
+            "739ef05cfbeaa25f8c0954545249513fa247bacfd0c0c70a9d070ab01bcbe815",
+            "1949f073896fbfe1237698fe79edbcd3f87b11c24cb4c3a92526c80b62036113",
+            "7581fb27db1297851adb0b45662a9f285035c294b94ba776849b1a2bcdcae4e0",
+            "f095ed48aba9c9283ed3bb3f168b165edfec3a45e9270f1b97aa8ed3875010ff",
+            "3082e047860e965878804c4a6815a210f26e2f3b8abc85ef09e05156a2108a93"
+          ],
+          "initial_selector": "84927d052c610c4913c2349946a241372df63c8dd5c8627cb27876d96795218f"
+        }
+      ],
+      "matched_pretrained_actors_and_critic": true,
+      "matched_inherited_environment": true,
+      "selector_log_likelihood_verified": true,
+      "frozen_controllers_and_trainable_selector_verified": true,
+      "finite_actual_update_both_arms": true,
+      "smoke_physical_steps": 8000,
+      "smoke_results_used_for_model_selection": false
+    },
+    {
+      "state": "PASS",
+      "seed": 779709,
+      "transferred_initial_models": [
+        {
+          "arm": "joint_continue",
+          "actors": [
+            "f9ed133d2efb2e2f54c1edf01c096f80d31d3a2e5d1e3aa673b907ae86e56338",
+            "cf5ae4c6af60b6b4c8aae4183a60315defe5ace1d71138f509aeb9f114aeda11",
+            "1644c46aa304040c7a70dadb48849a98582a92dd476042415aa6bfd387cf815c",
+            "2487f00f8c3b2a1f4db5b4aa9b3ccb938acf69ef8e7bdaaa1fc2f4e6a61daf39"
+          ],
+          "critic": "176df73cc4dac42198485a7adac4191721507170cd4bf4b0326480580d5694b2",
+          "environment": [
+            "ba8c9126dd4662529ba7698bccdce7494ce7dbf11062a97faf87f09af032e5d9",
+            "eb018cdbb0ebd8ae88a1a0a05f56560b17478eb6cdee9ff461dac42fa11749e0",
+            "b1930095e65d9087bf15503df15206a669624da749ee2fa2e74c9a000295731c",
+            "b2f3cf02a7f0a901947aba89b5e414f1faef8d04e9b44d03adb3d3a593a07740",
+            "54b8aad1508f2b5152fd7a55ccbe03f35525fbe4c390b9a97d78d0ffdda4d684",
+            "ea084d019e684d166cbf80c7a84a254c7f0db1a3f44b359acd8394c66b62a27e",
+            "31a7cab04d69204a86affe740734d7173a028f9bbeaf0d882ab3da86c75f7fba",
+            "677c3d73a57879a7cb4f82ff2ea7d9062bf94d4c08e7787e47512fe4fc3622de",
+            "b238d10ba521dfb96d503fc30ab0eb94ca126b7fdc035f3810d560875083b523",
+            "8b124caf6a93ef1a3d965f22350e6073f97a41cd63e39baa3016378d01c74e61"
+          ],
+          "initial_selector": null
+        },
+        {
+          "arm": "selector",
+          "actors": [
+            "f9ed133d2efb2e2f54c1edf01c096f80d31d3a2e5d1e3aa673b907ae86e56338",
+            "cf5ae4c6af60b6b4c8aae4183a60315defe5ace1d71138f509aeb9f114aeda11",
+            "1644c46aa304040c7a70dadb48849a98582a92dd476042415aa6bfd387cf815c",
+            "2487f00f8c3b2a1f4db5b4aa9b3ccb938acf69ef8e7bdaaa1fc2f4e6a61daf39"
+          ],
+          "critic": "176df73cc4dac42198485a7adac4191721507170cd4bf4b0326480580d5694b2",
+          "environment": [
+            "ba8c9126dd4662529ba7698bccdce7494ce7dbf11062a97faf87f09af032e5d9",
+            "eb018cdbb0ebd8ae88a1a0a05f56560b17478eb6cdee9ff461dac42fa11749e0",
+            "b1930095e65d9087bf15503df15206a669624da749ee2fa2e74c9a000295731c",
+            "b2f3cf02a7f0a901947aba89b5e414f1faef8d04e9b44d03adb3d3a593a07740",
+            "54b8aad1508f2b5152fd7a55ccbe03f35525fbe4c390b9a97d78d0ffdda4d684",
+            "ea084d019e684d166cbf80c7a84a254c7f0db1a3f44b359acd8394c66b62a27e",
+            "31a7cab04d69204a86affe740734d7173a028f9bbeaf0d882ab3da86c75f7fba",
+            "677c3d73a57879a7cb4f82ff2ea7d9062bf94d4c08e7787e47512fe4fc3622de",
+            "b238d10ba521dfb96d503fc30ab0eb94ca126b7fdc035f3810d560875083b523",
+            "8b124caf6a93ef1a3d965f22350e6073f97a41cd63e39baa3016378d01c74e61"
+          ],
+          "initial_selector": "36f1e2694fc70d16623ef077f4c26195e72a496bfab9f9137f54e85ac8ba7b1a"
+        }
+      ],
+      "matched_pretrained_actors_and_critic": true,
+      "matched_inherited_environment": true,
+      "selector_log_likelihood_verified": true,
+      "frozen_controllers_and_trainable_selector_verified": true,
+      "finite_actual_update_both_arms": true,
+      "smoke_physical_steps": 8000,
+      "smoke_results_used_for_model_selection": false
+    }
+  ],
+  "smoke_physical_steps": 24000
+}

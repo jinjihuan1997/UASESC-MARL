@@ -1,0 +1,9 @@
+{
+  "state": "PASS",
+  "same_state_hidden_input_mask_checks": 1200,
+  "same_action_physical_transition_checks": 1200,
+  "reference_slots": 1200,
+  "max_reward_error": 8.326672684688674e-17,
+  "explicit_fields_only": true,
+  "critic_equal_between_groups": true
+}

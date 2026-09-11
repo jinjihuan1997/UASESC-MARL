@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T06:45:18.702692+00:00",
+  "resource_vertices_reachable": true,
+  "resource_availability_preserves_snr": true,
+  "physical_aoi_cap_unchanged": true,
+  "independent_reward_formula": true,
+  "base_reward_by_instruction_same_action": [
+    0.04623547215381589,
+    -0.05359815642398999,
+    0.11279122453901982
+  ]
+}

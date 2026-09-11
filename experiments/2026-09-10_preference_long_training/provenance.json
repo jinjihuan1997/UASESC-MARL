@@ -1,0 +1,12 @@
+{
+  "parent_manifest_sha256": "102b0a0a6d4346dd0b7ada760f8a56971710be234888e90e3b4fdb8193b65173",
+  "pilot_audit_sha256": "42236c327712fed865f529c76cc5e86b717288c3d338047eb2a7bbdf91989db5",
+  "pilot_results_sha256": "9d14bc6f15c188e4563423414dd923d345fb366ea7f68bc8ef3b8684f5f8ca9e",
+  "rule_selection_sha256": "9c23f0c7d817fa010f67ffb01e98f476e07a4663f584bcac6ac24a66d93c52ff",
+  "source_snapshot_origin": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_long_training/runs/three_seed_sc_20260909/source",
+  "helper_origins": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_preference_only/probe_common.py": "87c68547fbb78f7778b36bf075e014c8a75943b61b2f6d99d08e79bba43fa0cb",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_preference_only/pilot_evaluate.py": "1acb0248fd029f3bbb35536502b6afbaf3c41e1231479079fe7c00e8ed61df2a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_instruction_closed_loop/evaluate.py": "48912150ee4b51feb31629f501ab52bfef402583597e0c2503287a62989e7903"
+  }
+}

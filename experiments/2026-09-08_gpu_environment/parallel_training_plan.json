@@ -1,0 +1,136 @@
+{
+  "state": "proposed_not_launched",
+  "created_utc": "2026-09-08T10:51:11.993623+00:00",
+  "selected_tested_profile": "cpu6_gpu1",
+  "training_processes": 7,
+  "cpu_methods": 6,
+  "gpu_methods": 1,
+  "assignments": [
+    {
+      "method": "IC_HAPPO",
+      "device": "cpu",
+      "cpu_core": 16
+    },
+    {
+      "method": "IC_MAPPO",
+      "device": "cpu",
+      "cpu_core": 13
+    },
+    {
+      "method": "HAPPO_hidden_instruction",
+      "device": "cpu",
+      "cpu_core": 17
+    },
+    {
+      "method": "MAPPO_hidden_instruction",
+      "device": "cpu",
+      "cpu_core": 9
+    },
+    {
+      "method": "HAPPO_fixed_mode_rule",
+      "device": "cpu",
+      "cpu_core": 11
+    },
+    {
+      "method": "HAPPO_equal_resources",
+      "device": "cuda:0",
+      "cpu_core": 18
+    },
+    {
+      "method": "HAPPO_no_task_aux_reward",
+      "device": "cpu",
+      "cpu_core": 19
+    }
+  ],
+  "excluded_cpu_ids": [
+    15
+  ],
+  "library_threads": 1,
+  "seed": 1,
+  "steps_per_method": 10000000,
+  "total_steps": 70000000,
+  "logical_envs_per_method": 10,
+  "rollout_steps_per_env": 400,
+  "updates_per_method": 2500,
+  "physical_episode_slots": 600,
+  "initialization": "fresh seed=1; no short-probe or prior formal weights; separate output directory",
+  "table_sha256": "a6f721686b28d6c28ccf811ab8b63e80ae8c135a08b9d7e1b4bbfe7ca13d91cc",
+  "measured": {
+    "allocation": {
+      "cpu": [
+        16,
+        17,
+        19,
+        11,
+        13,
+        9
+      ],
+      "cuda:0": [
+        18
+      ]
+    },
+    "wall_seconds": 72.53898025723174,
+    "effective_steps_per_second": 7719.9872125879665,
+    "linear_70m_hours": 2.518714592264991,
+    "cpu_temperature_peak_c": 84.0,
+    "ram_available_min_mib": 39833.34765625,
+    "gpu_memory_peak_mib": 2664.0,
+    "gpu_utilization_mean_percent": 22.333333333333332
+  },
+  "planning_hours": {
+    "training": [
+      3,
+      4
+    ],
+    "evaluation": [
+      2,
+      3
+    ],
+    "total_after_launch": [
+      5,
+      7
+    ]
+  },
+  "time_estimate_excludes": [
+    "long-run supervisor/checkpoint/evaluation integration and validation",
+    "CC",
+    "additional training seeds",
+    "fault reruns",
+    "paper writing"
+  ],
+  "prelaunch_work": [
+    "formal long-run supervisor",
+    "periodic full-state checkpoints and recovery validation",
+    "frozen CPU evaluation adapter",
+    "record and gracefully retire prior formal queue after readiness"
+  ],
+  "first_full_budget_observation_minutes": 30,
+  "planned_thermal_policy": {
+    "trigger_c": 85,
+    "trigger_seconds": 5,
+    "cpu_training_cores_during_derating": [
+      16,
+      17,
+      19,
+      11
+    ],
+    "gpu_host_core": 18,
+    "keep_existing_jobs_alive": true,
+    "no_sigstop": true,
+    "recover_below_c": 75,
+    "recover_seconds": 60,
+    "long_run_validation_pending": true
+  },
+  "evaluation": {
+    "learned_methods": 7,
+    "rule_methods": 4,
+    "scenarios": 13,
+    "paired_environment_seeds": 20,
+    "slots_per_episode": 600,
+    "total_slots": 1716000,
+    "backend": "frozen CPU reference",
+    "checkpoint": "final 10M budget"
+  },
+  "cc": "two methods deferred until table alignment and backend support",
+  "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_gpu_environment/results/allocation_verification.json"
+}

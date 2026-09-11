@@ -1,0 +1,49 @@
+{
+  "rows": [
+    {
+      "seed": 85,
+      "joint_continue": -3.011512255431322,
+      "selector": -2.8978932037625764,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": 0.03116839047578379,
+      "selector_minus_joint": 0.11361905166874564
+    },
+    {
+      "seed": 218,
+      "joint_continue": -3.026481421741574,
+      "selector": -2.9153223872183958,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": 0.01373920701996445,
+      "selector_minus_joint": 0.11115903452317832
+    },
+    {
+      "seed": 966,
+      "joint_continue": -3.0736862302230397,
+      "selector": -2.980388746377627,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": -0.05132715213926664,
+      "selector_minus_joint": 0.09329748384541281
+    },
+    {
+      "seed": 268966,
+      "joint_continue": -3.109696378583793,
+      "selector": -3.0125886597007234,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": -0.08352706546236321,
+      "selector_minus_joint": 0.0971077188830698
+    }
+  ],
+  "original_three_seed_mean": {
+    "joint_continue": -3.037226635798645,
+    "selector": -2.9312014457861992,
+    "selector_minus_myopic": -0.0021398515478394664,
+    "selector_minus_joint": 0.10602519001244559
+  },
+  "all_four_seed_mean": {
+    "joint_continue": -3.055344071494932,
+    "selector": -2.9515482492648304,
+    "selector_minus_myopic": -0.022486655026470403,
+    "selector_minus_joint": 0.10379582223010164
+  },
+  "interpretation": "Post-hoc supplementary seed, not an independent validation set. Original seed 966 retained."
+}

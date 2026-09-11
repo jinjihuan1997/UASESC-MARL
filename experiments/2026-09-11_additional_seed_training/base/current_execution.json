@@ -1,0 +1,9 @@
+{
+  "pid": 1190725,
+  "uid": 1000,
+  "state": "R",
+  "start_ticks": 414299970,
+  "command": "/home/king/miniconda3/envs/harl_sionna/bin/python -u /home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_additional_seed_training/base/supervisor.py run ",
+  "utc": "2026-09-11T01:30:31.807588+00:00",
+  "manifest_sha256": "6b563ec7a24a2a5e3fb8cf9df46c1eec12d022e9150cbe40f52c84f0cdd4ccfb"
+}

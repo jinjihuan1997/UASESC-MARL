@@ -1,0 +1,13 @@
+{
+  "state": "PASS",
+  "original_inputs_and_models_unchanged": true,
+  "initial_continuation_models_paired": true,
+  "all_saved_trace_rewards_recomputed": true,
+  "saved_trace_slots": 720000,
+  "original_replay_match": true,
+  "diagnostic_training_steps": 1200000,
+  "evaluation_slots_checked_during_step": 1584000,
+  "frozen_stochastic_collection_steps": 60000,
+  "total_new_environment_steps": 2844000,
+  "formal_results_replaced": false
+}

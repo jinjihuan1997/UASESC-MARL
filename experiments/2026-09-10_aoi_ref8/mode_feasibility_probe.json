@@ -1,0 +1,70 @@
+{
+  "state": "PASS",
+  "training_seed": 85,
+  "evaluation_seeds": [
+    20262501,
+    20262502,
+    20262503,
+    20262504,
+    20262505,
+    20262506,
+    20262507,
+    20262508,
+    20262509,
+    20262510,
+    20262511,
+    20262512,
+    20262513,
+    20262514,
+    20262515,
+    20262516,
+    20262517,
+    20262518,
+    20262519,
+    20262520
+  ],
+  "scenario": "switch300_2_to_1",
+  "trace_sha256": "c1af92d50a15d803670c9bbffd7c152d56fc22d5918f4892a157b067b39344d8",
+  "results": {
+    "quality": {
+      "first_episode": {
+        "decisions": 900,
+        "executed_low_count": 639,
+        "raw_top_low_count": 639,
+        "middle_feasible_count": 900,
+        "executed_low_with_middle_feasible": 639,
+        "raw_top_equals_executed_count": 900
+      },
+      "all20_episodes": {
+        "decisions": 18000,
+        "executed_low_count": 14151,
+        "raw_top_low_count": 14151,
+        "middle_feasible_count": 18000,
+        "executed_low_with_middle_feasible": 14151,
+        "raw_top_equals_executed_count": 18000
+      }
+    },
+    "aoi": {
+      "first_episode": {
+        "decisions": 900,
+        "executed_low_count": 856,
+        "raw_top_low_count": 856,
+        "middle_feasible_count": 900,
+        "executed_low_with_middle_feasible": 856,
+        "raw_top_equals_executed_count": 900
+      },
+      "all20_episodes": {
+        "decisions": 18000,
+        "executed_low_count": 16648,
+        "raw_top_low_count": 16648,
+        "middle_feasible_count": 18000,
+        "executed_low_with_middle_feasible": 16648,
+        "raw_top_equals_executed_count": 18000
+      }
+    }
+  },
+  "slots": 12000,
+  "interpretation": "mode5 feasibility uses actual same-slot RL budget and pre-step cache",
+  "no_training": true,
+  "source_hash": "94ceb214c70f23a52910c9711ee7d46714140c25aa03c369c4a84c67bdf7792b"
+}

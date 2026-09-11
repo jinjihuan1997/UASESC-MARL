@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-08T07:31:27.265834+00:00",
+  "cpu_microcode": "0x11b",
+  "board": "PRO Z890-S WIFI WHITE (MS-7E54)",
+  "bios_version": "1.A60",
+  "bios_date": "01/07/2025",
+  "xmp_overclock_voltage_settings": "UNKNOWN; requires user/firmware information",
+  "memory_inventory": "dmidecode requires unavailable administrative access",
+  "dmesg_access": "unavailable; journalctl kernel records used"
+}

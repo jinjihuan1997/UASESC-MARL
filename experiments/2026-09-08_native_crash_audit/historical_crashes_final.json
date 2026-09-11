@@ -1,0 +1,155 @@
+[
+  {
+    "method": "IC_MAPPO",
+    "attempt": 1,
+    "completed_steps": 704000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_154752_377475/IC_MAPPO_attempt_01_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3082225,
+        "state": "Z",
+        "ppid": 3082111,
+        "pgid": 3082111,
+        "start_ticks": 389579569,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "MAPPO_hidden_instruction",
+    "attempt": 1,
+    "completed_steps": 496000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_154752_377475/MAPPO_hidden_instruction_attempt_01_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3082207,
+        "state": "Z",
+        "ppid": 3082113,
+        "pgid": 3082113,
+        "start_ticks": 389579567,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "HAPPO_fixed_mode_rule",
+    "attempt": 1,
+    "completed_steps": 996000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_161528_847863/HAPPO_fixed_mode_rule_attempt_01_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3139001,
+        "state": "Z",
+        "ppid": 3138934,
+        "pgid": 3138934,
+        "start_ticks": 390284146,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "HAPPO_fixed_mode_rule",
+    "attempt": 2,
+    "completed_steps": 104000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_161528_847863/HAPPO_fixed_mode_rule_attempt_02_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3166888,
+        "state": "Z",
+        "ppid": 3166835,
+        "pgid": 3166835,
+        "start_ticks": 390514778,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "IC_HAPPO",
+    "attempt": 1,
+    "completed_steps": 6768000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_161528_847863/IC_HAPPO_attempt_01_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3082210,
+        "state": "Z",
+        "ppid": 3082110,
+        "pgid": 3082110,
+        "start_ticks": 389579567,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "IC_MAPPO",
+    "attempt": 2,
+    "completed_steps": 568000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_161528_847863/IC_MAPPO_attempt_02_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3160509,
+        "state": "Z",
+        "ppid": 3160414,
+        "pgid": 3160414,
+        "start_ticks": 390449781,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "MAPPO_hidden_instruction",
+    "attempt": 2,
+    "completed_steps": 180000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_161528_847863/MAPPO_hidden_instruction_attempt_02_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3160502,
+        "state": "Z",
+        "ppid": 3160415,
+        "pgid": 3160415,
+        "start_ticks": 390449779,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "IC_HAPPO",
+    "attempt": 1,
+    "completed_steps": 28000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/resource_benchmark_20260908/jobs_4/execution/recovery_20260908_160015_876318/IC_HAPPO_attempt_01_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3146447,
+        "state": "Z",
+        "ppid": 3146334,
+        "pgid": 3146334,
+        "start_ticks": 390358450,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  },
+  {
+    "method": "IC_MAPPO",
+    "attempt": 1,
+    "completed_steps": 28000,
+    "evidence": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/resource_benchmark_20260908/jobs_5/execution/recovery_20260908_160206_698345/IC_MAPPO_attempt_01_failure.json",
+    "dead_workers": [
+      {
+        "pid": 3148470,
+        "state": "Z",
+        "ppid": 3148339,
+        "pgid": 3148339,
+        "start_ticks": 390369533,
+        "wait_status": 139,
+        "uid": 1000
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "state": "PASS",
+  "episodes": 4680,
+  "slots": 2808000,
+  "both_scores_independently_recomputed": true,
+  "reward_components_verified": true,
+  "external_pairing": true,
+  "instruction_timing": true,
+  "hidden_physical_invariance": true,
+  "zero_physical_violations": true,
+  "input_model_trace_hashes": true,
+  "production_source_identical": true,
+  "old_training_reused": true,
+  "new_training_steps": 6000000
+}

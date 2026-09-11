@@ -1,0 +1,18 @@
+{
+  "state": "complete",
+  "utc": "2026-09-09T12:01:49.866375+00:00",
+  "purpose": "smoke_only_not_paper_results",
+  "training_jobs": 21,
+  "training_steps": 840000,
+  "evaluation_items": 25,
+  "evaluation_slots": 30000,
+  "paired_external_trajectories": 2,
+  "all_executed_constraints_passed": true,
+  "files": {
+    "comparison.md": "716651051dcf53afdad57c6a89c1afe694b38172fc1a3c50a2aa30cd32326dd6",
+    "comparison.json": "1f3e610791e1f16ba35cbff814ce9358574ce466b79237921e7084bae567be10",
+    "comparison.csv": "046dcce93e4ed35438553454b243cc24ea6b20e95406ec254348780b558434ab",
+    "per_seed_results.json": "79c9ee1d588505da392983262e6ed583fc4e5ceeb11c6c2edfac3e18e4ae0b55",
+    "switch_response.json": "1f630cfce5ad671a0ff6e8b76a4d664c69a73e09e81988c0656e608a0c110db3"
+  }
+}

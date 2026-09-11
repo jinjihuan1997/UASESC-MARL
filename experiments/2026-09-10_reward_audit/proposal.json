@@ -1,0 +1,75 @@
+{
+  "status": "DESIGN_ONLY_NOT_TRAINING_CONFIG",
+  "scope": "Reward audit follow-up; no old input mutation",
+  "phase1_equivalent_cleanup": {
+    "objective_reward_single_source": true,
+    "independent_recomputation": true,
+    "reward_load_ref": 60000,
+    "resource_cost_coefficient": 0.02,
+    "observation_Lambda_ref": 100000,
+    "display_score_scale": 100,
+    "train_reward_scale": 1
+  },
+  "phase2_candidate": {
+    "aoi_tail_threshold": 4,
+    "aoi_reward_ref": 10,
+    "aoi_aggregation_weights": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "instruction_weights": [
+      [
+        0.5,
+        0.4,
+        0.1
+      ],
+      [
+        0.2,
+        0.7,
+        0.1
+      ],
+      [
+        0.7,
+        0.2,
+        0.1
+      ]
+    ],
+    "extra_max_age_penalty": [
+      0,
+      0,
+      0
+    ],
+    "reception_bonus": 0,
+    "note": "Threshold 4 is a candidate service target requiring separate calibration; not selected by held-out ranking"
+  },
+  "pilot": {
+    "objectives": [
+      "original_tail10",
+      "candidate_tail4"
+    ],
+    "methods": [
+      "IC_HAPPO",
+      "HAPPO_hidden_instruction"
+    ],
+    "training_seeds": [
+      85,
+      218,
+      966
+    ],
+    "steps_per_model": 1000000,
+    "total_models": 12,
+    "total_environment_steps": 12000000,
+    "fresh_initialization": true,
+    "new_evaluation_seeds_required": true,
+    "keep_all_rule_families": true
+  },
+  "optional_separate_shaping": {
+    "gamma": 0.99,
+    "lambda_candidate": 0.1,
+    "phi": "-mean(A)/10",
+    "terminal_phi": 0,
+    "rollout_boundary_is_not_terminal": true,
+    "trained": false
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "utc": "2026-09-09T14:06:39.075398+00:00",
+  "unit_tests": 9,
+  "smoke_run": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/runs/smoke_40k_3cpu",
+  "smoke_manifest_sha256": "028f31257e2a6a277af00a349b320a99af07afbf4b0d534d017a8666d105490a",
+  "smoke_training_jobs": 6,
+  "smoke_total_training_steps": 240000,
+  "smoke_evaluation_slots": 7200,
+  "all_executed_constraints_passed": true,
+  "exact_resume_across_episode_reset": true,
+  "actual_sc_step_hash_pairing_passed": true,
+  "cc_array_shape": [
+    20,
+    11
+  ],
+  "config_differences": {
+    "CC_IC_HAPPO": {
+      "semantic_model_set": {
+        "SC": "ran_adaptive_snr0_15_mu_grid_16modes",
+        "CC": "h264_ldpc_rgb8_20modes_v1"
+      },
+      "cc_delivery_moments_path": {
+        "SC": null,
+        "CC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/inputs/delivery_moments.npz"
+      },
+      "env": {
+        "SC": "uav_escs_sc",
+        "CC": "uav_escs_cc"
+      },
+      "semantic_registry_path": {
+        "SC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_long_training/runs/three_seed_sc_20260909/source/reference/inputs/mode_registry.json",
+        "CC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/inputs/mode_registry.json"
+      },
+      "semantic_profile_path": {
+        "SC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_long_training/runs/three_seed_sc_20260909/source/reference/inputs/profile.npz",
+        "CC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/inputs/profile.npz"
+      },
+      "communication_model": {
+        "SC": null,
+        "CC": "cc_rgb8_average_single_attempt_v1"
+      },
+      "n_semantic_modes": {
+        "SC": 16,
+        "CC": 20
+      },
+      "semantic_profile_quality_metric": {
+        "SC": "psnr",
+        "CC": "psnr_rgb_expected"
+      }
+    },
+    "CC_IC_MAPPO": {
+      "semantic_model_set": {
+        "SC": "ran_adaptive_snr0_15_mu_grid_16modes",
+        "CC": "h264_ldpc_rgb8_20modes_v1"
+      },
+      "cc_delivery_moments_path": {
+        "SC": null,
+        "CC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/inputs/delivery_moments.npz"
+      },
+      "env": {
+        "SC": "uav_escs_sc",
+        "CC": "uav_escs_cc"
+      },
+      "semantic_registry_path": {
+        "SC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_long_training/runs/three_seed_sc_20260909/source/reference/inputs/mode_registry.json",
+        "CC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/inputs/mode_registry.json"
+      },
+      "semantic_profile_path": {
+        "SC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_long_training/runs/three_seed_sc_20260909/source/reference/inputs/profile.npz",
+        "CC": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/inputs/profile.npz"
+      },
+      "communication_model": {
+        "SC": null,
+        "CC": "cc_rgb8_average_single_attempt_v1"
+      },
+      "n_semantic_modes": {
+        "SC": 16,
+        "CC": 20
+      },
+      "semantic_profile_quality_metric": {
+        "SC": "psnr",
+        "CC": "psnr_rgb_expected"
+      }
+    }
+  },
+  "algorithm_configuration_unchanged": true,
+  "resource_only_change_identical_results": true,
+  "resources": {
+    "cpu_cores": [
+      0,
+      4,
+      6
+    ],
+    "gpu_host_cores": [],
+    "gpu_device": null,
+    "cpu_parallel_jobs": 3,
+    "gpu_parallel_jobs": 0,
+    "evaluation_cpu_cores": [
+      0,
+      4,
+      6
+    ],
+    "library_threads": 1
+  },
+  "peak_cpu_c": 85.0,
+  "peak_gpu_c": 43.0,
+  "hot_85_samples": 1,
+  "thermal_pause_observed": false,
+  "mean_update_seconds": 2.5249207034034447,
+  "two_wave_training_hours": 3.5068343102825623,
+  "planning_hours_including_evaluation_and_margin": [
+    4,
+    5
+  ],
+  "limitations": [
+    "Short test is not convergence or superiority evidence",
+    "Both resource tests had a single sampled CPU spike to 85C; neither had sustained trigger; long run keeps thermal protection",
+    "SC remains the user fixed derived average model"
+  ],
+  "source_hashes": {
+    "formal_train.py": "152e51935454c6d513f5b00fb841f9f65ea6c60d0ef336dd56031faabad64159",
+    "multiseed_protocol.py": "71bb668066c0d996df3ff3b77933f874912b992dcf9d141ed5d2145ef9bd6060",
+    "tensor_env.py": "4685d5858b4fa1fd0ed850b7688a0caf2224493043a83ef287e9ab1307315805",
+    "three_seed_train.py": "b0debc41b90f6788808e3981b466ef5bd8dda3ad905b1b166468420a69f3295e",
+    "prepare_inputs.py": "17ab392ad00ab5f13d5686d1acbf4e12d0460ae73ac5d3ea701d2f0fa6c6a932",
+    "cc_metrics.py": "393fd63a46be31878acd6fbf20551244c0ee4425f133114df1610c291118a882",
+    "common.py": "61aec75d605613602183e859e0ac3ed8421259d25173ccd0cb43ddadd9608ab4",
+    "episode_source.py": "5fe7daaf0dd6808bd397662cad0f07a827def05418cb38186f58c6bb559353d7",
+    "cc_setup_env.py": "5949e71c89844081c8fe59d6efd8e99ea0a109f7919356dd8533928d7eeb77d1",
+    "training_checkpoint.py": "af2b437a47477f465556bb50546f7f822b69dd33c57fdba2c9a367aeb9e07285",
+    "formal_eval.py": "8fe8bc9cba9ea751a6d0555cdce625539018a629819c0194b60c089d392246e3",
+    "tensor_train.py": "6b78f87a8b645711a1ec91654c04f8a6db28c63fb13896377dbfb4dd0dd9eaf2",
+    "resources.py": "001e74a80fe4b9c116107921252f2d31ee34c35447655506a994edaaf9345d56",
+    "compare_sc_cc.py": "efaf8f4ffe125118c39793028597c269f1794240f1653c7d7776cf842fd5fc9d",
+    "aggregate_seeds.py": "fe32d688c6219a7e827e689358eeddd613a575fe6c85e009d2641e29cd9c6650",
+    "tests/test_cc.py": "1040cf6e63627c7e064b7e85efbe2bfa3b37eb6e85955485b83177c4dffd870b"
+  }
+}

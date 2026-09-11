@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-09-07T12:19:05.114644+00:00",
+  "matrix_cases_complete": 15,
+  "matrix_steps_complete": 240000,
+  "extra_diagnostic_steps": 16000,
+  "tests": "11 passed, 1 deprecation warning; see update_equivalence_tests.log",
+  "formal_code_configs_profile_unchanged": true,
+  "formal_active_job": "A_no_explicit_instruction_seed1",
+  "formal_state": "training",
+  "formal_completed_steps": 1124000,
+  "formal_finite_parameters": true,
+  "known_original_gpu_defect": "value_normalizer.pt lacks statistics; optimized GPU variants register and save them"
+}

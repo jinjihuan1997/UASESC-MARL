@@ -1,0 +1,403 @@
+{
+  "execution_status": "COMPLETE",
+  "science_status": "DESCRIPTIVE_RESULTS",
+  "updated_utc": "2026-09-10T01:21:14.306804+00:00",
+  "difference_direction": "SC minus CC; positive is better for reward/quality/deliveries, worse for AoI/load",
+  "paired_differences": {
+    "IC_HAPPO": {
+      "common_reward": {
+        "per_seed": {
+          "85": 1.451110845322578,
+          "218": 1.5019188312518663,
+          "966": 1.0457105069673656
+        },
+        "mean": 1.3329133945139366,
+        "sample_std": 0.25001897291978453,
+        "n_training_seeds": 3
+      },
+      "mean_aoi": {
+        "per_seed": {
+          "85": -8.037513888888888,
+          "218": -7.442071794871795,
+          "966": -5.5144833333333345
+        },
+        "mean": -6.998023005698006,
+        "sample_std": 1.3188272409386201,
+        "n_training_seeds": 3
+      },
+      "delivered_predicted_psnr": {
+        "per_seed": {
+          "85": -5.296017058152792,
+          "218": -5.288629016399643,
+          "966": -5.26538927674579
+        },
+        "mean": -5.283345117099408,
+        "sample_std": 0.015982957872059923,
+        "n_training_seeds": 3
+      },
+      "deliveries_per_slot": {
+        "per_seed": {
+          "85": 7.862179487179487,
+          "218": 7.6256089743589754,
+          "966": 7.0093589743589755
+        },
+        "mean": 7.499049145299146,
+        "sample_std": 0.4402712226805201,
+        "n_training_seeds": 3
+      },
+      "channel_uses_per_slot": {
+        "per_seed": {
+          "85": 9475.249997802479,
+          "218": 7670.07014442439,
+          "966": 1829.8543344228383
+        },
+        "mean": 6325.058158883236,
+        "sample_std": 3996.2246737818773,
+        "n_training_seeds": 3
+      }
+    },
+    "IC_MAPPO": {
+      "common_reward": {
+        "per_seed": {
+          "85": 1.469317974777896,
+          "218": 1.0880845111432609,
+          "966": 1.5812843389090305
+        },
+        "mean": 1.3795622749433958,
+        "sample_std": 0.2585605959279795,
+        "n_training_seeds": 3
+      },
+      "mean_aoi": {
+        "per_seed": {
+          "85": -7.600367521367522,
+          "218": -5.871343803418803,
+          "966": -9.336660897435896
+        },
+        "mean": -7.6027907407407405,
+        "sample_std": 1.732659817885746,
+        "n_training_seeds": 3
+      },
+      "delivered_predicted_psnr": {
+        "per_seed": {
+          "85": -5.249248585727166,
+          "218": -5.306089169413632,
+          "966": -5.289304203573515
+        },
+        "mean": -5.2815473195714375,
+        "sample_std": 0.02920342318155165,
+        "n_training_seeds": 3
+      },
+      "deliveries_per_slot": {
+        "per_seed": {
+          "85": 7.739685897435898,
+          "218": 7.0663269230769234,
+          "966": 8.173141025641026
+        },
+        "mean": 7.659717948717949,
+        "sample_std": 0.5577235148577765,
+        "n_training_seeds": 3
+      },
+      "channel_uses_per_slot": {
+        "per_seed": {
+          "85": 8216.241402530206,
+          "218": 2716.0397229529117,
+          "966": 11260.560893341957
+        },
+        "mean": 7397.614006275025,
+        "sample_std": 4330.6839665613215,
+        "n_training_seeds": 3
+      }
+    }
+  },
+  "paired_results": [
+    {
+      "algorithm": "IC_HAPPO",
+      "seed": 85,
+      "SC": {
+        "common_reward": -0.01607884733049103,
+        "base_reward": -0.026059288213681916,
+        "training_reward": -0.01607884733049103,
+        "recv_aoi_bonus": 0.01029534472934473,
+        "mean_aoi": 3.685892307692308,
+        "max_aoi": 4.975365384615384,
+        "p95_aoi": 4.828734294871794,
+        "aoi_exceedance_fraction": 0.0002438034188034188,
+        "max_aoi_violation": 0.0006298076923076923,
+        "infeasible_uav_fraction": 0.0,
+        "deliveries": 1781736,
+        "predicted_quality_sum": 49572826.063563175,
+        "channel_uses": 7495100551.6571865,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 27.8227672694289,
+        "deliveries_per_slot": 11.421384615384616,
+        "channel_uses_per_slot": 48045.51635677684
+      },
+      "CC": {
+        "common_reward": -1.4671896926530692,
+        "base_reward": -0.45090305874993536,
+        "training_reward": -1.4671896926530692,
+        "recv_aoi_bonus": 0.01527957336182336,
+        "mean_aoi": 11.723406196581196,
+        "max_aoi": 18.505198717948716,
+        "p95_aoi": 17.342755769230767,
+        "aoi_exceedance_fraction": 0.8535557692307694,
+        "max_aoi_violation": 2.283992414529915,
+        "infeasible_uav_fraction": 0.02476709401709401,
+        "deliveries": 555236,
+        "predicted_quality_sum": 18388741.33490915,
+        "channel_uses": 6016961552.0,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 33.11878432758169,
+        "deliveries_per_slot": 3.5592051282051282,
+        "channel_uses_per_slot": 38570.26635897436,
+        "attempts": 561719,
+        "failed_packets": 6483
+      }
+    },
+    {
+      "algorithm": "IC_HAPPO",
+      "seed": 218,
+      "SC": {
+        "common_reward": -0.017120977451724043,
+        "base_reward": -0.027113323249444838,
+        "training_reward": -0.017120977451724043,
+        "recv_aoi_bonus": 0.010323275284900284,
+        "mean_aoi": 3.7053711538461536,
+        "max_aoi": 5.057608974358975,
+        "p95_aoi": 4.890116025641025,
+        "aoi_exceedance_fraction": 0.00025341880341880343,
+        "max_aoi_violation": 0.0006618589743589743,
+        "infeasible_uav_fraction": 0.0,
+        "deliveries": 1773659,
+        "predicted_quality_sum": 49370162.313606024,
+        "channel_uses": 7455011552.530205,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 27.835205252873312,
+        "deliveries_per_slot": 11.369608974358975,
+        "channel_uses_per_slot": 47788.53559314234
+      },
+      "CC": {
+        "common_reward": -1.5190398087035903,
+        "base_reward": -0.44580262458678127,
+        "training_reward": -1.5190398087035903,
+        "recv_aoi_bonus": 0.015204407763532764,
+        "mean_aoi": 11.147442948717948,
+        "max_aoi": 19.29475641025641,
+        "p95_aoi": 17.85365737179487,
+        "aoi_exceedance_fraction": 0.7988145299145301,
+        "max_aoi_violation": 2.4206106837606836,
+        "infeasible_uav_fraction": 0.02482478632478632,
+        "deliveries": 584064,
+        "predicted_quality_sum": 19346439.13864864,
+        "channel_uses": 6258480610.0,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 33.123834269272955,
+        "deliveries_per_slot": 3.744,
+        "channel_uses_per_slot": 40118.46544871795,
+        "attempts": 592543,
+        "failed_packets": 8479
+      }
+    },
+    {
+      "algorithm": "IC_HAPPO",
+      "seed": 966,
+      "SC": {
+        "common_reward": -0.015014655811983964,
+        "base_reward": -0.024989703532781685,
+        "training_reward": -0.015014655811983964,
+        "recv_aoi_bonus": 0.010287013532763534,
+        "mean_aoi": 3.680334615384615,
+        "max_aoi": 5.01952564102564,
+        "p95_aoi": 4.831435576923076,
+        "aoi_exceedance_fraction": 0.00024337606837606838,
+        "max_aoi_violation": 0.0006239316239316239,
+        "infeasible_uav_fraction": 0.0,
+        "deliveries": 1784230,
+        "predicted_quality_sum": 49737202.19328706,
+        "channel_uses": 7508652012.169963,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 27.8760037625682,
+        "deliveries_per_slot": 11.437371794871796,
+        "channel_uses_per_slot": 48132.384693397194
+      },
+      "CC": {
+        "common_reward": -1.0607251627793495,
+        "base_reward": -0.32617919732350903,
+        "training_reward": -1.0607251627793495,
+        "recv_aoi_bonus": 0.014877389245014245,
+        "mean_aoi": 9.194817948717949,
+        "max_aoi": 14.541166666666667,
+        "p95_aoi": 13.589753525641022,
+        "aoi_exceedance_fraction": 0.6875038461538462,
+        "max_aoi_violation": 1.6048661324786324,
+        "infeasible_uav_fraction": 0.02501282051282051,
+        "deliveries": 690770,
+        "predicted_quality_sum": 22893080.069766924,
+        "channel_uses": 7223194736.0,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 33.14139303931399,
+        "deliveries_per_slot": 4.42801282051282,
+        "channel_uses_per_slot": 46302.530358974356,
+        "attempts": 699750,
+        "failed_packets": 8980
+      }
+    },
+    {
+      "algorithm": "IC_MAPPO",
+      "seed": 85,
+      "SC": {
+        "common_reward": -0.014751906368183675,
+        "base_reward": -0.024718099388126694,
+        "training_reward": -0.014751906368183677,
+        "recv_aoi_bonus": 0.01028002849002849,
+        "mean_aoi": 3.683304487179487,
+        "max_aoi": 5.038173076923076,
+        "p95_aoi": 4.843496153846153,
+        "aoi_exceedance_fraction": 0.00023931623931623932,
+        "max_aoi_violation": 0.0006276709401709401,
+        "infeasible_uav_fraction": 0.0,
+        "deliveries": 1785513,
+        "predicted_quality_sum": 49769557.65705446,
+        "channel_uses": 7511249242.794712,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 27.87409425585502,
+        "deliveries_per_slot": 11.445596153846154,
+        "channel_uses_per_slot": 48149.03360765841
+      },
+      "CC": {
+        "common_reward": -1.4840698811460795,
+        "base_reward": -0.44409431633126467,
+        "training_reward": -1.4840698811460795,
+        "recv_aoi_bonus": 0.015225012108262109,
+        "mean_aoi": 11.28367200854701,
+        "max_aoi": 18.938230769230767,
+        "p95_aoi": 17.569872756410255,
+        "aoi_exceedance_fraction": 0.8103779914529915,
+        "max_aoi_violation": 2.3518624999999997,
+        "infeasible_uav_fraction": 0.024799145299145293,
+        "deliveries": 578122,
+        "predicted_quality_sum": 19149333.210261177,
+        "channel_uses": 6229515584.0,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 33.123342841582186,
+        "deliveries_per_slot": 3.7059102564102564,
+        "channel_uses_per_slot": 39932.79220512821,
+        "attempts": 585328,
+        "failed_packets": 7206
+      }
+    },
+    {
+      "algorithm": "IC_MAPPO",
+      "seed": 218,
+      "SC": {
+        "common_reward": -0.017751456748515478,
+        "base_reward": -0.027754994497803224,
+        "training_reward": -0.01775145674851547,
+        "recv_aoi_bonus": 0.010331529202279203,
+        "mean_aoi": 3.7180645299145296,
+        "max_aoi": 5.063448717948717,
+        "p95_aoi": 4.8972528846153836,
+        "aoi_exceedance_fraction": 0.00026153846153846154,
+        "max_aoi_violation": 0.000655982905982906,
+        "infeasible_uav_fraction": 0.0,
+        "deliveries": 1770674,
+        "predicted_quality_sum": 49267445.57370368,
+        "channel_uses": 7436823988.780655,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 27.824119840074275,
+        "deliveries_per_slot": 11.35047435897436,
+        "channel_uses_per_slot": 47671.948646029836
+      },
+      "CC": {
+        "common_reward": -1.1058359678917764,
+        "base_reward": -0.34479331190887047,
+        "training_reward": -1.1058359678917764,
+        "recv_aoi_bonus": 0.014930997863247863,
+        "mean_aoi": 9.589408333333333,
+        "max_aoi": 15.876608974358973,
+        "p95_aoi": 14.786619551282051,
+        "aoi_exceedance_fraction": 0.7211087606837607,
+        "max_aoi_violation": 1.7577230769230767,
+        "infeasible_uav_fraction": 0.024833333333333332,
+        "deliveries": 668327,
+        "predicted_quality_sum": 22141813.196684025,
+        "channel_uses": 7013121792.0,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 33.130209009487906,
+        "deliveries_per_slot": 4.284147435897436,
+        "channel_uses_per_slot": 44955.908923076924,
+        "attempts": 677949,
+        "failed_packets": 9622
+      }
+    },
+    {
+      "algorithm": "IC_MAPPO",
+      "seed": 966,
+      "SC": {
+        "common_reward": -0.015595887580104427,
+        "base_reward": -0.025598251896343738,
+        "training_reward": -0.015595887580104424,
+        "recv_aoi_bonus": 0.010301776709401711,
+        "mean_aoi": 3.6901899572649572,
+        "max_aoi": 5.018108974358975,
+        "p95_aoi": 4.858375961538462,
+        "aoi_exceedance_fraction": 0.00023098290598290598,
+        "max_aoi_violation": 0.0005988247863247863,
+        "infeasible_uav_fraction": 0.0,
+        "deliveries": 1779558,
+        "predicted_quality_sum": 49573663.75406333,
+        "channel_uses": 7481011995.590512,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 27.857290267618886,
+        "deliveries_per_slot": 11.407423076923077,
+        "channel_uses_per_slot": 47955.20509993918
+      },
+      "CC": {
+        "common_reward": -1.5968802264891349,
+        "base_reward": -0.5095077848936932,
+        "training_reward": -1.5968802264891349,
+        "recv_aoi_bonus": 0.015469705840455844,
+        "mean_aoi": 13.026850854700854,
+        "max_aoi": 19.49471794871795,
+        "p95_aoi": 18.57866153846154,
+        "aoi_exceedance_fraction": 0.8783514957264957,
+        "max_aoi_violation": 2.454641025641026,
+        "infeasible_uav_fraction": 0.02482478632478632,
+        "deliveries": 504548,
+        "predicted_quality_sum": 16724047.947251184,
+        "channel_uses": 5724364496.229167,
+        "quality_violations": 0,
+        "budget_violations": 0,
+        "cache_violations": 0,
+        "delivered_predicted_psnr": 33.1465944711924,
+        "deliveries_per_slot": 3.2342820512820514,
+        "channel_uses_per_slot": 36694.64420659722,
+        "attempts": 508426,
+        "failed_packets": 3878
+      }
+    }
+  ],
+  "note": "Three training seeds; no automatic significance claim. Fixed SC average model vs measured/analytic CC average model."
+}

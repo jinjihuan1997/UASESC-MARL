@@ -1,0 +1,75 @@
+{
+  "cases": [
+    [
+      1,
+      "cpu"
+    ],
+    [
+      1,
+      "gpu"
+    ],
+    [
+      1,
+      "cpu_vector"
+    ],
+    [
+      1,
+      "gpu_vector"
+    ],
+    [
+      1,
+      "hybrid_vector"
+    ],
+    [
+      2,
+      "gpu_vector"
+    ],
+    [
+      2,
+      "hybrid_vector"
+    ],
+    [
+      2,
+      "cpu"
+    ],
+    [
+      2,
+      "gpu"
+    ],
+    [
+      2,
+      "cpu_vector"
+    ],
+    [
+      3,
+      "cpu_vector"
+    ],
+    [
+      3,
+      "gpu_vector"
+    ],
+    [
+      3,
+      "hybrid_vector"
+    ],
+    [
+      3,
+      "cpu"
+    ],
+    [
+      3,
+      "gpu"
+    ]
+  ],
+  "steps_per_case": 16000,
+  "updates_per_case": 4,
+  "warmup_updates_excluded_from_steady_metrics": 1,
+  "rollout_workers": 10,
+  "rollout_steps": 400,
+  "probe_sha256": "6cc00023487aca5a10361aa2bbc233f80c1ffbad1984b22c55b11fbce91cf23b",
+  "vectorized_simplex_sha256": "230431d6afcee86db139d99a6c7a8523cf6b9f1b4059184477abf04a925b5ead",
+  "timing": "perf_counter at existing synchronous CPU-output stage boundaries; no per-step additional CUDA synchronization",
+  "background": "Frozen formal CPU A/B queue continues; do not treat this as a machine-exclusive benchmark",
+  "invariants": "Same architecture, simulator, measured profile, reward, clipping, minibatches and epochs. Vector variants replace per-row masked Dirichlet log-probability and entropy with equivalent batched formulas, preserving sampling. Optimized GPU variants fix ValueNorm statistics registration; hybrid uses CPU inference and GPU updates. No learning-rule changes.",
+  "scope": "Throughput and fixed-input numerical checks, not comparative policy performance"
+}

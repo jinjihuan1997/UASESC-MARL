@@ -1,0 +1,18 @@
+{
+  "state": "complete",
+  "utc": "2026-09-09T17:43:56.550113+00:00",
+  "purpose": "instruction_priority_cc_three_seed_v1",
+  "training_jobs": 6,
+  "training_steps": 60000000,
+  "evaluation_items": 6,
+  "evaluation_slots": 936000,
+  "paired_external_trajectories": 260,
+  "all_executed_constraints_passed": true,
+  "files": {
+    "comparison.md": "3d1c479bbb65c0ff52031ecc9ca42261d67d12229f28692b19a132fbf19d503e",
+    "comparison.json": "46b812dff760937e6b7d6113f967f025e232cd96d2c9077951b8b86cbc286405",
+    "comparison.csv": "502f5f9871e438aaf7b598040277525fb4d43ba0d8fea70e7451468eeead2678",
+    "per_seed_results.json": "34d8d89c049c87e446b75238050fd71b7da98e953564f9fbc6046cc88a924285",
+    "switch_response.json": "c5e1c227617813a80d9ba5ef5c62e448a3bdb797daa3f9508cd2700e77df8c23"
+  }
+}

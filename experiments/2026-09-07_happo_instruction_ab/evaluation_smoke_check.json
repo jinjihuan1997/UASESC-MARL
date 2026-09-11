@@ -1,0 +1,16 @@
+{
+  "completed_episodes": 20,
+  "steps": 12000,
+  "policies": [
+    "R",
+    "G",
+    "A_smoke_seed1",
+    "B_smoke_seed1"
+  ],
+  "all_5_scenarios_completed": true,
+  "switch_at_300_verified": true,
+  "same_channel_traces_across_policies": true,
+  "all_metrics_finite": true,
+  "all_episodes_nonzero_delivery": true,
+  "purpose": "pipeline validation only, not performance evidence"
+}

@@ -1,0 +1,33 @@
+{
+  "state": "complete",
+  "fit_rows": 187200,
+  "validation_rows": 46800,
+  "validation_rmse_score_x100": 1.0337017715189794,
+  "validation_mean_error_score_x100": -0.1373814910532381,
+  "trees": 100,
+  "maximum_depth": 6,
+  "numeric_export_verified": true,
+  "resource_family_means_by_instruction": [
+    [
+      -2.5134758713978864,
+      -2.661930694777186,
+      -2.714069975251882
+    ],
+    [
+      -16.22576471225188,
+      -16.1655974604602,
+      -16.156108981079445
+    ],
+    [
+      9.189787208651842,
+      8.855835101825761,
+      8.705043790078806
+    ]
+  ],
+  "static_family_by_instruction": [
+    0,
+    2,
+    0
+  ],
+  "predictor_sha256": "687be87291da8433dff948521513359f3e69357d4f7d5eebeb2cee1cea559dcf"
+}

@@ -1,0 +1,10 @@
+{
+  "job": "A_no_explicit_instruction_seed1",
+  "state": "training",
+  "completed_steps": 112000,
+  "target_steps": 2000000,
+  "elapsed_seconds": 257.4756786660291,
+  "checked_at_utc": "2026-09-07T11:39:43.378646+00:00",
+  "formal_checkpoint_files_loadable_and_finite": 6,
+  "queue_exec_session_id": 69579
+}

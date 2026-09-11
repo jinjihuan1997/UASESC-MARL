@@ -1,0 +1,75 @@
+{
+  "verified_at_utc": "2026-09-10T14:51:42.801578+00:00",
+  "preflight_state": "PASS",
+  "snapshot": {
+    "state": "cooling",
+    "updated_utc": "2026-09-10T14:51:41.868541+00:00",
+    "supervisor_pid": 591465,
+    "completed_training_steps": 216000,
+    "total_training_steps": 12000000,
+    "completed_training_jobs": 0,
+    "total_training_jobs": 6,
+    "completed_evaluation_jobs": 0,
+    "total_evaluation_jobs": 15,
+    "training_progress": {
+      "seed_85/joint_continue": {
+        "state": "paused",
+        "steps": 28000,
+        "target": 2000000,
+        "core": 0,
+        "device": "cpu",
+        "stage": null
+      },
+      "seed_85/selector": {
+        "state": "paused",
+        "steps": 44000,
+        "target": 2000000,
+        "core": 1,
+        "device": "cpu",
+        "stage": null
+      },
+      "seed_218/joint_continue": {
+        "state": "paused",
+        "steps": 28000,
+        "target": 2000000,
+        "core": 2,
+        "device": "cpu",
+        "stage": null
+      },
+      "seed_218/selector": {
+        "state": "paused",
+        "steps": 44000,
+        "target": 2000000,
+        "core": 3,
+        "device": "cpu",
+        "stage": null
+      },
+      "seed_966/joint_continue": {
+        "state": "paused",
+        "steps": 28000,
+        "target": 2000000,
+        "core": 4,
+        "device": "cpu",
+        "stage": null
+      },
+      "seed_966/selector": {
+        "state": "paused",
+        "steps": 44000,
+        "target": 2000000,
+        "core": 5,
+        "device": "cpu",
+        "stage": null
+      }
+    },
+    "active": {},
+    "cpu_max_c": 76.0,
+    "gpu_max_c": 70.0,
+    "estimated_training_seconds_remaining": 951.4116399195045,
+    "eta_excludes_queueing": true,
+    "maximum_simultaneous_workers": 4,
+    "failed_jobs": {}
+  },
+  "launch_script": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/run_training_adjusted.sh",
+  "manifest_sha256": "0025aaa57dede75791bc1f6e9448762e05d8cee91e2a4b53da40f5ff9db1db6d",
+  "note": "External scheduler amendment limits total live workers to four; retains the original temperature guard and exact checkpoint resume. Cooling state is not active parameter updating."
+}

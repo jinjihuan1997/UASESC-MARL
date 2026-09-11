@@ -1,0 +1,2110 @@
+{
+  "passed": true,
+  "physical_states": 300,
+  "design": "300 preloaded-cache channel states, 3 development seeds, same-state instruction swaps; diagnostic only",
+  "hidden_sut_feature_changed_fraction": 1.0,
+  "hidden_uav_observation_equal_fraction": 1.0,
+  "all_three_joint_masks_distinct_fraction": 1.0,
+  "records": [
+    {
+      "seed": 20260911,
+      "sample": 0,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 1,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 2,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 3,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 4,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 5,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 6,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 7,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 8,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 9,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 10,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 11,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 12,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 13,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 14,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 15,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 16,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 17,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 18,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 19,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 20,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 21,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 22,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 23,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 24,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 25,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 26,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 27,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 28,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 29,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 30,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 31,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 32,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 33,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 34,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 35,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 36,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 37,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 38,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 39,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 40,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 41,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 42,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 43,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 44,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 45,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 46,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 47,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 48,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 49,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 50,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 51,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 52,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 53,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 54,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 55,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 56,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 57,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 58,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 59,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 60,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 61,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 62,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 63,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 64,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 65,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 66,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 67,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 68,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 69,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 70,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 71,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 72,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 73,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 74,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 75,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 76,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 77,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 78,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 79,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 80,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 81,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 82,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 83,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 84,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 85,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 86,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 87,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 88,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 89,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 90,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 91,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 92,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 93,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 94,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 95,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 96,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 97,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 98,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260911,
+      "sample": 99,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 0,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 1,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 2,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 3,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 4,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 5,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 6,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 7,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 8,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 9,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 10,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 11,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 12,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 13,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 14,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 15,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 16,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 17,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 18,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 19,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 20,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 21,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 22,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 23,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 24,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 25,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 26,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 27,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 28,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 29,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 30,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 31,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 32,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 33,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 34,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 35,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 36,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 37,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 38,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 39,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 40,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 41,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 42,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 43,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 44,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 45,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 46,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 47,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 48,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 49,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 50,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 51,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 52,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 53,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 54,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 55,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 56,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 57,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 58,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 59,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 60,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 61,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 62,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 63,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 64,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 65,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 66,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 67,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 68,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 69,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 70,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 71,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 72,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 73,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 74,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 75,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 76,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 77,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 78,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 79,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 80,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 81,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 82,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 83,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 84,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 85,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 86,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 87,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 88,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 89,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 90,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 91,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 92,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 93,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 94,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 95,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 96,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 97,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 98,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260912,
+      "sample": 99,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 0,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 1,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 2,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 3,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 4,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 5,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 6,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 7,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 8,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 9,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 10,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 11,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 12,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 13,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 14,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 15,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 16,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 17,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 18,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 19,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 20,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 21,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 22,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 23,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 24,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 25,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 26,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 27,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 28,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 29,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 30,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 31,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 32,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 33,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 34,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 35,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 36,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 37,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 38,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 39,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 40,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 41,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 42,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 43,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 44,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 45,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 46,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 47,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 48,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 49,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 50,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 51,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 52,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 53,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 54,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 55,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 56,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 57,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 58,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 59,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 60,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 61,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 62,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 63,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 64,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 65,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 66,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 67,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 68,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 69,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 70,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 71,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 72,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 73,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 74,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 75,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 76,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 77,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 78,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 79,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 80,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 81,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 82,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 83,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 84,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 85,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 86,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 87,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 88,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 89,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 90,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 91,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 92,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 93,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 94,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 95,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 96,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 97,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 98,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    },
+    {
+      "seed": 20260913,
+      "sample": 99,
+      "hidden_sut_demand_feature_changes": true,
+      "hidden_uav_explicit_observations_identical": true,
+      "distinct_joint_uav_masks": 3
+    }
+  ]
+}

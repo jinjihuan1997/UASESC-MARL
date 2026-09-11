@@ -1,0 +1,62 @@
+[
+  {
+    "pid": 3160414,
+    "environment": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "libraries": [
+      "/home/king/miniconda3/envs/harl_sionna/lib/libstdc++.so.6.0.34",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libgomp-a34b3233.so.1",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_global_deps.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_python.so",
+      "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    ]
+  },
+  {
+    "pid": 3160536,
+    "environment": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "libraries": [
+      "/home/king/miniconda3/envs/harl_sionna/lib/libstdc++.so.6.0.34",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libgomp-a34b3233.so.1",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_global_deps.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_python.so",
+      "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    ]
+  },
+  {
+    "pid": 3160538,
+    "environment": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "libraries": [
+      "/home/king/miniconda3/envs/harl_sionna/lib/libstdc++.so.6.0.34",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libgomp-a34b3233.so.1",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_global_deps.so",
+      "/home/king/miniconda3/envs/harl_sionna/lib/python3.10/site-packages/torch/lib/libtorch_python.so",
+      "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    ]
+  }
+]

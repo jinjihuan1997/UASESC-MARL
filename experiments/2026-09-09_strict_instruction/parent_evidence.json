@@ -1,0 +1,18 @@
+{
+  "parent_run": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/runs/seed85_1m",
+  "parent_manifest_sha256": "d9b9d84790c132fe0db44e6fcc3444fe1ba7f7fd8ecb966335fb543566de39b6",
+  "manuscript_before_sha256": "13e2a1a396f160484b9f5d1b2236df9924ff4974e41ced4ea5e55295b1ac65dc",
+  "changes": [
+    "task-independent SUT load summary",
+    "task-independent actor mode availability for both groups"
+  ],
+  "unchanged": [
+    "physical transition",
+    "executor",
+    "reward",
+    "average table",
+    "budgets",
+    "training seed and steps",
+    "evaluation scenarios and seeds"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "state": "complete",
+  "evaluation_episodes": 520,
+  "calibration_episodes": 130,
+  "training_kind": "offline_one_step_reward_regression_only; no RL retraining",
+  "predictor_sha256": "687be87291da8433dff948521513359f3e69357d4f7d5eebeb2cee1cea559dcf"
+}

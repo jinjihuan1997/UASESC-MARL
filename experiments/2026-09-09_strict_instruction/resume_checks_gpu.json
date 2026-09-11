@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "device": "cuda:0",
+  "results": [
+    {
+      "method": "IC_HAPPO",
+      "exact_continuation": true,
+      "steps_checked": 8000
+    },
+    {
+      "method": "HAPPO_hidden_instruction",
+      "exact_continuation": true,
+      "steps_checked": 8000
+    }
+  ]
+}

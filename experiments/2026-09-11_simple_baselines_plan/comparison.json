@@ -1,0 +1,373 @@
+{
+  "status": "EXISTING_RESULTS_REEXPORTED_AND_CHECKED",
+  "training_started": false,
+  "main_rule_methods": [
+    "R_equal_single",
+    "R_single",
+    "R_equal_instruction",
+    "R_instruction"
+  ],
+  "historical_methods_not_in_this_view": [
+    "R_myopic",
+    "R_equal_myopic",
+    "observation_matched_fitted_greedy",
+    "observation_matched_local_greedy"
+  ],
+  "source_sha256": {
+    "experiments/2026-09-11_selected_seed_comparison/comparison.json": "df6ae7cd46669889a3746004e7cdb37ca4a0f0df718db326c576a1776cb670c1",
+    "experiments/2026-09-10_sequential_mdp_training/rule_selection.json": "d61aeb7d0a0c4142f53231082b5f147d4cbec1be4815f9210795119b33ae7f74"
+  },
+  "selected_training_seeds": [
+    810974,
+    85,
+    218
+  ],
+  "evaluation_seeds": [
+    20262501,
+    20262502,
+    20262503,
+    20262504,
+    20262505,
+    20262506,
+    20262507,
+    20262508,
+    20262509,
+    20262510,
+    20262511,
+    20262512,
+    20262513,
+    20262514,
+    20262515,
+    20262516,
+    20262517,
+    20262518,
+    20262519,
+    20262520
+  ],
+  "scenarios": {
+    "fixed_0": [
+      [
+        0,
+        0
+      ]
+    ],
+    "fixed_1": [
+      [
+        0,
+        1
+      ]
+    ],
+    "fixed_2": [
+      [
+        0,
+        2
+      ]
+    ],
+    "switch300_0_to_1": [
+      [
+        0,
+        0
+      ],
+      [
+        300,
+        1
+      ]
+    ],
+    "switch300_0_to_2": [
+      [
+        0,
+        0
+      ],
+      [
+        300,
+        2
+      ]
+    ],
+    "switch300_1_to_0": [
+      [
+        0,
+        1
+      ],
+      [
+        300,
+        0
+      ]
+    ],
+    "switch300_1_to_2": [
+      [
+        0,
+        1
+      ],
+      [
+        300,
+        2
+      ]
+    ],
+    "switch300_2_to_0": [
+      [
+        0,
+        2
+      ],
+      [
+        300,
+        0
+      ]
+    ],
+    "switch300_2_to_1": [
+      [
+        0,
+        2
+      ],
+      [
+        300,
+        1
+      ]
+    ],
+    "early50_0_to_1": [
+      [
+        0,
+        0
+      ],
+      [
+        50,
+        1
+      ]
+    ],
+    "late550_0_to_2": [
+      [
+        0,
+        0
+      ],
+      [
+        550,
+        2
+      ]
+    ],
+    "multi_0_1_2": [
+      [
+        0,
+        0
+      ],
+      [
+        200,
+        1
+      ],
+      [
+        400,
+        2
+      ]
+    ],
+    "multi_2_1_0": [
+      [
+        0,
+        2
+      ],
+      [
+        200,
+        1
+      ],
+      [
+        400,
+        0
+      ]
+    ]
+  },
+  "methods": {
+    "R_equal_single": {
+      "label": "均分资源＋固定模式",
+      "rule": "始终均分资源，优先模式0",
+      "score": -5.051600071370317,
+      "score_by_fixed_instruction": {
+        "0": -3.130565861833882,
+        "1": -15.116806821071558,
+        "2": 4.8602614443245695
+      },
+      "overall_metrics": {
+        "common_reward": -0.050516000713703164,
+        "mean_aoi": 2.5041138888888885,
+        "objective_ref10": -0.02889279280772027,
+        "objective_ref8": -0.050516000713703164,
+        "fraction_above4": 0.0,
+        "fraction_above6": 0.0,
+        "quality_credit": 0.07151813008851146,
+        "age_mean_cost": 0.05610623183760685,
+        "age_max_cost": 0.052009807692307716,
+        "age_tail_cost": 0.0,
+        "resource_cost": 0.013918091272300112,
+        "service_violation_cost": 0.0,
+        "recv_aoi_bonus": 0.0,
+        "max_aoi": 3.0955,
+        "delivered_predicted_psnr": 24.804764438490835,
+        "deliveries_per_slot": 14.97375,
+        "channel_uses_per_slot": 41754.273816900335
+      },
+      "sources": {
+        "rule": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_single"
+      }
+    },
+    "R_single": {
+      "label": "紧急度分配＋固定模式",
+      "rule": "按各UAV缓存AoI总和分资源，优先模式0",
+      "score": -4.997938343539396,
+      "score_by_fixed_instruction": {
+        "0": -3.0832558679531687,
+        "1": -15.032139774511036,
+        "2": 4.882666736418743
+      },
+      "overall_metrics": {
+        "common_reward": -0.04997938343539395,
+        "mean_aoi": 2.5018944444444444,
+        "objective_ref10": -0.028466734183257212,
+        "objective_ref8": -0.04997938343539395,
+        "fraction_above4": 0.0,
+        "fraction_above6": 0.0,
+        "quality_credit": 0.07151579911411927,
+        "age_mean_cost": 0.05605673183760685,
+        "age_max_cost": 0.05150651442307693,
+        "age_tail_cost": 0.0,
+        "resource_cost": 0.013931936288829477,
+        "service_violation_cost": 0.0,
+        "recv_aoi_bonus": 0.0,
+        "max_aoi": 3.0655833333333335,
+        "delivered_predicted_psnr": 24.802054419347904,
+        "deliveries_per_slot": 14.98325,
+        "channel_uses_per_slot": 41795.808866488434
+      },
+      "sources": {
+        "rule": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_single"
+      }
+    },
+    "R_equal_instruction": {
+      "label": "均分资源＋指令选模",
+      "rule": "始终均分；均衡/AoI/质量分别优先模式5/0/5",
+      "score": -3.2739645805018487,
+      "score_by_fixed_instruction": {
+        "0": -2.5135242260747184,
+        "1": -15.116806821071558,
+        "2": 10.275402038480884
+      },
+      "overall_metrics": {
+        "common_reward": -0.03273964580501849,
+        "mean_aoi": 3.108889743589743,
+        "objective_ref10": -0.006205856595616782,
+        "objective_ref8": -0.03273964580501849,
+        "fraction_above4": 0.073216452991453,
+        "fraction_above6": 0.0,
+        "quality_credit": 0.11659227913029895,
+        "age_mean_cost": 0.06551797649572651,
+        "age_max_cost": 0.06626216346153846,
+        "age_tail_cost": 0.0008888060897435897,
+        "resource_cost": 0.01666297888830887,
+        "service_violation_cost": 0.0,
+        "recv_aoi_bonus": 0.0,
+        "max_aoi": 4.314128205128205,
+        "delivered_predicted_psnr": 27.70296369543628,
+        "deliveries_per_slot": 12.60901282051282,
+        "channel_uses_per_slot": 49988.936664926594
+      },
+      "sources": {
+        "rule": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_instruction"
+      }
+    },
+    "R_instruction": {
+      "label": "按指令切换简单规则",
+      "rule": "均衡/质量：均分＋模式5；AoI：按缓存AoI总和分配＋模式0",
+      "score": -3.244207854341117,
+      "score_by_fixed_instruction": {
+        "0": -2.5135242260747184,
+        "1": -15.032139774511036,
+        "2": 10.275402038480884
+      },
+      "overall_metrics": {
+        "common_reward": -0.03244207854341117,
+        "mean_aoi": 3.1082391025641023,
+        "objective_ref10": -0.0059691503382829705,
+        "objective_ref8": -0.03244207854341117,
+        "fraction_above4": 0.0732207264957265,
+        "fraction_above6": 0.0,
+        "quality_credit": 0.11659007514307909,
+        "age_mean_cost": 0.06549306730769232,
+        "age_max_cost": 0.06598276442307693,
+        "age_tail_cost": 0.000888809294871795,
+        "resource_cost": 0.016667512660849235,
+        "service_violation_cost": 0.0,
+        "recv_aoi_bonus": 0.0,
+        "max_aoi": 4.303403846153846,
+        "delivered_predicted_psnr": 27.70113156744389,
+        "deliveries_per_slot": 12.612205128205128,
+        "channel_uses_per_slot": 50002.53798254769
+      },
+      "sources": {
+        "rule": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_instruction"
+      }
+    },
+    "joint": {
+      "label": "原始联合RL",
+      "rule": "1000万步，资源和模式均由RL输出",
+      "score": -3.097955588719401,
+      "score_by_fixed_instruction": {
+        "0": -1.4652159356896055,
+        "1": -15.035202289397901,
+        "2": 9.480904979831784
+      },
+      "overall_metrics": {
+        "common_reward": -0.030979555887194005,
+        "mean_aoi": 2.8258029914529916,
+        "objective_ref10": -0.006931693618675493,
+        "objective_ref8": -0.030979555887194005,
+        "fraction_above4": 0.03709145299145299,
+        "fraction_above6": 9.259259259259259e-07,
+        "quality_credit": 0.10539697593758264,
+        "age_mean_cost": 0.05991404344729346,
+        "age_max_cost": 0.06003903846153847,
+        "age_tail_cost": 0.0002862294337606837,
+        "resource_cost": 0.01613722048218407,
+        "service_violation_cost": 0.0,
+        "recv_aoi_bonus": 0.0,
+        "max_aoi": 3.895946581196581,
+        "delivered_predicted_psnr": 26.622536248683513,
+        "deliveries_per_slot": 13.70504487179487,
+        "channel_uses_per_slot": 48411.66144655221
+      },
+      "sources": {
+        "810974": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_selected_seed_comparison/evaluation/seed_810974/joint_at_10000000",
+        "85": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_85/joint_at_10000000",
+        "218": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/joint_at_10000000"
+      }
+    },
+    "selector": {
+      "label": "当前选择器RL",
+      "rule": "基础1000万步＋冻结基础策略后训练二选一资源选择器200万步",
+      "score": -2.887624996248822,
+      "score_by_fixed_instruction": {
+        "0": -1.3489184505424334,
+        "1": -15.0891723074425,
+        "2": 10.149229102186187
+      },
+      "overall_metrics": {
+        "common_reward": -0.02887624996248822,
+        "mean_aoi": 2.8141046296296293,
+        "objective_ref10": -0.004791260575023835,
+        "objective_ref8": -0.02887624996248822,
+        "fraction_above4": 0.027559330484330485,
+        "fraction_above6": 9.97150997150997e-07,
+        "quality_credit": 0.10784443993380895,
+        "age_mean_cost": 0.059861663817663814,
+        "age_max_cost": 0.06034316506410258,
+        "age_tail_cost": 0.00022011805555555554,
+        "resource_cost": 0.01629574295897523,
+        "service_violation_cost": 0.0,
+        "recv_aoi_bonus": 0.0,
+        "max_aoi": 3.9077756410256406,
+        "delivered_predicted_psnr": 26.71468595532097,
+        "deliveries_per_slot": 13.72775,
+        "channel_uses_per_slot": 48887.22887692569
+      },
+      "sources": {
+        "810974": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/seed_810974/selector_at_2000000",
+        "85": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_85/selector_at_2000000",
+        "218": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/selector_at_2000000"
+      }
+    }
+  }
+}

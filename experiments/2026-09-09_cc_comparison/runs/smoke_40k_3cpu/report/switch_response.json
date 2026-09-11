@@ -1,0 +1,11 @@
+{
+  "results": {
+    "seed_85/CC_IC_HAPPO": {},
+    "seed_85/CC_IC_MAPPO": {},
+    "seed_218/CC_IC_HAPPO": {},
+    "seed_218/CC_IC_MAPPO": {},
+    "seed_966/CC_IC_HAPPO": {},
+    "seed_966/CC_IC_MAPPO": {}
+  },
+  "note": "Descriptive before/after means over equal 300-slot phases; not a causal advantage over another controller."
+}

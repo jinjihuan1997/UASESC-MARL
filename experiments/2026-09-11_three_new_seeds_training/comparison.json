@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "seed": 85,
+      "joint_continue": -3.011512255431322,
+      "selector": -2.8978932037625764,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": 0.03116839047578379,
+      "selector_minus_joint": 0.11361905166874564
+    },
+    {
+      "seed": 218,
+      "joint_continue": -3.026481421741574,
+      "selector": -2.9153223872183958,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": 0.01373920701996445,
+      "selector_minus_joint": 0.11115903452317832
+    },
+    {
+      "seed": 966,
+      "joint_continue": -3.0736862302230397,
+      "selector": -2.980388746377627,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": -0.05132715213926664,
+      "selector_minus_joint": 0.09329748384541281
+    },
+    {
+      "seed": 268966,
+      "joint_continue": -3.109696378583793,
+      "selector": -3.0125886597007234,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": -0.08352706546236321,
+      "selector_minus_joint": 0.0971077188830698
+    },
+    {
+      "seed": 810974,
+      "joint_continue": -3.3542899690354693,
+      "selector": -2.849659397765494,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": 0.0794021964728664,
+      "selector_minus_joint": 0.5046305712699755
+    },
+    {
+      "seed": 771611,
+      "joint_continue": -3.411978592393236,
+      "selector": -3.0133631191141843,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": -0.0843015248758241,
+      "selector_minus_joint": 0.3986154732790519
+    },
+    {
+      "seed": 779709,
+      "joint_continue": -3.1176253711302557,
+      "selector": -3.0211276899080044,
+      "R_myopic": -2.92906159423836,
+      "selector_minus_myopic": -0.09206609566964419,
+      "selector_minus_joint": 0.09649768122225133
+    }
+  ],
+  "original_four_seed_mean": {
+    "joint_continue": -3.055344071494932,
+    "selector": -2.9515482492648304,
+    "selector_minus_myopic": -0.022486655026470403,
+    "selector_minus_joint": 0.10379582223010164
+  },
+  "new_three_seed_mean": {
+    "joint_continue": -3.294631310852987,
+    "selector": -2.9613834022625607,
+    "selector_minus_myopic": -0.03232180802420063,
+    "selector_minus_joint": 0.33324790859042625
+  },
+  "all_seven_seed_mean": {
+    "joint_continue": -3.157895745505527,
+    "selector": -2.955763314835287,
+    "selector_minus_myopic": -0.026701720596926215,
+    "selector_minus_joint": 0.20213243067024075
+  },
+  "new_batch_selector_wins_myopic": 1,
+  "interpretation": "Three seeds drawn once before training; supplementary development experiment. All seven seed results retained."
+}

@@ -1,0 +1,9 @@
+{
+  "pid": 1235197,
+  "uid": 1000,
+  "state": "R",
+  "start_ticks": 414724238,
+  "command": "",
+  "utc": "2026-09-11T02:41:14.484235+00:00",
+  "manifest_sha256": "1889cf27d88ba8473e6f3341dd7a9e146c657eadacfb01c97604167c81b6dcc7"
+}

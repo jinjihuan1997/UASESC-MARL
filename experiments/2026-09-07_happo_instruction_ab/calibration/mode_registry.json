@@ -1,0 +1,114 @@
+{
+  "recommended_default": "measured_available5_instruction_pilot_v1",
+  "sets": {
+    "measured_available5_instruction_pilot_v1": {
+      "modes": [
+        {
+          "mode_id": 0,
+          "id": "SemCom_from_MST_adaptive_smallscale_mu2e-3_snr0",
+          "family": "ran_adaptive_fixed_sci",
+          "mu_comm": 0.002,
+          "trained_snr_db": 0.0,
+          "checkpoint": "/home/king/Downloads/Projects/2_th_paper_TMC/CRL-SemCom-VidCI/logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu2e-3_snr0/v_0/checkpoints/model_epoch_0049.pth",
+          "checkpoint_rel": "logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu2e-3_snr0/v_0/checkpoints/model_epoch_0049.pth",
+          "comm_latent_channels": 48,
+          "comm_rate_levels": 4,
+          "component_prefixes": {
+            "sce": "transmission.encoder",
+            "ran": "transmission.ran",
+            "scd": "transmission.decoder",
+            "sci_sampler": "shutter",
+            "sci_decoder": "decoder"
+          },
+          "source_model_set": "ran_adaptive_snr0_mu_sweep_4modes",
+          "source_mode_index": 3,
+          "checkpoint_sha256": "4b6618e1407360563c5a6b422fc155eba9b510987fb5cd4d21df5707cbaf959c"
+        },
+        {
+          "mode_id": 1,
+          "id": "SemCom_from_MST_adaptive_smallscale_mu1e-3_snr5",
+          "family": "ran_adaptive_fixed_sci",
+          "mu_comm": 0.001,
+          "trained_snr_db": 5.0,
+          "checkpoint": "/home/king/Downloads/Projects/2_th_paper_TMC/CRL-SemCom-VidCI/logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu1e-3_snr5/v_0/checkpoints/model_epoch_0049.pth",
+          "checkpoint_rel": "logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu1e-3_snr5/v_0/checkpoints/model_epoch_0049.pth",
+          "comm_latent_channels": 48,
+          "comm_rate_levels": 4,
+          "component_prefixes": {
+            "sce": "transmission.encoder",
+            "ran": "transmission.ran",
+            "scd": "transmission.decoder",
+            "sci_sampler": "shutter",
+            "sci_decoder": "decoder"
+          },
+          "source_model_set": "ran_adaptive_snr5_mu_sweep_4modes",
+          "source_mode_index": 6,
+          "checkpoint_sha256": "2a6e3fa9c52253809361740e1ab12a24d16b8604dae81fe128f7bfce6e7888ff"
+        },
+        {
+          "mode_id": 2,
+          "id": "SemCom_from_MST_adaptive_smallscale_mu2e-3_snr5",
+          "family": "ran_adaptive_fixed_sci",
+          "mu_comm": 0.002,
+          "trained_snr_db": 5.0,
+          "checkpoint": "/home/king/Downloads/Projects/2_th_paper_TMC/CRL-SemCom-VidCI/logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu2e-3_snr5/v_0/checkpoints/model_epoch_0049.pth",
+          "checkpoint_rel": "logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu2e-3_snr5/v_0/checkpoints/model_epoch_0049.pth",
+          "comm_latent_channels": 48,
+          "comm_rate_levels": 4,
+          "component_prefixes": {
+            "sce": "transmission.encoder",
+            "ran": "transmission.ran",
+            "scd": "transmission.decoder",
+            "sci_sampler": "shutter",
+            "sci_decoder": "decoder"
+          },
+          "source_model_set": "ran_adaptive_snr5_mu_sweep_4modes",
+          "source_mode_index": 7,
+          "checkpoint_sha256": "aace706593c20e8c37afd96ab1c3e36191f6f2e677fee88fcf59722b8c054c13"
+        },
+        {
+          "mode_id": 3,
+          "id": "SemCom_from_MST_adaptive_smallscale_mu1e-3_snr10",
+          "family": "ran_adaptive_fixed_sci",
+          "mu_comm": 0.001,
+          "trained_snr_db": 10.0,
+          "checkpoint": "/home/king/Downloads/Projects/2_th_paper_TMC/CRL-SemCom-VidCI/logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu1e-3_snr10/v_0/checkpoints/model_epoch_0049.pth",
+          "checkpoint_rel": "logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu1e-3_snr10/v_0/checkpoints/model_epoch_0049.pth",
+          "comm_latent_channels": 48,
+          "comm_rate_levels": 4,
+          "component_prefixes": {
+            "sce": "transmission.encoder",
+            "ran": "transmission.ran",
+            "scd": "transmission.decoder",
+            "sci_sampler": "shutter",
+            "sci_decoder": "decoder"
+          },
+          "source_model_set": "ran_adaptive_snr10_mu_sweep_4modes",
+          "source_mode_index": 10,
+          "checkpoint_sha256": "022c5c112baf707c95cb078d70df13fdb6b1c3f7e8f012b96668f6f65031c3a9"
+        },
+        {
+          "mode_id": 4,
+          "id": "SemCom_from_MST_adaptive_smallscale_mu1e-3_snr15",
+          "family": "ran_adaptive_fixed_sci",
+          "mu_comm": 0.001,
+          "trained_snr_db": 15.0,
+          "checkpoint": "/home/king/Downloads/Projects/2_th_paper_TMC/CRL-SemCom-VidCI/logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu1e-3_snr15/v_0/checkpoints/model_epoch_0049.pth",
+          "checkpoint_rel": "logs/26-04-24/26-04-24-MST/SemCom_from_MST_adaptive_smallscale_mu1e-3_snr15/v_0/checkpoints/model_epoch_0049.pth",
+          "comm_latent_channels": 48,
+          "comm_rate_levels": 4,
+          "component_prefixes": {
+            "sce": "transmission.encoder",
+            "ran": "transmission.ran",
+            "scd": "transmission.decoder",
+            "sci_sampler": "shutter",
+            "sci_decoder": "decoder"
+          },
+          "source_model_set": "ran_adaptive_snr15_mu_sweep_4modes",
+          "source_mode_index": 14,
+          "checkpoint_sha256": "254a89fb77187af23b3feb0c22e48b7657e052d26659d755b2b239c179f3b6cc"
+        }
+      ]
+    }
+  }
+}

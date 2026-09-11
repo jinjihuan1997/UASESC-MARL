@@ -1,0 +1,13 @@
+{
+  "state": "PASS",
+  "smoke_training_steps": 24000,
+  "evaluation_episodes": 36,
+  "real_formal_trainer_export": true,
+  "three_arms_and_six_rules": true,
+  "evaluator_resume_idempotence": true,
+  "fixed_resource_capability_verified": true,
+  "smoke_models_excluded": true,
+  "saved_trace_independent_audit_scenarios": 18,
+  "nine_slot_queue_eta_check": true,
+  "thermal_hysteresis_check": true
+}

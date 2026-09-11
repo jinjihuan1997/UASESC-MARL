@@ -1,0 +1,9 @@
+{
+  "state": "PASS",
+  "episodes": 8840,
+  "all_external_pairings_equal": true,
+  "all_physical_and_reward_checks_pass": true,
+  "final_test_used": false,
+  "results_sha256": "362b22aac84e67f66ea9ce9bbb733adf3f06620b82c8d219d83873457a5c16d6",
+  "report_sha256": "d56a4b60e8563ab8acd7ed23bb661060092b5b1e968b08dcaf0bb2e730b20ea4"
+}

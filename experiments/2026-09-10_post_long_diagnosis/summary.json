@@ -1,0 +1,443 @@
+{
+  "rule_modes_rl_resources": {
+    "fixed_0": {
+      "common_reward": -0.03278893351356985,
+      "mean_aoi": 3.5411916666666667,
+      "delivered_predicted_psnr": 29.769802101677826,
+      "quality_credit": 0.13445145143934797,
+      "age_mean_cost": 0.07082383333333335,
+      "age_max_cost": 0.07616291666666665,
+      "age_tail_cost": 0.0025197500000000007,
+      "resource_cost": 0.01773388495291781
+    },
+    "fixed_1": {
+      "common_reward": -0.15066871149352534,
+      "mean_aoi": 2.5028259259259262,
+      "delivered_predicted_psnr": 24.803453007307997,
+      "quality_credit": 0.031651185045578185,
+      "age_mean_cost": 0.0875989074074074,
+      "age_max_cost": 0.08079531250000001,
+      "age_tail_cost": 0.0,
+      "resource_cost": 0.013925676631696117
+    },
+    "fixed_2": {
+      "common_reward": 0.09326428037985879,
+      "mean_aoi": 3.57109537037037,
+      "delivered_predicted_psnr": 29.763388719558886,
+      "quality_credit": 0.186847990834536,
+      "age_mean_cost": 0.03571095370370372,
+      "age_max_cost": 0.038820833333333325,
+      "age_tail_cost": 0.0014269097222222224,
+      "resource_cost": 0.017625013695417923
+    },
+    "switch300_0_to_1": {
+      "common_reward": -0.0919225108433841,
+      "mean_aoi": 3.0241574074074067,
+      "delivered_predicted_psnr": 26.909232120107472,
+      "quality_credit": 0.08303588431076424,
+      "age_mean_cost": 0.07929892592592593,
+      "age_max_cost": 0.07856822916666666,
+      "age_tail_cost": 0.0012627048611111111,
+      "resource_cost": 0.015828535200444627
+    },
+    "switch300_0_to_2": {
+      "common_reward": 0.030249658948382163,
+      "mean_aoi": 3.5569407407407407,
+      "delivered_predicted_psnr": 29.766683768814435,
+      "quality_credit": 0.16060161066718914,
+      "age_mean_cost": 0.05326712962962965,
+      "age_max_cost": 0.057436666666666664,
+      "age_tail_cost": 0.0019735,
+      "resource_cost": 0.017674655422510677
+    },
+    "switch300_1_to_0": {
+      "common_reward": -0.0918312457296125,
+      "mean_aoi": 3.0223240740740738,
+      "delivered_predicted_psnr": 26.911319284645717,
+      "quality_credit": 0.08305285294947107,
+      "age_mean_cost": 0.07920085648148148,
+      "age_max_cost": 0.078603125,
+      "age_tail_cost": 0.0012496805555555557,
+      "resource_cost": 0.015830436642046548
+    },
+    "switch300_1_to_2": {
+      "common_reward": -0.028899009508323175,
+      "mean_aoi": 3.0395000000000003,
+      "delivered_predicted_psnr": 26.89947428270599,
+      "quality_credit": 0.10916071784914301,
+      "age_mean_cost": 0.061652291666666664,
+      "age_max_cost": 0.059927708333333336,
+      "age_tail_cost": 0.0007119305555555556,
+      "resource_cost": 0.01576779680191064
+    },
+    "switch300_2_to_0": {
+      "common_reward": 0.030199006890205462,
+      "mean_aoi": 3.554452777777778,
+      "delivered_predicted_psnr": 29.766627224097878,
+      "quality_credit": 0.16072302705700606,
+      "age_mean_cost": 0.05326307407407408,
+      "age_max_cost": 0.05760020833333332,
+      "age_tail_cost": 0.001975451388888889,
+      "resource_cost": 0.01768528637050429
+    },
+    "switch300_2_to_1": {
+      "common_reward": -0.02882028477045158,
+      "mean_aoi": 3.037011111111111,
+      "delivered_predicted_psnr": 26.899863184259555,
+      "quality_credit": 0.10933825488108757,
+      "age_mean_cost": 0.061730435185185194,
+      "age_max_cost": 0.05993239583333334,
+      "age_tail_cost": 0.0007121597222222224,
+      "resource_cost": 0.01578354891079845
+    },
+    "early50_0_to_1": {
+      "common_reward": -0.1408486092402391,
+      "mean_aoi": 2.589065740740741,
+      "delivered_predicted_psnr": 25.114225177703304,
+      "quality_credit": 0.0402054049208695,
+      "age_mean_cost": 0.08625255092592593,
+      "age_max_cost": 0.0803584375,
+      "age_tail_cost": 0.00020036111111111112,
+      "resource_cost": 0.014242664624071574
+    },
+    "late550_0_to_2": {
+      "common_reward": -0.022278141490580394,
+      "mean_aoi": 3.54395925925926,
+      "delivered_predicted_psnr": 29.769191307900268,
+      "quality_credit": 0.13880130039238328,
+      "age_mean_cost": 0.06789955555555556,
+      "age_max_cost": 0.07302874999999999,
+      "age_tail_cost": 0.0024284166666666673,
+      "resource_cost": 0.017722719660741487
+    },
+    "multi_0_1_2": {
+      "common_reward": -0.03022076213720275,
+      "mean_aoi": 3.2075907407407414,
+      "delivered_predicted_psnr": 27.755904049083835,
+      "quality_credit": 0.11759072569945724,
+      "age_mean_cost": 0.06478637037037038,
+      "age_max_cost": 0.06529197916666667,
+      "age_tail_cost": 0.0013103159722222223,
+      "resource_cost": 0.01642282232740072
+    },
+    "multi_2_1_0": {
+      "common_reward": -0.030239150124611397,
+      "mean_aoi": 3.204978703703704,
+      "delivered_predicted_psnr": 27.757144508801833,
+      "quality_credit": 0.11769556557362294,
+      "age_mean_cost": 0.06477452314814815,
+      "age_max_cost": 0.06542364583333332,
+      "age_tail_cost": 0.0013038437500000003,
+      "resource_cost": 0.016432702966752855
+    },
+    "overall": {
+      "common_reward": -0.03806187789485029,
+      "mean_aoi": 3.1842379629629636,
+      "delivered_predicted_psnr": 27.654039939580986,
+      "quality_credit": 0.11331969012465049,
+      "age_mean_cost": 0.06663533903133904,
+      "age_max_cost": 0.06707309294871794,
+      "age_tail_cost": 0.0013134634081196585,
+      "resource_cost": 0.016359672631324134
+    },
+    "paired_overall_minus_rl": [
+      -0.009196306017971688,
+      -0.0051020043733586255,
+      -0.00914191394027361
+    ]
+  },
+  "rl_modes_rule_resources": {
+    "fixed_0": {
+      "common_reward": -0.024132344938702588,
+      "mean_aoi": 2.7983398148148146,
+      "delivered_predicted_psnr": 26.963279850361047,
+      "quality_credit": 0.11407469714467976,
+      "age_mean_cost": 0.055966796296296306,
+      "age_max_cost": 0.06511083333333334,
+      "age_tail_cost": 0.0003035277777777778,
+      "resource_cost": 0.016825884675974914
+    },
+    "fixed_1": {
+      "common_reward": -0.15016195991552528,
+      "mean_aoi": 2.5023453703703704,
+      "delivered_predicted_psnr": 24.85086545484005,
+      "quality_credit": 0.03205076865923395,
+      "age_mean_cost": 0.08758208796296296,
+      "age_max_cost": 0.08059843750000001,
+      "age_tail_cost": 0.0,
+      "resource_cost": 0.014032203111796274
+    },
+    "fixed_2": {
+      "common_reward": 0.10031894982050653,
+      "mean_aoi": 3.321960185185185,
+      "delivered_predicted_psnr": 29.26868594147742,
+      "quality_credit": 0.18898978204157124,
+      "age_mean_cost": 0.033219601851851854,
+      "age_max_cost": 0.036734791666666655,
+      "age_tail_cost": 0.0007213055555555554,
+      "resource_cost": 0.017995133146990642
+    },
+    "switch300_0_to_1": {
+      "common_reward": -0.0871637987569802,
+      "mean_aoi": 2.652662037037037,
+      "delivered_predicted_psnr": 25.864926862333505,
+      "quality_credit": 0.07330668237239935,
+      "age_mean_cost": 0.07184815740740742,
+      "age_max_cost": 0.07304583333333335,
+      "age_tail_cost": 0.00015581250000000003,
+      "resource_cost": 0.015420677888638804
+    },
+    "switch300_0_to_2": {
+      "common_reward": 0.03827099432800357,
+      "mean_aoi": 3.066100925925926,
+      "delivered_predicted_psnr": 28.06162919582307,
+      "quality_credit": 0.15194305529625646,
+      "age_mean_cost": 0.044657685185185196,
+      "age_max_cost": 0.05105375,
+      "age_tail_cost": 0.0005208680555555556,
+      "resource_cost": 0.017439757727512124
+    },
+    "switch300_1_to_0": {
+      "common_reward": -0.08701035275601494,
+      "mean_aoi": 2.649979629629629,
+      "delivered_predicted_psnr": 25.865689347720863,
+      "quality_credit": 0.07306290847521581,
+      "age_mean_cost": 0.07175002314814816,
+      "age_max_cost": 0.07274458333333335,
+      "age_tail_cost": 0.00014297222222222226,
+      "resource_cost": 0.015435682527527037
+    },
+    "switch300_1_to_2": {
+      "common_reward": -0.025042066945061187,
+      "mean_aoi": 2.91719537037037,
+      "delivered_predicted_psnr": 26.805292598740944,
+      "quality_credit": 0.11054256719488247,
+      "age_mean_cost": 0.060422671296296304,
+      "age_max_cost": 0.058782291666666674,
+      "age_tail_cost": 0.0003671666666666667,
+      "resource_cost": 0.016012504510314034
+    },
+    "switch300_2_to_0": {
+      "common_reward": 0.03831732393653622,
+      "mean_aoi": 3.0542740740740744,
+      "delivered_predicted_psnr": 28.008002248911996,
+      "quality_credit": 0.15147102947690017,
+      "age_mean_cost": 0.04453323148148149,
+      "age_max_cost": 0.050706458333333336,
+      "age_tail_cost": 0.0004978611111111111,
+      "resource_cost": 0.017416154614437993
+    },
+    "switch300_2_to_1": {
+      "common_reward": -0.025107640795976122,
+      "mean_aoi": 2.908978703703703,
+      "delivered_predicted_psnr": 26.764157450246874,
+      "quality_credit": 0.11037807945124471,
+      "age_mean_cost": 0.060433629629629636,
+      "age_max_cost": 0.05872260416666667,
+      "age_tail_cost": 0.0003543680555555555,
+      "resource_cost": 0.01597511839536898
+    },
+    "early50_0_to_1": {
+      "common_reward": -0.1397487421033157,
+      "mean_aoi": 2.527975925925926,
+      "delivered_predicted_psnr": 24.997126155175422,
+      "quality_credit": 0.038850285303280545,
+      "age_mean_cost": 0.08500906018518518,
+      "age_max_cost": 0.0793440625,
+      "age_tail_cost": 2.5256944444444448e-05,
+      "resource_cost": 0.014220647776966635
+    },
+    "late550_0_to_2": {
+      "common_reward": -0.013661612220705855,
+      "mean_aoi": 2.842849074074074,
+      "delivered_predicted_psnr": 27.13897231692778,
+      "quality_credit": 0.12044169949367713,
+      "age_mean_cost": 0.0540821388888889,
+      "age_max_cost": 0.06275270833333335,
+      "age_tail_cost": 0.0003373611111111112,
+      "resource_cost": 0.01693110338104963
+    },
+    "multi_0_1_2": {
+      "common_reward": -0.024647714087553372,
+      "mean_aoi": 2.8811648148148143,
+      "delivered_predicted_psnr": 26.876298448320956,
+      "quality_credit": 0.11202564222881113,
+      "age_mean_cost": 0.059033685185185196,
+      "age_max_cost": 0.06099666666666667,
+      "age_tail_cost": 0.00035121875,
+      "resource_cost": 0.01629178571451265
+    },
+    "multi_2_1_0": {
+      "common_reward": -0.024603320642405904,
+      "mean_aoi": 2.8712953703703703,
+      "delivered_predicted_psnr": 26.84379462791618,
+      "quality_credit": 0.11174870443899886,
+      "age_mean_cost": 0.05894974074074074,
+      "age_max_cost": 0.06078427083333334,
+      "age_tail_cost": 0.0003314722222222223,
+      "resource_cost": 0.016286541285108463
+    },
+    "overall": {
+      "common_reward": -0.03264402192901499,
+      "mean_aoi": 2.8457785612535615,
+      "delivered_predicted_psnr": 26.71920845901708,
+      "quality_credit": 0.10683737704439628,
+      "age_mean_cost": 0.060576039173789176,
+      "age_max_cost": 0.062413637820512825,
+      "age_tail_cost": 0.00031609161324786325,
+      "resource_cost": 0.0161756303658614
+    },
+    "paired_overall_minus_rl": [
+      -0.005112349467815323,
+      0.0016033108795511092,
+      -0.003677617845833814
+    ]
+  },
+  "quality_rule_modes_only": {
+    "fixed_0": {
+      "common_reward": -0.012794631154588426,
+      "mean_aoi": 2.680425925925926,
+      "delivered_predicted_psnr": 26.961265815623836,
+      "quality_credit": 0.11770344660435973,
+      "age_mean_cost": 0.05360851851851853,
+      "age_max_cost": 0.05950875000000002,
+      "age_tail_cost": 1.8333333333333336e-05,
+      "resource_cost": 0.017362475907096307
+    },
+    "fixed_1": {
+      "common_reward": -0.1505099874527341,
+      "mean_aoi": 2.5030203703703706,
+      "delivered_predicted_psnr": 24.836213164683148,
+      "quality_credit": 0.03192212783290959,
+      "age_mean_cost": 0.08760571296296295,
+      "age_max_cost": 0.08083395833333336,
+      "age_tail_cost": 0.0,
+      "resource_cost": 0.013992443989347412
+    },
+    "fixed_2": {
+      "common_reward": 0.09326428037985879,
+      "mean_aoi": 3.57109537037037,
+      "delivered_predicted_psnr": 29.763388719558886,
+      "quality_credit": 0.186847990834536,
+      "age_mean_cost": 0.03571095370370372,
+      "age_max_cost": 0.038820833333333325,
+      "age_tail_cost": 0.0014269097222222224,
+      "resource_cost": 0.017625013695417923
+    },
+    "switch300_0_to_1": {
+      "common_reward": -0.08186701604814668,
+      "mean_aoi": 2.5931870370370373,
+      "delivered_predicted_psnr": 25.875899099376877,
+      "quality_credit": 0.07485192011517817,
+      "age_mean_cost": 0.0706635462962963,
+      "age_max_cost": 0.07036510416666668,
+      "age_tail_cost": 9.888888888888889e-06,
+      "resource_cost": 0.01568039681147301
+    },
+    "switch300_0_to_2": {
+      "common_reward": 0.04008452145189528,
+      "mean_aoi": 3.127759259259259,
+      "delivered_predicted_psnr": 28.184194290898755,
+      "quality_credit": 0.1522097748062481,
+      "age_mean_cost": 0.04467625925925927,
+      "age_max_cost": 0.04924166666666666,
+      "age_tail_cost": 0.0007213749999999999,
+      "resource_cost": 0.017485952428426866
+    },
+    "switch300_1_to_0": {
+      "common_reward": -0.0817368732542977,
+      "mean_aoi": 2.5912407407407407,
+      "delivered_predicted_psnr": 25.87251963476935,
+      "quality_credit": 0.07474037163954893,
+      "age_mean_cost": 0.07058142592592594,
+      "age_max_cost": 0.07020229166666668,
+      "age_tail_cost": 9.055555555555558e-06,
+      "resource_cost": 0.015684471745698484
+    },
+    "switch300_1_to_2": {
+      "common_reward": -0.02869874253824008,
+      "mean_aoi": 3.038625,
+      "delivered_predicted_psnr": 26.928797062578173,
+      "quality_credit": 0.10941027277143395,
+      "age_mean_cost": 0.06164726851851852,
+      "age_max_cost": 0.05993208333333334,
+      "age_tail_cost": 0.0007081111111111112,
+      "resource_cost": 0.01582155234671108
+    },
+    "switch300_2_to_0": {
+      "common_reward": 0.0402365244216176,
+      "mean_aoi": 3.1240888888888887,
+      "delivered_predicted_psnr": 28.16862403458239,
+      "quality_credit": 0.15221559101607005,
+      "age_mean_cost": 0.0446557962962963,
+      "age_max_cost": 0.04911270833333333,
+      "age_tail_cost": 0.0007201319444444446,
+      "resource_cost": 0.017490430020378367
+    },
+    "switch300_2_to_1": {
+      "common_reward": -0.028787651119408925,
+      "mean_aoi": 3.0370537037037035,
+      "delivered_predicted_psnr": 26.909011024505848,
+      "quality_credit": 0.10940355820057186,
+      "age_mean_cost": 0.06173192592592593,
+      "age_max_cost": 0.059946979166666664,
+      "age_tail_cost": 0.0007121597222222224,
+      "resource_cost": 0.015800144505165977
+    },
+    "early50_0_to_1": {
+      "common_reward": -0.13905003063990753,
+      "mean_aoi": 2.518858333333333,
+      "delivered_predicted_psnr": 24.998022551355717,
+      "quality_credit": 0.03905825122684086,
+      "age_mean_cost": 0.08483073611111112,
+      "age_max_cost": 0.07902218750000001,
+      "age_tail_cost": 2.2986111111111113e-06,
+      "resource_cost": 0.014253059644526202
+    },
+    "late550_0_to_2": {
+      "common_reward": -0.003925391364540099,
+      "mean_aoi": 2.7539583333333333,
+      "delivered_predicted_psnr": 27.14659396392466,
+      "quality_credit": 0.1234797008497797,
+      "age_mean_cost": 0.05211240740740742,
+      "age_max_cost": 0.057779375000000015,
+      "age_tail_cost": 0.00012795833333333336,
+      "resource_cost": 0.017385351473579044
+    },
+    "multi_0_1_2": {
+      "common_reward": -0.023449504453114587,
+      "mean_aoi": 2.9197185185185184,
+      "delivered_predicted_psnr": 26.93972281113047,
+      "quality_credit": 0.1121733748701322,
+      "age_mean_cost": 0.05901525925925926,
+      "age_max_cost": 0.05980510416666668,
+      "age_tail_cost": 0.0004740034722222223,
+      "resource_cost": 0.016328512425098623
+    },
+    "multi_2_1_0": {
+      "common_reward": -0.023603960123011015,
+      "mean_aoi": 2.9182,
+      "delivered_predicted_psnr": 26.916553951599855,
+      "quality_credit": 0.11200025002293439,
+      "age_mean_cost": 0.059039365740740736,
+      "age_max_cost": 0.0597859375,
+      "age_tail_cost": 0.00048124652777777787,
+      "resource_cost": 0.016297660377426883
+    },
+    "overall": {
+      "common_reward": -0.030833727838047508,
+      "mean_aoi": 2.8751716524216526,
+      "delivered_predicted_psnr": 26.78574709057155,
+      "quality_credit": 0.10738589467619565,
+      "age_mean_cost": 0.06045224430199431,
+      "age_max_cost": 0.061104383012820535,
+      "age_tail_cost": 0.00041626709401709414,
+      "resource_cost": 0.016246728105411244
+    },
+    "paired_overall_minus_rl": [
+      -0.0009943587517712675,
+      0.00013625774239122562,
+      -0.0008976731518155374
+    ]
+  }
+}

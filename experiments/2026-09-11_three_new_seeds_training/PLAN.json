@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-09-11T03:29:17.443013+00:00",
+  "seeds": [
+    810974,
+    771611,
+    779709
+  ],
+  "previous_seeds": [
+    1,
+    2,
+    3,
+    85,
+    218,
+    966,
+    268966
+  ],
+  "seed_selection": "Single SystemRandom sample of three unused training seeds before any training or evaluation.",
+  "base_steps": 10000000,
+  "continuation_steps_per_arm": 2000000,
+  "arms": [
+    "joint_continue",
+    "selector"
+  ],
+  "total_new_training_steps": 42000000,
+  "evaluation_seeds": [
+    20262501,
+    20262502,
+    20262503,
+    20262504,
+    20262505,
+    20262506,
+    20262507,
+    20262508,
+    20262509,
+    20262510,
+    20262511,
+    20262512,
+    20262513,
+    20262514,
+    20262515,
+    20262516,
+    20262517,
+    20262518,
+    20262519,
+    20262520
+  ],
+  "base_parallel_jobs": 3,
+  "maximum_continuation_workers": 4,
+  "original_four_seeds_retained": [
+    85,
+    218,
+    966,
+    268966
+  ],
+  "reporting": "Report every one of the three prespecified new seeds, separately and as a batch; also report all seven seeds without dropping earlier results. Existing environment seeds remain development evaluations.",
+  "thermal_thresholds_unchanged": true
+}

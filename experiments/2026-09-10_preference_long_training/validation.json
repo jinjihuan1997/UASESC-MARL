@@ -1,0 +1,12 @@
+{
+  "state": "PASS",
+  "hidden_input_and_mask_checks": 1200,
+  "myopic_reward_checks": 1200,
+  "critics_paired": true,
+  "explicit_fields_only": true,
+  "evaluator_smoke_episodes": 20,
+  "evaluator_resume_checked": true,
+  "independent_aggregation": true,
+  "inherited_pilot_audit": "42236c327712fed865f529c76cc5e86b717288c3d338047eb2a7bbdf91989db5",
+  "benchmark_all_six_models_updated_on_both_layouts": true
+}

@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "device": "cuda:0",
+  "utc": "2026-09-09T06:44:41.876939+00:00",
+  "wall_seconds": 45.55663221236318,
+  "results": [
+    {
+      "case": "IC_HAPPO",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case": "IC_MAPPO",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_hidden_instruction",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case": "MAPPO_hidden_instruction",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_fixed_mode_rule",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 4.656612873077393e-10,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_equal_resources",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 4.656612873077393e-10,
+      "passed": true
+    },
+    {
+      "case": "HAPPO_no_task_aux_reward",
+      "steps_per_environment": 620,
+      "environments": 2,
+      "discrete_checks": 9920,
+      "max_absolute_float_error": 1.862645149230957e-09,
+      "passed": true
+    },
+    {
+      "case": "round_robin_partial_cache",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 6.548361852765083e-11,
+      "passed": true
+    },
+    {
+      "case": "no_feasible_quality",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 7.450580596923828e-09,
+      "passed": true
+    },
+    {
+      "case": "insufficient_budget",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 7.683411240577698e-09,
+      "passed": true
+    },
+    {
+      "case": "deterministic_channels",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 1.4097167877480388e-11,
+      "passed": true
+    },
+    {
+      "case": "no_explicit_context",
+      "steps_per_environment": 40,
+      "environments": 2,
+      "discrete_checks": 640,
+      "max_absolute_float_error": 6.548361852765083e-11,
+      "passed": true
+    }
+  ]
+}

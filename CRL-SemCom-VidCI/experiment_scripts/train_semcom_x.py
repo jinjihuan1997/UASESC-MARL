@@ -135,7 +135,11 @@ def main(args):
     with tqdm(total=len(train_dataloader) * args.max_epochs) as pbar:
         for epoch in range(args.max_epochs):
             model.train()
+            epoch_batches = 0
             for _, model_input, gt, ref_input, _, _ in train_dataloader:
+                if args.max_train_batches > 0 and epoch_batches >= args.max_train_batches:
+                    break
+                epoch_batches += 1
                 model_input = model_input.cuda()
                 gt = gt.cuda()
                 ref_input = ref_input.cuda()
@@ -143,15 +147,41 @@ def main(args):
                 optim.zero_grad(set_to_none=True)
                 optim_ran.zero_grad(set_to_none=True)
 
+                if args.random_snr and model.transmission is not None:
+                    model.transmission.snr_db = random.uniform(
+                        args.comm_snr_min, args.comm_snr_max)
+
                 forced_rate_level = args.comm_forced_rate_level
+                if args.random_rate_level:
+                    # Paper [50]-aligned: one SHARED SCE/SCD sees selected rate
+                    # levels via the first-k prefix mask, so forced-rate eval
+                    # traces a deterministic R-D curve for TON mode selection.
+                    if args.random_rate_choices != '':
+                        rate_choices = [int(item) for item in args.random_rate_choices.split(',')]
+                        forced_rate_level = random.choice(rate_choices)
+                    else:
+                        forced_rate_level = random.randint(1, args.comm_rate_levels)
                 if epoch < args.warmup_epochs:
                     forced_rate_level = args.warmup_rate_level
+
+                forced_ratio_level = args.comm_forced_ratio_level
+                if args.random_ratio_level:
+                    # SCI acquisition ratio (paper [50] Section III). For TON
+                    # mode libraries, random_ratio_choices can restrict training
+                    # to the exact selectable SCI levels, e.g. 0,3 for 1/T and 8/T.
+                    if args.random_ratio_choices != '':
+                        ratio_choices = [int(item) for item in args.random_ratio_choices.split(',')]
+                        forced_ratio_level = random.choice(ratio_choices)
+                    else:
+                        ratio_min = -1 if args.legacy_action_space else 0
+                        forced_ratio_level = random.randint(ratio_min, ratio_min + args.comm_ratio_levels - 1)
 
                 restored, _, _, extra = model(
                     [model_input, ref_input],
                     train=True,
                     steps=total_steps,
                     forced_rate_level=forced_rate_level,
+                    forced_ratio_level=forced_ratio_level,
                 )
                 recon_loss = loss_fn(restored, gt)
 
@@ -198,6 +228,8 @@ def main(args):
                     if val_dataloader is not None and total_steps % args.val_interval == 0:
                         with torch.no_grad():
                             model.eval()
+                            if args.random_snr and model.transmission is not None:
+                                model.transmission.snr_db = args.comm_snr_db
                             val_psnrs = []
                             val_ssims = []
                             val_comm_metrics = CommunicationMetricAccumulator()
@@ -209,6 +241,7 @@ def main(args):
                                     [model_input, ref_input],
                                     train=False,
                                     forced_rate_level=args.eval_forced_rate_level,
+                                    forced_ratio_level=args.eval_forced_ratio_level,
                                 )
                                 val_psnrs.append(summary_utils.get_psnr(restored, gt))
                                 val_ssims.append(summary_utils.get_ssim(restored, gt))
@@ -249,6 +282,8 @@ if __name__ == '__main__':
     parser.add_argument('--p', type=float, default=1.0)
     parser.add_argument('--seed', type=int, default=2023)
     parser.add_argument('--max_epochs', type=int, default=50)
+    parser.add_argument('--max_train_batches', type=int, default=0,
+                        help='If >0, train on only this many (shuffled) batches per epoch.')
     parser.add_argument('--mlr', type=str, default='5e-5')
     parser.add_argument('--rlr', type=str, default='5e-3')
     parser.add_argument('--beta1', type=float, default=0.9)
@@ -264,6 +299,9 @@ if __name__ == '__main__':
     parser.add_argument('--grad_clip', type=float, default=0.0)
     parser.add_argument('--interp', type=str, default='none', choices=['none', 'bilinear', 'scatter'])
     parser.add_argument('--init', type=str, choices=['even', 'ones', 'quad'], default='quad')
+    parser.add_argument('--legacy_action_space', action='store_true',
+                        help='Use the paper SCI action space {-1,0,1,2,3}, '
+                             'corresponding to 0,1/T,2/T,4/T,8/T ratios.')
     parser.add_argument('--loss', type=str, choices=['mpr', 'l1', 'l2_lpips', 'l2'], default='l2')
     parser.add_argument('--decoder', type=str, default='MST')
     parser.add_argument('--shutter', type=str, default='lsvpe')
@@ -284,7 +322,34 @@ if __name__ == '__main__':
     parser.add_argument('--comm_channel_coding_rate', type=float, default=0.5)
     parser.add_argument('--comm_modulation_order', type=int, default=4)
     parser.add_argument('--comm_snr_db', type=float, default=10.0)
+    parser.add_argument('--random_snr', action='store_true',
+                        help='Sample a fresh SNR (dB) per training step from '
+                             '[comm_snr_min, comm_snr_max] for SNR-robust codec.')
+    parser.add_argument('--comm_snr_min', type=float, default=0.0)
+    parser.add_argument('--comm_snr_max', type=float, default=20.0)
+    parser.add_argument('--random_rate_level', action='store_true',
+                        help='Sample a uniform random rate level in '
+                             '[1, comm_rate_levels] each step. Trains ONE shared '
+                             'SCE/SCD with an ordered (prefix) latent, aligning '
+                             'with the variable-rate JSCC of ref [50].')
+    parser.add_argument('--random_rate_choices', type=str, default='',
+                        help='Comma-separated rate levels sampled when '
+                             '--random_rate_level is set, e.g. 1,4 for a 2-level RAN mode set.')
     parser.add_argument('--comm_forced_rate_level', type=int, default=None)
+    parser.add_argument('--comm_ratio_levels', type=int, default=4,
+                        help='Number of SCI acquisition-ratio levels (shutter '
+                             'policy levels). action in [0, ratio_levels-1].')
+    parser.add_argument('--comm_forced_ratio_level', type=int, default=None,
+                        help='Force a uniform SCI acquisition-ratio level '
+                             '(0..ratio_levels-1); None keeps the shutter policy.')
+    parser.add_argument('--random_ratio_level', action='store_true',
+                        help='Sample a uniform random SCI ratio level each step. '
+                             'Combined with --random_rate_level this trains one '
+                             'shared codec over the full (ratio x rate) grid.')
+    parser.add_argument('--random_ratio_choices', type=str, default='',
+                        help='Comma-separated SCI ratio/action levels sampled when '
+                             '--random_ratio_level is set, e.g. 0,3 for a 2-level SCI mode set.')
+    parser.add_argument('--eval_forced_ratio_level', type=int, default=None)
     parser.add_argument('--eval_forced_rate_level', type=int, default=None)
     args = parser.parse_args()
     args.block_size = [int(item) for item in args.block_size.split(',')]

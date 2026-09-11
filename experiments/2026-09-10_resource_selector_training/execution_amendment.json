@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-09-10T14:44:07.886216+00:00",
+  "reason": "All six workers checkpointed after CPU reached 90 C; co-running host load made eight active CPU workers trigger the existing 85 C sustained guard.",
+  "scope": "External scheduling only. All six jobs retain their frozen seeds, own core/device, original manifest identity, optimizer states, update budgets and evaluation settings.",
+  "original_manifest_sha256": "0025aaa57dede75791bc1f6e9448762e05d8cee91e2a4b53da40f5ff9db1db6d",
+  "supervisor_sha256": "7804ac49e9e53fc88acba620eee6e98ba6ab368f6c9b6cde62173a528aa1939e",
+  "maximum_simultaneous_workers": 4,
+  "not_before_utc": "2026-09-10T14:45:28.166355+00:00",
+  "temperature_thresholds_unchanged": true
+}

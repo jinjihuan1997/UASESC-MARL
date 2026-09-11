@@ -1,0 +1,10 @@
+{
+  "state": "PASS",
+  "validation_states": 160,
+  "sut_reads_only_own_observation": true,
+  "each_uav_reads_only_own_post_budget_observation_and_mask": true,
+  "no_online_environment_handle": true,
+  "no_other_episode_access": true,
+  "portable_predictor_matches_sklearn": true,
+  "static_source_forbidden_access_check": true
+}

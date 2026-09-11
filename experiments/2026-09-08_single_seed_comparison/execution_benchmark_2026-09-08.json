@@ -1,0 +1,111 @@
+{
+  "verified_utc": "2026-09-08T04:57:17.358636+00:00",
+  "tests_passed": 17,
+  "serial_seconds": 125.184535,
+  "parallel_seconds": 51.124031,
+  "steps_each_probe": 112000,
+  "updates_per_method_each_probe": 4,
+  "parallel_vs_serial_speedup": 2.4486436720922886,
+  "parallel_throughput_including_setup": 2190.750568944769,
+  "all_seven_methods_have_identical_serial_parallel_weights_and_normalizer": {
+    "HAPPO_hidden_instruction": {
+      "same_initial_actors": true,
+      "same_final_actors": true,
+      "same_final_critic": true,
+      "same_final_normalizer": true
+    },
+    "HAPPO_fixed_mode_rule": {
+      "same_initial_actors": true,
+      "same_final_actors": true,
+      "same_final_critic": true,
+      "same_final_normalizer": true
+    },
+    "IC_MAPPO": {
+      "same_initial_actors": true,
+      "same_final_actors": true,
+      "same_final_critic": true,
+      "same_final_normalizer": true
+    },
+    "MAPPO_hidden_instruction": {
+      "same_initial_actors": true,
+      "same_final_actors": true,
+      "same_final_critic": true,
+      "same_final_normalizer": true
+    },
+    "HAPPO_equal_resources": {
+      "same_initial_actors": true,
+      "same_final_actors": true,
+      "same_final_critic": true,
+      "same_final_normalizer": true
+    },
+    "HAPPO_no_task_aux_reward": {
+      "same_initial_actors": true,
+      "same_final_actors": true,
+      "same_final_critic": true,
+      "same_final_normalizer": true
+    },
+    "IC_HAPPO": {
+      "same_initial_actors": true,
+      "same_final_actors": true,
+      "same_final_critic": true,
+      "same_final_normalizer": true
+    }
+  },
+  "old_frozen_inputs_checked": 101,
+  "old_frozen_inputs_changed": [],
+  "active_long_training": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel",
+  "long_training_seed": 1,
+  "long_training_steps_per_method": 10000000,
+  "parallel_jobs": 4,
+  "execution_device": "hybrid",
+  "resource_summary": {
+    "samples": 15,
+    "mean_cpu_busy_percent": 80.15231824483743,
+    "mean_gpu_utilization_percent": 11.466666666666667,
+    "max_gpu_memory_mib": 2275.0,
+    "first": {
+      "utc": "2026-09-08T04:51:37.544825+00:00",
+      "cpu_busy_percent": 81.17765475591344,
+      "gpu_utilization_percent": 0.0,
+      "gpu_memory_used_mib": 2275.0,
+      "active_methods": [
+        "IC_HAPPO",
+        "IC_MAPPO",
+        "HAPPO_hidden_instruction",
+        "MAPPO_hidden_instruction"
+      ],
+      "steps": {
+        "HAPPO_hidden_instruction": 40000,
+        "IC_MAPPO": 40000,
+        "MAPPO_hidden_instruction": 40000,
+        "IC_HAPPO": 40000
+      }
+    },
+    "last": {
+      "utc": "2026-09-08T04:51:51.942652+00:00",
+      "cpu_busy_percent": 76.85503685503686,
+      "gpu_utilization_percent": 0.0,
+      "gpu_memory_used_mib": 2275.0,
+      "active_methods": [
+        "IC_HAPPO",
+        "IC_MAPPO",
+        "HAPPO_hidden_instruction",
+        "MAPPO_hidden_instruction"
+      ],
+      "steps": {
+        "HAPPO_hidden_instruction": 52000,
+        "IC_MAPPO": 52000,
+        "MAPPO_hidden_instruction": 52000,
+        "IC_HAPPO": 52000
+      }
+    },
+    "gpu_processes": "pid, process_name, used_gpu_memory [MiB]\n2634610, /usr/bin/parsecd, 386 MiB\n3082111, mappo-uav_escs_sc-IC_MAPPO, 428 MiB\n3082113, mappo-uav_escs_sc-MAPPO_hidden_instruction, 428 MiB\n3082112, happo-uav_escs_sc-HAPPO_hidden_instruction, 494 MiB\n3082110, happo-uav_escs_sc-IC_HAPPO, 494 MiB"
+  },
+  "limitations": [
+    "One short matched performance comparison on this workstation with the original A/B queue still running; not a long-run time guarantee.",
+    "CPU occupancy is whole-machine occupancy including the old queue and other processes.",
+    "GPU utilization is a 15-second sample and naturally bursty; each update synchronizes inference copies.",
+    "Code/weights/trace conclusions apply to their recorded frozen versions.",
+    "The earlier perf_hybrid_jobs4/resource_samples.json was sampled after that probe completed; it is not concurrency-utilization evidence."
+  ]
+}

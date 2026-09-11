@@ -1,0 +1,12 @@
+{
+  "python": "3.10.19 | packaged by conda-forge | (main, Oct 22 2025, 22:29:10) [GCC 14.3.0]",
+  "executable": "/home/king/miniconda3/pkgs/python-3.10.19-h3c07f61_2_cpython/bin/python3.10",
+  "numpy": "1.26.4",
+  "cpu": 18,
+  "iterations": 5000000,
+  "checksum": 37500000,
+  "elapsed_seconds": 42.87336982879788,
+  "pythonmalloc": "debug",
+  "torch_imported": false,
+  "crash": false
+}

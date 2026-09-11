@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "episodes": 130,
+  "physical_steps": 78000,
+  "counterfactual_labels": 234000,
+  "dataset_sha256": "342bff92189d18de68c1f1c90918a6157a534a1279cd7614c218b9ae5a5a3f85",
+  "candidate_score_vs_actual_step_verified": true
+}

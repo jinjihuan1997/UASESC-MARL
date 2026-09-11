@@ -1,0 +1,86 @@
+{
+  "state": "PASS",
+  "results": {
+    "85": {
+      "0": {
+        "decisions": 3600,
+        "raw_execution_mismatch": 0.015833333333333335,
+        "budget_infeasible_proposal": 0.015555555555555555,
+        "raw_middle_count": 1089,
+        "raw_middle_replaced_fraction": 0.011019283746556474,
+        "resource_fraction_change_mean": 0.16615927776049166
+      },
+      "1": {
+        "decisions": 3903,
+        "raw_execution_mismatch": 0.015372790161414296,
+        "budget_infeasible_proposal": 0.015372790161414296,
+        "raw_middle_count": 1090,
+        "raw_middle_replaced_fraction": 0.012844036697247707,
+        "resource_fraction_change_mean": 0.16736949357676986
+      },
+      "2": {
+        "decisions": 4497,
+        "raw_execution_mismatch": 0.02268178785857238,
+        "budget_infeasible_proposal": 0.02179230598176562,
+        "raw_middle_count": 1375,
+        "raw_middle_replaced_fraction": 0.017454545454545455,
+        "resource_fraction_change_mean": 0.1744088710851041
+      }
+    },
+    "218": {
+      "0": {
+        "decisions": 6402,
+        "raw_execution_mismatch": 0.017338331771321464,
+        "budget_infeasible_proposal": 0.01702592939706342,
+        "raw_middle_count": 1859,
+        "raw_middle_replaced_fraction": 0.011296395911780527,
+        "resource_fraction_change_mean": 0.1654994559179863
+      },
+      "1": {
+        "decisions": 3798,
+        "raw_execution_mismatch": 0.015534491837809373,
+        "budget_infeasible_proposal": 0.015534491837809373,
+        "raw_middle_count": 1058,
+        "raw_middle_replaced_fraction": 0.00945179584120983,
+        "resource_fraction_change_mean": 0.16769775265410064
+      },
+      "2": {
+        "decisions": 1800,
+        "raw_execution_mismatch": 0.018333333333333333,
+        "budget_infeasible_proposal": 0.018333333333333333,
+        "raw_middle_count": 558,
+        "raw_middle_replaced_fraction": 0.016129032258064516,
+        "resource_fraction_change_mean": 0.16903918795069853
+      }
+    },
+    "966": {
+      "0": {
+        "decisions": 4851,
+        "raw_execution_mismatch": 0.01834673263244692,
+        "budget_infeasible_proposal": 0.01834673263244692,
+        "raw_middle_count": 1211,
+        "raw_middle_replaced_fraction": 0.01486374896779521,
+        "resource_fraction_change_mean": 0.17497857022110527
+      },
+      "1": {
+        "decisions": 2898,
+        "raw_execution_mismatch": 0.018633540372670808,
+        "budget_infeasible_proposal": 0.01828847481021394,
+        "raw_middle_count": 733,
+        "raw_middle_replaced_fraction": 0.015006821282401092,
+        "resource_fraction_change_mean": 0.17678381954549352
+      },
+      "2": {
+        "decisions": 4251,
+        "raw_execution_mismatch": 0.02305339920018819,
+        "budget_infeasible_proposal": 0.02281816043283933,
+        "raw_middle_count": 1068,
+        "raw_middle_replaced_fraction": 0.014044943820224719,
+        "resource_fraction_change_mean": 0.17275748185759743
+      }
+    }
+  },
+  "slots": 12000,
+  "training_updates": 0,
+  "script_sha256": "2e352d949f6dd8aa6a0845dddce9aa1a41f96074fa0fac810e6abaa1666b6731"
+}

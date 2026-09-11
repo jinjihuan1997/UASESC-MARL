@@ -1,0 +1,59 @@
+{
+  "state": "PASS",
+  "seed": 268966,
+  "transferred_initial_models": [
+    {
+      "arm": "joint_continue",
+      "actors": [
+        "d8d59189710090c8711e215fd30439801110a67c0e285b06ef4792e96a253c65",
+        "c3235dd94c14f04c324178ef77e5db7e0137394ed8cf9cb21a72fb9746d4b6f3",
+        "26133bad3bcf4b8a757470a26c49f92e794bb59c58183605205a8f281638c42f",
+        "04eb37e631b72c94e66756d125c41b7bce87155e24017e728bcd99ab0cea79df"
+      ],
+      "critic": "95a7507ab5c2c4b2b0939a67a5d5aeeae4a42d05e5f72f980b63a94229e8c618",
+      "environment": [
+        "80411256f8c1687a82acc44b557ed8474ee83a68392efebc4cb0e010a1d5586f",
+        "d4525b4dce13c341d1369a670314b2715b1a942d62e842bdf0b0b2ec6b7b146f",
+        "267b5e50e719c8196f15f5997c1ba1c45103572d699509e348a439cecfc17728",
+        "f4fd6a8d55afebc390b376c860d4ec3267af4bd79ed5c4b91bdb1407d89dd96b",
+        "a19cf574f20f28076df2a184474683f1c3d24ee1f9633600611553cbefa2ea45",
+        "d5d5f1a80d241ca7154648b75ae07bf08677f27a8b4b12ba0094a23eca7fcf0a",
+        "86e4bdb65da9607de1fe9c18ad0d1fff6a051c956f9e2bb608552927b5e4b20e",
+        "0d7d9c0509e0c7e9ff2b719a0fb99685f279038fda0d2134729bbc024a6ab749",
+        "1297b2a92050c8576fc8bb2fbee527a4dc422d9ce9f508bd2904084498d5a551",
+        "670c8312a90d966dcff381e6431d77519153189319b17b7680f379c077208ea5"
+      ],
+      "initial_selector": null
+    },
+    {
+      "arm": "selector",
+      "actors": [
+        "d8d59189710090c8711e215fd30439801110a67c0e285b06ef4792e96a253c65",
+        "c3235dd94c14f04c324178ef77e5db7e0137394ed8cf9cb21a72fb9746d4b6f3",
+        "26133bad3bcf4b8a757470a26c49f92e794bb59c58183605205a8f281638c42f",
+        "04eb37e631b72c94e66756d125c41b7bce87155e24017e728bcd99ab0cea79df"
+      ],
+      "critic": "95a7507ab5c2c4b2b0939a67a5d5aeeae4a42d05e5f72f980b63a94229e8c618",
+      "environment": [
+        "80411256f8c1687a82acc44b557ed8474ee83a68392efebc4cb0e010a1d5586f",
+        "d4525b4dce13c341d1369a670314b2715b1a942d62e842bdf0b0b2ec6b7b146f",
+        "267b5e50e719c8196f15f5997c1ba1c45103572d699509e348a439cecfc17728",
+        "f4fd6a8d55afebc390b376c860d4ec3267af4bd79ed5c4b91bdb1407d89dd96b",
+        "a19cf574f20f28076df2a184474683f1c3d24ee1f9633600611553cbefa2ea45",
+        "d5d5f1a80d241ca7154648b75ae07bf08677f27a8b4b12ba0094a23eca7fcf0a",
+        "86e4bdb65da9607de1fe9c18ad0d1fff6a051c956f9e2bb608552927b5e4b20e",
+        "0d7d9c0509e0c7e9ff2b719a0fb99685f279038fda0d2134729bbc024a6ab749",
+        "1297b2a92050c8576fc8bb2fbee527a4dc422d9ce9f508bd2904084498d5a551",
+        "670c8312a90d966dcff381e6431d77519153189319b17b7680f379c077208ea5"
+      ],
+      "initial_selector": "5c3db636e14ef8d2d1fb27e5a3028db4e949d581367897a6d363412bf547b83d"
+    }
+  ],
+  "matched_pretrained_actors_and_critic": true,
+  "matched_inherited_environment": true,
+  "selector_log_likelihood_verified": true,
+  "frozen_controllers_and_trainable_selector_verified": true,
+  "finite_actual_update_both_arms": true,
+  "smoke_physical_steps": 8000,
+  "smoke_results_used_for_model_selection": false
+}

@@ -1,0 +1,12 @@
+{
+  "state": "PASS",
+  "cpu_tensor_slots": 2400,
+  "frozen_old_replay_slots": 48000,
+  "edge_cases": 10,
+  "shared_reward_routing_nonzero_penalties": true,
+  "independent_recomputation": true,
+  "hidden_inputs_and_critic_pairing": true,
+  "original_objective_equivalence": true,
+  "monotonic_examples": 3,
+  "candidate_only_stated_tail_change": true
+}

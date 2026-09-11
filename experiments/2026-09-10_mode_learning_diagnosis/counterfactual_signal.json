@@ -1,0 +1,49 @@
+{
+  "state": "PASS",
+  "groups": [
+    [
+      0,
+      4,
+      8,
+      12
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      5,
+      9,
+      13
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ]
+  ],
+  "training_updates": 0,
+  "fresh_rollout_steps": 12000,
+  "checked_states": 3000,
+  "one_uav_mode_counterfactuals": 99000,
+  "script_sha256": "809546656b59875a0764f5cb072026b7e6b61bc61f4b4a41b5b2220c8ed0f02d",
+  "limitation": "Immediate one-step effects, conditional on sampled actions of the other agents; does not substitute for true long-term advantages."
+}

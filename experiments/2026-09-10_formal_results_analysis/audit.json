@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-09-10T01:35:47.197753+00:00",
+  "script_sha256": "98bfd517e6a8eb168bcade37da62e8a52e439b3408d80810b3769356ceec4881",
+  "protocol_sha256": "b409cfb1034329fc0a05871a42e5ea22717b486e7f3ed70b74946428c7d226d0",
+  "families": {
+    "SC": {
+      "run": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_long_training/runs/three_seed_sc_20260909",
+      "manifest_sha256": "102b0a0a6d4346dd0b7ada760f8a56971710be234888e90e3b4fdb8193b65173",
+      "verified_input_report_model_files": 251,
+      "training_jobs": 21,
+      "training_steps": 210000000,
+      "trace_hashes": 6500,
+      "evaluation_slots": 3900000,
+      "fixed_trace_slots_reaggregated": 900000
+    },
+    "CC": {
+      "run": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_cc_comparison/runs/three_seed_cc_20260909",
+      "manifest_sha256": "16e3e2e31f3ace6bd4c6482298694ad1229d5917cb72c94c45136e7c6427af89",
+      "verified_input_report_model_files": 163,
+      "training_jobs": 6,
+      "training_steps": 60000000,
+      "trace_hashes": 1560,
+      "evaluation_slots": 936000,
+      "fixed_trace_slots_reaggregated": 216000
+    }
+  },
+  "errors": [],
+  "posthoc_diagnostic": {
+    "state": "complete",
+    "updated_utc": "2026-09-10T01:35:33.406364+00:00",
+    "completed_episodes": 260,
+    "total_episodes": 260,
+    "elapsed_seconds": 227.3219973212108,
+    "all_transition_reward_checks_passed": true,
+    "all_external_and_delivery_hashes_paired": true,
+    "summary_sha256": "be4b5f221fcd2052d04b458520086da85ed321707fb3d2c0596dd99911dda16f"
+  },
+  "state": "PASS",
+  "formal_episodes": 8060,
+  "formal_slots": 4836000,
+  "paired_external_scenario_seed_conditions": 260
+}

@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "physical_reference_slots": 2400,
+  "one_slot_one_reward": true,
+  "current_budget_observed": true,
+  "recorded_actor_log_prob_replay": true,
+  "finite_terminal_gae": true,
+  "rollout_cutoff_bootstrap": true,
+  "no_future_tape_leakage": true,
+  "hidden_actor_invariance": true,
+  "observation_dimensions": [
+    76,
+    202
+  ],
+  "cpu_three_arm_initial_hashes_match": true,
+  "cpu_cuda_initial_hashes_match": true,
+  "full_state_exact_resume": [
+    "cpu_joint",
+    "cpu_mode_only",
+    "cpu_staged",
+    "cuda_staged"
+  ],
+  "frozen_sut_no_optimizer_steps": true,
+  "staged_boundary_steps": 300000,
+  "parent_artifacts_unchanged": true
+}

@@ -1,0 +1,1826 @@
+{
+  "selection": {
+    "created_utc": "2026-09-11T06:16:51.369075+00:00",
+    "selection_entropy": 322575263001485312185911350583287702021,
+    "algorithm": "Python random.Random with OS entropy; one draw each; no redraw",
+    "training_seed": 218,
+    "evaluation_seed": 20262512,
+    "scenarios": [
+      "fixed_1",
+      "fixed_2"
+    ],
+    "slots": [
+      0,
+      600
+    ],
+    "sampling": "Uniform one selected training seed and one evaluation seed, shared across AoI and quality episodes",
+    "comparison_sha256": "df6ae7cd46669889a3746004e7cdb37ca4a0f0df718db326c576a1776cb670c1"
+  },
+  "per_scene": {
+    "fixed_1": {
+      "selector": {
+        "label": "选择器 RL（冻结基础策略）",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.1495071441602938,
+          "mean_aoi": 2.5046666666666666,
+          "objective_ref10": -0.11575197749362717,
+          "objective_ref8": -0.1495071441602938,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.03290182990802136,
+          "age_mean_cost": 0.08766333333333332,
+          "age_max_cost": 0.0811125,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013633140734981852,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.09,
+          "delivered_predicted_psnr": 24.95569145059146,
+          "deliveries_per_slot": 14.971666666666666,
+          "channel_uses_per_slot": 40899.42220494555
+        },
+        "components_x100": {
+          "quality_credit": 3.290182990802136,
+          "age_mean_cost": 8.766333333333332,
+          "age_max_cost": 8.11125,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.87758333333333,
+          "resource_cost": 1.3633140734981852,
+          "score": -14.95071441602938
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.09,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8983,
+          "total_channel_uses": 24539653.322967328,
+          "resource_mean_per_uav": [
+            0.3332240274691268,
+            0.33389195512589115,
+            0.3328840174049885
+          ],
+          "equal_fraction": 0.99
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/selector_at_2000000/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "joint_continue": {
+        "label": "联合 RL 继续训练",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14874800498167537,
+          "mean_aoi": 2.5018888888888893,
+          "objective_ref10": -0.11515228275945313,
+          "objective_ref8": -0.14874800498167537,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032884972357571755,
+          "age_mean_cost": 0.08756611111111111,
+          "age_max_cost": 0.0804125,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013654366228136029,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.0633333333333335,
+          "delivered_predicted_psnr": 24.950586223156563,
+          "deliveries_per_slot": 14.983333333333333,
+          "channel_uses_per_slot": 40963.09868440809
+        },
+        "components_x100": {
+          "quality_credit": 3.2884972357571756,
+          "age_mean_cost": 8.756611111111111,
+          "age_max_cost": 8.04125,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.79786111111111,
+          "resource_cost": 1.3654366228136028,
+          "score": -14.874800498167536
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.0633333333333335,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8990,
+          "total_channel_uses": 24577859.210644852,
+          "resource_mean_per_uav": [
+            0.3494239564560899,
+            0.33724705628693796,
+            0.31332898725697256
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/joint_continue_at_2000000/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "joint": {
+        "label": "原始联合 RL",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14823572515416175,
+          "mean_aoi": 2.5005555555555556,
+          "objective_ref10": -0.1147368362652729,
+          "objective_ref8": -0.14823572515416175,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032913780531908216,
+          "age_mean_cost": 0.08751944444444443,
+          "age_max_cost": 0.079975,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.01365506124162555,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.046666666666667,
+          "delivered_predicted_psnr": 24.95272800783508,
+          "deliveries_per_slot": 14.988333333333333,
+          "channel_uses_per_slot": 40965.18372487664
+        },
+        "components_x100": {
+          "quality_credit": 3.2913780531908214,
+          "age_mean_cost": 8.751944444444442,
+          "age_max_cost": 7.9975000000000005,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.749444444444446,
+          "resource_cost": 1.365506124162555,
+          "score": -14.823572515416176
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.046666666666667,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8993,
+          "total_channel_uses": 24579110.234925985,
+          "resource_mean_per_uav": [
+            0.32072575559532057,
+            0.3513371998522384,
+            0.32793704455244094
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/joint_at_10000000/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "staged": {
+        "label": "分阶段 RL（60万步均分，再940万步联合）",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.1490108802304039,
+          "mean_aoi": 2.5025555555555554,
+          "objective_ref10": -0.11534924134151503,
+          "objective_ref8": -0.1490108802304039,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032942619197913,
+          "age_mean_cost": 0.08758944444444444,
+          "age_max_cost": 0.08071875,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013645304983872461,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.075,
+          "delivered_predicted_psnr": 24.958392159962845,
+          "deliveries_per_slot": 14.98,
+          "channel_uses_per_slot": 40935.91495161737
+        },
+        "components_x100": {
+          "quality_credit": 3.2942619197912997,
+          "age_mean_cost": 8.758944444444444,
+          "age_max_cost": 8.071875,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.830819444444444,
+          "resource_cost": 1.3645304983872462,
+          "score": -14.90108802304039
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.075,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8988,
+          "total_channel_uses": 24561548.970970422,
+          "resource_mean_per_uav": [
+            0.30285485040536764,
+            0.3334564130496494,
+            0.36368873654498285
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/staged_at_10000000/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "R_myopic": {
+        "label": "一步择优规则",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.1459854634908701,
+          "mean_aoi": 2.5656111111111115,
+          "objective_ref10": -0.11130435237975898,
+          "objective_ref8": -0.1459854634908701,
+          "fraction_above4": 0.0001111111111111111,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.04355229304255019,
+          "age_mean_cost": 0.08979638888888888,
+          "age_max_cost": 0.08360625,
+          "age_tail_cost": 2.9166666666666666e-06,
+          "resource_cost": 0.01613220097786474,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.185,
+          "delivered_predicted_psnr": 26.33051637420152,
+          "deliveries_per_slot": 14.706666666666667,
+          "channel_uses_per_slot": 48396.60293359422
+        },
+        "components_x100": {
+          "quality_credit": 4.355229304255019,
+          "age_mean_cost": 8.97963888888889,
+          "age_max_cost": 8.360624999999999,
+          "age_tail_cost": 0.00029166666666666664,
+          "total_age_cost": 17.340555555555554,
+          "resource_cost": 1.613220097786474,
+          "score": -14.59854634908701
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.185,
+          "mean_excess_aoi_above4": 0.00011111111111111112,
+          "delivered_blocks": 8824,
+          "total_channel_uses": 29037961.760156535,
+          "resource_mean_per_uav": [
+            0.32921664703971887,
+            0.33860342445728653,
+            0.33217992850300043
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_myopic/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "R_instruction": {
+        "label": "按指令切换规则",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14872329673788368,
+          "mean_aoi": 2.501888888888889,
+          "objective_ref10": -0.11512757451566145,
+          "objective_ref8": -0.14872329673788368,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032905174852129834,
+          "age_mean_cost": 0.08756611111111111,
+          "age_max_cost": 0.0804125,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013649860478902388,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.0633333333333335,
+          "delivered_predicted_psnr": 24.953013219165765,
+          "deliveries_per_slot": 14.983333333333333,
+          "channel_uses_per_slot": 40949.58143670715
+        },
+        "components_x100": {
+          "quality_credit": 3.2905174852129835,
+          "age_mean_cost": 8.756611111111111,
+          "age_max_cost": 8.04125,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.79786111111111,
+          "resource_cost": 1.3649860478902387,
+          "score": -14.872329673788368
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.0633333333333335,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8990,
+          "total_channel_uses": 24569748.862024292,
+          "resource_mean_per_uav": [
+            0.3310994298806051,
+            0.34260811292986004,
+            0.326292457189534
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_instruction/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "R_single": {
+        "label": "单一固定规则",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14872329673788368,
+          "mean_aoi": 2.501888888888889,
+          "objective_ref10": -0.11512757451566145,
+          "objective_ref8": -0.14872329673788368,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032905174852129834,
+          "age_mean_cost": 0.08756611111111111,
+          "age_max_cost": 0.0804125,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013649860478902388,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.0633333333333335,
+          "delivered_predicted_psnr": 24.953013219165765,
+          "deliveries_per_slot": 14.983333333333333,
+          "channel_uses_per_slot": 40949.58143670715
+        },
+        "components_x100": {
+          "quality_credit": 3.2905174852129835,
+          "age_mean_cost": 8.756611111111111,
+          "age_max_cost": 8.04125,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.79786111111111,
+          "resource_cost": 1.3649860478902387,
+          "score": -14.872329673788368
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.0633333333333335,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8990,
+          "total_channel_uses": 24569748.862024292,
+          "resource_mean_per_uav": [
+            0.3310994298806051,
+            0.34260811292986004,
+            0.326292457189534
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_single/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "R_equal_myopic": {
+        "label": "均分资源＋一步择优模式",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.1520685274975457,
+          "mean_aoi": 2.6051666666666664,
+          "objective_ref10": -0.11633848583087907,
+          "objective_ref8": -0.1520685274975457,
+          "fraction_above4": 0.0005000000000000001,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.042341348510736655,
+          "age_mean_cost": 0.09118083333333331,
+          "age_max_cost": 0.08745625,
+          "age_tail_cost": 1.3125e-05,
+          "resource_cost": 0.015759667674949053,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.3316666666666666,
+          "delivered_predicted_psnr": 26.242308425036754,
+          "deliveries_per_slot": 14.538333333333334,
+          "channel_uses_per_slot": 47279.003024847145
+        },
+        "components_x100": {
+          "quality_credit": 4.234134851073666,
+          "age_mean_cost": 9.118083333333331,
+          "age_max_cost": 8.745625,
+          "age_tail_cost": 0.0013125,
+          "total_age_cost": 17.865020833333332,
+          "resource_cost": 1.5759667674949054,
+          "score": -15.206852749754571
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.3316666666666666,
+          "mean_excess_aoi_above4": 0.0005,
+          "delivered_blocks": 8723,
+          "total_channel_uses": 28367401.81490829,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_myopic/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "R_equal_instruction": {
+        "label": "均分资源＋指令选模",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.1495071441602938,
+          "mean_aoi": 2.5046666666666666,
+          "objective_ref10": -0.11575197749362717,
+          "objective_ref8": -0.1495071441602938,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.03290182990802136,
+          "age_mean_cost": 0.08766333333333332,
+          "age_max_cost": 0.0811125,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013633140734981852,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.09,
+          "delivered_predicted_psnr": 24.95569145059146,
+          "deliveries_per_slot": 14.971666666666666,
+          "channel_uses_per_slot": 40899.42220494555
+        },
+        "components_x100": {
+          "quality_credit": 3.290182990802136,
+          "age_mean_cost": 8.766333333333332,
+          "age_max_cost": 8.11125,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.87758333333333,
+          "resource_cost": 1.3633140734981852,
+          "score": -14.95071441602938
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.09,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8983,
+          "total_channel_uses": 24539653.322967328,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_instruction/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "R_equal_single": {
+        "label": "均分资源＋单一模式",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.1495071441602938,
+          "mean_aoi": 2.5046666666666666,
+          "objective_ref10": -0.11575197749362717,
+          "objective_ref8": -0.1495071441602938,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.03290182990802136,
+          "age_mean_cost": 0.08766333333333332,
+          "age_max_cost": 0.0811125,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013633140734981852,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.09,
+          "delivered_predicted_psnr": 24.95569145059146,
+          "deliveries_per_slot": 14.971666666666666,
+          "channel_uses_per_slot": 40899.42220494555
+        },
+        "components_x100": {
+          "quality_credit": 3.290182990802136,
+          "age_mean_cost": 8.766333333333332,
+          "age_max_cost": 8.11125,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.87758333333333,
+          "resource_cost": 1.3633140734981852,
+          "score": -14.95071441602938
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.09,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8983,
+          "total_channel_uses": 24539653.322967328,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_single/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "pilot_joint": {
+        "label": "100万步联合 RL",
+        "category": "pilot",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14898738401436584,
+          "mean_aoi": 2.5025,
+          "objective_ref10": -0.11533488401436585,
+          "objective_ref8": -0.14898738401436584,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.03291756399939968,
+          "age_mean_cost": 0.08758749999999998,
+          "age_max_cost": 0.080675,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.01364244801376555,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.0733333333333333,
+          "delivered_predicted_psnr": 24.955381521957236,
+          "deliveries_per_slot": 14.98,
+          "channel_uses_per_slot": 40927.34404129664
+        },
+        "components_x100": {
+          "quality_credit": 3.2917563999399677,
+          "age_mean_cost": 8.75875,
+          "age_max_cost": 8.067499999999999,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.826249999999998,
+          "resource_cost": 1.364244801376555,
+          "score": -14.898738401436585
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.0733333333333333,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8988,
+          "total_channel_uses": 24556406.42477798,
+          "resource_mean_per_uav": [
+            0.3106131719407974,
+            0.3314187496401362,
+            0.3579680784190662
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/joint/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "pilot_staged": {
+        "label": "100万步分阶段 RL（30万＋70万）",
+        "category": "pilot",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14604218580827585,
+          "mean_aoi": 2.503388888888889,
+          "objective_ref10": -0.11237471358605364,
+          "objective_ref8": -0.14604218580827585,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.0369728148706004,
+          "age_mean_cost": 0.08761861111111112,
+          "age_max_cost": 0.08071874999999999,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.014677639567765138,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.075,
+          "delivered_predicted_psnr": 25.443650129117337,
+          "deliveries_per_slot": 14.976666666666667,
+          "channel_uses_per_slot": 44032.9187032954
+        },
+        "components_x100": {
+          "quality_credit": 3.6972814870600397,
+          "age_mean_cost": 8.761861111111111,
+          "age_max_cost": 8.071874999999999,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.83373611111111,
+          "resource_cost": 1.4677639567765137,
+          "score": -14.604218580827585
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.075,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8986,
+          "total_channel_uses": 26419751.221977238,
+          "resource_mean_per_uav": [
+            0.3519541922113062,
+            0.334015873827765,
+            0.31402993396092854
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/staged/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "pilot_mode_only": {
+        "label": "100万步均分资源、仅训练 UAV 模式",
+        "category": "pilot",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.17098275213776978,
+          "mean_aoi": 2.6401666666666666,
+          "objective_ref10": -0.1314782521377698,
+          "objective_ref8": -0.17098275213776978,
+          "fraction_above4": 0.007777777777777777,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.0421135545304787,
+          "age_mean_cost": 0.09240583333333334,
+          "age_max_cost": 0.10491249999999998,
+          "age_tail_cost": 0.00020416666666666665,
+          "resource_cost": 0.015573806668248504,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.9966666666666666,
+          "delivered_predicted_psnr": 26.25932457133638,
+          "deliveries_per_slot": 14.413333333333334,
+          "channel_uses_per_slot": 46721.420004745494
+        },
+        "components_x100": {
+          "quality_credit": 4.21135545304787,
+          "age_mean_cost": 9.240583333333333,
+          "age_max_cost": 10.491249999999997,
+          "age_tail_cost": 0.020416666666666666,
+          "total_age_cost": 19.75225,
+          "resource_cost": 1.5573806668248504,
+          "score": -17.09827521377698
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.9966666666666666,
+          "mean_excess_aoi_above4": 0.0077777777777777776,
+          "delivered_blocks": 8648,
+          "total_channel_uses": 28032852.002847295,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/mode_only/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "rule_modes_rl_resources": {
+        "label": "规则选模式＋RL 分配资源",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14823572515416175,
+          "mean_aoi": 2.5005555555555556,
+          "objective_ref10": -0.1147368362652729,
+          "objective_ref8": -0.14823572515416175,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032913780531908216,
+          "age_mean_cost": 0.08751944444444443,
+          "age_max_cost": 0.079975,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.01365506124162555,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.046666666666667,
+          "delivered_predicted_psnr": 24.95272800783508,
+          "deliveries_per_slot": 14.988333333333333,
+          "channel_uses_per_slot": 40965.18372487664
+        },
+        "components_x100": {
+          "quality_credit": 3.2913780531908214,
+          "age_mean_cost": 8.751944444444442,
+          "age_max_cost": 7.9975000000000005,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.749444444444446,
+          "resource_cost": 1.365506124162555,
+          "score": -14.823572515416176
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.046666666666667,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8993,
+          "total_channel_uses": 24579110.234925985,
+          "resource_mean_per_uav": [
+            0.32072575559532057,
+            0.3513371998522384,
+            0.32793704455244094
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rule_modes_rl_resources/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "rl_modes_rule_resources": {
+        "label": "RL 选模式＋指令规则分配资源",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14894890652225634,
+          "mean_aoi": 2.5026666666666664,
+          "objective_ref10": -0.11529523985558968,
+          "objective_ref8": -0.14894890652225634,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032988959542669276,
+          "age_mean_cost": 0.08759333333333333,
+          "age_max_cost": 0.080675,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013669532731592285,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.0733333333333333,
+          "delivered_predicted_psnr": 24.963960425687894,
+          "deliveries_per_slot": 14.98,
+          "channel_uses_per_slot": 41008.59819477685
+        },
+        "components_x100": {
+          "quality_credit": 3.2988959542669276,
+          "age_mean_cost": 8.759333333333332,
+          "age_max_cost": 8.067499999999999,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.826833333333333,
+          "resource_cost": 1.3669532731592284,
+          "score": -14.894890652225634
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.0733333333333333,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8988,
+          "total_channel_uses": 24605158.916866113,
+          "resource_mean_per_uav": [
+            0.33119708811781295,
+            0.34223690415287117,
+            0.326566007729315
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rl_modes_rule_resources/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "quality_rule_modes_only": {
+        "label": "仅质量指令改成规则选模式",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14823572515416175,
+          "mean_aoi": 2.5005555555555556,
+          "objective_ref10": -0.1147368362652729,
+          "objective_ref8": -0.14823572515416175,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032913780531908216,
+          "age_mean_cost": 0.08751944444444443,
+          "age_max_cost": 0.079975,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.01365506124162555,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.046666666666667,
+          "delivered_predicted_psnr": 24.95272800783508,
+          "deliveries_per_slot": 14.988333333333333,
+          "channel_uses_per_slot": 40965.18372487664
+        },
+        "components_x100": {
+          "quality_credit": 3.2913780531908214,
+          "age_mean_cost": 8.751944444444442,
+          "age_max_cost": 7.9975000000000005,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.749444444444446,
+          "resource_cost": 1.365506124162555,
+          "score": -14.823572515416176
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.046666666666667,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8993,
+          "total_channel_uses": 24579110.234925985,
+          "resource_mean_per_uav": [
+            0.32072575559532057,
+            0.3513371998522384,
+            0.32793704455244094
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/quality_rule_modes_only/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "quality_rule_resources_only": {
+        "label": "仅质量指令改成均分资源",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14823572515416175,
+          "mean_aoi": 2.5005555555555556,
+          "objective_ref10": -0.1147368362652729,
+          "objective_ref8": -0.14823572515416175,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032913780531908216,
+          "age_mean_cost": 0.08751944444444443,
+          "age_max_cost": 0.079975,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.01365506124162555,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.046666666666667,
+          "delivered_predicted_psnr": 24.95272800783508,
+          "deliveries_per_slot": 14.988333333333333,
+          "channel_uses_per_slot": 40965.18372487664
+        },
+        "components_x100": {
+          "quality_credit": 3.2913780531908214,
+          "age_mean_cost": 8.751944444444442,
+          "age_max_cost": 7.9975000000000005,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.749444444444446,
+          "resource_cost": 1.365506124162555,
+          "score": -14.823572515416176
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.046666666666667,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8993,
+          "total_channel_uses": 24579110.234925985,
+          "resource_mean_per_uav": [
+            0.32072575559532057,
+            0.3513371998522384,
+            0.32793704455244094
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/fixed_1.npz",
+        "evaluation_index": 11
+      },
+      "alias_probability_aggregation": {
+        "label": "合并物理等价模式的概率后选模",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": -0.14823572515416175,
+          "mean_aoi": 2.5005555555555556,
+          "objective_ref10": -0.1147368362652729,
+          "objective_ref8": -0.14823572515416175,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.032913780531908216,
+          "age_mean_cost": 0.08751944444444443,
+          "age_max_cost": 0.079975,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.01365506124162555,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.046666666666667,
+          "delivered_predicted_psnr": 24.95272800783508,
+          "deliveries_per_slot": 14.988333333333333,
+          "channel_uses_per_slot": 40965.18372487664
+        },
+        "components_x100": {
+          "quality_credit": 3.2913780531908214,
+          "age_mean_cost": 8.751944444444442,
+          "age_max_cost": 7.9975000000000005,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 16.749444444444446,
+          "resource_cost": 1.365506124162555,
+          "score": -14.823572515416176
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.046666666666667,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8993,
+          "total_channel_uses": 24579110.234925985,
+          "resource_mean_per_uav": [
+            0.32072575559532057,
+            0.3513371998522384,
+            0.32793704455244094
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/alias_probability_aggregation/fixed_1.npz",
+        "evaluation_index": 11
+      }
+    },
+    "fixed_2": {
+      "selector": {
+        "label": "选择器 RL（冻结基础策略）",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10994508979083677,
+          "mean_aoi": 3.2980000000000005,
+          "objective_ref10": 0.12380192312417009,
+          "objective_ref8": 0.10994508979083677,
+          "fraction_above4": 0.05727777777777777,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.1974536765467262,
+          "age_mean_cost": 0.03298000000000001,
+          "age_max_cost": 0.0358625,
+          "age_tail_cost": 0.0004416666666666667,
+          "resource_cost": 0.018224420089222763,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.781666666666666,
+          "delivered_predicted_psnr": 29.64234936861051,
+          "deliveries_per_slot": 11.75,
+          "channel_uses_per_slot": 54673.26026766828
+        },
+        "components_x100": {
+          "quality_credit": 19.74536765467262,
+          "age_mean_cost": 3.298000000000001,
+          "age_max_cost": 3.5862499999999997,
+          "age_tail_cost": 0.044166666666666674,
+          "total_age_cost": 6.928416666666667,
+          "resource_cost": 1.8224420089222764,
+          "score": 10.994508979083676
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.781666666666666,
+          "mean_excess_aoi_above4": 0.058888888888888886,
+          "delivered_blocks": 7050,
+          "total_channel_uses": 32803956.160600968,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": 1.0
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/selector_at_2000000/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "joint_continue": {
+        "label": "联合 RL 继续训练",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10305819836178727,
+          "mean_aoi": 3.3388888888888886,
+          "objective_ref10": 0.11708422613956505,
+          "objective_ref8": 0.10305819836178727,
+          "fraction_above4": 0.08327777777777777,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.19095924532330266,
+          "age_mean_cost": 0.0333888888888889,
+          "age_max_cost": 0.03611249999999999,
+          "age_tail_cost": 0.00062875,
+          "resource_cost": 0.017770908072626483,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.815,
+          "delivered_predicted_psnr": 29.427426648789105,
+          "deliveries_per_slot": 11.653333333333334,
+          "channel_uses_per_slot": 53312.72421787944
+        },
+        "components_x100": {
+          "quality_credit": 19.095924532330265,
+          "age_mean_cost": 3.33888888888889,
+          "age_max_cost": 3.611249999999999,
+          "age_tail_cost": 0.062875,
+          "total_age_cost": 7.013013888888889,
+          "resource_cost": 1.7770908072626483,
+          "score": 10.305819836178728
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.815,
+          "mean_excess_aoi_above4": 0.08383333333333333,
+          "delivered_blocks": 6992,
+          "total_channel_uses": 31987634.530727666,
+          "resource_mean_per_uav": [
+            0.34103587229345406,
+            0.32297858511688554,
+            0.33598554258965974
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/joint_continue_at_2000000/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "joint": {
+        "label": "原始联合 RL",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10045410131911621,
+          "mean_aoi": 3.4262777777777775,
+          "objective_ref10": 0.11490274020800507,
+          "objective_ref8": 0.10045410131911621,
+          "fraction_above4": 0.11894444444444446,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.19033483923071937,
+          "age_mean_cost": 0.03426277777777778,
+          "age_max_cost": 0.037087499999999995,
+          "age_tail_cost": 0.0008929166666666665,
+          "resource_cost": 0.01763754346715871,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.945,
+          "delivered_predicted_psnr": 29.59155840379407,
+          "deliveries_per_slot": 11.393333333333333,
+          "channel_uses_per_slot": 52912.630401476126
+        },
+        "components_x100": {
+          "quality_credit": 19.033483923071937,
+          "age_mean_cost": 3.426277777777778,
+          "age_max_cost": 3.7087499999999993,
+          "age_tail_cost": 0.08929166666666666,
+          "total_age_cost": 7.224319444444443,
+          "resource_cost": 1.763754346715871,
+          "score": 10.045410131911622
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.945,
+          "mean_excess_aoi_above4": 0.11905555555555555,
+          "delivered_blocks": 6836,
+          "total_channel_uses": 31747578.240885675,
+          "resource_mean_per_uav": [
+            0.3352010931903763,
+            0.3299785939605299,
+            0.33482031284909347
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/joint_at_10000000/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "staged": {
+        "label": "分阶段 RL（60万步均分，再940万步联合）",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.09957332655579829,
+          "mean_aoi": 3.368333333333333,
+          "objective_ref10": 0.11395924322246494,
+          "objective_ref8": 0.09957332655579829,
+          "fraction_above4": 0.11616666666666667,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.1891090967685905,
+          "age_mean_cost": 0.033683333333333336,
+          "age_max_cost": 0.037375,
+          "age_tail_cost": 0.0008712500000000001,
+          "resource_cost": 0.017606186879458884,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.983333333333333,
+          "delivered_predicted_psnr": 29.40467580955444,
+          "deliveries_per_slot": 11.571666666666667,
+          "channel_uses_per_slot": 52818.56063837664
+        },
+        "components_x100": {
+          "quality_credit": 18.91090967685905,
+          "age_mean_cost": 3.3683333333333336,
+          "age_max_cost": 3.7375,
+          "age_tail_cost": 0.08712500000000001,
+          "total_age_cost": 7.192958333333334,
+          "resource_cost": 1.7606186879458883,
+          "score": 9.957332655579828
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.983333333333333,
+          "mean_excess_aoi_above4": 0.11616666666666667,
+          "delivered_blocks": 6943,
+          "total_channel_uses": 31691136.383025985,
+          "resource_mean_per_uav": [
+            0.34487214974969554,
+            0.3506773310765296,
+            0.30445051917377425
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/staged_at_10000000/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "R_myopic": {
+        "label": "一步择优规则",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.11337160515170652,
+          "mean_aoi": 3.312222222222222,
+          "objective_ref10": 0.1274424662628176,
+          "objective_ref8": 0.11337160515170652,
+          "fraction_above4": 0.055944444444444436,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.20225911596424984,
+          "age_mean_cost": 0.033122222222222227,
+          "age_max_cost": 0.0368125,
+          "age_tail_cost": 0.0004195833333333334,
+          "resource_cost": 0.01853320525698779,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.908333333333333,
+          "delivered_predicted_psnr": 29.914638530878847,
+          "deliveries_per_slot": 11.668333333333333,
+          "channel_uses_per_slot": 55599.615770963355
+        },
+        "components_x100": {
+          "quality_credit": 20.225911596424982,
+          "age_mean_cost": 3.3122222222222226,
+          "age_max_cost": 3.68125,
+          "age_tail_cost": 0.04195833333333334,
+          "total_age_cost": 7.035430555555555,
+          "resource_cost": 1.8533205256987788,
+          "score": 11.337160515170652
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.908333333333333,
+          "mean_excess_aoi_above4": 0.05594444444444444,
+          "delivered_blocks": 7001,
+          "total_channel_uses": 33359769.462578014,
+          "resource_mean_per_uav": [
+            0.3314160120591822,
+            0.33778007063345794,
+            0.3308039173073653
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_myopic/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "R_instruction": {
+        "label": "按指令切换规则",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10894207379996156,
+          "mean_aoi": 3.380333333333333,
+          "objective_ref10": 0.12340499046662823,
+          "objective_ref8": 0.10894207379996156,
+          "fraction_above4": 0.08499999999999999,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.19948193530389896,
+          "age_mean_cost": 0.03380333333333334,
+          "age_max_cost": 0.037849999999999995,
+          "age_tail_cost": 0.0006612499999999999,
+          "resource_cost": 0.01822527817060407,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 5.046666666666667,
+          "delivered_predicted_psnr": 29.929990679082753,
+          "deliveries_per_slot": 11.488333333333333,
+          "channel_uses_per_slot": 54675.8345118122
+        },
+        "components_x100": {
+          "quality_credit": 19.948193530389897,
+          "age_mean_cost": 3.3803333333333336,
+          "age_max_cost": 3.7849999999999993,
+          "age_tail_cost": 0.06612499999999999,
+          "total_age_cost": 7.231458333333333,
+          "resource_cost": 1.822527817060407,
+          "score": 10.894207379996155
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 5.046666666666667,
+          "mean_excess_aoi_above4": 0.08816666666666667,
+          "delivered_blocks": 6893,
+          "total_channel_uses": 32805500.70708732,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_instruction/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "R_single": {
+        "label": "单一固定规则",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.05352436261466311,
+          "mean_aoi": 2.501888888888889,
+          "objective_ref10": 0.06312314039244088,
+          "objective_ref8": 0.05352436261466311,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.1151681119824544,
+          "age_mean_cost": 0.025018888888888893,
+          "age_max_cost": 0.022974999999999995,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013649860478902388,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.0633333333333335,
+          "delivered_predicted_psnr": 24.953013219165765,
+          "deliveries_per_slot": 14.983333333333333,
+          "channel_uses_per_slot": 40949.58143670715
+        },
+        "components_x100": {
+          "quality_credit": 11.51681119824544,
+          "age_mean_cost": 2.5018888888888893,
+          "age_max_cost": 2.2974999999999994,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 4.799388888888889,
+          "resource_cost": 1.3649860478902387,
+          "score": 5.352436261466311
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.0633333333333335,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8990,
+          "total_channel_uses": 24569748.862024292,
+          "resource_mean_per_uav": [
+            0.3310994298806051,
+            0.34260811292986004,
+            0.326292457189534
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_single/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "R_equal_myopic": {
+        "label": "均分资源＋一步择优模式",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10894207379996156,
+          "mean_aoi": 3.380333333333333,
+          "objective_ref10": 0.12340499046662823,
+          "objective_ref8": 0.10894207379996156,
+          "fraction_above4": 0.08499999999999999,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.19948193530389896,
+          "age_mean_cost": 0.03380333333333334,
+          "age_max_cost": 0.037849999999999995,
+          "age_tail_cost": 0.0006612499999999999,
+          "resource_cost": 0.01822527817060407,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 5.046666666666667,
+          "delivered_predicted_psnr": 29.929990679082753,
+          "deliveries_per_slot": 11.488333333333333,
+          "channel_uses_per_slot": 54675.8345118122
+        },
+        "components_x100": {
+          "quality_credit": 19.948193530389897,
+          "age_mean_cost": 3.3803333333333336,
+          "age_max_cost": 3.7849999999999993,
+          "age_tail_cost": 0.06612499999999999,
+          "total_age_cost": 7.231458333333333,
+          "resource_cost": 1.822527817060407,
+          "score": 10.894207379996155
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 5.046666666666667,
+          "mean_excess_aoi_above4": 0.08816666666666667,
+          "delivered_blocks": 6893,
+          "total_channel_uses": 32805500.70708732,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_myopic/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "R_equal_instruction": {
+        "label": "均分资源＋指令选模",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10894207379996156,
+          "mean_aoi": 3.380333333333333,
+          "objective_ref10": 0.12340499046662823,
+          "objective_ref8": 0.10894207379996156,
+          "fraction_above4": 0.08499999999999999,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.19948193530389896,
+          "age_mean_cost": 0.03380333333333334,
+          "age_max_cost": 0.037849999999999995,
+          "age_tail_cost": 0.0006612499999999999,
+          "resource_cost": 0.01822527817060407,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 5.046666666666667,
+          "delivered_predicted_psnr": 29.929990679082753,
+          "deliveries_per_slot": 11.488333333333333,
+          "channel_uses_per_slot": 54675.8345118122
+        },
+        "components_x100": {
+          "quality_credit": 19.948193530389897,
+          "age_mean_cost": 3.3803333333333336,
+          "age_max_cost": 3.7849999999999993,
+          "age_tail_cost": 0.06612499999999999,
+          "total_age_cost": 7.231458333333333,
+          "resource_cost": 1.822527817060407,
+          "score": 10.894207379996155
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 5.046666666666667,
+          "mean_excess_aoi_above4": 0.08816666666666667,
+          "delivered_blocks": 6893,
+          "total_channel_uses": 32805500.70708732,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_instruction/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "R_equal_single": {
+        "label": "均分资源＋单一模式",
+        "category": "main",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.05330159727642622,
+          "mean_aoi": 2.5046666666666666,
+          "objective_ref10": 0.06294593060975955,
+          "objective_ref8": 0.05330159727642622,
+          "fraction_above4": 0.0,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.11515640467807474,
+          "age_mean_cost": 0.025046666666666672,
+          "age_max_cost": 0.023174999999999998,
+          "age_tail_cost": 0.0,
+          "resource_cost": 0.013633140734981852,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.09,
+          "delivered_predicted_psnr": 24.95569145059146,
+          "deliveries_per_slot": 14.971666666666666,
+          "channel_uses_per_slot": 40899.42220494555
+        },
+        "components_x100": {
+          "quality_credit": 11.515640467807474,
+          "age_mean_cost": 2.504666666666667,
+          "age_max_cost": 2.3175,
+          "age_tail_cost": 0.0,
+          "total_age_cost": 4.822166666666667,
+          "resource_cost": 1.3633140734981852,
+          "score": 5.330159727642622
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.09,
+          "mean_excess_aoi_above4": 0.0,
+          "delivered_blocks": 8983,
+          "total_channel_uses": 24539653.322967328,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_single/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "pilot_joint": {
+        "label": "100万步联合 RL",
+        "category": "pilot",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.0770631446750408,
+          "mean_aoi": 2.5515000000000003,
+          "objective_ref10": 0.08742872800837413,
+          "objective_ref8": 0.0770631446750408,
+          "fraction_above4": 5.555555555555555e-05,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.14451965420678828,
+          "age_mean_cost": 0.025515000000000006,
+          "age_max_cost": 0.026312499999999996,
+          "age_tail_cost": 4.1666666666666667e-07,
+          "resource_cost": 0.01562859286508081,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 3.5083333333333333,
+          "delivered_predicted_psnr": 26.033254645060666,
+          "deliveries_per_slot": 14.766666666666667,
+          "channel_uses_per_slot": 46885.77859524242
+        },
+        "components_x100": {
+          "quality_credit": 14.451965420678828,
+          "age_mean_cost": 2.5515000000000008,
+          "age_max_cost": 2.6312499999999996,
+          "age_tail_cost": 4.1666666666666665e-05,
+          "total_age_cost": 5.182791666666667,
+          "resource_cost": 1.5628592865080808,
+          "score": 7.70631446750408
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 3.5083333333333333,
+          "mean_excess_aoi_above4": 5.555555555555556e-05,
+          "delivered_blocks": 8860,
+          "total_channel_uses": 28131467.157145448,
+          "resource_mean_per_uav": [
+            0.2960927892159865,
+            0.361415103089818,
+            0.34249210769419536
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/joint/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "pilot_staged": {
+        "label": "100万步分阶段 RL（30万＋70万）",
+        "category": "pilot",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.09790537152173971,
+          "mean_aoi": 2.7988333333333335,
+          "objective_ref10": 0.1095113715217397,
+          "objective_ref8": 0.09790537152173971,
+          "fraction_above4": 0.0005555555555555556,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.17325619063290987,
+          "age_mean_cost": 0.027988333333333337,
+          "age_max_cost": 0.0300375,
+          "age_tail_cost": 4.166666666666668e-06,
+          "resource_cost": 0.01732081911117012,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.005,
+          "delivered_predicted_psnr": 27.50071865910029,
+          "deliveries_per_slot": 13.706666666666667,
+          "channel_uses_per_slot": 51962.45733351035
+        },
+        "components_x100": {
+          "quality_credit": 17.325619063290986,
+          "age_mean_cost": 2.7988333333333335,
+          "age_max_cost": 3.00375,
+          "age_tail_cost": 0.00041666666666666675,
+          "total_age_cost": 5.803000000000001,
+          "resource_cost": 1.732081911117012,
+          "score": 9.790537152173972
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.005,
+          "mean_excess_aoi_above4": 0.0005555555555555556,
+          "delivered_blocks": 8224,
+          "total_channel_uses": 31177474.40010621,
+          "resource_mean_per_uav": [
+            0.3285985801520169,
+            0.3231398838401956,
+            0.3482615360077873
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/staged/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "pilot_mode_only": {
+        "label": "100万步均分资源、仅训练 UAV 模式",
+        "category": "pilot",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.0778548828471773,
+          "mean_aoi": 2.946888888888889,
+          "objective_ref10": 0.09134799395828841,
+          "objective_ref8": 0.0778548828471773,
+          "fraction_above4": 0.07155555555555555,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.16134819447814996,
+          "age_mean_cost": 0.02946888888888889,
+          "age_max_cost": 0.0374375,
+          "age_tail_cost": 0.0005591666666666667,
+          "resource_cost": 0.016027756075417107,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.991666666666666,
+          "delivered_predicted_psnr": 27.238246193151664,
+          "deliveries_per_slot": 13.301666666666666,
+          "channel_uses_per_slot": 48083.26822625132
+        },
+        "components_x100": {
+          "quality_credit": 16.134819447814998,
+          "age_mean_cost": 2.946888888888889,
+          "age_max_cost": 3.74375,
+          "age_tail_cost": 0.05591666666666667,
+          "total_age_cost": 6.746555555555556,
+          "resource_cost": 1.6027756075417108,
+          "score": 7.78548828471773
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.991666666666666,
+          "mean_excess_aoi_above4": 0.07455555555555556,
+          "delivered_blocks": 7981,
+          "total_channel_uses": 28849960.93575079,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/mode_only/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "rule_modes_rl_resources": {
+        "label": "规则选模式＋RL 分配资源",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10148417387540346,
+          "mean_aoi": 3.501222222222222,
+          "objective_ref10": 0.1161893683198479,
+          "objective_ref8": 0.10148417387540346,
+          "fraction_above4": 0.14666666666666667,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.19268686298914184,
+          "age_mean_cost": 0.03501222222222223,
+          "age_max_cost": 0.037412499999999994,
+          "age_tail_cost": 0.00110125,
+          "resource_cost": 0.01767671689151614,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.988333333333333,
+          "delivered_predicted_psnr": 29.908849352638093,
+          "deliveries_per_slot": 11.123333333333333,
+          "channel_uses_per_slot": 53030.15067454841
+        },
+        "components_x100": {
+          "quality_credit": 19.268686298914183,
+          "age_mean_cost": 3.501222222222223,
+          "age_max_cost": 3.7412499999999995,
+          "age_tail_cost": 0.110125,
+          "total_age_cost": 7.352597222222222,
+          "resource_cost": 1.767671689151614,
+          "score": 10.148417387540345
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.988333333333333,
+          "mean_excess_aoi_above4": 0.14683333333333334,
+          "delivered_blocks": 6674,
+          "total_channel_uses": 31818090.404729046,
+          "resource_mean_per_uav": [
+            0.3290430800584129,
+            0.3414701946933164,
+            0.32948672524827044
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rule_modes_rl_resources/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "rl_modes_rule_resources": {
+        "label": "RL 选模式＋指令规则分配资源",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10994508979083677,
+          "mean_aoi": 3.2980000000000005,
+          "objective_ref10": 0.12380192312417009,
+          "objective_ref8": 0.10994508979083677,
+          "fraction_above4": 0.05727777777777777,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.1974536765467262,
+          "age_mean_cost": 0.03298000000000001,
+          "age_max_cost": 0.0358625,
+          "age_tail_cost": 0.0004416666666666667,
+          "resource_cost": 0.018224420089222763,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.781666666666666,
+          "delivered_predicted_psnr": 29.64234936861051,
+          "deliveries_per_slot": 11.75,
+          "channel_uses_per_slot": 54673.26026766828
+        },
+        "components_x100": {
+          "quality_credit": 19.74536765467262,
+          "age_mean_cost": 3.298000000000001,
+          "age_max_cost": 3.5862499999999997,
+          "age_tail_cost": 0.044166666666666674,
+          "total_age_cost": 6.928416666666667,
+          "resource_cost": 1.8224420089222764,
+          "score": 10.994508979083676
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.781666666666666,
+          "mean_excess_aoi_above4": 0.058888888888888886,
+          "delivered_blocks": 7050,
+          "total_channel_uses": 32803956.160600968,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rl_modes_rule_resources/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "quality_rule_modes_only": {
+        "label": "仅质量指令改成规则选模式",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10148417387540346,
+          "mean_aoi": 3.501222222222222,
+          "objective_ref10": 0.1161893683198479,
+          "objective_ref8": 0.10148417387540346,
+          "fraction_above4": 0.14666666666666667,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.19268686298914184,
+          "age_mean_cost": 0.03501222222222223,
+          "age_max_cost": 0.037412499999999994,
+          "age_tail_cost": 0.00110125,
+          "resource_cost": 0.01767671689151614,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.988333333333333,
+          "delivered_predicted_psnr": 29.908849352638093,
+          "deliveries_per_slot": 11.123333333333333,
+          "channel_uses_per_slot": 53030.15067454841
+        },
+        "components_x100": {
+          "quality_credit": 19.268686298914183,
+          "age_mean_cost": 3.501222222222223,
+          "age_max_cost": 3.7412499999999995,
+          "age_tail_cost": 0.110125,
+          "total_age_cost": 7.352597222222222,
+          "resource_cost": 1.767671689151614,
+          "score": 10.148417387540345
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.988333333333333,
+          "mean_excess_aoi_above4": 0.14683333333333334,
+          "delivered_blocks": 6674,
+          "total_channel_uses": 31818090.404729046,
+          "resource_mean_per_uav": [
+            0.3290430800584129,
+            0.3414701946933164,
+            0.32948672524827044
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/quality_rule_modes_only/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "quality_rule_resources_only": {
+        "label": "仅质量指令改成均分资源",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.10994508979083677,
+          "mean_aoi": 3.2980000000000005,
+          "objective_ref10": 0.12380192312417009,
+          "objective_ref8": 0.10994508979083677,
+          "fraction_above4": 0.05727777777777777,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.1974536765467262,
+          "age_mean_cost": 0.03298000000000001,
+          "age_max_cost": 0.0358625,
+          "age_tail_cost": 0.0004416666666666667,
+          "resource_cost": 0.018224420089222763,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.781666666666666,
+          "delivered_predicted_psnr": 29.64234936861051,
+          "deliveries_per_slot": 11.75,
+          "channel_uses_per_slot": 54673.26026766828
+        },
+        "components_x100": {
+          "quality_credit": 19.74536765467262,
+          "age_mean_cost": 3.298000000000001,
+          "age_max_cost": 3.5862499999999997,
+          "age_tail_cost": 0.044166666666666674,
+          "total_age_cost": 6.928416666666667,
+          "resource_cost": 1.8224420089222764,
+          "score": 10.994508979083676
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.781666666666666,
+          "mean_excess_aoi_above4": 0.058888888888888886,
+          "delivered_blocks": 7050,
+          "total_channel_uses": 32803956.160600968,
+          "resource_mean_per_uav": [
+            0.33333333333333554,
+            0.33333333333333554,
+            0.33333333333333554
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/fixed_2.npz",
+        "evaluation_index": 11
+      },
+      "alias_probability_aggregation": {
+        "label": "合并物理等价模式的概率后选模",
+        "category": "diagnostic",
+        "metrics": {
+          "slots": 600,
+          "common_reward": 0.0995582387601295,
+          "mean_aoi": 3.2841666666666667,
+          "objective_ref10": 0.11355882209346284,
+          "objective_ref8": 0.0995582387601295,
+          "fraction_above4": 0.08138888888888889,
+          "fraction_above6": 0.0,
+          "quality_credit": 0.1871894606656989,
+          "age_mean_cost": 0.03284166666666668,
+          "age_max_cost": 0.03655,
+          "age_tail_cost": 0.00061125,
+          "resource_cost": 0.017628305238902714,
+          "service_violation_cost": 0.0,
+          "recv_aoi_bonus": 0.0,
+          "max_aoi": 4.873333333333333,
+          "delivered_predicted_psnr": 29.10912807681173,
+          "deliveries_per_slot": 11.871666666666666,
+          "channel_uses_per_slot": 52884.91571670813
+        },
+        "components_x100": {
+          "quality_credit": 18.718946066569888,
+          "age_mean_cost": 3.284166666666668,
+          "age_max_cost": 3.655,
+          "age_tail_cost": 0.061125000000000006,
+          "total_age_cost": 7.0002916666666675,
+          "resource_cost": 1.7628305238902713,
+          "score": 9.95582387601295
+        },
+        "physical": {
+          "mean_instantaneous_max_aoi": 4.873333333333333,
+          "mean_excess_aoi_above4": 0.0815,
+          "delivered_blocks": 7123,
+          "total_channel_uses": 31730949.430024877,
+          "resource_mean_per_uav": [
+            0.3404135444305415,
+            0.3144285782819445,
+            0.3451578772875138
+          ],
+          "equal_fraction": null
+        },
+        "trace_path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/alias_probability_aggregation/fixed_2.npz",
+        "evaluation_index": 11
+      }
+    }
+  },
+  "aggregate_instruction_contributions_x100": {
+    "0": {
+      "slot_weight": 0.358974358974359,
+      "selector_score": -1.3563802411996622,
+      "myopic_score": -1.9951827598611662,
+      "difference": 0.6388025186615041,
+      "contribution": 0.2293137246477194
+    },
+    "1": {
+      "slot_weight": 0.3525641025641026,
+      "selector_score": -15.118540175781456,
+      "myopic_score": -14.964899966050455,
+      "difference": -0.15364020973100168,
+      "contribution": -0.05416802266157111
+    },
+    "2": {
+      "slot_weight": 0.28846153846153844,
+      "selector_score": 10.155722305785446,
+      "myopic_score": 10.619247199640359,
+      "difference": -0.46352489385491324,
+      "contribution": -0.13370910399660957
+    }
+  },
+  "exact_replays": [
+    {
+      "method": "selector",
+      "scenario": "fixed_1",
+      "state": "EXACT_MATCH",
+      "episodes": 20,
+      "requested_evaluation_seed": 20262512,
+      "reason_for_batch20": "Keep original numerical batch execution identical; only the frozen random episode is illustrated."
+    },
+    {
+      "method": "R_myopic",
+      "scenario": "fixed_1",
+      "state": "EXACT_MATCH",
+      "episodes": 20,
+      "requested_evaluation_seed": 20262512,
+      "reason_for_batch20": "Keep original numerical batch execution identical; only the frozen random episode is illustrated."
+    },
+    {
+      "method": "selector",
+      "scenario": "fixed_2",
+      "state": "EXACT_MATCH",
+      "episodes": 20,
+      "requested_evaluation_seed": 20262512,
+      "reason_for_batch20": "Keep original numerical batch execution identical; only the frozen random episode is illustrated."
+    },
+    {
+      "method": "R_myopic",
+      "scenario": "fixed_2",
+      "state": "EXACT_MATCH",
+      "episodes": 20,
+      "requested_evaluation_seed": 20262512,
+      "reason_for_batch20": "Keep original numerical batch execution identical; only the frozen random episode is illustrated."
+    }
+  ],
+  "source_hashes": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/selector_at_2000000/fixed_1.npz": "e8aa75099b3f3de134af7bfa7863af835844ad7fd718e3347e3b967e1fb8a19b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/joint_continue_at_2000000/fixed_1.npz": "fe9f4176575f0456e360f44ebf98a6d3be875a5ba22c629d5d0b06fe0df52d75",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/joint_at_10000000/fixed_1.npz": "06ed60f46f5b02337932edec63fafa778240dba5879714be792bd6b996a6eb4c",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/staged_at_10000000/fixed_1.npz": "a85181fb338848b6079d1f9dc04d52cdde933b397c0f2b16184d6c6308576649",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_myopic/fixed_1.npz": "5c9aeec28d69cf51af13c4aa1bebb6aaa8b9a1940ee97b04a407fa649e8a4853",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_instruction/fixed_1.npz": "18014ba9419730b9bf90d5cfa7e7c606c1e97394d109dbe96c2bf3f96b8f537a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_single/fixed_1.npz": "18014ba9419730b9bf90d5cfa7e7c606c1e97394d109dbe96c2bf3f96b8f537a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_myopic/fixed_1.npz": "e490651fcf8cef6341e6a0bba2303c0537393468c21f24f2323dda8ec7b3b398",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_instruction/fixed_1.npz": "69318c927267faaddd8d04709f292613fb08ba9b876f0778bb0cd47ec7c10ab8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_single/fixed_1.npz": "69318c927267faaddd8d04709f292613fb08ba9b876f0778bb0cd47ec7c10ab8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/joint/fixed_1.npz": "d52575bc6a65ce85fa13fedaf58d49dad348595eadb2c356ea00e2e651dae582",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/staged/fixed_1.npz": "4837923d423fab75602832025fa72aac22e3e2eb22bfed19e1ca7d54412b1c04",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/mode_only/fixed_1.npz": "8f948e6b569b898393c020469c121eeb8f9a60bbb9e7c4540229a8826290701e",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rule_modes_rl_resources/fixed_1.npz": "76b9dd6bc0db304c2ec5e37d9ae9b30b687c71313be4e22c908a7cf8a20462d8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rl_modes_rule_resources/fixed_1.npz": "a6996f185161105d16a26394aaa31e885bf9ae1cdb993e54482ed3ba870e2f97",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/quality_rule_modes_only/fixed_1.npz": "2db2dd95016497a054437d5a0063efd35ba7c1d8a4945eec7b0d986340e083d1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/fixed_1.npz": "2db2dd95016497a054437d5a0063efd35ba7c1d8a4945eec7b0d986340e083d1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/alias_probability_aggregation/fixed_1.npz": "76b9dd6bc0db304c2ec5e37d9ae9b30b687c71313be4e22c908a7cf8a20462d8",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/selector_at_2000000/fixed_2.npz": "85d1c412f0fae393f58a3912b0a3a8e3e6df6785c8cdfb62c65764b3c67c093c",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/evaluation/seed_218/joint_continue_at_2000000/fixed_2.npz": "e8c1b40048eea19e4802954180ec081743c704f4c61b446ef68fd992d83b6003",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/joint_at_10000000/fixed_2.npz": "9471a160cd15c8317f8db9803b9daa7e42eda2fa4f87e351cafcb14e7da6630d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_long_training/evaluation/seed_218/staged_at_10000000/fixed_2.npz": "78b1285f56c264d73b3aa611e0e4b9e646f189a9703d7c02f8a2c4af3516c0ac",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_myopic/fixed_2.npz": "b764b5193b4bcd9fbde2b2cfa16b761d7e6d0948cad8eb29b5947f015238169b",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_instruction/fixed_2.npz": "5880ccb1b0a79e5a00c7c61b66957ecd1fa9753833eec7c5333487b1e183f7ab",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_three_new_seeds_training/continuation/evaluation/rules/R_single/fixed_2.npz": "a1b0dd015f6cdb27018845f9674247c60ffbded4b1b74485a72f8b2ade8152d1",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_myopic/fixed_2.npz": "69b407314175b68d2252188b230a715d940a9fc4eefa12af388249568b74123d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_instruction/fixed_2.npz": "69b407314175b68d2252188b230a715d940a9fc4eefa12af388249568b74123d",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/rules/R_equal_single/fixed_2.npz": "8ddb4b2d311e0a05d385d3f8116a165307b9d64d753fc4faa0a3cd7098079a84",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/joint/fixed_2.npz": "011440e3deeaff0edc437db2ed4a5a98e4b39f8114704fc603f62efc9fbda95f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/staged/fixed_2.npz": "2dfd6011d3be0579451cff3819d510409f2a30182fddaaee1254afa93da34292",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/evaluation/seed_218/mode_only/fixed_2.npz": "fff6817dc7697a3440bc75ea2427d59f882daab70c068e23e32acb3fd049a072",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rule_modes_rl_resources/fixed_2.npz": "9903b83023cbade0766bf0a3f0e54e35234845cb8303411031b761e2648cd9b5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/rl_modes_rule_resources/fixed_2.npz": "2414286d779563380819d6313f5e7d90ea71d6359516520e1c4329cfc89e3d3a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/evaluation/seed_218/quality_rule_modes_only/fixed_2.npz": "9903b83023cbade0766bf0a3f0e54e35234845cb8303411031b761e2648cd9b5",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/quality_rule_resources_only/fixed_2.npz": "2414286d779563380819d6313f5e7d90ea71d6359516520e1c4329cfc89e3d3a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_post_long_diagnosis/targeted_followup/evaluation/seed_218/alias_probability_aggregation/fixed_2.npz": "b30fc8fdc579d09a72dcfacde1e90fd52197e2ebb3bc5e23a9f5b90d670d05ef",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent3.pt": "18eea0570321bb3e801c33ba3ba07c220a048d871577a9509d8c5bc3783c4e30",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/value_normalizer.pt": "4b3f0f00e6c12900e0a8d6411c84fb5a9922efb67dc31d01d09bb8c27e37a169",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent2.pt": "489f03adae12b62ffc04c6df84c73f0083bcdae20f84af8853f238f8336f12c7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/selector.pt": "4910559d9058fa52fa9ec88ca05f5265d15325a17b8fcdaa623a5ed55dd2933a",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/critic_agent.pt": "f8c185322152b9e792b74b4316f7aa992b11018806c98f7a0eba6abf4d2cd73e",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent1.pt": "4196d0554dd2a205c93cb51aeea8b9644f3821e21433dbb258dafa40c640e6b4",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/jobs/seed_218/selector/milestones/steps_2000000/actor_agent0.pt": "78ea8b481310ba3ddfbe9464c1c28e79267fcb23c29870bf7de29498053f4d86"
+  },
+  "audit": {
+    "state": "PASS",
+    "independent_formula_recomputed": true,
+    "full_episode_slots": 600,
+    "no_training": true,
+    "no_parameter_changes": true
+  }
+}

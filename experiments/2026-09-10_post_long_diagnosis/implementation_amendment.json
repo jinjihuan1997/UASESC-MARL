@@ -1,0 +1,7 @@
+{
+  "reason": "Wildcard helper import overwrote the diagnostic parent path with the 1M experiment path; replace with explicit imports. All six launched workers failed before model load/evaluation.",
+  "failed_protocol_sha256": "d2c8f71ca9ba8a56e0e0aedd0b027d656c904c60d9457d32f430b27a08df78d6",
+  "evaluation_data_created_before_fix": false,
+  "experimental_settings_changed": false,
+  "utc": "2026-09-10T13:18:38.569757+00:00"
+}

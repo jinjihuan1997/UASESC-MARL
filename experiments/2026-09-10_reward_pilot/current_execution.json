@@ -1,0 +1,9 @@
+{
+  "pid": 307465,
+  "uid": 1000,
+  "state": "R",
+  "start_ticks": 407686889,
+  "command": "/home/king/miniconda3/envs/harl_sionna/bin/python -u /home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_reward_pilot/supervisor.py run ",
+  "utc": "2026-09-10T07:08:20.996393+00:00",
+  "manifest_sha256": "ef1cdcb93a8eb6d6ae58aa7cfd63d0327df9cba08806e318a7c36afe10dc3fd5"
+}

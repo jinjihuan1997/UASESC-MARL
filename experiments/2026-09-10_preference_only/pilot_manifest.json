@@ -1,0 +1,170 @@
+{
+  "purpose": "single_seed_1m_preference_only_pilot",
+  "created_utc": "2026-09-10T03:39:00.511681+00:00",
+  "protocol_sha256": "3c427bbbd65f15fafb1060ae2b98dbabae1bf99730494112fb4430c99c9cedbb",
+  "gate_sha256": "99406923bbb716b86af803c53ea1f532366fe76ecfcc8198871e63c284c31aba",
+  "source_hashes": {
+    "probe_common.py": "87c68547fbb78f7778b36bf075e014c8a75943b61b2f6d99d08e79bba43fa0cb",
+    "run_pilot.py": "7a012f8829395eddce3b553402c24d4abea9c83598fb22b730edfc4685b94516",
+    "gate.py": "dcaecb96e8bf82e0623ae4e4f09a8f671fcd5953d2d158efa4b6274e18b42665",
+    "pilot_evaluate.py": "1acb0248fd029f3bbb35536502b6afbaf3c41e1231479079fe7c00e8ed61df2a"
+  },
+  "parent_manifest_sha256": "102b0a0a6d4346dd0b7ada760f8a56971710be234888e90e3b4fdb8193b65173",
+  "seed": 85,
+  "steps_per_method": 1000000,
+  "methods": [
+    "IC_HAPPO",
+    "HAPPO_hidden_instruction"
+  ],
+  "device": "cpu",
+  "evaluation_seeds": [
+    20261601,
+    20261602,
+    20261603,
+    20261604,
+    20261605,
+    20261606,
+    20261607,
+    20261608,
+    20261609,
+    20261610,
+    20261611,
+    20261612,
+    20261613,
+    20261614,
+    20261615,
+    20261616,
+    20261617,
+    20261618,
+    20261619,
+    20261620
+  ],
+  "scenarios": {
+    "fixed_0": [
+      [
+        0,
+        0
+      ]
+    ],
+    "fixed_1": [
+      [
+        0,
+        1
+      ]
+    ],
+    "fixed_2": [
+      [
+        0,
+        2
+      ]
+    ],
+    "switch300_0_to_1": [
+      [
+        0,
+        0
+      ],
+      [
+        300,
+        1
+      ]
+    ],
+    "switch300_0_to_2": [
+      [
+        0,
+        0
+      ],
+      [
+        300,
+        2
+      ]
+    ],
+    "switch300_1_to_0": [
+      [
+        0,
+        1
+      ],
+      [
+        300,
+        0
+      ]
+    ],
+    "switch300_1_to_2": [
+      [
+        0,
+        1
+      ],
+      [
+        300,
+        2
+      ]
+    ],
+    "switch300_2_to_0": [
+      [
+        0,
+        2
+      ],
+      [
+        300,
+        0
+      ]
+    ],
+    "switch300_2_to_1": [
+      [
+        0,
+        2
+      ],
+      [
+        300,
+        1
+      ]
+    ],
+    "early50_0_to_1": [
+      [
+        0,
+        0
+      ],
+      [
+        50,
+        1
+      ]
+    ],
+    "late550_0_to_2": [
+      [
+        0,
+        0
+      ],
+      [
+        550,
+        2
+      ]
+    ],
+    "multi_0_1_2": [
+      [
+        0,
+        0
+      ],
+      [
+        200,
+        1
+      ],
+      [
+        400,
+        2
+      ]
+    ],
+    "multi_2_1_0": [
+      [
+        0,
+        2
+      ],
+      [
+        200,
+        1
+      ],
+      [
+        400,
+        0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "instruction_pointer": "0x4ee500",
+  "instruction": "mov %eax,0x20(%rdi)",
+  "rdi": "0x77ad60",
+  "expected_effective_address": "0x77ad80",
+  "reported_fault_address": "0x4000077ad80",
+  "xor_difference": "0x40000000000",
+  "differing_bit_zero_based": 42,
+  "interpretation": "The reported fault address differs from the address implied by captured registers/instruction by bit 42. This is evidence of a low-level anomaly, not a conclusive hardware diagnosis.",
+  "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_debug_gdb.log"
+}

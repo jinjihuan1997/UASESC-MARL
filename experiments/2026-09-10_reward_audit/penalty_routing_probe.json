@@ -1,0 +1,14 @@
+{
+  "False": {
+    "training_reward": -0.4000000059604645,
+    "common_evaluation_reward": -0.5166666666666667,
+    "myopic_predicted_reward": -0.4,
+    "penalty": 0.1166666666666667
+  },
+  "True": {
+    "training_reward": -0.5166666507720947,
+    "common_evaluation_reward": -0.5166666666666667,
+    "myopic_predicted_reward": -0.4,
+    "penalty": 0.1166666666666667
+  }
+}

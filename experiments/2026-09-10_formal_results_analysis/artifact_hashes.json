@@ -1,0 +1,15 @@
+{
+  "PROTOCOL.md": "b409cfb1034329fc0a05871a42e5ea22717b486e7f3ed70b74946428c7d226d0",
+  "analyze.py": "98bfd517e6a8eb168bcade37da62e8a52e439b3408d80810b3769356ceec4881",
+  "cc_rule_diagnostic.py": "5bad9ceac015da81dd08f7f43a7df17dd417a3ae526fef800ee9e9ebf87cfc12",
+  "render_report.py": "d83c2fa5a77834bf6fb52b16f3888da85983084abeb222f70973a78febcf1ff4",
+  "audit.json": "77a76961e4b3a66e52b4b58009a36300fc5f0667b68ce07dfe58a5723c644dff",
+  "analysis.json": "fe5c3bb82cc32155ad1964c9fc83dd9fb14b9c812d2c8c1603b2010afdfd8780",
+  "independent_per_seed_results.json": "bc5384bfd254f0d4a767185218b2d910d97772b4dc23be378e6b3581aff4717b",
+  "metrics.csv": "d846f3325ce4267d3ef5273c8612e013ee3157a636d0bfffb078825f18124fdb",
+  "REPORT.md": "9943c38fe879fd9198c186b7c3d756531a77ce997e07d1d65533b0619078f9fe",
+  "fixed_instruction.png": "3493bd3d6489f0820eee563a7e06865156629c71d83a362f01a275ca6661dd01",
+  "fixed_instruction.pdf": "688b8ff549e8fec0bf68668b5b7e14524242d3d4d3faa2ef7f6a81766cfb5050",
+  "sc_cc_comparison.png": "ec49340aff60f8060efb16bb230aca8259ba213639b1e1e629acdb5128461ea0",
+  "sc_cc_comparison.pdf": "daf745ef96dbf0e138f0ab874df573f5aee76fd705bbb8dd69c14f64331b2136"
+}

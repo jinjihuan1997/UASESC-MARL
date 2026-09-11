@@ -1,0 +1,260 @@
+{
+  "state": "PASS",
+  "source_manifest_sha256": "102b0a0a6d4346dd0b7ada760f8a56971710be234888e90e3b4fdb8193b65173",
+  "completed_state_carrier_models": 6,
+  "completed_negative_control_models": 6,
+  "replayed_episodes": 1560,
+  "replayed_slots": 936000,
+  "sampled_states": 96480,
+  "variants": [
+    "original",
+    "full_0",
+    "full_1",
+    "full_2",
+    "id_0",
+    "id_1",
+    "id_2",
+    "limits_0",
+    "limits_1",
+    "limits_2",
+    "zero"
+  ],
+  "negative_controls_exactly_invariant": true,
+  "models_and_frozen_inputs_unchanged": true,
+  "all_original_actions_and_replay_metrics_verified": true,
+  "single_state_fallbacks": [
+    {
+      "item": "seed_218/IC_MAPPO",
+      "scenario": "fixed_1",
+      "slot": 380,
+      "seed": 20261305,
+      "batch_modes": [
+        12,
+        4,
+        0
+      ],
+      "single_modes": [
+        8,
+        4,
+        0
+      ],
+      "historical_modes": [
+        8,
+        4,
+        0
+      ]
+    }
+  ],
+  "items": {
+    "seed_85/IC_HAPPO": {
+      "state": "complete",
+      "updated_utc": "2026-09-10T02:45:15.100436+00:00",
+      "scenarios_completed": 13,
+      "total_scenarios": 13,
+      "probes": 16080,
+      "replay_slots": 156000,
+      "elapsed_seconds": 37.01828844891861,
+      "models_unchanged": true,
+      "negative_control_exactly_invariant": true,
+      "maximum_errors": {
+        "mean_aoi": 0,
+        "common_reward": 1.3877787807814457e-16,
+        "channel_uses": 3.637978807091713e-11,
+        "predicted_quality_sum": 2.2737367544323206e-13,
+        "policy_beta": 1.7732382351365317e-07
+      },
+      "data_hashes": {
+        "runs/seed_85/IC_HAPPO/fixed_0.npz": "d9830a6a325abb21d8d714dea1cfdf8abda33665b083dd239d2883f889d19223",
+        "runs/seed_85/IC_HAPPO/fixed_1.npz": "dbfea395925f322627945bf02323cf8a2223dd6568df8779bda8799662af26ce",
+        "runs/seed_85/IC_HAPPO/fixed_2.npz": "15348b655e66c9e7c39f052727f4994ed7c81a206e273b31f989d8ea2699e384",
+        "runs/seed_85/IC_HAPPO/switch300_0_to_1.npz": "8ee3078ba40b5691af647edf6a24334d3d88f00e16e0bf5667cc454fadf5579d",
+        "runs/seed_85/IC_HAPPO/switch300_0_to_2.npz": "a5a8f10c16a3e1ba62f9f47c7229be2b479a6b4483449efd75fb3dcdd12680f6",
+        "runs/seed_85/IC_HAPPO/switch300_1_to_0.npz": "5ee7dd73e234cbc94714471e4ee1bc14f8ab9204ed43e3ef1c2e3a74f064f821",
+        "runs/seed_85/IC_HAPPO/switch300_1_to_2.npz": "4a8b3d21d79360e174810ab8643fedea379f8e66fdb963bdaea6a940bd4eb131",
+        "runs/seed_85/IC_HAPPO/switch300_2_to_0.npz": "8532377b79888342242072c1d14184a7a9d47d7cf026073c32961289f5ceb4ce",
+        "runs/seed_85/IC_HAPPO/switch300_2_to_1.npz": "bb9445c0930a667107b5d20f770dc8655ec71bce8ff9fe49b7be652694848721",
+        "runs/seed_85/IC_HAPPO/early50_0_to_1.npz": "f18b06e1ed4461baf9758b58d3fac5e51bf52ae5879ee3059f7afd1bbb7dff77",
+        "runs/seed_85/IC_HAPPO/late550_0_to_2.npz": "38555ce246691acdd8ef0f95bbfa34e818bb8abb5bc115ef2b849c8e141acb42",
+        "runs/seed_85/IC_HAPPO/multi_0_1_2.npz": "f51eb1a35a8874ea32202e7838de11b5b00f73f8ddbca3660277d562da46b244",
+        "runs/seed_85/IC_HAPPO/multi_2_1_0.npz": "1854891f26af50a12e933c59e240dbf07e474a104c1a738b538d2b6a2a6d45a4"
+      },
+      "hidden_method": "seed_85/HAPPO_hidden_instruction",
+      "single_state_inference_fallbacks": 0
+    },
+    "seed_218/IC_HAPPO": {
+      "state": "complete",
+      "updated_utc": "2026-09-10T02:45:51.574799+00:00",
+      "scenarios_completed": 13,
+      "total_scenarios": 13,
+      "probes": 16080,
+      "replay_slots": 156000,
+      "elapsed_seconds": 36.469958988018334,
+      "models_unchanged": true,
+      "negative_control_exactly_invariant": true,
+      "maximum_errors": {
+        "mean_aoi": 0,
+        "common_reward": 1.3877787807814457e-16,
+        "channel_uses": 3.637978807091713e-11,
+        "predicted_quality_sum": 1.7053025658242404e-13,
+        "policy_beta": 2.0265578626332825e-07
+      },
+      "data_hashes": {
+        "runs/seed_218/IC_HAPPO/fixed_0.npz": "848fc3c17954634b5a3a5c747e6e5f99487155208a1ec24e54a770b6bb27105d",
+        "runs/seed_218/IC_HAPPO/fixed_1.npz": "2c4df090403074fe5170657ddbf0e611c3b6edeb6ebd9a40c24cb520f0c15e4b",
+        "runs/seed_218/IC_HAPPO/fixed_2.npz": "ccf86e6d21e2a98132d3b1053a904cf28ff5b704ca7ad67e1ff7141df50ae028",
+        "runs/seed_218/IC_HAPPO/switch300_0_to_1.npz": "8350d67524e1ee468c13f62eff406a0daf73585bd4cf449fde761637a0a5328d",
+        "runs/seed_218/IC_HAPPO/switch300_0_to_2.npz": "a937bb6db6c00d52e97a7acf35e1ffcd16b0e7c5b503b7185220d6c97e7ef8fb",
+        "runs/seed_218/IC_HAPPO/switch300_1_to_0.npz": "840cf46d509378007038b93b85959835f91d688c604b8068e71b5af02b500754",
+        "runs/seed_218/IC_HAPPO/switch300_1_to_2.npz": "b51226ee6a57783813ed3edb63a181dc5c323dabd9c9fc0e8358fffa69369757",
+        "runs/seed_218/IC_HAPPO/switch300_2_to_0.npz": "56e3e9a4c2fa64b4b1d6eeab962f824ec186214e0180026817268485b7e306ae",
+        "runs/seed_218/IC_HAPPO/switch300_2_to_1.npz": "718bf961f6e97b66da1842c1f35c5ada6f3d00c2ceba38bf2375f3c537710095",
+        "runs/seed_218/IC_HAPPO/early50_0_to_1.npz": "34ff8721040d9178725661a121c382082d1d36e42856bd0ba3ac98f481bbf77d",
+        "runs/seed_218/IC_HAPPO/late550_0_to_2.npz": "7d04f001e62bdbddf71b9b02088552e2a06e66de9c610c35cecf239f05e566d6",
+        "runs/seed_218/IC_HAPPO/multi_0_1_2.npz": "52273cba61c763be4e66e6e8f5b95b98a331b14324a488784ffb18e8a0ddb8d3",
+        "runs/seed_218/IC_HAPPO/multi_2_1_0.npz": "32607aa4b4b94c1e4d17449be1ffe64a36f380a0094af83932541210a714484b"
+      },
+      "hidden_method": "seed_218/HAPPO_hidden_instruction",
+      "single_state_inference_fallbacks": 0
+    },
+    "seed_966/IC_HAPPO": {
+      "state": "complete",
+      "updated_utc": "2026-09-10T02:46:28.307424+00:00",
+      "scenarios_completed": 13,
+      "total_scenarios": 13,
+      "probes": 16080,
+      "replay_slots": 156000,
+      "elapsed_seconds": 36.72864077473059,
+      "models_unchanged": true,
+      "negative_control_exactly_invariant": true,
+      "maximum_errors": {
+        "mean_aoi": 0,
+        "common_reward": 2.220446049250313e-16,
+        "channel_uses": 4.3655745685100555e-11,
+        "predicted_quality_sum": 2.2737367544323206e-13,
+        "policy_beta": 1.5993103608114012e-07
+      },
+      "data_hashes": {
+        "runs/seed_966/IC_HAPPO/fixed_0.npz": "6b616908f875d1da2c9d62bfac0196d1d52cc0684d9e9876de65c6e3f85c203a",
+        "runs/seed_966/IC_HAPPO/fixed_1.npz": "d6f81aaf8c47268205d2aaada88ff2f49540dfaf36d74d8124465864d8a15a2c",
+        "runs/seed_966/IC_HAPPO/fixed_2.npz": "8fe3b41c27c22e862e5039edb828e683d38ca15891dca2524a12420a8346aaaf",
+        "runs/seed_966/IC_HAPPO/switch300_0_to_1.npz": "5bc982f26a8a21b5da8141b1f6982f88933b884d965de61e5ef07769d028aa67",
+        "runs/seed_966/IC_HAPPO/switch300_0_to_2.npz": "1a7693e4016e64ed57ec62684b3552cb4c6fd7607203f9efa8ae6cd85943d080",
+        "runs/seed_966/IC_HAPPO/switch300_1_to_0.npz": "893604f6f9caece07c5b30df5ebe4459629b5db06ab043082f89d9c6ec109513",
+        "runs/seed_966/IC_HAPPO/switch300_1_to_2.npz": "89d5af5b9853244c706c45b256c73bca9545286a219e0f9d2594a08458a895c4",
+        "runs/seed_966/IC_HAPPO/switch300_2_to_0.npz": "5424941c32f12584b9afb8ee15f4b7e618a186915a037111d30fab9e291d2c9b",
+        "runs/seed_966/IC_HAPPO/switch300_2_to_1.npz": "ad0d5233a0233284d44d71c63a57853f79e7fc876930cc3e5e265e746e5939f5",
+        "runs/seed_966/IC_HAPPO/early50_0_to_1.npz": "3d4b7c7ebb6ec0939c9a764d34c57baa8d4f9feb48e8ef63893d9513ef13db1f",
+        "runs/seed_966/IC_HAPPO/late550_0_to_2.npz": "e3b0d8188f51d4663977bc2cf62432cdfc30d253bf57964927fb0cc11ab385f2",
+        "runs/seed_966/IC_HAPPO/multi_0_1_2.npz": "66c375326452518b656b9669e8b7b7dc4d705d6de1b0315673514d46d3cd4143",
+        "runs/seed_966/IC_HAPPO/multi_2_1_0.npz": "4ac5efd18b3e5223385887bbc2e140ab290c1fc13d44ecf49fbdfe03f0ed3b5d"
+      },
+      "hidden_method": "seed_966/HAPPO_hidden_instruction",
+      "single_state_inference_fallbacks": 0
+    },
+    "seed_85/IC_MAPPO": {
+      "state": "complete",
+      "updated_utc": "2026-09-10T02:45:14.555488+00:00",
+      "scenarios_completed": 13,
+      "total_scenarios": 13,
+      "probes": 16080,
+      "replay_slots": 156000,
+      "elapsed_seconds": 36.55234948405996,
+      "models_unchanged": true,
+      "negative_control_exactly_invariant": true,
+      "maximum_errors": {
+        "mean_aoi": 0,
+        "common_reward": 2.220446049250313e-16,
+        "channel_uses": 3.637978807091713e-11,
+        "predicted_quality_sum": 1.1368683772161603e-13,
+        "policy_beta": 2.1095986812991185e-07
+      },
+      "data_hashes": {
+        "runs/seed_85/IC_MAPPO/fixed_0.npz": "feeaf775f272f4f05990b3081dd61bf1314efb2e5602bdea6c0cd21a7c49d6c6",
+        "runs/seed_85/IC_MAPPO/fixed_1.npz": "e158637bb4225a27c96ea317a3f52461752210c794b9d9a4ce8a2306998c71fe",
+        "runs/seed_85/IC_MAPPO/fixed_2.npz": "ba468bef14b5ddf37810f0acceb468f982ed16f42b1285967272b85de8fc36da",
+        "runs/seed_85/IC_MAPPO/switch300_0_to_1.npz": "0ecd5abf86a4b312f971ca591ab33d1ebeca297b2fcdaf7704ab805181fe8c83",
+        "runs/seed_85/IC_MAPPO/switch300_0_to_2.npz": "f0acd2ff2863819143413b3a436570aa858a610fa5c9eb98fc50852febb12e18",
+        "runs/seed_85/IC_MAPPO/switch300_1_to_0.npz": "5067739aa3a055bfad647c4ececd7c186622f036532373d3272cb9663456b7eb",
+        "runs/seed_85/IC_MAPPO/switch300_1_to_2.npz": "8d228467f92ba0d93b3c8b0b473a9d3077f5db9a32a8b599509f81e517d9d993",
+        "runs/seed_85/IC_MAPPO/switch300_2_to_0.npz": "3b9df6e12bb3f7ce62c19c06efe2b4b8a4c84241f2cbe4b88db47f61d9e22ddd",
+        "runs/seed_85/IC_MAPPO/switch300_2_to_1.npz": "ed69485bee9a609b56ca93dd18f272744779f30f65731f8e5187bbda61c6b386",
+        "runs/seed_85/IC_MAPPO/early50_0_to_1.npz": "1289f7af6262ba2851eaf92d15d8f155a2bbb551b26f975125702c36b71d32fd",
+        "runs/seed_85/IC_MAPPO/late550_0_to_2.npz": "444dc882ad1c25f8d905e834cdd40ab9b65a3f195003e848420fe1a939cc6716",
+        "runs/seed_85/IC_MAPPO/multi_0_1_2.npz": "5dfd9cca18ed9c165e08379f02a8cd5acc2348625939768820424ba44679a43e",
+        "runs/seed_85/IC_MAPPO/multi_2_1_0.npz": "59444495ef4f8c815f9cbdfcf0be6d7e1f83f348234db7f044b47b40075a34ac"
+      },
+      "hidden_method": "seed_85/MAPPO_hidden_instruction",
+      "single_state_inference_fallbacks": 0
+    },
+    "seed_218/IC_MAPPO": {
+      "state": "complete",
+      "updated_utc": "2026-09-10T02:45:50.786235+00:00",
+      "scenarios_completed": 13,
+      "total_scenarios": 13,
+      "probes": 16080,
+      "replay_slots": 156000,
+      "elapsed_seconds": 36.22589217312634,
+      "models_unchanged": true,
+      "negative_control_exactly_invariant": true,
+      "maximum_errors": {
+        "mean_aoi": 0,
+        "common_reward": 1.249000902703301e-16,
+        "channel_uses": 3.637978807091713e-11,
+        "predicted_quality_sum": 1.1368683772161603e-13,
+        "policy_beta": 1.962288846968363e-07
+      },
+      "data_hashes": {
+        "runs/seed_218/IC_MAPPO/fixed_0.npz": "418585c7dfebc7db45c1aa4f77e7f6d1ef06f0d3503350b480363ed5bdca13bf",
+        "runs/seed_218/IC_MAPPO/fixed_1.npz": "a4377910b193413574d17562c129aec2128c5d14f4718032ca4534d9512086ef",
+        "runs/seed_218/IC_MAPPO/fixed_2.npz": "7ddec5b720637284c9243e4197ef19bbf4da15ae5d7a709c894d6e504ec72e9a",
+        "runs/seed_218/IC_MAPPO/switch300_0_to_1.npz": "bcad282779cd5956b13a9d5cb45fe27df515e646d4434ea34db27bd8848fa52f",
+        "runs/seed_218/IC_MAPPO/switch300_0_to_2.npz": "27d03e03c06f7511c530ca516b1a9b474a794ecb7dc70b186317302a6e4afffd",
+        "runs/seed_218/IC_MAPPO/switch300_1_to_0.npz": "447ab293d2ff95639bac7245d51b2a9365d1d730628fc455f2323f1c34e761d1",
+        "runs/seed_218/IC_MAPPO/switch300_1_to_2.npz": "3f7af29d3a3773b301f60ef2a90109e6dfe24cb8eb4767b7f25d12e986151533",
+        "runs/seed_218/IC_MAPPO/switch300_2_to_0.npz": "f90f9ef3e9faad94a8d851534027312f05be325c13b3ea8b0d99c3a083dd02fa",
+        "runs/seed_218/IC_MAPPO/switch300_2_to_1.npz": "a999f5c81a1fc78ed02f193f940b1b36745fff27ec062e136113a1abd23460e9",
+        "runs/seed_218/IC_MAPPO/early50_0_to_1.npz": "34558669b08effe9f8d0c1b05c609c52db0b39e1a55521a7af9a730bf6d1964d",
+        "runs/seed_218/IC_MAPPO/late550_0_to_2.npz": "57d01d5daa0de235d44b24d854063a5156642ce693f290e062204e058c1a5cb0",
+        "runs/seed_218/IC_MAPPO/multi_0_1_2.npz": "74117e1481f8e5f4130b4a2b7c7a8cf6e31acd5f75dcd55dc4af44afcb1b6253",
+        "runs/seed_218/IC_MAPPO/multi_2_1_0.npz": "90aa16d6bb61b520870c09a81d4051cc6c74dc0967cf85f8f7ac2f16a167309a"
+      },
+      "hidden_method": "seed_218/MAPPO_hidden_instruction",
+      "single_state_inference_fallbacks": 1
+    },
+    "seed_966/IC_MAPPO": {
+      "state": "complete",
+      "updated_utc": "2026-09-10T02:46:27.125904+00:00",
+      "scenarios_completed": 13,
+      "total_scenarios": 13,
+      "probes": 16080,
+      "replay_slots": 156000,
+      "elapsed_seconds": 36.33476244099438,
+      "models_unchanged": true,
+      "negative_control_exactly_invariant": true,
+      "maximum_errors": {
+        "mean_aoi": 0,
+        "common_reward": 1.3877787807814457e-16,
+        "channel_uses": 2.9103830456733704e-11,
+        "predicted_quality_sum": 1.1368683772161603e-13,
+        "policy_beta": 1.9429542186255588e-07
+      },
+      "data_hashes": {
+        "runs/seed_966/IC_MAPPO/fixed_0.npz": "215105cc3a287e2ebd6552987fc1c8486e8c994f97e37958fa7fad1a3851de87",
+        "runs/seed_966/IC_MAPPO/fixed_1.npz": "5e4274edb44486bae07489266a92fcc8e16746b8c18838bf7de381b9ce2ba032",
+        "runs/seed_966/IC_MAPPO/fixed_2.npz": "721e60941d3c7d8a81b566e51453fc3ade42b8d1300149349e2f7205b33f3fe9",
+        "runs/seed_966/IC_MAPPO/switch300_0_to_1.npz": "e2aa89fe62cde4987d91d0869cf8c62f4179214fb41f7a0322cd848c3f557b21",
+        "runs/seed_966/IC_MAPPO/switch300_0_to_2.npz": "3d19e8c601363bcc55d83fa48e22a1ed9154984348fc7d6631eba67260e25f54",
+        "runs/seed_966/IC_MAPPO/switch300_1_to_0.npz": "e361cc7abb83598360589e24723be85f4b9e3dd944c1060dbcb7caba8aeb7ba6",
+        "runs/seed_966/IC_MAPPO/switch300_1_to_2.npz": "9ebe555f761342ae9f02fb1413935ea21b2df6a77e117f3ad400719863119ae5",
+        "runs/seed_966/IC_MAPPO/switch300_2_to_0.npz": "364961bbf723f6da931812390414db472e45559022e6dbce96e2749987b370ea",
+        "runs/seed_966/IC_MAPPO/switch300_2_to_1.npz": "78bea2c6dca8ba7c99eb9b78a5baa58efd5f4c496d4e69beea50814abee1b454",
+        "runs/seed_966/IC_MAPPO/early50_0_to_1.npz": "de019ef4c30b66f06bd1dcffaf57d7ca573f4aff5244869dc94934c634864e69",
+        "runs/seed_966/IC_MAPPO/late550_0_to_2.npz": "e9cf22d901a8d11e446fd3dad894d60071b068cef0d4a72011f9120199958661",
+        "runs/seed_966/IC_MAPPO/multi_0_1_2.npz": "a3ec71280f45fe4733052fdc670d59dab194ea0d9ceecad69f37aff4b6d4f31a",
+        "runs/seed_966/IC_MAPPO/multi_2_1_0.npz": "3907d62e30935c0e7a59ff00e0a9809c1fed752422289b2b0c3dc235ecd4301e"
+      },
+      "hidden_method": "seed_966/MAPPO_hidden_instruction",
+      "single_state_inference_fallbacks": 0
+    }
+  }
+}

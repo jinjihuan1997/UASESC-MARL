@@ -1,0 +1,166 @@
+{
+  "state": "PASS",
+  "layouts": {
+    "six_cpu": {
+      "jobs": [
+        {
+          "arm": "joint_continue",
+          "seed": 85,
+          "device": "cpu",
+          "seconds_per_update": 1.9298410546034575,
+          "samples": [
+            1.9673314187675714,
+            1.9830349129624665,
+            1.951122784987092,
+            1.8553654658608139
+          ]
+        },
+        {
+          "arm": "selector",
+          "seed": 85,
+          "device": "cpu",
+          "seconds_per_update": 1.2825678369651239,
+          "samples": [
+            1.2616586689837277,
+            1.319180483929813,
+            1.310704825911671,
+            1.2178182010538876
+          ]
+        },
+        {
+          "arm": "joint_continue",
+          "seed": 218,
+          "device": "cpu",
+          "seconds_per_update": 1.9263781431751947,
+          "samples": [
+            1.9525521472096443,
+            1.986494901124388,
+            1.9446053123101592,
+            1.8480342160910368
+          ]
+        },
+        {
+          "arm": "selector",
+          "seed": 218,
+          "device": "cpu",
+          "seconds_per_update": 1.2855602959170938,
+          "samples": [
+            1.257690510712564,
+            1.3280222760513425,
+            1.31048694672063,
+            1.2181716649793088
+          ]
+        },
+        {
+          "arm": "joint_continue",
+          "seed": 966,
+          "device": "cpu",
+          "seconds_per_update": 1.9089600020088255,
+          "samples": [
+            1.9365076571702957,
+            1.9701520553790033,
+            1.9225415028631687,
+            1.8341864477843046
+          ]
+        },
+        {
+          "arm": "selector",
+          "seed": 966,
+          "device": "cpu",
+          "seconds_per_update": 1.2787280802925427,
+          "samples": [
+            1.2484510950744152,
+            1.3211234859190881,
+            1.3076517493464053,
+            1.207409005612135
+          ]
+        }
+      ],
+      "seconds_per_update": 1.9298410546034575,
+      "estimated_training_seconds": 964.9205273017287
+    },
+    "four_cpu_two_gpu": {
+      "jobs": [
+        {
+          "arm": "joint_continue",
+          "seed": 85,
+          "device": "cpu",
+          "seconds_per_update": 1.8702751385668914,
+          "samples": [
+            1.909189053811133,
+            1.9133421899750829,
+            1.878849245607853,
+            1.8186339801177382
+          ]
+        },
+        {
+          "arm": "selector",
+          "seed": 85,
+          "device": "cpu",
+          "seconds_per_update": 1.2279644656615953,
+          "samples": [
+            1.225707798730582,
+            1.268460779916495,
+            1.2246232000179589,
+            1.1908094170503318
+          ]
+        },
+        {
+          "arm": "joint_continue",
+          "seed": 218,
+          "device": "cpu",
+          "seconds_per_update": 1.8488932163454592,
+          "samples": [
+            1.8970520729199052,
+            1.9083538670092821,
+            1.8543478967621922,
+            1.7839778852649033
+          ]
+        },
+        {
+          "arm": "selector",
+          "seed": 218,
+          "device": "cpu",
+          "seconds_per_update": 1.2313900357112288,
+          "samples": [
+            1.2250353288836777,
+            1.2748157121241093,
+            1.2209771969355643,
+            1.198377198074013
+          ]
+        },
+        {
+          "arm": "joint_continue",
+          "seed": 966,
+          "device": "cuda:0",
+          "seconds_per_update": 26.56002973066643,
+          "samples": [
+            28.90904498938471,
+            28.88778009498492,
+            26.173892348073423,
+            24.618416748940945
+          ]
+        },
+        {
+          "arm": "selector",
+          "seed": 966,
+          "device": "cuda:0",
+          "seconds_per_update": 13.967619846885404,
+          "samples": [
+            14.250018863007426,
+            13.980300547089428,
+            13.948001465760171,
+            13.97455752780661
+          ]
+        }
+      ],
+      "seconds_per_update": 26.56002973066643,
+      "estimated_training_seconds": 13280.014865333214
+    }
+  },
+  "selected": "six_cpu",
+  "rule": "Minimum measured time to finish all six equal-budget jobs; same device within each seed pair; exclude evaluation and thermal pauses.",
+  "observed_gpu_contention": "Another project training process appeared during the mixed-layout probe; measurements describe current co-running workloads, not an exclusive-GPU hardware comparison.",
+  "observed_at_utc": "2026-09-10T13:43:32.880544+00:00",
+  "gpu_snapshot": "NVIDIA GeForce RTX 4070 Ti SUPER, 16376 MiB, 958 MiB, 96 %, 69"
+}

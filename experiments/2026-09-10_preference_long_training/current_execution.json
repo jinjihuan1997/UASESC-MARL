@@ -1,0 +1,9 @@
+{
+  "pid": 217022,
+  "uid": 1000,
+  "state": "R",
+  "start_ticks": 406663137,
+  "command": "/home/king/miniconda3/envs/harl_sionna/bin/python -u /home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_preference_long_training/supervisor.py run ",
+  "utc": "2026-09-10T04:17:43.477200+00:00",
+  "manifest_sha256": "441bfce40e231c643ffa7e4a84130f38684bcf4e8f37c6080c0ea11586308cec"
+}

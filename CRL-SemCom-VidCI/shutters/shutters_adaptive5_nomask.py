@@ -341,7 +341,7 @@ class LSVPE(ShutterBase):
 
 
 
-    def forward(self, video_block, train=False, steps=None):
+    def forward(self, video_block, train=False, steps=None, forced_ratio_level=None):
         if train:
             self.total_steps += 1
         [block_current, ref] = video_block
@@ -378,6 +378,14 @@ class LSVPE(ShutterBase):
     
      #    action=torch.clamp(torch.round(self.rand_init),-1,3)+(self.rand_init-self.rand_init.detach())
         
+        # Force a uniform SCI compression-ratio level (overrides the policy).
+        # action in {0,1,2,3} maps to measure1..measure4 (1->4 measurements,
+        # i.e. low->high acquisition quality). Used to build discrete quality
+        # modes for the system-level optimization (paper [50] Section III knob).
+        if forced_ratio_level is not None:
+            action = torch.full_like(action, int(forced_ratio_level))
+            log_prob = None
+
         measurement = self.get_measurement(block_current, action.detach(), train)
 
         # # useless these two lines

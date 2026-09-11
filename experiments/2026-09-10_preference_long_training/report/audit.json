@@ -1,0 +1,9 @@
+{
+  "state": "PASS",
+  "episodes": 2340,
+  "slots": 1404000,
+  "all_traces_reaggregated": true,
+  "external_pairing": true,
+  "hidden_invariant_episode_checks": 780,
+  "input_hashes_verified": true
+}

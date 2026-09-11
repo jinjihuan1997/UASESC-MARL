@@ -1,0 +1,43 @@
+{
+  "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority",
+  "inherited": {
+    "common.py": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/common.py",
+      "sha256": "835cbff06951b1baa48b7f80d5fc767d150bc5c74928a0f854d98c5a8e445324"
+    },
+    "tensor_env.py": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/tensor_env.py",
+      "sha256": "afb5b0cfff3d69293fcda903be36f9a334314d36503c468b05b26af35a067221"
+    },
+    "tensor_train.py": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/tensor_train.py",
+      "sha256": "f4c3195618a92b50a5973752d53d8a26edcf158f8e426b714986c87a123056ab"
+    },
+    "formal_train.py": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/formal_train.py",
+      "sha256": "152e51935454c6d513f5b00fb841f9f65ea6c60d0ef336dd56031faabad64159"
+    },
+    "training_checkpoint.py": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/training_checkpoint.py",
+      "sha256": "af2b437a47477f465556bb50546f7f822b69dd33c57fdba2c9a367aeb9e07285"
+    },
+    "episode_source.py": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/episode_source.py",
+      "sha256": "3b534bf0e1db86ed581e4f5648b9f04b221b9f052363c5972402d4eaf4262257"
+    },
+    "run_suite.py": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/run_suite.py",
+      "sha256": "0cb72244984ebbc2a5cf24141f3e03c1ce50e9392367dabbcb0ae8e9e2e91e98"
+    },
+    "reference_manifest.json": {
+      "parent": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-09_instruction_priority/reference_manifest.json",
+      "sha256": "6621c750c996fe824427578635fd2eaf289df37bb0fb8277d1a70473357f1e80"
+    }
+  },
+  "new_control_files": [
+    "multiseed_protocol.py",
+    "three_seed_train.py",
+    "formal_eval.py",
+    "aggregate_seeds.py"
+  ]
+}

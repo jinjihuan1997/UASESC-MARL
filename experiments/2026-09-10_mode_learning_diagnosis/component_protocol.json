@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-10T09:23:43.762063+00:00",
+  "seeds": [
+    85,
+    218,
+    966
+  ],
+  "scenarios": [
+    "fixed_2",
+    "fixed_1",
+    "switch300_2_to_1"
+  ],
+  "variants": [
+    "old_resources_new_modes",
+    "new_resources_old_modes"
+  ],
+  "steps": 216000,
+  "training": false,
+  "purpose": "Posthoc diagnostic following adverse continuation; not an independent confirmatory experiment.",
+  "script_sha256": "58f8f5654e45ddb1692104124d28761967b5a29f0c9ee70840eea2346124762c"
+}

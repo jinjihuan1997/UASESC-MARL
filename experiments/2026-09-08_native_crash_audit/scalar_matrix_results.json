@@ -1,0 +1,62 @@
+[
+  {
+    "name": "scalar_original_cpu15_trial1",
+    "cpu": 15,
+    "build": "original",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 20.095267763826996,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_original_cpu15_trial1_gdb.log"
+  },
+  {
+    "name": "scalar_original_cpu18_trial1",
+    "cpu": 18,
+    "build": "original",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 19.380403274670243,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_original_cpu18_trial1_gdb.log"
+  },
+  {
+    "name": "scalar_original_cpu15_trial2",
+    "cpu": 15,
+    "build": "original",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 19.91117659723386,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_original_cpu15_trial2_gdb.log"
+  },
+  {
+    "name": "scalar_original_cpu18_trial2",
+    "cpu": 18,
+    "build": "original",
+    "gdb_returncode": 0,
+    "elapsed_seconds": 19.325628513935953,
+    "result_exists": true,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_original_cpu18_trial2_gdb.log"
+  },
+  {
+    "name": "scalar_alternate_cpu15_trial1",
+    "cpu": 15,
+    "build": "alternate",
+    "gdb_returncode": 1,
+    "elapsed_seconds": 0.03514151694253087,
+    "result_exists": false,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_alternate_cpu15_trial1_gdb.log"
+  },
+  {
+    "name": "scalar_alternate_cpu18_trial1",
+    "cpu": 18,
+    "build": "alternate",
+    "gdb_returncode": 1,
+    "elapsed_seconds": 0.0362426289357245,
+    "result_exists": false,
+    "signal": null,
+    "log": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/scalar_alternate_cpu18_trial1_gdb.log"
+  }
+]

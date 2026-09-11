@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-09-10T10:42:42.970588+00:00",
+  "completed_training_steps": 9000000,
+  "completed_training_jobs": 9,
+  "evaluation_episodes": 3900,
+  "report": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_sequential_mdp_training/REPORT.md",
+  "science_status": "results_ready_for_interpretation"
+}

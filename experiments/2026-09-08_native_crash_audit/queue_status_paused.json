@@ -1,0 +1,89 @@
+{
+  "state": "paused",
+  "active_methods": [
+    "HAPPO_hidden_instruction",
+    "HAPPO_equal_resources",
+    "HAPPO_no_task_aux_reward",
+    "IC_HAPPO"
+  ],
+  "active_pids": {
+    "HAPPO_hidden_instruction": 3082112,
+    "HAPPO_equal_resources": 3138935,
+    "HAPPO_no_task_aux_reward": 3160416,
+    "IC_HAPPO": 3170318
+  },
+  "completed_jobs": 0,
+  "total_jobs": 7,
+  "parallel_jobs": 7,
+  "supervisor_pid": 3160380,
+  "progress": {
+    "IC_HAPPO": {
+      "state": "paused",
+      "completed_steps": 344000,
+      "target_steps": 10000000
+    },
+    "IC_MAPPO": {
+      "state": "failed",
+      "completed_steps": 568000,
+      "target_steps": 10000000
+    },
+    "HAPPO_hidden_instruction": {
+      "state": "paused",
+      "completed_steps": 7192000,
+      "target_steps": 10000000
+    },
+    "MAPPO_hidden_instruction": {
+      "state": "failed",
+      "completed_steps": 180000,
+      "target_steps": 10000000
+    },
+    "HAPPO_fixed_mode_rule": {
+      "state": "failed",
+      "completed_steps": 104000,
+      "target_steps": 10000000
+    },
+    "HAPPO_equal_resources": {
+      "state": "paused",
+      "completed_steps": 1528000,
+      "target_steps": 10000000
+    },
+    "HAPPO_no_task_aux_reward": {
+      "state": "paused",
+      "completed_steps": 784000,
+      "target_steps": 10000000
+    }
+  },
+  "failed_jobs": {
+    "MAPPO_hidden_instruction": "dead_worker:[{\"pgid\": 3160415, \"pid\": 3160502, \"ppid\": 3160415, \"start_ticks\": 390449779, \"state\": \"Z\", \"uid\": 1000, \"wait_status\": 139}]",
+    "HAPPO_fixed_mode_rule": "dead_worker:[{\"pgid\": 3166835, \"pid\": 3166888, \"ppid\": 3166835, \"start_ticks\": 390514778, \"state\": \"Z\", \"uid\": 1000, \"wait_status\": 139}]",
+    "IC_MAPPO": "dead_worker:[{\"pgid\": 3160414, \"pid\": 3160509, \"ppid\": 3160414, \"start_ticks\": 390449781, \"state\": \"Z\", \"uid\": 1000, \"wait_status\": 139}]"
+  },
+  "pending_methods": [],
+  "worker_health_checked": true,
+  "recovery_record": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_161528_847863",
+  "updated_utc": "2026-09-08T07:46:18.328102+00:00",
+  "training_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "resource_wait": null,
+  "resource_metrics_file": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_single_seed_comparison/runs/seed1_10m_hybrid_parallel/execution/recovery_20260908_161528_847863/resources.jsonl",
+  "pause_reason": "Native SIGSEGV reproduced without project code; CPU/core and thermal stability under investigation",
+  "pause_journal": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-08_native_crash_audit/active_training_pause.json"
+}

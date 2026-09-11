@@ -1,0 +1,606 @@
+{
+  "state": "PASS",
+  "sampled_states": 720,
+  "tested_candidate_state_pairs": 6480,
+  "checks": [
+    {
+      "scenario": "fixed_0",
+      "slot": 0,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 1,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 50,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 199,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 200,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 299,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 399,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 400,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_0",
+      "slot": 599,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 0,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 1,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 50,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 199,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 200,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 299,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 399,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 400,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_1",
+      "slot": 599,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 0,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 1,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 50,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 199,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 200,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 299,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 399,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 400,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "fixed_2",
+      "slot": 599,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 0,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 1,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 50,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 199,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 200,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 299,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 399,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 400,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    },
+    {
+      "scenario": "multi_0_1_2",
+      "slot": 599,
+      "states": 20,
+      "guard": "PASS",
+      "future_tape_perturbation": "NO_CHANGE",
+      "all_nine_counterfactuals": "IDENTICAL",
+      "no_mutation": true
+    }
+  ],
+  "dynamic_attribute_reads": [
+    "K",
+    "M",
+    "U",
+    "aoi",
+    "beta",
+    "buckets",
+    "count",
+    "device",
+    "dtype",
+    "instructions",
+    "limits",
+    "load",
+    "n_agents",
+    "p",
+    "p.A_limit_by_instruction",
+    "p.A_max",
+    "p.B_sut_sat",
+    "p.B_uav_sut",
+    "p.Q_max",
+    "p.Q_min_eval",
+    "p.aoi_max_weight",
+    "p.aoi_mean_weight",
+    "p.aoi_reward_ref",
+    "p.aoi_tail_threshold",
+    "p.aoi_tail_weight",
+    "p.backhaul_availability",
+    "p.beta_sat_lower_bound",
+    "p.constraint_penalty_A_by_instruction",
+    "p.delta_T",
+    "p.eta_recv_aoi_bonus",
+    "p.n_ds",
+    "p.reward_load_ref",
+    "p.reward_load_scale",
+    "p.reward_weights_by_instruction",
+    "q",
+    "quality",
+    "requirements",
+    "step_index",
+    "tau"
+  ],
+  "static_env_attributes": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/rule_tools.py": [
+      "K",
+      "U",
+      "aoi",
+      "context",
+      "count",
+      "dtype",
+      "load",
+      "n_agents",
+      "p",
+      "q",
+      "quality",
+      "step_index",
+      "tau"
+    ],
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/helpers.py": [
+      "M",
+      "U",
+      "allocate_resources",
+      "allocated_action",
+      "allocation_pending",
+      "aoi",
+      "beta",
+      "commit_modes",
+      "count",
+      "device",
+      "dtype",
+      "last_selector_choice",
+      "n_agents",
+      "q",
+      "reset",
+      "source",
+      "step",
+      "step_index"
+    ],
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/tensor_env.py": []
+  },
+  "same_sut_observation_counterexample": {
+    "kind": "constructed_current_state_pair",
+    "episode_batch_index": 6,
+    "step": 50,
+    "trial": 1,
+    "identical_sut_observation": true,
+    "changed_variable": "per-DS pending-block generation times; per-UAV maximum cache ages preserved",
+    "original_candidate": "m5_urgency",
+    "alternate_candidate": "m5_equal",
+    "original_scores": [
+      -0.015769775308160854,
+      -0.015769775308160854,
+      -0.015769775308160854,
+      -0.0066085064811142145,
+      -0.0066085064811142145,
+      -0.005878284665125921,
+      -0.07515501576075695,
+      -0.059591157715935636,
+      -0.059591157715935636
+    ],
+    "alternate_scores": [
+      -0.015769775308160854,
+      -0.015769775308160854,
+      -0.015769775308160854,
+      -0.003941839814447536,
+      -0.003941839814447536,
+      -0.004544951331792595,
+      -0.07315501576075695,
+      -0.05692449104926896,
+      -0.05692449104926896
+    ],
+    "cache": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ]
+    ],
+    "aoi": [
+      [
+        4.0,
+        4.0,
+        4.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0,
+        4.0
+      ],
+      [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        2.0,
+        2.0
+      ],
+      [
+        4.0,
+        4.0,
+        5.0,
+        5.0,
+        4.0,
+        2.0,
+        2.0,
+        5.0,
+        3.0,
+        4.0
+      ]
+    ],
+    "original_cache_age": [
+      [
+        2,
+        1,
+        1,
+        1,
+        1,
+        51,
+        51,
+        51,
+        51,
+        2
+      ],
+      [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        51,
+        51,
+        51,
+        51
+      ],
+      [
+        2,
+        1,
+        3,
+        2,
+        1,
+        51,
+        51,
+        1,
+        51,
+        1
+      ]
+    ],
+    "alternate_cache_age": [
+      [
+        1,
+        1,
+        1,
+        2,
+        2,
+        51,
+        51,
+        51,
+        51,
+        1
+      ],
+      [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        51,
+        51,
+        51,
+        51
+      ],
+      [
+        2,
+        2,
+        1,
+        3,
+        1,
+        51,
+        51,
+        1,
+        51,
+        1
+      ]
+    ],
+    "limitation": "Admissible timestamp reassignment at current state; no claim that both states were reached in original evaluation. UAV local observations differ.",
+    "scenario_origin": "fixed_0"
+  },
+  "source_hashes": {
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/rule_tools.py": "25c37ff16e55916a342efbe66a0288f0a3248b0791417e9ddee2763006bdc2f0",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/helpers.py": "6425e5d906b9ae612fa5f3cf6039bfa4381a702543452e20559558ed20ad7bd9",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/tensor_env.py": "2a7b70a9fde5a81535878fa3a696ed85e77bbe5316824aae88b9171dcef790dd",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/selector_train.py": "7179df8d1b3b62994b9042ce006778a390e80ad268f0bad80fa5a25ee89628b7",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/reference/runtime/harl/envs/uav_escs/reward_objective.py": "30aeaae62665ebbb36688d5b435a7a8fe6827f632803f6e6fa76d011b91fb77f",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-10_resource_selector_training/source/episode_source.py": "3b534bf0e1db86ed581e4f5648b9f04b221b9f052363c5972402d4eaf4262257",
+    "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_training_rule_audit/audit_runtime.py": "afd3df9887083a2439c9ac5d03b147f75d1c9b2df46527768ffebaf7c3eeb025"
+  },
+  "conclusion": "No future information read by current myopic implementation. It uses global current per-DS state and exact one-slot transition/reward model, beyond each deployed actor observation."
+}

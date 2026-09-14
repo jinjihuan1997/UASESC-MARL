@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "two_independent_reaggregations_identical": true,
+  "report_sha256": {
+    "REPORT.md": "b92d0188d44e42ccd07d474259dd21d00380feab20f42d9a3c8bd2c35f64c069",
+    "audit.json": "b1bb42f8b0fdf92e7a1d39fad7ff4e8a13330bfcc98ab84ff6e9781a18bf0311",
+    "distributions.json": "c1551dade8ce12e5faee12a3a465cf443dfc5a1a5f66d7179275d3c33d23d5aa",
+    "execution_episodes.json": "bd33b9eeeb660838ee2157f3daad22d00c699ad545fa47925a1781b95a090a2d",
+    "results.json": "5b3d9f10de715fb4944a45660a27bc74a78dad6493421d96098d6f756d1fe1f5"
+  },
+  "required_files_present": [
+    "PROTOCOL.md",
+    "manifest.json",
+    "preflight.json",
+    "evaluate_execution_variants.py",
+    "collect_value_probe.py",
+    "fit_value_probe.py",
+    "aggregate.py",
+    "run_diagnostics.sh",
+    "status.json",
+    "report/results.json",
+    "report/audit.json",
+    "report/REPORT.md"
+  ],
+  "finished_utc": "2026-09-12T06:19:56.075264+00:00"
+}

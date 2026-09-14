@@ -1,0 +1,218 @@
+{
+  "1032592498": {
+    "D": {
+      "switch300_2_to_0": {
+        "delta_score_x100": {
+          "mean": -0.2990618037593317,
+          "ci95": [
+            -0.36182525749658395,
+            -0.23412161067250048
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "switch300_2_to_1": {
+        "delta_score_x100": {
+          "mean": -0.24535558971025678,
+          "ci95": [
+            -0.4258437843758229,
+            -0.07630696534470285
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "multi_2_1_0": {
+        "delta_score_x100": {
+          "mean": -0.2421476655002696,
+          "ci95": [
+            -0.33349441773623617,
+            -0.154238456380484
+          ]
+        },
+        "post_quality_slots": 400,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      }
+    },
+    "S_mean": {
+      "switch300_2_to_0": {
+        "delta_score_x100": {
+          "mean": -0.4926148651501796,
+          "ci95": [
+            -0.5565909767345775,
+            -0.4289116204512394
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "switch300_2_to_1": {
+        "delta_score_x100": {
+          "mean": -0.7177650573452502,
+          "ci95": [
+            -0.8609584372985789,
+            -0.5732667324757709
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "multi_2_1_0": {
+        "delta_score_x100": {
+          "mean": -0.5365074014290043,
+          "ci95": [
+            -0.6461906361363883,
+            -0.4404716007167565
+          ]
+        },
+        "post_quality_slots": 400,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      }
+    }
+  },
+  "788864185": {
+    "D": {
+      "switch300_2_to_0": {
+        "delta_score_x100": {
+          "mean": -0.28961115724670405,
+          "ci95": [
+            -0.3362902548199995,
+            -0.24801044109535547
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "switch300_2_to_1": {
+        "delta_score_x100": {
+          "mean": -0.3728017573840949,
+          "ci95": [
+            -0.5160721234272272,
+            -0.20991014185615536
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "multi_2_1_0": {
+        "delta_score_x100": {
+          "mean": -0.22724957075225083,
+          "ci95": [
+            -0.2841240589573507,
+            -0.16696719764983056
+          ]
+        },
+        "post_quality_slots": 400,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      }
+    },
+    "S_mean": {
+      "switch300_2_to_0": {
+        "delta_score_x100": {
+          "mean": -0.48542563545326906,
+          "ci95": [
+            -0.529368466681146,
+            -0.441929722264138
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "switch300_2_to_1": {
+        "delta_score_x100": {
+          "mean": -0.6870225597545284,
+          "ci95": [
+            -0.7925375530785905,
+            -0.576011887920333
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "multi_2_1_0": {
+        "delta_score_x100": {
+          "mean": -0.6016230709620239,
+          "ci95": [
+            -0.6970832060878818,
+            -0.527485003152291
+          ]
+        },
+        "post_quality_slots": 400,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      }
+    }
+  },
+  "1626362722": {
+    "D": {
+      "switch300_2_to_0": {
+        "delta_score_x100": {
+          "mean": -0.32421763380113566,
+          "ci95": [
+            -0.3816214954326629,
+            -0.2590530126135646
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "switch300_2_to_1": {
+        "delta_score_x100": {
+          "mean": -0.1414361696928932,
+          "ci95": [
+            -0.28327231278885395,
+            0.0015610514568788088
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "multi_2_1_0": {
+        "delta_score_x100": {
+          "mean": -0.18790509333099414,
+          "ci95": [
+            -0.273461292396609,
+            -0.11449865024767363
+          ]
+        },
+        "post_quality_slots": 400,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      }
+    },
+    "S_mean": {
+      "switch300_2_to_0": {
+        "delta_score_x100": {
+          "mean": -0.47532584166337566,
+          "ci95": [
+            -0.5378040253239766,
+            -0.40648779204247015
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "switch300_2_to_1": {
+        "delta_score_x100": {
+          "mean": -0.6245063656926747,
+          "ci95": [
+            -0.7967190406991631,
+            -0.4581343817498283
+          ]
+        },
+        "post_quality_slots": 300,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      },
+      "multi_2_1_0": {
+        "delta_score_x100": {
+          "mean": -0.5086093084504417,
+          "ci95": [
+            -0.6243287847467753,
+            -0.40106034001594953
+          ]
+        },
+        "post_quality_slots": 400,
+        "interpretation": "Full student-versus-teacher trajectories differ in both current policy and past states; not a uniquely identified quality carryover cost."
+      }
+    }
+  }
+}

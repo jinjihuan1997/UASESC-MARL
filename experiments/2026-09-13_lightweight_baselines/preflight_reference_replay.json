@@ -1,0 +1,314 @@
+{
+  "rules/greedy_modes_16/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "69346aa5f0037a121c04ec4de9238413c2b2413df08b29aea0d6e0abd3598c65",
+    "trace_sha256": "c5df1b9cd689289a5df8155e709a559da6cd8f2730d7be666c2e306f44be4bac",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.6653345369377348e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "rules/greedy_modes_3/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "69346aa5f0037a121c04ec4de9238413c2b2413df08b29aea0d6e0abd3598c65",
+    "trace_sha256": "c5df1b9cd689289a5df8155e709a559da6cd8f2730d7be666c2e306f44be4bac",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.6653345369377348e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "rules/R_instruction/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "trace_sha256": "53ee3d09f0746908477cf68e000df673b8afd8840b4f686a8704e7baa3db51e4",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.6653345369377348e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "rules/R_equal_instruction/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "trace_sha256": "4d879c87cfea4180533eb612fc554c1cf77035bba9eed0f898b6d92c8e64be25",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.6653345369377348e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "104948945/original_rl/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "28fab3b96fb151567a077e27130c7ebde4891963c7f9dfd87d7f9c5a8971a4b2",
+    "trace_sha256": "9799cc7befe4fa61498fe5c1e9677ccc72bd8d1fcfbba16006c895f3c486e4df",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.220446049250313e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "111868397/original_rl/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "53b982b3844a57adb21cc4f47424697f2ffdb4a82019e864c7ad7fc73c931c30",
+    "trace_sha256": "4b3410c3406c7fe8a8a997773a620e3711fddb9475eeffa953cfdac624520f8b",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.3592239273284576e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "160441552/original_rl/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "c6e79c3aa3a82cd05cadca72677655c827cb1635c197b0116e706ddb3169329f",
+    "trace_sha256": "3eaab801a497b171d8ca884987f017d0d548b7f676bed95b1c269cc7d8a90bd5",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.636779683484747e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "104948945/C1/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "80aa40e5554686db647a822d2619aab4100b8b3d05b4a0a2524a856dc9cbbe30",
+    "trace_sha256": "7b854128de1d29be9747a8d2b5da71b063f2aae49b6f9ce634a12548afcc0a4b",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.6653345369377348e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "111868397/C1/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "6df16cf59c5788c91afbee25097c3281dcd96580ac85e79da1fc1b9657dc364b",
+    "trace_sha256": "b69efefa9919aeb2614b72a548e38fcd1680c9f104b797c0b87adaaba86e0d6c",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.5265566588595902e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "160441552/C1/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "1f3c23635da73e504d46757cf3f5c48cd8bf902d33d50f0a1a4753d23cfd8faf",
+    "trace_sha256": "5756c61aa53c8d69bcc0b81995570e92e56eb84772f24cec5a6caff60922ce0f",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.942890293094024e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "104948945/C3/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "80aa40e5554686db647a822d2619aab4100b8b3d05b4a0a2524a856dc9cbbe30",
+    "trace_sha256": "31947b89f4705fcc39146b4507c0d291125b81ddc44a81f05f9541088ed4242c",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.6653345369377348e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "111868397/C3/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "6df16cf59c5788c91afbee25097c3281dcd96580ac85e79da1fc1b9657dc364b",
+    "trace_sha256": "c93bc690533349a50bff2275caa4c922bdba69a8ee84701386ba225ad59c2545",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.6653345369377348e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "160441552/C3/multi_0_1_2": {
+    "state": "PASS",
+    "policy_hash": "1f3c23635da73e504d46757cf3f5c48cd8bf902d33d50f0a1a4753d23cfd8faf",
+    "trace_sha256": "3f0ced950636fb666d413e220f55e19184142eb22bb4521f9e7afee5a2a5e042",
+    "physical_audit": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.3877787807814457e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  }
+}

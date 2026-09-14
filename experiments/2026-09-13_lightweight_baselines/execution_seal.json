@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "light_support.py": "b6164228235d0fc563dc870158c9ca0a867fccd11c41b443d2470f1f03303167",
+    "lightweight_policies.py": "3adb8538d329f24f5847942f0c51957b70a9e8cbb142cf899ef7f6308790c6c9",
+    "reference_policies.py": "3ba0771178c856aba069566cd2e33082ba06a4c1963fe9c676afbc1fa85751d3",
+    "evaluate.py": "2226714ffc366424342b7b04436ada1efc5280a6d0994e347184500566120012",
+    "independent_physics.py": "a370cbabde92030a2a681ac0e6d328ee65fb1a170b0dbe84da55e47e010525be",
+    "validate.py": "be3390df61139d6a37897993f1745fcc03b5d80fe1aa85f8c7844264921dd47f"
+  },
+  "manifest_sha256": "494f443053f97384d3f32bff02637cf1f97452f7ac82780dc4bc8272b2c39189"
+}

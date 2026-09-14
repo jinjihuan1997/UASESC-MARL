@@ -1,0 +1,8 @@
+{
+  "sources": {
+    "aggregate.py": "584bc58c410fd15b570f2bd2dbc6874187f48525e443a555dc2ff930ec5f9406",
+    "write_report.py": "386f4eecfc627a68c652cba1a2aa0a1807244767df8e33d33b07ab46f949def5",
+    "finalize.py": "1d1154f85b51d559e9f004da3a06cad3ca8577e6567300ad7f1c0dc5dc53a296"
+  },
+  "manifest_sha256": "d042e305325fa136e67cea3d9c2c9643590c803ddba5449b68c416d32fd2fd93"
+}

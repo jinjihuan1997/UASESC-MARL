@@ -1,0 +1,17 @@
+{
+  "state": "PASS",
+  "cases": 5,
+  "accepted_complete_episodes": 46,
+  "accepted_physical_steps": 27600,
+  "weights_exact": true,
+  "no_row_renormalization": true,
+  "only_quality_coefficient_changed": true,
+  "observations_identical_before_action": true,
+  "frozen_controller_physical_parity": true,
+  "reweighted_greedy_public_weights_match": true,
+  "native_and_independent_every_slot_audit": true,
+  "repeat_exact": true,
+  "forbidden_calls": [],
+  "elapsed_seconds": 7.285685257986188,
+  "amendment_sha256": "4c3188b37872f1c8bc666ce4a199076e0339fd9bf0d7e0fa0d2d5d6e6b606949"
+}

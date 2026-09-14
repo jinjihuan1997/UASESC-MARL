@@ -1,0 +1,22 @@
+{
+  "fit_device": "cuda:0",
+  "maximum_fit_workers": 1,
+  "collection_workers": 3,
+  "torch_threads": 1,
+  "blas_threads": 1,
+  "benchmark": {
+    "cpu": {
+      "warmup_batches": 5,
+      "measured_batches": 25,
+      "median_seconds_per_four_actor_batch": 0.02210105024278164,
+      "total_optimizer_steps": 120
+    },
+    "cuda:0": {
+      "warmup_batches": 5,
+      "measured_batches": 25,
+      "median_seconds_per_four_actor_batch": 0.004586310125887394,
+      "total_optimizer_steps": 120
+    }
+  },
+  "selection_uses_performance_scores": false
+}

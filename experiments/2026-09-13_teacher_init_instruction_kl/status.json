@@ -1,0 +1,18 @@
+{
+  "state": "COMPLETED_STOPPED_AFTER_A",
+  "conditional_requested_run_completed": true,
+  "stage_A": "complete",
+  "gate": "0/3",
+  "stage_B": "NOT_RUN_STAGE_A_GATE_FAILED",
+  "critic_warmup": "NOT_RUN_STAGE_A_GATE_FAILED",
+  "RL_environment_steps": 0,
+  "formal_collection_steps": 504000,
+  "formal_supervised_optimizer_updates": 76320,
+  "gate_evaluation_episodes": 1690,
+  "gate_evaluation_steps": 1014000,
+  "total_physical_steps": 1687280,
+  "protected_files_unchanged": true,
+  "reserved_final_test_used": false,
+  "report_sha256": "5e1231cde663ff1bf23806a2157b87357a733e0b44f9c1bbe77c6bfbd06afd4b",
+  "reproducibility_sha256": "bc5864bc6659b79259938f6805b60312c09c0183505574cacc53443693d462aa"
+}

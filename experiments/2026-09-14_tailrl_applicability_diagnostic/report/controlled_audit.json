@@ -1,0 +1,2960 @@
+{
+  "state": "PASS",
+  "groups": {
+    "104948945/1000000/fixed_2": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.42861286636753e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.942890293094024e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.2898349882893854e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "104948945/6000000/fixed_2": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.1510571102112408e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.1510571102112408e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.942890293094024e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.1510571102112408e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.220446049250313e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.3592239273284576e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "104948945/6000000/switch300_2_to_0": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.0408340855860843e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "104948945/6000000/switch300_2_to_1": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1796119636642288e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.0408340855860843e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1796119636642288e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "111868397/1000000/fixed_2": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8735013540549517e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.0816681711721685e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.42861286636753e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "111868397/6000000/fixed_2": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8735013540549517e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.2898349882893854e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.942890293094024e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8735013540549517e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.1510571102112408e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5612511283791264e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.3592239273284576e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "111868397/6000000/switch300_2_to_0": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.942890293094024e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "111868397/6000000/switch300_2_to_1": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 8.326672684688674e-17,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.942890293094024e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 9.020562075079397e-17,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "160441552/1000000/fixed_2": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8735013540549517e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.0816681711721685e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1102230246251565e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8735013540549517e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.3592239273284576e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "160441552/6000000/fixed_2": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1102230246251565e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1102230246251565e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.0408340855860843e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1796119636642288e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5265566588595902e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.4224732503009818e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "160441552/6000000/switch300_2_to_0": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1102230246251565e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.1102230246251565e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 9.71445146547012e-17,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ],
+    "160441552/6000000/switch300_2_to_1": [
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 9.020562075079397e-17,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 8.326672684688674e-17,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 9.71445146547012e-17,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.249000902703301e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      }
+    ]
+  },
+  "original_checker_all_slots": true,
+  "actual_seeds": [
+    232720412,
+    218167351,
+    245043960,
+    223828264,
+    286277135,
+    205988792,
+    211075276,
+    207198655,
+    201800446,
+    224738031,
+    207714607,
+    265167367,
+    275961110,
+    219037752,
+    216214719,
+    243240890,
+    204985084,
+    277619122,
+    280460255,
+    218487414
+  ],
+  "reserved_final_test_used": false
+}

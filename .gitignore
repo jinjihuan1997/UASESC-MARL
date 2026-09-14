@@ -32,3 +32,6 @@ reproduction/
 **/.env.local
 **/id_rsa
 **/id_ed25519
+
+# Supervised teacher/DAgger training examples stay local; metadata is retained.
+experiments/2026-09-13_teacher_init_instruction_kl/data/**/*.npz

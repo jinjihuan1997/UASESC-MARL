@@ -1,0 +1,38 @@
+{
+  "python": "/home/king/miniconda3/envs/harl_sionna/bin/python",
+  "version": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "torch": "2.4.1+cu121",
+  "numpy": "1.26.4",
+  "cuda_available": true,
+  "cpu_count": 20,
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "load": [
+    14.19482421875,
+    15.15087890625,
+    14.09912109375
+  ],
+  "gpu": "index, name, memory.total [MiB], memory.used [MiB], utilization.gpu [%], temperature.gpu\n0, NVIDIA GeForce RTX 4070 Ti SUPER, 16376 MiB, 665 MiB, 0 %, 34\n",
+  "torch_threads": 1,
+  "max_workers": 1
+}

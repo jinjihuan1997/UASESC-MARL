@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "additional_analysis.py": "d9778f85fc3bdf52c4591c7b4fed8eea4dfdb43141e5a7ea2a01038e220bab9c",
+    "aggregate.py": "51434f84b4e6a8f520d6974515788337afcbd63f611cdbfb9642b301f72e1b78",
+    "controlled_stats.py": "99487bca07cd6b9a6ceaf8b446973db16d733009caa526108d94a5e032adf219",
+    "diag_support.py": "1c152babcfbb6d68fac404b12634d58ebb98bbea85ee17a55e4b3a287fce0617",
+    "evaluate.py": "e1c1fb800a76ebe40052aa4233f4a468d3321ccd21862df4ecb4735e108d0a06",
+    "gradient_analysis.py": "2e9820d0454c412f3a606e279b23009354b36556b41d6ffd70729a0207485503",
+    "history.py": "06b98284fe1c419705cf6842be590385b299a495abee32967d649e4bacd39f15",
+    "plot_results.py": "8b8dbbfb2ae55c547c4a9720ca42e78c032a7239bffbfe7f08df4db51ab32d63",
+    "preflight.py": "9659ff8aba46b80a4b907710e981c3d13766a17b9f6f339596c11964e2dedea4",
+    "prepare.py": "440ea2588863aa1448f6c31066e73db74d1aeb1cdd7227f3353c7c1313a18ea4",
+    "reproduce.py": "df0a9963b4905aca9ae9f69028d8c1470f98699a4c2485964681ffc435f2113d",
+    "run_evaluation.py": "e7b15e8495c814c1887025aab380dbd27bd37635d0a1ba12d97f093940ced7b3",
+    "training_evidence.py": "b87e0fc5d1027148a77ff2c69baa7adcd61e4d27d6142f672e3ab94d5d95f753",
+    "validate.py": "dad65fe18a5ece8020536a5fc8857745770ba384bb925fdfbe2114b7ddf48875",
+    "PROTOCOL.md": "af5106b90c5fd0ddf8a4af81150016ad61724d286a33662d5d246fafdc341edf"
+  },
+  "note": "Implementation seal for repeat aggregation; scientific definitions and evaluation seeds were frozen in PROTOCOL and manifest before sampling"
+}

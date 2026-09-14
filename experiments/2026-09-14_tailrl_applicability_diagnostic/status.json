@@ -1,0 +1,14 @@
+{
+  "state": "complete",
+  "task": "TailRL applicability diagnostic",
+  "scope_completed": true,
+  "new_complete_evaluation_episodes": 3060,
+  "new_physical_steps": 1836000,
+  "new_training_steps": 0,
+  "new_optimizer_updates": 0,
+  "protected_files_checked": 5328,
+  "reserved_final_test_used": false,
+  "report": "report/REPORT.md",
+  "verdict": "No evidence for likely non-regressing TailRL improvement; partial quality-only tail with AoI costs",
+  "finished_utc": "2026-09-14T05:50:23.246088+00:00"
+}

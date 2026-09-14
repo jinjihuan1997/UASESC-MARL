@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "identical_final_aggregation_passes": 2,
+  "total_complete_aggregation_passes": 3,
+  "initial_pass": "aggregation_runs/initial_pass.json",
+  "final_passes": [
+    "logs/aggregate_final1.log",
+    "logs/aggregate_final2.log"
+  ],
+  "analysis_manifest_sha256": "8298900f953dc31a7cccde3ad36d9e2594150ca265f636c598692cea4cac3333",
+  "deterministic_file_sha256": {
+    "results.json": "aaf2dd523d3f5f928769f31940587d26a5bf1d3f9bda2f95c4924e7cba5d44a2",
+    "physical_statistics.json": "716659c0d61f179f721c1ed7474210ebd2b1cf96bc612a7de6d740118b9c9bd7",
+    "paired_differences.json": "1da9249556413a75d259407a912e6c4fd4753c941e650f2b808492036938248d",
+    "gap_decomposition.json": "32c92868a6762d21f59ec736ed736dbabc75be2413c33e6277b2dc67f6c875dc",
+    "focus_case.json": "4c965271f8f301d8ab5ea53ae4c801af1b54f3f15d7d074a03a1384db4e9a5ba",
+    "audit.json": "9f2f176bc4a46fb8fffd869fc5054a0ae6374684b205b13149b3e82027b5d674",
+    "REPORT.md": "e32864e75d4bb1a5ae3d9610325141bdb34c8ffb77c68c38beb64d59c92a4a92"
+  },
+  "results_and_physical_and_paired_and_gap_unchanged_since_initial_pass": true,
+  "independent_numpy_profile_audit_sha256": "95f56cf48cb4a801f94f22306f10fa8a57cf1cad47532d5645c992a741533335",
+  "time_metadata_separate": true,
+  "aggregate_policy_inference_slots_per_pass": 1404000,
+  "total_aggregate_policy_inference_slots": 4212000,
+  "new_physical_steps_during_aggregation": 0
+}

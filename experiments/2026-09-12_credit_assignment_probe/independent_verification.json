@@ -1,0 +1,86 @@
+{
+  "state": "PASS",
+  "probe_networks_reloaded": 18,
+  "heldout_prediction_replay": "bitwise identical on original fitting device",
+  "device": "cuda:0",
+  "full_return_direct_sum_verified_parent_models": 3,
+  "normalization_fit_only_verified": true,
+  "physical_equivalence_matches_original_runtime_loader": true,
+  "checks": [
+    {
+      "parent_seed": 104948945,
+      "initialization_seed": 930921,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 104948945,
+      "initialization_seed": 930929,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 104948945,
+      "initialization_seed": 930941,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 111868397,
+      "initialization_seed": 930921,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 111868397,
+      "initialization_seed": 930929,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 111868397,
+      "initialization_seed": 930941,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 160441552,
+      "initialization_seed": 930921,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 160441552,
+      "initialization_seed": 930929,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    },
+    {
+      "parent_seed": 160441552,
+      "initialization_seed": 930941,
+      "loaded_probe_prediction_max_abs_difference": {
+        "P0": 0.0,
+        "P1": 0.0
+      }
+    }
+  ],
+  "new_environment_steps": 0,
+  "rl_training_steps": 0,
+  "verification_script_sha256": "11d38bb4ee76c2808cd4b92a58c04c28cc52b6b7deea884ed58e897baa1bf952"
+}

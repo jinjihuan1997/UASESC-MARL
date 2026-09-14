@@ -1,0 +1,19 @@
+{
+  "state": "complete",
+  "finished_utc": "2026-09-12T14:48:06.987319+00:00",
+  "new_training_steps": 0,
+  "new_optimizer_updates": 0,
+  "new_primary_complete_episodes": 2340,
+  "new_primary_physical_steps": 1404000,
+  "preflight_and_repro_complete_episodes": 1280,
+  "preflight_physical_steps": 768000,
+  "reused_episodes": 4160,
+  "reference_supplement_episodes": 0,
+  "total_new_physical_steps": 2172000,
+  "reserved_final_test_used": false,
+  "remaining_own_workers": [],
+  "report": "report/REPORT.md",
+  "reproducibility": "report/reproducibility.json",
+  "independent_numpy_physics_audit": "report/independent_profile_audit.json",
+  "protected_files_unchanged": 2069
+}

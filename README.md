@@ -1,101 +1,62 @@
 # UASESC-MARL
 
-指令条件下的多智能体强化学习：SUT 分配回传资源，三个 UAV 根据实际预算从 16 种语义模式中分别选择一种，联合权衡交付质量、AoI 和资源消耗。
+指令条件下的多智能体强化学习：SUT分配回传资源，三个UAV基于各自真实预算从16种语义模式中选模，权衡交付质量、AoI和资源消耗。
 
-本次同步对应 2026-09-11 的完整本地项目快照，包含实现、配置、实验记录、数值结果、逐时隙评估轨迹和小型策略权重。大型模型、完整训练状态断点、原始数据集、虚拟环境及本地缓存不包含在仓库中。
+本次同步更新至2026-09-14，保留此前历史和不利结果，补齐9月12日至14日的代码、配置、报告、数值轨迹及小型策略权重。没有在同步过程中启动训练、修改奖励或修改论文。
 
-## 最新结果：交替训练短试
+## 最新：半质量权重下的长期训练与诊断
 
-最新实验：[2026-09-11_alternating_training](experiments/2026-09-11_alternating_training/)。三个训练种子在实验前随机确定，分别为 `104948945`、`111868397`、`160441552`；每个种子运行联合训练与交替训练，各 100 万环境步，共 600 万步。
+三个固定种子104948945、111868397、160441552先在新权重下各训练100万步，再从完整状态分别续训至累计1000万步；长训新增2700万步，三模型累计3000万步，已完成并核验。
 
-交替方案为：前 40 万步在不同资源预算下训练 UAV 模式策略，接着 20 万步训练 SUT，最后 40 万步交替更新两侧。两臂使用相同观测、动作空间、平均质量载荷表、奖励与优化器设置。
+新权重仅将质量收益系数乘0.5，AoI和资源系数不变，不重新归一化。综合成绩为原共同奖励每槽均值×100，按13场景、20个开发环境和三个固定训练种子等权；固定任务不冒充13场景综合。
 
-分数为原始奖励乘 100，越大越好。综合分数覆盖 13 个指令场景；专项列为全程固定相应指令。每个模型使用 20 个新验证环境种子、每回合 600 个时隙。表中 RL 为全部三个训练种子的均值。
-
-| 方法 | 综合分数 | 均衡指令 | AoI 指令 | 质量指令 |
+| 方法 | 综合 | 固定均衡 | 固定AoI | 固定质量 |
 |---|---:|---:|---:|---:|
-| 联合训练 | -3.9002 | -2.5525 | -15.0641 | 8.0928 |
-| 交替训练 | -4.1695 | -2.3411 | -15.1259 | 6.9626 |
-| 均分资源＋固定模式 | -5.0321 | -3.1148 | -15.0831 | 4.8640 |
-| 紧急度分配＋固定模式 | -4.9755 | -3.0633 | -14.9955 | 4.8916 |
-| 均分资源＋指令选模 | -3.2321 | -2.4705 | -15.0831 | 10.3171 |
-| 按指令切换简单规则 | -3.2044 | -2.4705 | -14.9955 | 10.3171 |
+| retrained_rl_Qhalf | -8.380924 | -6.970245 | -16.669149 | 0.032502 |
+| long_rl_Qhalf | -8.323860 | -7.003098 | -16.621921 | 0.209971 |
+| G_equal_local16_Qhalf_local | -8.209130 | -7.022373 | -16.691485 | 0.685478 |
+| greedy_modes_16_Qhalf_local | -8.195490 | -7.174723 | -16.527518 | 0.710007 |
+| R_instruction | -9.044141 | -9.394658 | -16.577791 | 0.623283 |
 
-这次交替训练未改善综合表现，三个种子均落后于同预算联合训练。均衡专项改善不足以抵消质量专项退步。训练和全部检查点/基线共 8840 回合评估已完成，物理、奖励及外生环境配对核验通过；预留最终测试集尚未使用。这是每模型 100 万步的新验证短试，不与历史 1200 万步模型混作同预算比较。
+长期训练相对100万步起点平均综合增加0.057063，但仍低于同目标均分局部贪心0.114730、同观测强贪心0.128370。三个种子分别变化−0.294647、+0.132866、+0.332972，未筛除退步种子。强贪心的资源预测器仍按旧目标拟合；`_Qhalf_local`表示UAV局部选模使用新权重，不代表重新拟合了资源预测器。
 
-- [完整报告](experiments/2026-09-11_alternating_training/REPORT.md)
-- [机器可读结果](experiments/2026-09-11_alternating_training/report/results.json)
-- [核验结果](experiments/2026-09-11_alternating_training/report/audit.json)
-- [训练协议](experiments/2026-09-11_alternating_training/PROTOCOL.md)
-- [温控后的执行资源调整](experiments/2026-09-11_alternating_training/EXECUTION_AMENDMENT.md)
-- [代码、配置与输入哈希](experiments/2026-09-11_alternating_training/manifest.json)
+最新只读诊断发现：固定质量下中档模式可行率均在99.72%以上，仍存在大量低载荷偏好；部分动作选择了同载荷但预测质量更低的模式。相同输入下新旧网络的选模也明显变化，支持继续检查选模及策略保持。资源均分的静态容量影响并不一致，不能把静态机会损失写成新控制器的实际胜利。
 
-## 项目目录
+- [长期训练完整报告](experiments/2026-09-14_quality_half_long_training/report/REPORT.md)、[数值](experiments/2026-09-14_quality_half_long_training/report/results.json)、[独立核验](experiments/2026-09-14_quality_half_long_training/report/audit.json)
+- [资源—选模与退步诊断](experiments/2026-09-14_resource_mode_regression_analysis/report/REPORT.md)、[完整统计](experiments/2026-09-14_resource_mode_regression_analysis/report/results.json)、[配对摘要](experiments/2026-09-14_resource_mode_regression_analysis/report/summary.json)
+- [诊断复算核验](experiments/2026-09-14_resource_mode_regression_analysis/report/reproducibility.json)
 
-保留当前工作区的目录层级，包括 `HARL/HARL`，以保持实验之间的相对位置。
+## 实验索引
 
-| 目录 | 内容 |
+| 实验 | 实际范围及报告 |
 |---|---|
-| `experiments/` | 新实现的冻结运行环境、CPU/CUDA 训练、阶段训练与选择器、SC/CC 质量表诊断和重建、训练/评估脚本、配置、报告、日志及数值轨迹；包括历史实验和失败诊断 |
-| `HARL/HARL/` | 原 HARL 项目及本地 UAV-ESCS、HAPPO/MAPPO、混合动作头、配置、测试与实验脚本 |
-| `CRL-SemCom-VidCI/` | 语义通信/视频压缩成像代码、模式质量载荷测量及数据准备脚本 |
-| `Manuscript/` | 原稿 `main.tex`、新增修订稿、参考文献及图表；稿件内容不替代最新实验报告 |
-| `Promptus/` | 保留的原始组件；当前固定平均表 RL 训练不调用其大型视频模型 |
+| [9月11日交替训练](experiments/2026-09-11_alternating_training/REPORT.md) | 历史冻结参考，原提交7cc2372保留在Git历史中 |
+| [同观测强贪心](experiments/2026-09-11_observation_matched_greedy/REPORT.md) | 资源预测器和局部模式评分，区别于具有全局信息的一步择优 |
+| [冻结归因与价值探针](experiments/2026-09-12_credit_assignment_probe/report/REPORT.md) | 已完成，包含报告修正及审计 |
+| [质量门控模式修复](experiments/2026-09-12_quality_mode_repair/report/REPORT.md) | 六个固定预算训练任务及评估已完成 |
+| [策略重组与资源替换](experiments/2026-09-12_policy_recomposition/report/REPORT.md) | 冻结控制器2×2闭环评估，无新增训练 |
+| [教师初始化与条件KL](experiments/2026-09-13_teacher_init_instruction_kl/report/REPORT.md) | 阶段A已完成，准入0/3；按协议停止，critic预热和阶段B未运行 |
+| [轻量基线](experiments/2026-09-13_lightweight_baselines/report/REPORT.md) | 四个新规则/局部贪心及实际延迟测量 |
+| [质量权重减半](experiments/2026-09-13_quality_weight_half/report/REPORT.md) | 冻结重评分与按新目标重新选模分开报告 |
+| [新权重100万步训练](experiments/2026-09-14_quality_half_retraining/report/REPORT.md) | 三模型已完成，为长期续训起点 |
+| [新权重1000万步训练](experiments/2026-09-14_quality_half_long_training/report/REPORT.md) | 固定最终检查点比较，未事后挑赢家 |
+| [TailRL适用性](experiments/2026-09-14_tailrl_applicability_diagnostic/report/REPORT.md) | 针对1M/6M冻结模型的诊断；没有执行TailRL训练，不冒充10M结论 |
+| [最新只读分析](experiments/2026-09-14_resource_mode_regression_analysis/report/REPORT.md) | 资源可行性、模式概率、训练退步及同载荷质量机会损失 |
 
-当前在线训练使用固定平均质量载荷表。报告中的交付 PSNR 是该表对应的预测质量，不是每个时隙实际解码视频的测量值。历史协议、旧参数与新参数的结果保留各自实验目录，不跨协议拼接为同一对比。
+各实验`PROTOCOL.md`、`manifest.json`、`EXECUTION.md`、`status.json`及`report/`保存协议、执行范围、实际成本和结论边界。旧协议与新权重的成绩不能直接混算。
 
-## 核验和复现入口
+## 目录与复现边界
 
-运行依赖见 [HARL requirements](HARL/HARL/requirements.txt) 和 [CRL requirements](CRL-SemCom-VidCI/requirements.txt)。在具备项目 Python 依赖的环境中，从仓库根目录运行以下命令可核验最新冻结源码、表及配置：
+保留原本地布局：`HARL/HARL/`为HARL与UAV环境，`CRL-SemCom-VidCI/`为语义编解码与质量表相关代码，`Promptus/`为原组件，`Manuscript/`为原稿及已有修订，`experiments/`为完整实验记录。旧的另一仓库副本`UASESE-MARL/`不再次嵌套上传。
 
-```bash
-PYTHONDONTWRITEBYTECODE=1 python - <<'PY'
-import sys
-from pathlib import Path
-run = Path('experiments/2026-09-11_alternating_training').resolve()
-sys.path.insert(0, str(run))
-from helpers import verify
-verify()
-print('Frozen input hashes verified')
-PY
-```
+当前在线RL使用固定平均质量—载荷表，不运行Promptus大型视频模型。PSNR是该表给出的交付加权预测质量，不能外推为实测视频解码质量。原20个环境已用于多轮开发；报告的配对区间只描述当前固定模型与开发条件，预留最终测试未使用。
 
-最新报告可以从已同步的完整评估轨迹重新计算；这不需要下载原视频数据集或大型模型：
-
-```bash
-PYTHONDONTWRITEBYTECODE=1 python experiments/2026-09-11_alternating_training/aggregate.py
-```
-
-历史配置、日志和清单保留当时机器的绝对路径，以维持原始文件哈希。原 `run_training.sh` 及 `execution_override.py` 用于当时机器上的运行/断点恢复；完整训练状态断点未上传，因此不应在新机器上直接对历史完成目录执行恢复。
-
-在新机器上从头复现单个模型时，用现有 `make_config` 生成指向当前检出目录的配置，并使用一个新的输出目录。例如：
-
-```bash
-PYTHONDONTWRITEBYTECODE=1 python - <<'PY'
-import json, sys
-from pathlib import Path
-run = Path('experiments/2026-09-11_alternating_training').resolve()
-sys.path.insert(0, str(run))
-from prepare import make_config
-out = Path('reproduction/seed_104948945/alternating').resolve()
-out.mkdir(parents=True, exist_ok=False)
-(out / 'config.json').write_text(json.dumps(make_config(104948945, 'alternating'), indent=2))
-PY
-
-PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
-python experiments/2026-09-11_alternating_training/source/formal_train.py \
-  --config reproduction/seed_104948945/alternating/config.json \
-  --output reproduction/seed_104948945/alternating/run \
-  --run-manifest experiments/2026-09-11_alternating_training/manifest.json \
-  --device cpu
-```
-
-将方法改为 `joint`，并对另外两个预先确定的训练种子重复，可复现同预算训练设计。新运行不是原机器断点的逐位恢复；软件和硬件差异可能影响数值结果。
+原始实验文件保持原字节及SHA，包括其中记录的旧机器绝对路径。复现时需按相应EXECUTION在新的输出目录处理路径重定位；不要对历史完成目录直接执行恢复脚本。因为完整训练状态和数据集不在本仓库，不能将此快照称为具备全部输入的逐位训练恢复包。模型哈希及源配置仍可审查，已发布的数值报告与仿真评估轨迹保留。
 
 ## 同步范围
 
-已包含历史与最新数值结果、CSV/JSON/JSONL、NPZ 评估轨迹、质量载荷表、报告、图表、日志，以及不超过 10 MiB 的小型模型/策略文件。没有因为结果不利而删除实验。
+沿用9月11日已授权范围：代码、配置、报告、日志、CSV/JSON/JSONL数值、NPZ仿真评估轨迹、平均质量表，以及不超过10MiB的小型策略/模型文件。排除大型模型、完整训练状态断点、原始视频/飞行数据、教师/DAgger监督训练数据包、虚拟环境、Git内部目录、本地缓存和凭据。监督数据元信息、生成代码和评估结果保留；没有因负结果而删除实验。
 
-排除原始视频数据集、原始飞行数据、大于 10 MiB 的模型文件及完整训练状态、包含大型模型的归档、虚拟环境、Git 内部目录、缓存、运行锁和本地工具配置。原始数据准备/模型测量脚本仍保留。旧 `UASESE-MARL` 同步副本没有再次嵌套进本仓库。
+一个超过GitHub单文件限制的历史工作区差异日志以`.diff.gz`无损保存。原始路径、解压后SHA及还原方式见[同步说明](SYNC_INFO.md)。98MB的TailRL历史数值JSON保留原文件，未抽样或截断。
 
-各第三方组件的许可证保留在对应目录。仓库中的历史结果仅支持各自报告列明的比较条件。
+第三方组件许可证保留在对应目录。最新报告优先于历史README中的旧实验结论。

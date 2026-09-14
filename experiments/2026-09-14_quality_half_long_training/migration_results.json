@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "jobs": [
+    {
+      "seed": 104948945,
+      "state": "PASS",
+      "old_sha256": "c3f1d2764321dd9d15140837d2efa406d36c577747784c40bdd6ecd54c5997a3",
+      "new_sha256": "847ca5c44c8bc4ad85fc6808d5a06ba1af03fc093e0d4b59d7b8374705ab969d",
+      "all_nonmetadata_state_exact": true
+    },
+    {
+      "seed": 111868397,
+      "state": "PASS",
+      "old_sha256": "f05ae18d6a6c4024ea684d5d528f2f0033e1d47431b49824eb02396086557542",
+      "new_sha256": "f6f9013dbf9d0f333f2268a1c89d70307dbd7556e627eb2fdece7cde60dc4fe0",
+      "all_nonmetadata_state_exact": true
+    },
+    {
+      "seed": 160441552,
+      "state": "PASS",
+      "old_sha256": "63a09d07736b5b50ee2630c2cc0872f23965be4b55c75690c07d2204cf9dd773",
+      "new_sha256": "8a431b6aa5268cb7af21d7d62805f4d614b21a8c1777f39acacfbae67f79dcf4",
+      "all_nonmetadata_state_exact": true
+    }
+  ]
+}

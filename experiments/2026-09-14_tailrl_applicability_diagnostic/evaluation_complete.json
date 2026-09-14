@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "batches": 153,
+  "episodes": 3060,
+  "physical_steps": 1836000,
+  "new_training_steps": 0,
+  "new_optimizer_updates": 0
+}

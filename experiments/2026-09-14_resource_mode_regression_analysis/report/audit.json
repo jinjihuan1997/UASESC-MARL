@@ -1,0 +1,472 @@
+{
+  "state": "PASS",
+  "protected_input_count": 5303,
+  "changed": [],
+  "new_physical_steps": 0,
+  "new_training_steps": 0,
+  "new_optimizer_updates": 0,
+  "profile_only_environment_initializations": 1,
+  "frozen_actor_input_records": 1296000,
+  "frozen_actor_observation_forward_evaluations": 2592000,
+  "local_greedy_observation_queries": 648000,
+  "reserved_final_test_used": false,
+  "actual_saved_seeds": [
+    201800446,
+    204985084,
+    205988792,
+    207198655,
+    207714607,
+    211075276,
+    216214719,
+    218167351,
+    218487414,
+    219037752,
+    223828264,
+    224738031,
+    232720412,
+    243240890,
+    245043960,
+    265167367,
+    275961110,
+    277619122,
+    280460255,
+    286277135
+  ],
+  "reserved_intersection": [],
+  "saved_trace_validation": {
+    "104948945/1000000": {
+      "trace_sha256": "faf9547be461dfbc23061fd32a73264da2e1b26457cb1b3287486cfeeec0cf65",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.457167719820518e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "104948945/2000000": {
+      "trace_sha256": "2d6c3367ad9840797df06de45b2beec75f868a148af0ab0a12fac151485a9c76",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "104948945/4000000": {
+      "trace_sha256": "d32c3d219f926badf65c7dd9c4250e709497604ea8bdd95d3059ff816966a364",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.220446049250313e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "104948945/6000000": {
+      "trace_sha256": "a1bbf7cb305dbd2c28b93aba7bf2d597fb8f56f6a03f747f017592e962d9c3f6",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.5959455978986625e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "104948945/8000000": {
+      "trace_sha256": "45c7f77adf96313039328cb387e94dc3c1429970ba1001fa9e653b53407144c4",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.3592239273284576e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "104948945/10000000": {
+      "trace_sha256": "2f5a2c6efc4e80ede31c0cbbfe45fe93304f41bef16ee25e475f155a12aef1f4",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "111868397/1000000": {
+      "trace_sha256": "6028e191fa5bbea4bb93c438b9fb59695a22bd94a166844e85f1490c5d723b38",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3877787807814457e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "111868397/2000000": {
+      "trace_sha256": "ffc8b774f4e629f0875244be73f9bff12c3e634c72d522f1563d7aa7a225e257",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.3183898417423734e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "111868397/4000000": {
+      "trace_sha256": "76bcdf4bff8a813c3f2a6e900cc78f80c4dab535ca24548b6f3625bff98e7846",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "111868397/6000000": {
+      "trace_sha256": "04fba3addf3e75bc34cf2189f4d7aa5eb8ca3bddcf2a4f115a45f987e97b7c97",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.3592239273284576e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "111868397/8000000": {
+      "trace_sha256": "3b2306dc56611301a1ace3fe179d58ee99ab357f6013a66ac192250fd176e7f6",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "111868397/10000000": {
+      "trace_sha256": "fa67209cbc987eb7012a8fd216612f99330088d2bf0125073f1bce1707d2d0f3",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "160441552/1000000": {
+      "trace_sha256": "c73abd68b96c4d4498bdc96344a0a30c8900b646af541b8da47952e5580287b8",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "160441552/2000000": {
+      "trace_sha256": "236bfc3104b89a782b7127e521f91d75f09e494a30422fdf80204940a8ef659e",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.734723475976807e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "160441552/4000000": {
+      "trace_sha256": "dd7b073acfaed6aff3b8235c0d547d6857956eb1be4043fc9fa9fb4c1f3d7fea",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.8041124150158794e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "160441552/6000000": {
+      "trace_sha256": "97e14db10abe561536bf58285d41f93f9de0e4d331a52882705d53d6d197cad4",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.4224732503009818e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "160441552/8000000": {
+      "trace_sha256": "5ceef8a6152432dc6df734cbf063d57585e2b6328126081288a58b7839fc00f9",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 1.6653345369377348e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    },
+    "160441552/10000000": {
+      "trace_sha256": "a35c3b6cdd7ab771111c52924f34ac890a5bef8ac934941dc248a142c33f6295",
+      "source_independent_check": {
+        "physical_slots": 12000,
+        "max_reward_reconstruction_error": 2.1510571102112408e-16,
+        "checks": [
+          "AoI",
+          "cache",
+          "timestamp",
+          "one_resource_floor",
+          "budget",
+          "profile_quality",
+          "profile_load",
+          "original_mask",
+          "preferred_action_fallback",
+          "stable_AoI_scheduler",
+          "delivery",
+          "usage",
+          "reward_components"
+        ]
+      },
+      "action_replay_max_error": 1.0,
+      "mask_reconstruction": "PASS"
+    }
+  },
+  "elapsed_seconds": 16.697336196899414,
+  "exceptions_log": "failures.jsonl"
+}

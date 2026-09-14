@@ -1,0 +1,16 @@
+{
+  "training_wall_seconds": 1267.109594,
+  "evaluation_wall_seconds": 367.058922,
+  "worker_limit": 2,
+  "device": "cpu",
+  "torch_and_blas_threads_each": 1,
+  "measured_formal_cpu_peak_c": 68.0,
+  "measured_formal_gpu_peak_c": 39.0,
+  "temperature_pauses": 0,
+  "nonzero_formal_job_exits": [],
+  "completed_training_jobs": 6,
+  "completed_evaluation_jobs": 40,
+  "software_inventory": "software_environment.json",
+  "commands": "run_commands.json",
+  "preflight_overhead_separate": true
+}

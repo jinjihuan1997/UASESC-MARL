@@ -1,0 +1,37 @@
+{
+  "instruction": {
+    "names": [
+      "balance",
+      "aoi",
+      "quality"
+    ],
+    "actor_observe_instruction": true,
+    "sut_indices": [
+      23,
+      24,
+      25
+    ],
+    "uav_indices": [
+      67,
+      68,
+      69
+    ],
+    "critic_changed_indices": [
+      195,
+      197
+    ],
+    "quality_id": 2,
+    "state_aliasing": false
+  },
+  "sample_evaluate_logp_max_errors": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tail_weights_ties_shift_and_centering": "PASS",
+  "zero_physical_steps": true,
+  "state": "PASS",
+  "new_training_steps": 0,
+  "new_optimizer_updates": 0
+}

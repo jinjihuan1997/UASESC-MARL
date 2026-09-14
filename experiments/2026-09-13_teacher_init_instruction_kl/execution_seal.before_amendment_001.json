@@ -1,0 +1,17 @@
+{
+  "stage": "A_collection_and_fitting",
+  "manifest_sha256": "0a6cff9c482cd3ccbebccbb25f22d2a47f979c5547a791e6390b12e3474761fd",
+  "source_sha256": {
+    "study.py": "c5489bbc17f729b48a42c96e7397dabea9cc9b925d98297141e91d4d5da718e8",
+    "student_policy.py": "40ac5ad5409569bdb10e72dba7b0084904202c2f2f01e0dfbd1f33a3dc166a30",
+    "teacher_interface.py": "249997706e5df3ffb2256294b9f0914dffbb88130cad38b41cf5ede4ea36b256",
+    "trajectory.py": "2f905cc683acb0ba9fd5b60a4f1ba4cef6fa2de85c0317d832b2af1ce7accb07",
+    "collect_demos.py": "b0a839922a86237b336b1a4dee36507c89a60ea5410867b1f0cf6f1e39d7c50b",
+    "train_imitation.py": "170583cec732afa168c3d47a138e133441bf76cfbdd76ff44cb38a446992ada3",
+    "run_dagger.py": "1e964ccea7840c99953228bf238e2a6131a9fb650ebe2a4b669a52180632fb5e",
+    "happo_kernel.py": "60b1647ac196483e7031c3f0a7fc787bc89d0da584b85f0b0bf8b443121e7b5d",
+    "kl_control.py": "0f5b265d419d84fbd0b336b76dbe3aafb637367a7362fb48a1d187c065ca8997",
+    "checkpointing.py": "9a8d9e88b4f829c996ff25964d3fef0b1969765619e152508c0de4ea19bcf997"
+  },
+  "preflight_sha256": "584b880a726da4c913d3fed30f0c2bb661de4d3b02922033cffcc99ac181a238"
+}

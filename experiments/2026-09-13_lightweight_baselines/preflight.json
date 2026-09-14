@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "unit": {
+    "state": "PASS",
+    "original_UAVGreedy_exact": true,
+    "predictor_construction_calls": 0,
+    "fixed_tie_ordering": true,
+    "mask_and_empty_boundaries": true,
+    "original_helpers_resource_exact": true,
+    "mixed_instruction_batch_and_rowwise": true,
+    "input_tensors_unmodified": true,
+    "no_hidden_or_future_interface": true,
+    "allocation_no_physical_transition": true,
+    "lower_bound_once": true
+  },
+  "reference_replay_cases": 13,
+  "reference_replay_samples": 156000,
+  "repeat_complete_episodes": 16,
+  "prefix_steps": 1200,
+  "total_physical_steps": 10800,
+  "reference_replay_physical_steps": 0,
+  "full_new_physics_and_exact_repeat": true,
+  "forbidden_calls": [],
+  "elapsed_seconds": 26.402413113974035,
+  "source_sha256": "be3390df61139d6a37897993f1745fcc03b5d80fe1aa85f8c7844264921dd47f"
+}

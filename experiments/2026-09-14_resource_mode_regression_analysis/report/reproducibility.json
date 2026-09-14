@@ -1,0 +1,18 @@
+{
+  "state": "PASS",
+  "aggregation_runs": 2,
+  "first_sha256": {
+    "report/summary.json": "4fea4dacc6657d3b1c5a51932b5ab97caa71a9ad2d0dfe6ebf4a37c131928599",
+    "report/REPORT.md": "8a4912b5f74f45575ef55e737d0c3424adaf26055992839babd533a53821495e"
+  },
+  "second_sha256": {
+    "report/summary.json": "4fea4dacc6657d3b1c5a51932b5ab97caa71a9ad2d0dfe6ebf4a37c131928599",
+    "report/REPORT.md": "8a4912b5f74f45575ef55e737d0c3424adaf26055992839babd533a53821495e"
+  },
+  "unchanged_numeric_inputs": {
+    "report/results.json": "6bedfce7bb50f175f9a3a591e8ef3ceca166e3c3fa7328cabc933ed2cdf02243",
+    "report/same_load_opportunity.json": "ad4ed4de4f73b4d3d2a9148e1e37ae44ee221b8587b030a15f63e89617430bcb",
+    "report/budget_capacity.json": "07181dc8e5777444cc2bc06f8218041baed2b53b1deee92c1e7590d0534a40ca"
+  },
+  "timestamps_separated": true
+}

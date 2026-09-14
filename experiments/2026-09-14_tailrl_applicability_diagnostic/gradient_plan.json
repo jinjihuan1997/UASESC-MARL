@@ -1,0 +1,39 @@
+{
+  "checkpoint": 6000000,
+  "scene": "fixed_2",
+  "parents": [
+    104948945,
+    111868397,
+    160441552
+  ],
+  "environments": [
+    232720412,
+    218167351,
+    245043960,
+    223828264,
+    286277135,
+    205988792,
+    211075276,
+    207198655
+  ],
+  "action_repetitions": 16,
+  "head_names": [
+    "baseline_GAE",
+    "tail_quality",
+    "tail_total",
+    "expected_quality",
+    "negative_AoI_cost",
+    "negative_resource_cost",
+    "feasible_success",
+    "safe_success",
+    "negative_service_exceedance",
+    "tail_quality_feasible_part",
+    "baseline_GAE_feasible_part"
+  ],
+  "batch_size": 1536,
+  "logp_absolute_tolerance": 1e-05,
+  "ratio_absolute_tolerance": 1e-05,
+  "autograd_method": "torch.autograd.grad; ascent gradient mean(logpi * detached weight)",
+  "optimizer_instances": 0,
+  "optimizer_steps": 0
+}

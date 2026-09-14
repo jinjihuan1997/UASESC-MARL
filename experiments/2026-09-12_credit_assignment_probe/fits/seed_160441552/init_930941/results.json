@@ -1,0 +1,526 @@
+{
+  "parent_seed": 160441552,
+  "initialization_seed": 930941,
+  "epochs": 50,
+  "device": "cuda:0",
+  "parameter_count": 118785,
+  "matched_initialization_hash": "f9a8c45f633a26ec7a995e883c82db44c1d5d461c6e6d75c4ef2bb5467fab999",
+  "fit_environment_seeds": [
+    1561379015,
+    1756024822,
+    1230521832,
+    1515908811,
+    928094584,
+    491730400,
+    1898317899,
+    1704486172
+  ],
+  "holdout_environment_seeds": [
+    458508367,
+    572357234,
+    1772891497,
+    1752029611
+  ],
+  "fit_slots": 19200,
+  "holdout_slots": 9600,
+  "fit_episodes": 32,
+  "holdout_episodes": 16,
+  "gamma": 0.99,
+  "normalization_fit_only": true,
+  "metrics": {
+    "P0": {
+      "n_slots": 9600,
+      "mse": 19.628078669772517,
+      "mae": 3.2216602762055335,
+      "explained_variance": 0.460728696946234,
+      "residual_mean": 1.4472207900290681,
+      "residual_variance": 17.53363065468016
+    },
+    "P1": {
+      "n_slots": 9600,
+      "mse": 21.25986307957413,
+      "mae": 3.404730817284128,
+      "explained_variance": 0.454759465603533,
+      "residual_mean": 1.87940188750907,
+      "residual_variance": 17.727711624801476
+    }
+  },
+  "grouped": {
+    "P0": {
+      "by_instruction": {
+        "0": {
+          "n_slots": 5216,
+          "mse": 18.408447808428505,
+          "mae": 3.0991154714790126,
+          "explained_variance": -0.7250674882022876,
+          "residual_mean": 2.012445765940665,
+          "residual_variance": 14.358509847575997
+        },
+        "1": {
+          "n_slots": 1200,
+          "mse": 56.70812954002715,
+          "mae": 6.384746252558156,
+          "explained_variance": -2.0735533375447632,
+          "residual_mean": -0.4191430778354736,
+          "residual_variance": 56.532448620329745
+        },
+        "2": {
+          "n_slots": 3184,
+          "mse": 7.6511733709235275,
+          "mae": 2.2302942365794,
+          "explained_variance": -0.6268031201865378,
+          "residual_mean": 1.2246778148665554,
+          "residual_variance": 6.151337620697206
+        }
+      },
+      "by_remaining_slots": {
+        "1-100": {
+          "n_slots": 1600,
+          "mse": 17.874795058581114,
+          "mae": 2.68302951993198,
+          "explained_variance": 0.06383667949218119,
+          "residual_mean": -1.9817565814717,
+          "residual_variance": 13.947435910374715
+        },
+        "101-300": {
+          "n_slots": 3200,
+          "mse": 11.001632888031377,
+          "mae": 2.0978133005692055,
+          "explained_variance": 0.6747932465279061,
+          "residual_mean": -0.6959346433266886,
+          "residual_variance": 10.51730786024913
+        },
+        "301-600": {
+          "n_slots": 4800,
+          "mse": 25.963470394663744,
+          "mae": 4.1504351787209375,
+          "explained_variance": 0.7445990183852526,
+          "residual_mean": 4.018983536099828,
+          "residual_variance": 9.811241731222264
+        }
+      },
+      "by_uav_budget_share": {
+        "0": {
+          "0.00-0.15": {
+            "n_slots": 1626,
+            "mse": 18.17199002637631,
+            "mae": 3.191709810055789,
+            "explained_variance": 0.518999627644962,
+            "residual_mean": 1.5987699948318768,
+            "residual_variance": 15.615924530001594
+          },
+          "0.15-0.25": {
+            "n_slots": 2055,
+            "mse": 19.577502298047133,
+            "mae": 3.201450850950408,
+            "explained_variance": 0.488184364197222,
+            "residual_mean": 1.4679331597944276,
+            "residual_variance": 17.422674536423084
+          },
+          "0.25-0.35": {
+            "n_slots": 2078,
+            "mse": 19.588044892749334,
+            "mae": 3.1583758225320153,
+            "explained_variance": 0.4296709531191737,
+            "residual_mean": 1.3174597388262874,
+            "residual_variance": 17.852344729321107
+          },
+          "0.35-0.50": {
+            "n_slots": 2429,
+            "mse": 20.967488038225184,
+            "mae": 3.3092458348605787,
+            "explained_variance": 0.426155163887155,
+            "residual_mean": 1.4750017306564653,
+            "residual_variance": 18.791857932785618
+          },
+          "0.50-0.70": {
+            "n_slots": 1301,
+            "mse": 18.862160810799878,
+            "mae": 3.199291185617405,
+            "explained_variance": 0.459073426282815,
+            "residual_mean": 1.3943072147681745,
+            "residual_variance": 16.91806820164529
+          },
+          "0.70-1.01": {
+            "n_slots": 111,
+            "mse": 22.310588086564756,
+            "mae": 3.5648295237225787,
+            "explained_variance": 0.3464326657008745,
+            "residual_mean": 1.2852495661792707,
+            "residual_variance": 20.658721639200746
+          }
+        },
+        "1": {
+          "0.00-0.15": {
+            "n_slots": 689,
+            "mse": 22.835031874266527,
+            "mae": 3.5084267017400226,
+            "explained_variance": 0.37146042511848154,
+            "residual_mean": 1.450808105216856,
+            "residual_variance": 20.730187716103604
+          },
+          "0.15-0.25": {
+            "n_slots": 1843,
+            "mse": 20.507317616775275,
+            "mae": 3.2846321025502454,
+            "explained_variance": 0.45652430443936487,
+            "residual_mean": 1.4006141885143735,
+            "residual_variance": 18.545597511707502
+          },
+          "0.25-0.35": {
+            "n_slots": 2286,
+            "mse": 19.61064423080713,
+            "mae": 3.2327696580674417,
+            "explained_variance": 0.45601850134880484,
+            "residual_mean": 1.3400497465989132,
+            "residual_variance": 17.814910907447317
+          },
+          "0.35-0.50": {
+            "n_slots": 2962,
+            "mse": 19.610093200172713,
+            "mae": 3.2203893807891624,
+            "explained_variance": 0.4688904068565585,
+            "residual_mean": 1.5742645722405506,
+            "residual_variance": 17.13178425676099
+          },
+          "0.50-0.70": {
+            "n_slots": 1658,
+            "mse": 17.808558220222917,
+            "mae": 3.0514176168058977,
+            "explained_variance": 0.4864072613125685,
+            "residual_mean": 1.4342985517173343,
+            "residual_variance": 15.751345884764474
+          },
+          "0.70-1.01": {
+            "n_slots": 162,
+            "mse": 15.18280000656431,
+            "mae": 2.8944475072240716,
+            "explained_variance": 0.5581796219672339,
+            "residual_mean": 1.2838794315042197,
+            "residual_variance": 13.53445361192471
+          }
+        },
+        "2": {
+          "0.00-0.15": {
+            "n_slots": 1321,
+            "mse": 18.086237396664263,
+            "mae": 3.1331638450247015,
+            "explained_variance": 0.4379066188898748,
+            "residual_mean": 1.4560428357348842,
+            "residual_variance": 15.966176657169383
+          },
+          "0.15-0.25": {
+            "n_slots": 2230,
+            "mse": 18.560876578155376,
+            "mae": 3.1101574784139494,
+            "explained_variance": 0.47975961953287616,
+            "residual_mean": 1.4802311446188097,
+            "residual_variance": 16.369792336655866
+          },
+          "0.25-0.35": {
+            "n_slots": 2277,
+            "mse": 20.731212896205697,
+            "mae": 3.2722153135891543,
+            "explained_variance": 0.44029258687779105,
+            "residual_mean": 1.5239986409899693,
+            "residual_variance": 18.408641038466424
+          },
+          "0.35-0.50": {
+            "n_slots": 2385,
+            "mse": 20.556586569167028,
+            "mae": 3.3245665630475414,
+            "explained_variance": 0.4406798017589959,
+            "residual_mean": 1.2764956033696193,
+            "residual_variance": 18.92714554374506
+          },
+          "0.50-0.70": {
+            "n_slots": 1245,
+            "mse": 19.093665172899527,
+            "mae": 3.1902969662236003,
+            "explained_variance": 0.5156377565363155,
+            "residual_mean": 1.4736881641293278,
+            "residual_variance": 16.921908367804658
+          },
+          "0.70-1.01": {
+            "n_slots": 142,
+            "mse": 22.13265483910233,
+            "mae": 3.531921060374046,
+            "explained_variance": 0.47728852939809463,
+            "residual_mean": 2.2510060694479663,
+            "residual_variance": 17.065626514410745
+          }
+        }
+      }
+    },
+    "P1": {
+      "by_instruction": {
+        "0": {
+          "n_slots": 5216,
+          "mse": 20.209696708067217,
+          "mae": 3.2682637947289903,
+          "explained_variance": -0.7274144395789592,
+          "residual_mean": 2.4148813909430595,
+          "residual_variance": 14.378044575744132
+        },
+        "1": {
+          "n_slots": 1200,
+          "mse": 57.302225582590566,
+          "mae": 6.432328282142806,
+          "explained_variance": -2.113080227677902,
+          "residual_mean": -0.20676408360261472,
+          "residual_variance": 57.25947419632254
+        },
+        "2": {
+          "n_slots": 3184,
+          "mse": 9.396431166936043,
+          "mae": 2.487235538332239,
+          "explained_variance": -0.6391324086297041,
+          "residual_mean": 1.7884276649658317,
+          "residual_variance": 6.1979576541209065
+        }
+      },
+      "by_remaining_slots": {
+        "1-100": {
+          "n_slots": 1600,
+          "mse": 16.691492794505773,
+          "mae": 2.5787277524483385,
+          "explained_variance": 0.053260770673138835,
+          "residual_mean": -1.6082573273977234,
+          "residual_variance": 14.105001163377306
+        },
+        "101-300": {
+          "n_slots": 3200,
+          "mse": 10.418207549185603,
+          "mae": 2.0670778608381095,
+          "explained_variance": 0.680500731804607,
+          "residual_mean": -0.29237286865289347,
+          "residual_variance": 10.332725654861276
+        },
+        "301-600": {
+          "n_slots": 4800,
+          "mse": 30.01042352818927,
+          "mae": 4.571833809860071,
+          "explained_variance": 0.7435360317570978,
+          "residual_mean": 4.489804796585976,
+          "residual_variance": 9.85207641674283
+        }
+      },
+      "by_uav_budget_share": {
+        "0": {
+          "0.00-0.15": {
+            "n_slots": 1626,
+            "mse": 19.72482452417975,
+            "mae": 3.355399570733045,
+            "explained_variance": 0.5122345432461743,
+            "residual_mean": 1.9721227266583803,
+            "residual_variance": 15.835556475177263
+          },
+          "0.15-0.25": {
+            "n_slots": 2055,
+            "mse": 21.13880307859632,
+            "mae": 3.382434254579789,
+            "explained_variance": 0.48139300289155673,
+            "residual_mean": 1.8668005686007696,
+            "residual_variance": 17.653858715668164
+          },
+          "0.25-0.35": {
+            "n_slots": 2078,
+            "mse": 21.46982438966648,
+            "mae": 3.3777089087981986,
+            "explained_variance": 0.41418473608812434,
+            "residual_mean": 1.7699527329838767,
+            "residual_variance": 18.33709171266938
+          },
+          "0.35-0.50": {
+            "n_slots": 2429,
+            "mse": 22.671792479332147,
+            "mae": 3.4774317440710445,
+            "explained_variance": 0.42206765041793026,
+            "residual_mean": 1.9354791643310303,
+            "residual_variance": 18.925712883772604
+          },
+          "0.50-0.70": {
+            "n_slots": 1301,
+            "mse": 20.087627151991082,
+            "mae": 3.373196669937762,
+            "explained_variance": 0.46727583960526387,
+            "residual_mean": 1.8509722762958432,
+            "residual_variance": 16.66152878437527
+          },
+          "0.70-1.01": {
+            "n_slots": 111,
+            "mse": 24.899086687520878,
+            "mae": 3.8247213003061353,
+            "explained_variance": 0.3276365332863901,
+            "residual_mean": 1.9095116874279285,
+            "residual_variance": 21.252851803097023
+          }
+        },
+        "1": {
+          "0.00-0.15": {
+            "n_slots": 689,
+            "mse": 24.41541485501102,
+            "mae": 3.6840746569492735,
+            "explained_variance": 0.37473042665671197,
+            "residual_mean": 1.9475822820221065,
+            "residual_variance": 20.622338109764588
+          },
+          "0.15-0.25": {
+            "n_slots": 1843,
+            "mse": 21.61795724377445,
+            "mae": 3.441147524345115,
+            "explained_variance": 0.46569831006518525,
+            "residual_mean": 1.8399494707747353,
+            "residual_variance": 18.23254318877022
+          },
+          "0.25-0.35": {
+            "n_slots": 2286,
+            "mse": 21.496705139424442,
+            "mae": 3.4359148394288272,
+            "explained_variance": 0.44128891533209347,
+            "residual_mean": 1.7886904072511143,
+            "residual_variance": 18.297291766432288
+          },
+          "0.35-0.50": {
+            "n_slots": 2962,
+            "mse": 21.19346622282382,
+            "mae": 3.379207453410043,
+            "explained_variance": 0.4634043714109791,
+            "residual_mean": 1.9709696018348162,
+            "residual_variance": 17.30874505146693
+          },
+          "0.50-0.70": {
+            "n_slots": 1658,
+            "mse": 19.71054470747117,
+            "mae": 3.2715126136015833,
+            "explained_variance": 0.47133768715148283,
+            "residual_mean": 1.870035007069646,
+            "residual_variance": 16.213513779805197
+          },
+          "0.70-1.01": {
+            "n_slots": 162,
+            "mse": 17.49365125195752,
+            "mae": 3.1924185594769336,
+            "explained_variance": 0.527761967856752,
+            "residual_mean": 1.7399430852083677,
+            "residual_variance": 14.466249312193106
+          }
+        },
+        "2": {
+          "0.00-0.15": {
+            "n_slots": 1321,
+            "mse": 19.443144365276964,
+            "mae": 3.2889267596187475,
+            "explained_variance": 0.44403971823178123,
+            "residual_mean": 1.9108054475463117,
+            "residual_variance": 15.791966906904305
+          },
+          "0.15-0.25": {
+            "n_slots": 2230,
+            "mse": 20.74619985386778,
+            "mae": 3.350171321681809,
+            "explained_variance": 0.4633435968974462,
+            "residual_mean": 1.9646536171636937,
+            "residual_variance": 16.886336018433393
+          },
+          "0.25-0.35": {
+            "n_slots": 2277,
+            "mse": 22.472066692357796,
+            "mae": 3.4765270688636045,
+            "explained_variance": 0.429291666802878,
+            "residual_mean": 1.9239563564007434,
+            "residual_variance": 18.770458631022976
+          },
+          "0.35-0.50": {
+            "n_slots": 2385,
+            "mse": 21.733143701861312,
+            "mae": 3.4515563417357957,
+            "explained_variance": 0.4435544363529532,
+            "residual_mean": 1.7038997940249505,
+            "residual_variance": 18.829869193783043
+          },
+          "0.50-0.70": {
+            "n_slots": 1245,
+            "mse": 20.860819229356142,
+            "mae": 3.3851370051838257,
+            "explained_variance": 0.5023966811338094,
+            "residual_mean": 1.8644877018262955,
+            "residual_variance": 17.38450483909464
+          },
+          "0.70-1.01": {
+            "n_slots": 142,
+            "mse": 22.338751093445786,
+            "mae": 3.5729011748215993,
+            "explained_variance": 0.5248205389812037,
+            "residual_mean": 2.6124629334902703,
+            "residual_variance": 15.513788514585194
+          }
+        }
+      }
+    }
+  },
+  "paired_cluster_bootstrap": {
+    "cluster": "held-out environment seed; all four action repeats and 600 slots kept together",
+    "clusters": 4,
+    "bootstrap_samples": 2000,
+    "mse_P1_minus_P0_ci95": [
+      -0.1281492452687445,
+      3.3917180648719754
+    ],
+    "mae_P1_minus_P0_ci95": [
+      0.026793490051425062,
+      0.35593018219873784
+    ],
+    "residual_variance_P1_minus_P0_ci95": [
+      -0.4737827380310691,
+      0.39740834680427284
+    ]
+  },
+  "gradient_proxy": {
+    "P0": {
+      "kind": "UAV categorical-logit score-gradient proxy; not full actor gradient or HAPPO update",
+      "baseline_detached": true,
+      "sampled_not_executed_mode": true,
+      "sut_not_evaluated": true,
+      "slot_gradient_variance_trace_per_uav": [
+        16.165444894328996,
+        16.03070935909327,
+        15.686557234549813
+      ],
+      "episode_mean_gradient_variance_trace_per_uav": [
+        0.027161215827960085,
+        0.03013581644666323,
+        0.022620523907693563
+      ],
+      "episode_count": 16,
+      "score_gradient_mean_norm_per_uav": [
+        0.04271375156778179,
+        0.04301136339522582,
+        0.0343190962189022
+      ]
+    },
+    "P1": {
+      "kind": "UAV categorical-logit score-gradient proxy; not full actor gradient or HAPPO update",
+      "baseline_detached": true,
+      "sampled_not_executed_mode": true,
+      "sut_not_evaluated": true,
+      "slot_gradient_variance_trace_per_uav": [
+        17.524603945040116,
+        17.335106630170124,
+        17.032895933112272
+      ],
+      "episode_mean_gradient_variance_trace_per_uav": [
+        0.02796575732200511,
+        0.033421402447119775,
+        0.026383326611864065
+      ],
+      "episode_count": 16,
+      "score_gradient_mean_norm_per_uav": [
+        0.04451416523334315,
+        0.043413262128070805,
+        0.030007812390527213
+      ]
+    }
+  },
+  "elapsed_fitting_seconds": 1.4903396973386407
+}

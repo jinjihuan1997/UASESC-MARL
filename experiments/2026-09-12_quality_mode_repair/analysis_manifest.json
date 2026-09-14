@@ -1,0 +1,10 @@
+{
+  "aggregate_sha256": "c13bc7cefda37e3417660c6fc6f45036770b5710accf9672fea1533ad36b93be",
+  "finalize_sha256": "f4a727e4f636219cde399902fca94cc579430316b9b2b6fb2816ebe5f7ca0c86",
+  "protocol_sha256": "dcf10f4eb3804c84da21dc5c2dab53de3c61e45ed1b71ab0af1fc68e7567728f",
+  "prior_manifest": "analysis_revisions/cast_fix/analysis_manifest.json",
+  "prior_aggregate_sha256": "35563b5b6b80ce94bd37d9b342f4bba6d1f2cc6050c4edf7025cb5b085e20692",
+  "amendment": "Conclusion prose made explicit from verified results; numerical/statistical/execution code unchanged.",
+  "numeric_results_expected_sha256": "3d9c2ca7748ad08f58ed99e5742cc4947c6753a416ee2a05385e77e021afe0e8",
+  "utc": "2026-09-12T13:12:14.539126+00:00"
+}

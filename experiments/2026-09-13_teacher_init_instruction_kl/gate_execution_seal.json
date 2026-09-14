@@ -1,0 +1,15 @@
+{
+  "manifest_sha256": "0a6cff9c482cd3ccbebccbb25f22d2a47f979c5547a791e6390b12e3474761fd",
+  "sources": {
+    "evaluate.py": "c8e6b4e88c121b8d9bbf436a71b0a032283296c7119fec57f3770e5406672a9d",
+    "audit_trajectories.py": "f71a83493b4a5f0be8641feca3a0b645ae151d027ab1fe6df29e49d5663807ee",
+    "gate_check.py": "6b2540229eba3b8b733eec5453a709ccd90f250fd129839180d801837277595e"
+  },
+  "A3_checkpoints": {
+    "1032592498": "9ff58165722b13b9bdfa9ccc7df221b03107317bb8c8854f5012fc5d36029d95",
+    "788864185": "c0f1e8b87c54404c4e0833457e2cf9a61ba2b6c59407ab54177cd792b35f222f",
+    "1626362722": "2e0100eff9e19a66f6d610b4ccfdb2a1d39890e1f86d4ea74528742219dc81d1"
+  },
+  "sealed_before_gate_evaluation": true,
+  "utc": "2026-09-13T05:17:40.393038+00:00"
+}

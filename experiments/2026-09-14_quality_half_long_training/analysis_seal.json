@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "evaluate.py": "f1c3afd7d0ec5edb19e3ffdfd2078cb0aa01d1e6d77c646e97e08e9c7652270b",
+    "aggregate.py": "138380450056b1ba9eec940b0427ca4d0c6afb36bc94a3881c7bd1fb75c745de",
+    "finalize.py": "952a879062dc2cd9a32e79a868c04636badf43bb8a1940ccf1c0a61dbf757a83",
+    "validate_pipeline.py": "fbff85dbf5dc41a77cc3132ccc8879626cfa6cfdefc5a2f56891151f0c96a2e2",
+    "EXECUTION.md": "1426b7c6aea19b663af05da7019eae570cca7df480c972d55a1f1c0fbc561971"
+  },
+  "fixed_before_final_evaluation": true
+}

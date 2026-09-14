@@ -1,0 +1,9 @@
+{
+  "sources": {
+    "weight_support.py": "7c43187a03804485cc7dd9d5f8187be65c66fc72ddc38b64ee5b684df9e4be58",
+    "evaluate.py": "ff612579fe43665c35789abc6254e4a8c527abf6713495078c4bddfe491944bd",
+    "preflight.py": "c063aab4b05bf2b90430f9877a651fefc8da130a2ba959040b5387cfe7022c57",
+    "PREFLIGHT_AMENDMENT.md": "4c3188b37872f1c8bc666ce4a199076e0339fd9bf0d7e0fa0d2d5d6e6b606949"
+  },
+  "manifest_sha256": "d042e305325fa136e67cea3d9c2c9643590c803ddba5449b68c416d32fd2fd93"
+}

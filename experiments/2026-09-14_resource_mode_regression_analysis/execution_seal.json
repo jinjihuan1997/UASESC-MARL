@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "aggregate.py": "1cf79a122b71483f067f0c68396eb1b6ff008a4100a6482efdbc24590af9b55a",
+    "analysis_support.py": "242af0cf3d1aeafacac4560be59b68e7c82e14d1c9289f189db0cea71408e917",
+    "analyze.py": "3f00277a6d7b90b38f159681d7da8bb482fe8f66d01171414ab6e49589c2e2e8",
+    "budget_capacity.py": "88a5c9a2114d306e44701faa67b15b452d58bc8982ad74049a87d3cdaa33c433",
+    "finalize.py": "48f3c92d0b3a7d13c2eaae7fe85df55c7b85988196c149b4420f1127096f77ef",
+    "opportunity.py": "fb61f309440dc73ffc1241898305ecb8e728d2fdab09c2a725cbc3291b3d3d97"
+  },
+  "protocol_sha256": "338593996d46eb54d42b7742f70a1d13a5ef0cb11e891cd2a9e951fcc9f64db9",
+  "exploratory_definition_sha256": "da96c69cd92759cb566d1106e21628bd53a5d058642445f2c315d85cfcbc5221"
+}

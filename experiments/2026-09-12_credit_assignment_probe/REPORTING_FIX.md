@@ -1,0 +1,5 @@
+# 报告读取修正
+
+所有2280个执行回合、144个探针回合与18个离线网络均已完成。首轮汇总因原始NPZ与运行时别名混淆而报KeyError。现只将等价组读取改成原始键bar_ls_main_mean和avg_kept_real_symbols_mean（与冻结semantic_registry.py的字段转换一致）。不改变数值、物理模型、奖励、种子、统计定义、容差和拟合设置。
+
+原报告脚本、support及manifest保存在logs/before_reporting_fix_*；原采样/拟合code身份仍保留于manifest.diagnostic_code_sha256，新报告修正哈希单独记录于analysis_amendment，验证时逐项检查原版备份与修正版。只恢复汇总，新增采样与重新拟合数量均为0。

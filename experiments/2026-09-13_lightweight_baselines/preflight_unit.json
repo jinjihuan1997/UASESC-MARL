@@ -1,0 +1,13 @@
+{
+  "state": "PASS",
+  "original_UAVGreedy_exact": true,
+  "predictor_construction_calls": 0,
+  "fixed_tie_ordering": true,
+  "mask_and_empty_boundaries": true,
+  "original_helpers_resource_exact": true,
+  "mixed_instruction_batch_and_rowwise": true,
+  "input_tensors_unmodified": true,
+  "no_hidden_or_future_interface": true,
+  "allocation_no_physical_transition": true,
+  "lower_bound_once": true
+}

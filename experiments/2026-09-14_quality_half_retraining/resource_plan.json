@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "concurrency": 3,
+  "torch_threads": 1,
+  "blas_threads": 1,
+  "cpu_ids": [
+    0,
+    1,
+    2
+  ],
+  "cpu_seconds_per_4000": 2.2004602337256074,
+  "gpu_seconds_per_4000": 3.1636020904406905,
+  "reason": "Same CPU arithmetic and fresh initialization as original joint runs; measured throughput recorded",
+  "nominal_serial_seconds_per_seed": 550.1150584314018
+}

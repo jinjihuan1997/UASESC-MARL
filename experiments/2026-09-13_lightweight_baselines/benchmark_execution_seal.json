@@ -1,0 +1,121 @@
+{
+  "manifest_sha256": "494f443053f97384d3f32bff02637cf1f97452f7ac82780dc4bc8272b2c39189",
+  "source_sha256": "014f6ffe9de346ce1c1bffbdae1a87d38b033703f993d21f46063520b93103d1",
+  "protocol": {
+    "device": "cpu",
+    "torch_threads": 1,
+    "blas_threads": 1,
+    "batch_sizes": [
+      1,
+      20
+    ],
+    "warmup": 30,
+    "repeats": 300,
+    "fixtures": {
+      "source": "R_instruction",
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1",
+        "early50_0_to_1",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0"
+      ],
+      "slots": [
+        0,
+        300,
+        599
+      ],
+      "single_row": "fixture_index mod20"
+    },
+    "order_seed": 202609131830,
+    "instances": [
+      {
+        "method": "G_equal_local16",
+        "parent": null
+      },
+      {
+        "method": "G_urgency_local16",
+        "parent": null
+      },
+      {
+        "method": "R_equal_minload",
+        "parent": null
+      },
+      {
+        "method": "R_equal_maxquality",
+        "parent": null
+      },
+      {
+        "method": "greedy_modes_16",
+        "parent": null
+      },
+      {
+        "method": "greedy_modes_3",
+        "parent": null
+      },
+      {
+        "method": "R_instruction",
+        "parent": null
+      },
+      {
+        "method": "R_equal_instruction",
+        "parent": null
+      },
+      {
+        "method": "R_equal_single",
+        "parent": null
+      },
+      {
+        "method": "R_single",
+        "parent": null
+      },
+      {
+        "method": "original_rl",
+        "parent": 104948945
+      },
+      {
+        "method": "original_rl",
+        "parent": 111868397
+      },
+      {
+        "method": "original_rl",
+        "parent": 160441552
+      },
+      {
+        "method": "C1",
+        "parent": 104948945
+      },
+      {
+        "method": "C1",
+        "parent": 111868397
+      },
+      {
+        "method": "C1",
+        "parent": 160441552
+      },
+      {
+        "method": "C3",
+        "parent": 104948945
+      },
+      {
+        "method": "C3",
+        "parent": 111868397
+      },
+      {
+        "method": "C3",
+        "parent": 160441552
+      }
+    ],
+    "timing_scope": "SUT input handling and resource decision + original allocate_resources budget and post-observation/mask generation + 3 local UAV mode decisions; no physical transition/log/audit/disk/model loading",
+    "planned_decision_batches": 12540,
+    "planned_sample_decisions": 131670
+  }
+}

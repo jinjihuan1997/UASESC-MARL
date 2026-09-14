@@ -1,0 +1,12 @@
+{
+  "code_sha256": {
+    "aggregate.py": "adda97d3067b1456f7badb5c5e0b0c247386fe8fcb160bd1968294bfff24f426",
+    "report_writer.py": "b8681ba4a5e7969dddbba15c6be160fdbfd50d9edf1e5c042faf5d3aa7dfe3a5",
+    "focus_statistics.py": "d54fb2c207fa6d4e540e50f921987cf9bbb1b09b9dc608fce51817cbb4128623",
+    "run_evaluation.py": "7324983a266f329b8daa0085731357d3eef14d6c68a5b3f24823bfba286d5ba6",
+    "run_evaluation.sh": "3bbd037a8cdf5e104f922e0dc6fcb1c1a7854e79e3af04fc3c08b03b793a8f89"
+  },
+  "protocol_sha256": "71b58e9a6bc02440b9d2f2d0befe6adaa5b10e939c6aee80e659c1cfbcc21dbc",
+  "execution_seal_sha256": "735091dbe838728097db251ff8965685324e263d528109078a2959d7f8d25967",
+  "enhancement": "Add explicit evidence conclusions and all-13-scenario quality focus; no reward, route, dataset, checkpoint, or evaluation changes; initial full pass retained in aggregation_runs/initial_pass.json"
+}

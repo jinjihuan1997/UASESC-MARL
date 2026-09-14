@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "cpu_ids": [
+    14,
+    15,
+    16
+  ],
+  "concurrency": 3,
+  "torch_threads": 1,
+  "blas_threads": 1,
+  "measured_seconds_per_4000": 3.1491735111922026,
+  "estimated_new_training_seconds": 7085.640400182456,
+  "other_processes_untouched": true,
+  "device_reason": "Retain CPU full optimizer/RNG/execution state; prior same-day CPU/GPU measurements also favored CPU"
+}

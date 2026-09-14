@@ -1,0 +1,6510 @@
+{
+  "verdict": "Not supported as a likely no-regression remedy; partial quality-only tails exist in one of three current models, with AoI/QoE regression",
+  "scope": "Current half-quality reward, immutable 1M and 6M snapshots; original 13-scene history, controlled sampling in fixed Quality and two Quality-first switches",
+  "conditioned_means": {
+    "1000000": {
+      "deltaQ": {
+        "mean": -0.018431921717174317,
+        "ci95": [
+          -0.019422719893309154,
+          -0.017489547597100516
+        ]
+      },
+      "Q": {
+        "mean": 0.18379750120570676,
+        "ci95": [
+          0.17947810994340274,
+          0.1880529540307762
+        ]
+      },
+      "success_feasible": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "success_safe": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "full_total": {
+        "mean": -0.020765463062456295,
+        "ci95": [
+          -0.022820258107076382,
+          -0.01876178774657427
+        ]
+      }
+    },
+    "6000000": {
+      "deltaQ": {
+        "mean": -0.012223776158681051,
+        "ci95": [
+          -0.013039697290597816,
+          -0.01134892628562141
+        ]
+      },
+      "Q": {
+        "mean": 0.19617559916380647,
+        "ci95": [
+          0.19149093158312713,
+          0.20079692799446103
+        ]
+      },
+      "success_feasible": {
+        "mean": 0.03333333333333333,
+        "ci95": [
+          0.005208333333333333,
+          0.07395833333333332
+        ]
+      },
+      "success_safe": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "full_total": {
+        "mean": -0.015143359478952984,
+        "ci95": [
+          -0.01730021347775714,
+          -0.013006779409748242
+        ]
+      }
+    }
+  },
+  "per_model_scenario": {
+    "104948945/1000000/fixed_2": {
+      "quality": {
+        "n": 320,
+        "mean": 0.18763217468297314,
+        "median": 0.18845682024343507,
+        "std": 0.00981260103500274,
+        "p50": 0.18845682024343507,
+        "p75": 0.19286774800817863,
+        "p90": 0.20027279855934715,
+        "p95": 0.2042218294543268,
+        "p99": 0.20885163105365626,
+        "maximum": 0.2104581918130624
+      },
+      "delta_quality": {
+        "n": 320,
+        "mean": -0.04068418390644106,
+        "median": -0.04022898381521464,
+        "std": 0.004029056615499983,
+        "p50": -0.04022898381521464,
+        "p75": -0.037905430692339995,
+        "p90": -0.03583565436441492,
+        "p95": -0.034900487943634,
+        "p99": -0.03168999953947712,
+        "maximum": -0.0301308159345946
+      },
+      "delta_psnr": {
+        "n": 320,
+        "mean": -0.3944172474309692,
+        "median": -0.4067432574153216,
+        "std": 0.16289310363269813,
+        "p50": -0.4067432574153216,
+        "p75": -0.2571675173626735,
+        "p90": -0.1854517627807283,
+        "p95": -0.13941942862622284,
+        "p99": -0.06138437412801841,
+        "maximum": -0.04807361434492208
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.02464163770630148,
+        "ci95": [
+          -0.025182524910194383,
+          -0.02414737660561031
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 2.435281865808338e-06,
+        "between_environment_mean_Q_variance": 9.385185720632843e-05,
+        "between_minus_sampling_variance": 9.369965208971541e-05,
+        "Q_envmean_vs_SNR_correlation": 0.9830241791874405,
+        "within_environment_Q_vs_total_correlation": 0.6773162327784105,
+        "environment_fraction_with_any_positive_delta": 0.0,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9888101945230524,
+        "mean_aoi": -0.9298990916484248,
+        "age_mean_cost": -0.929899091648425,
+        "age_max_cost": -0.8740683083830437,
+        "age_tail_cost": -0.8809044055189985,
+        "resource": -0.8496419762421655,
+        "delta_quality": 0.03718423240811649
+      },
+      "top10_Q_given_top10_R_within_environment": 0.45,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        }
+      },
+      "success_detail": {
+        "feasible_count": 0,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quality_delta_mean": null,
+        "quality_stage_reward_difference": null,
+        "full_reward_difference": null,
+        "psnr_delta": null
+      }
+    },
+    "104948945/6000000/fixed_2": {
+      "quality": {
+        "n": 320,
+        "mean": 0.1965706346748315,
+        "median": 0.1975357102038847,
+        "std": 0.010783034661446245,
+        "p50": 0.1975357102038847,
+        "p75": 0.20242371755198937,
+        "p90": 0.20951794161727189,
+        "p95": 0.21319553263147054,
+        "p99": 0.22046098789585064,
+        "maximum": 0.22210574730395885
+      },
+      "delta_quality": {
+        "n": 320,
+        "mean": -0.021562557557244566,
+        "median": -0.021750743427578295,
+        "std": 0.0025303960393052113,
+        "p50": -0.021750743427578295,
+        "p75": -0.02029978153771335,
+        "p90": -0.01860599077577874,
+        "p95": -0.017431699869881467,
+        "p99": -0.01405163055173701,
+        "maximum": -0.011404202012531589
+      },
+      "delta_psnr": {
+        "n": 320,
+        "mean": 0.16986786536356374,
+        "median": 0.16319992313924203,
+        "std": 0.08777180110352806,
+        "p50": 0.16319992313924203,
+        "p75": 0.23107143380929962,
+        "p90": 0.28145022868994224,
+        "p95": 0.3300314227270148,
+        "p99": 0.4050388969874735,
+        "maximum": 0.4562051414437249
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.01741399021412289,
+        "ci95": [
+          -0.017976075769017958,
+          -0.016878493155782052
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 2.550719704041522e-06,
+        "between_environment_mean_Q_variance": 0.00011372311680590979,
+        "between_minus_sampling_variance": 0.00011356369682440719,
+        "Q_envmean_vs_SNR_correlation": 0.9855099964197814,
+        "within_environment_Q_vs_total_correlation": 0.6631329527406827,
+        "environment_fraction_with_any_positive_delta": 0.0,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9918219273302882,
+        "mean_aoi": -0.9225083294348649,
+        "age_mean_cost": -0.922508329434865,
+        "age_max_cost": -0.9217118381810482,
+        "age_tail_cost": -0.927940737924533,
+        "resource": -0.830706071020914,
+        "delta_quality": -0.31174203035682574
+      },
+      "top10_Q_given_top10_R_within_environment": 0.425,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        }
+      },
+      "success_detail": {
+        "feasible_count": 0,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quality_delta_mean": null,
+        "quality_stage_reward_difference": null,
+        "full_reward_difference": null,
+        "psnr_delta": null
+      }
+    },
+    "104948945/6000000/switch300_2_to_0": {
+      "quality": {
+        "n": 160,
+        "mean": 0.19674218662072196,
+        "median": 0.1970634924176093,
+        "std": 0.01123604007444081,
+        "p50": 0.1970634924176093,
+        "p75": 0.20379578727060604,
+        "p90": 0.2091609967696504,
+        "p95": 0.21408175227545304,
+        "p99": 0.22287942535439753,
+        "maximum": 0.22454481854355304
+      },
+      "delta_quality": {
+        "n": 160,
+        "mean": -0.021401657008944558,
+        "median": -0.021603932365778164,
+        "std": 0.0031826780391619146,
+        "p50": -0.021603932365778164,
+        "p75": -0.019273435308239877,
+        "p90": -0.01732943718868845,
+        "p95": -0.01602847052478691,
+        "p99": -0.014230448235902785,
+        "maximum": -0.010331960955932556
+      },
+      "delta_psnr": {
+        "n": 160,
+        "mean": 0.2094891678679752,
+        "median": 0.19857906017115035,
+        "std": 0.11909050495982178,
+        "p50": 0.19857906017115035,
+        "p75": 0.29966169097266615,
+        "p90": 0.3702082988285881,
+        "p95": 0.3961649894507037,
+        "p99": 0.4457130800109663,
+        "maximum": 0.5905961478039821
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.01828926448306943,
+        "ci95": [
+          -0.01861286730901019,
+          -0.017950493868224785
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 5.421528984797667e-06,
+        "between_environment_mean_Q_variance": 0.00012082706756964229,
+        "between_minus_sampling_variance": 0.00012014937644654259,
+        "Q_envmean_vs_SNR_correlation": 0.9788086058697618,
+        "within_environment_Q_vs_total_correlation": 0.6745377746132452,
+        "environment_fraction_with_any_positive_delta": 0.0,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9835690148803443,
+        "mean_aoi": -0.8620751170571067,
+        "age_mean_cost": -0.8620751170571064,
+        "age_max_cost": -0.8720086941110224,
+        "age_tail_cost": -0.8769556051502947,
+        "resource": -0.6442233442159989,
+        "delta_quality": -0.35718060429213816
+      },
+      "top10_Q_given_top10_R_within_environment": 0.4,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        }
+      },
+      "success_detail": {
+        "feasible_count": 0,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quality_delta_mean": null,
+        "quality_stage_reward_difference": null,
+        "full_reward_difference": null,
+        "psnr_delta": null
+      }
+    },
+    "104948945/6000000/switch300_2_to_1": {
+      "quality": {
+        "n": 160,
+        "mean": 0.19674218662072196,
+        "median": 0.1970634924176093,
+        "std": 0.01123604007444081,
+        "p50": 0.1970634924176093,
+        "p75": 0.20379578727060604,
+        "p90": 0.2091609967696504,
+        "p95": 0.21408175227545304,
+        "p99": 0.22287942535439753,
+        "maximum": 0.22454481854355304
+      },
+      "delta_quality": {
+        "n": 160,
+        "mean": -0.021401657008944558,
+        "median": -0.021603932365778164,
+        "std": 0.0031826780391619146,
+        "p50": -0.021603932365778164,
+        "p75": -0.019273435308239877,
+        "p90": -0.01732943718868845,
+        "p95": -0.01602847052478691,
+        "p99": -0.014230448235902785,
+        "maximum": -0.010331960955932556
+      },
+      "delta_psnr": {
+        "n": 160,
+        "mean": 0.2094891678679752,
+        "median": 0.19857906017115035,
+        "std": 0.11909050495982178,
+        "p50": 0.19857906017115035,
+        "p75": 0.29966169097266615,
+        "p90": 0.3702082988285881,
+        "p95": 0.3961649894507037,
+        "p99": 0.4457130800109663,
+        "maximum": 0.5905961478039821
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.019295968937428794,
+        "ci95": [
+          -0.019652891910457927,
+          -0.018942700120270592
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 5.421528984797667e-06,
+        "between_environment_mean_Q_variance": 0.00012082706756964229,
+        "between_minus_sampling_variance": 0.00012014937644654259,
+        "Q_envmean_vs_SNR_correlation": 0.9788086058697618,
+        "within_environment_Q_vs_total_correlation": 0.6745377746132452,
+        "environment_fraction_with_any_positive_delta": 0.0,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9835690148803443,
+        "mean_aoi": -0.8620751170571067,
+        "age_mean_cost": -0.8620751170571064,
+        "age_max_cost": -0.8720086941110224,
+        "age_tail_cost": -0.8769556051502947,
+        "resource": -0.6442233442159989,
+        "delta_quality": -0.35718060429213816
+      },
+      "top10_Q_given_top10_R_within_environment": 0.4,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        }
+      },
+      "success_detail": {
+        "feasible_count": 0,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quality_delta_mean": null,
+        "quality_stage_reward_difference": null,
+        "full_reward_difference": null,
+        "psnr_delta": null
+      }
+    },
+    "111868397/1000000/fixed_2": {
+      "quality": {
+        "n": 320,
+        "mean": 0.18343424979859563,
+        "median": 0.18473276561617585,
+        "std": 0.009731437692823416,
+        "p50": 0.18473276561617585,
+        "p75": 0.18929816637019165,
+        "p90": 0.19586028764040767,
+        "p95": 0.19971822271351816,
+        "p99": 0.20488874427207307,
+        "maximum": 0.20946560275326312
+      },
+      "delta_quality": {
+        "n": 320,
+        "mean": -0.011416080381893266,
+        "median": -0.011144548578722185,
+        "std": 0.004036358231603482,
+        "p50": -0.011144548578722185,
+        "p75": -0.008584060930293132,
+        "p90": -0.006192224790930985,
+        "p95": -0.004306955932713761,
+        "p99": -0.0034594237518843743,
+        "maximum": -0.0019729396171544455
+      },
+      "delta_psnr": {
+        "n": 320,
+        "mean": 0.6564911873630868,
+        "median": 0.6652443971738649,
+        "std": 0.1068786106968067,
+        "p50": 0.6652443971738649,
+        "p75": 0.7325736820682609,
+        "p90": 0.789753377619142,
+        "p95": 0.8255231705525126,
+        "p99": 0.873986951499757,
+        "maximum": 0.9116053904752874
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.022597104951987676,
+        "ci95": [
+          -0.023270044644792567,
+          -0.021882138194221728
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 2.359262737343584e-06,
+        "between_environment_mean_Q_variance": 9.23416168319606e-05,
+        "between_minus_sampling_variance": 9.219416291087663e-05,
+        "Q_envmean_vs_SNR_correlation": 0.9855035570213831,
+        "within_environment_Q_vs_total_correlation": 0.6784955217853202,
+        "environment_fraction_with_any_positive_delta": 0.0,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9912221098538263,
+        "mean_aoi": -0.9414425425598131,
+        "age_mean_cost": -0.9414425425598119,
+        "age_max_cost": -0.9182951474672768,
+        "age_tail_cost": -0.9188645534157314,
+        "resource": -0.8746828970303472,
+        "delta_quality": -0.3985160641668008
+      },
+      "top10_Q_given_top10_R_within_environment": 0.4,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        }
+      },
+      "success_detail": {
+        "feasible_count": 0,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quality_delta_mean": null,
+        "quality_stage_reward_difference": null,
+        "full_reward_difference": null,
+        "psnr_delta": null
+      }
+    },
+    "111868397/6000000/fixed_2": {
+      "quality": {
+        "n": 320,
+        "mean": 0.1941885608050929,
+        "median": 0.194999641829466,
+        "std": 0.01056454581802789,
+        "p50": 0.194999641829466,
+        "p75": 0.20028298781887993,
+        "p90": 0.20765805442256868,
+        "p95": 0.21139583685668173,
+        "p99": 0.21787033701622222,
+        "maximum": 0.22036123151626863
+      },
+      "delta_quality": {
+        "n": 320,
+        "mean": -0.01257688979852542,
+        "median": -0.012607992766456522,
+        "std": 0.0035497067829466608,
+        "p50": -0.012607992766456522,
+        "p75": -0.009885729079842087,
+        "p90": -0.007757083688582216,
+        "p95": -0.006987145612267247,
+        "p99": -0.005294340106223595,
+        "maximum": -0.0042345920981402
+      },
+      "delta_psnr": {
+        "n": 320,
+        "mean": 0.2756016408743355,
+        "median": 0.27190130189897843,
+        "std": 0.11484809785839938,
+        "p50": 0.27190130189897843,
+        "p75": 0.35543129627262804,
+        "p90": 0.4381123266002469,
+        "p95": 0.4900110655725032,
+        "p99": 0.5201703817283969,
+        "maximum": 0.6045147667107784
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.334375,
+            "ci95": [
+              0.171875,
+              0.50625
+            ]
+          },
+          "feasible": {
+            "mean": 0.334375,
+            "ci95": [
+              0.171875,
+              0.50625
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.209375,
+            "ci95": [
+              0.103125,
+              0.325
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.11875
+            ]
+          },
+          "feasible": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.11875
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0375,
+            "ci95": [
+              0.0,
+              0.1
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.012680644210420356,
+        "ci95": [
+          -0.013016172674556068,
+          -0.012343631449718933
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 2.135283494278928e-06,
+        "between_environment_mean_Q_variance": 0.00010947434484693161,
+        "between_minus_sampling_variance": 0.00010934088962853918,
+        "Q_envmean_vs_SNR_correlation": 0.9840446224100274,
+        "within_environment_Q_vs_total_correlation": 0.6255988157212324,
+        "environment_fraction_with_any_positive_delta": 0.0,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9924012718748301,
+        "mean_aoi": -0.9315783995904657,
+        "age_mean_cost": -0.9315783995904654,
+        "age_max_cost": -0.9006344994498503,
+        "age_tail_cost": -0.8906667232632317,
+        "resource": -0.9050384499247066,
+        "delta_quality": -0.08092565202172762
+      },
+      "top10_Q_given_top10_R_within_environment": 0.45,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        }
+      },
+      "success_detail": {
+        "feasible_count": 0,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quality_delta_mean": null,
+        "quality_stage_reward_difference": null,
+        "full_reward_difference": null,
+        "psnr_delta": null
+      }
+    },
+    "111868397/6000000/switch300_2_to_0": {
+      "quality": {
+        "n": 160,
+        "mean": 0.19462191963520475,
+        "median": 0.1946649748143418,
+        "std": 0.01080055767164893,
+        "p50": 0.1946649748143418,
+        "p75": 0.2006461579023502,
+        "p90": 0.20831791267803873,
+        "p95": 0.21152836704958308,
+        "p99": 0.219434174103363,
+        "maximum": 0.22156683723401466
+      },
+      "delta_quality": {
+        "n": 160,
+        "mean": -0.008269904536238529,
+        "median": -0.008711756237263224,
+        "std": 0.0052067964356227025,
+        "p50": -0.008711756237263224,
+        "p75": -0.005505179758622747,
+        "p90": -0.0020000492587511783,
+        "p95": 0.0020295434674240252,
+        "p99": 0.005220566207713792,
+        "maximum": 0.00727672480772934
+      },
+      "delta_psnr": {
+        "n": 160,
+        "mean": 0.42014840536935283,
+        "median": 0.3928256867104132,
+        "std": 0.17953822057176183,
+        "p50": 0.3928256867104132,
+        "p75": 0.5195596252357122,
+        "p90": 0.6724529730886637,
+        "p95": 0.7526726982438668,
+        "p99": 0.9590655327773947,
+        "maximum": 1.005322150732301
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.06875,
+            "ci95": [
+              0.0,
+              0.175
+            ]
+          },
+          "feasible": {
+            "mean": 0.06875,
+            "ci95": [
+              0.0,
+              0.175
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.05625,
+            "ci95": [
+              0.0,
+              0.14375
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.01875,
+            "ci95": [
+              0.0,
+              0.05625
+            ]
+          },
+          "feasible": {
+            "mean": 0.01875,
+            "ci95": [
+              0.0,
+              0.05625
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.01875,
+            "ci95": [
+              0.0,
+              0.05625
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.33125,
+            "ci95": [
+              0.18125,
+              0.49375
+            ]
+          },
+          "feasible": {
+            "mean": 0.33125,
+            "ci95": [
+              0.18125,
+              0.49375
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.24375,
+            "ci95": [
+              0.11875,
+              0.3875
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.16875,
+            "ci95": [
+              0.04375,
+              0.325
+            ]
+          },
+          "feasible": {
+            "mean": 0.16875,
+            "ci95": [
+              0.04375,
+              0.325
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.1375,
+            "ci95": [
+              0.03125,
+              0.28125
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0125,
+            "ci95": [
+              0.0,
+              0.0375
+            ]
+          },
+          "feasible": {
+            "mean": 0.0125,
+            "ci95": [
+              0.0,
+              0.0375
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0125,
+            "ci95": [
+              0.0,
+              0.0375
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.015368783843829226,
+        "ci95": [
+          -0.015614021043097028,
+          -0.015121276120871191
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 5.1360300513105344e-06,
+        "between_environment_mean_Q_variance": 0.00011151601596730407,
+        "between_minus_sampling_variance": 0.00011087401221089025,
+        "Q_envmean_vs_SNR_correlation": 0.9775781536403126,
+        "within_environment_Q_vs_total_correlation": 0.6171257443492868,
+        "environment_fraction_with_any_positive_delta": 0.15,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9827365790807745,
+        "mean_aoi": -0.8537268808750307,
+        "age_mean_cost": -0.8537268808750305,
+        "age_max_cost": -0.8107297702675574,
+        "age_tail_cost": -0.800063786587023,
+        "resource": -0.7896249690616857,
+        "delta_quality": 0.337301995193062
+      },
+      "top10_Q_given_top10_R_within_environment": 0.45,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 3,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 0.5429629629629588,
+          "mean_relative_change_on_feasible": 0.21087760180669837
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 3,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 1.16,
+          "mean_relative_change_on_feasible": 0.32222222222222224
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 3,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 0.0005286111111111114,
+          "mean_relative_change_on_feasible": 12.686666666666667
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 1057.4835821590848,
+          "mean_relative_change_on_feasible": 0.022747183427572832
+        }
+      },
+      "success_detail": {
+        "feasible_count": 3,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "quality_delta_mean": 0.005928958755032188,
+        "quality_stage_reward_difference": -0.01293559970386588,
+        "full_reward_difference": -0.016177670082360377,
+        "psnr_delta": 0.975236266941959
+      }
+    },
+    "111868397/6000000/switch300_2_to_1": {
+      "quality": {
+        "n": 160,
+        "mean": 0.19462191963520475,
+        "median": 0.1946649748143418,
+        "std": 0.01080055767164893,
+        "p50": 0.1946649748143418,
+        "p75": 0.2006461579023502,
+        "p90": 0.20831791267803873,
+        "p95": 0.21152836704958308,
+        "p99": 0.219434174103363,
+        "maximum": 0.22156683723401466
+      },
+      "delta_quality": {
+        "n": 160,
+        "mean": -0.008269904536238529,
+        "median": -0.008711756237263224,
+        "std": 0.0052067964356227025,
+        "p50": -0.008711756237263224,
+        "p75": -0.005505179758622747,
+        "p90": -0.0020000492587511783,
+        "p95": 0.0020295434674240252,
+        "p99": 0.005220566207713792,
+        "maximum": 0.00727672480772934
+      },
+      "delta_psnr": {
+        "n": 160,
+        "mean": 0.42014840536935283,
+        "median": 0.3928256867104132,
+        "std": 0.17953822057176183,
+        "p50": 0.3928256867104132,
+        "p75": 0.5195596252357122,
+        "p90": 0.6724529730886637,
+        "p95": 0.7526726982438668,
+        "p99": 0.9590655327773947,
+        "maximum": 1.005322150732301
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.06875,
+            "ci95": [
+              0.0,
+              0.175
+            ]
+          },
+          "feasible": {
+            "mean": 0.06875,
+            "ci95": [
+              0.0,
+              0.175
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.05625,
+            "ci95": [
+              0.0,
+              0.14375
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.01875,
+            "ci95": [
+              0.0,
+              0.05625
+            ]
+          },
+          "feasible": {
+            "mean": 0.01875,
+            "ci95": [
+              0.0,
+              0.05625
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.01875,
+            "ci95": [
+              0.0,
+              0.05625
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.33125,
+            "ci95": [
+              0.18125,
+              0.49375
+            ]
+          },
+          "feasible": {
+            "mean": 0.33125,
+            "ci95": [
+              0.18125,
+              0.49375
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.24375,
+            "ci95": [
+              0.11875,
+              0.3875
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.16875,
+            "ci95": [
+              0.04375,
+              0.325
+            ]
+          },
+          "feasible": {
+            "mean": 0.16875,
+            "ci95": [
+              0.04375,
+              0.325
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.1375,
+            "ci95": [
+              0.03125,
+              0.28125
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0125,
+            "ci95": [
+              0.0,
+              0.0375
+            ]
+          },
+          "feasible": {
+            "mean": 0.0125,
+            "ci95": [
+              0.0,
+              0.0375
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0125,
+            "ci95": [
+              0.0,
+              0.0375
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.016382703098545982,
+        "ci95": [
+          -0.016712073670436586,
+          -0.01603347287600771
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 5.1360300513105344e-06,
+        "between_environment_mean_Q_variance": 0.00011151601596730407,
+        "between_minus_sampling_variance": 0.00011087401221089025,
+        "Q_envmean_vs_SNR_correlation": 0.9775781536403126,
+        "within_environment_Q_vs_total_correlation": 0.6171257443492868,
+        "environment_fraction_with_any_positive_delta": 0.15,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9827365790807745,
+        "mean_aoi": -0.8537268808750307,
+        "age_mean_cost": -0.8537268808750305,
+        "age_max_cost": -0.8107297702675574,
+        "age_tail_cost": -0.800063786587023,
+        "resource": -0.7896249690616857,
+        "delta_quality": 0.337301995193062
+      },
+      "top10_Q_given_top10_R_within_environment": 0.45,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 3,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 0.5429629629629588,
+          "mean_relative_change_on_feasible": 0.21087760180669837
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 3,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 1.16,
+          "mean_relative_change_on_feasible": 0.32222222222222224
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 3,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 0.0005286111111111114,
+          "mean_relative_change_on_feasible": 12.686666666666667
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 3,
+          "mean_delta_on_feasible": 1057.4835821590848,
+          "mean_relative_change_on_feasible": 0.022747183427572832
+        }
+      },
+      "success_detail": {
+        "feasible_count": 3,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        "quality_delta_mean": 0.005928958755032188,
+        "quality_stage_reward_difference": -0.01293559970386588,
+        "full_reward_difference": -0.016463162457996464,
+        "psnr_delta": 0.975236266941959
+      }
+    },
+    "160441552/1000000/fixed_2": {
+      "quality": {
+        "n": 320,
+        "mean": 0.1803260791355516,
+        "median": 0.1813955045641702,
+        "std": 0.0101167133335589,
+        "p50": 0.1813955045641702,
+        "p75": 0.18563346983062773,
+        "p90": 0.19303433814374343,
+        "p95": 0.19586675210051663,
+        "p99": 0.20320114370365108,
+        "maximum": 0.20487715277067142
+      },
+      "delta_quality": {
+        "n": 320,
+        "mean": -0.0031955008631886204,
+        "median": -0.002107087076708411,
+        "std": 0.004344229560802936,
+        "p50": -0.002107087076708411,
+        "p75": 8.323391837233851e-06,
+        "p90": 0.001326449299366073,
+        "p95": 0.002061220052600521,
+        "p99": 0.003485345450817678,
+        "maximum": 0.004034427410404107
+      },
+      "delta_psnr": {
+        "n": 320,
+        "mean": 0.714764204003961,
+        "median": 0.7347162380003418,
+        "std": 0.12129361161905568,
+        "p50": 0.7347162380003418,
+        "p75": 0.8004816601737641,
+        "p90": 0.8501850470863171,
+        "p95": 0.8890472578937288,
+        "p99": 0.9277726106354106,
+        "maximum": 0.9739105708071918
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.140625,
+            "ci95": [
+              0.059375,
+              0.234375
+            ]
+          },
+          "feasible": {
+            "mean": 0.140625,
+            "ci95": [
+              0.059375,
+              0.234375
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.140625,
+            "ci95": [
+              0.059375,
+              0.234375
+            ]
+          },
+          "feasible": {
+            "mean": 0.140625,
+            "ci95": [
+              0.059375,
+              0.234375
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.016032718799381514,
+        "ci95": [
+          -0.016548839553375768,
+          -0.015549807625249237
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 2.0739571741252824e-06,
+        "between_environment_mean_Q_variance": 0.0001002739314992832,
+        "between_minus_sampling_variance": 0.00010014430917590037,
+        "Q_envmean_vs_SNR_correlation": 0.9841044390710784,
+        "within_environment_Q_vs_total_correlation": 0.5944834695964758,
+        "environment_fraction_with_any_positive_delta": 0.6,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9887410394685844,
+        "mean_aoi": -0.9029603504332894,
+        "age_mean_cost": -0.9029603504332872,
+        "age_max_cost": -0.8321063850277525,
+        "age_tail_cost": -0.8330595630381908,
+        "resource": -0.8744288056362072,
+        "delta_quality": -0.10283237497108755
+      },
+      "top10_Q_given_top10_R_within_environment": 0.275,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 0,
+          "mean_delta_on_feasible": null,
+          "mean_relative_change_on_feasible": null
+        }
+      },
+      "success_detail": {
+        "feasible_count": 0,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "quality_delta_mean": null,
+        "quality_stage_reward_difference": null,
+        "full_reward_difference": null,
+        "psnr_delta": null
+      }
+    },
+    "160441552/6000000/fixed_2": {
+      "quality": {
+        "n": 320,
+        "mean": 0.19776760201149507,
+        "median": 0.1984616968980636,
+        "std": 0.010788145445441814,
+        "p50": 0.1984616968980636,
+        "p75": 0.20333129679673703,
+        "p90": 0.21193041940456347,
+        "p95": 0.21551479191272066,
+        "p99": 0.22073489236951646,
+        "maximum": 0.22263363374217524
+      },
+      "delta_quality": {
+        "n": 320,
+        "mean": -0.0025318811202731696,
+        "median": -0.0030220297649804773,
+        "std": 0.006332811315810435,
+        "p50": -0.0030220297649804773,
+        "p75": 0.002083615586383064,
+        "p90": 0.00501050266139597,
+        "p95": 0.0078011334149457375,
+        "p99": 0.012889361256831478,
+        "maximum": 0.014788102629490263
+      },
+      "delta_psnr": {
+        "n": 320,
+        "mean": 0.6523431591572834,
+        "median": 0.6486686355341327,
+        "std": 0.2395310018530765,
+        "p50": 0.6486686355341327,
+        "p75": 0.8269663441370394,
+        "p90": 0.9705502742148117,
+        "p95": 1.06145357769087,
+        "p99": 1.1339164129261792,
+        "maximum": 1.2045622850133348
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.325,
+            "ci95": [
+              0.153125,
+              0.50625
+            ]
+          },
+          "feasible": {
+            "mean": 0.325,
+            "ci95": [
+              0.153125,
+              0.50625
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.175,
+            "ci95": [
+              0.075,
+              0.284375
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.1,
+            "ci95": [
+              0.015625,
+              0.221875
+            ]
+          },
+          "feasible": {
+            "mean": 0.1,
+            "ci95": [
+              0.015625,
+              0.221875
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.065625,
+            "ci95": [
+              0.009375,
+              0.140625
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          },
+          "feasible": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.028125,
+            "ci95": [
+              0.0,
+              0.084375
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.446875,
+            "ci95": [
+              0.378125,
+              0.5125
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.94375,
+            "ci95": [
+              0.859375,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.94375,
+            "ci95": [
+              0.859375,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.41875,
+            "ci95": [
+              0.35625,
+              0.475
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.828125,
+            "ci95": [
+              0.671875,
+              0.953125
+            ]
+          },
+          "feasible": {
+            "mean": 0.828125,
+            "ci95": [
+              0.671875,
+              0.953125
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.35,
+            "ci95": [
+              0.275,
+              0.425
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.013069492859679663,
+        "ci95": [
+          -0.013516349229786206,
+          -0.012539586484310269
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 2.4721832339092084e-06,
+        "between_environment_mean_Q_variance": 0.00011391189891809769,
+        "between_minus_sampling_variance": 0.00011375738746597836,
+        "Q_envmean_vs_SNR_correlation": 0.9831991662964202,
+        "within_environment_Q_vs_total_correlation": 0.6810348446509834,
+        "environment_fraction_with_any_positive_delta": 0.45,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9918040280600023,
+        "mean_aoi": -0.9087202314128234,
+        "age_mean_cost": -0.9087202314128211,
+        "age_max_cost": -0.8752875097103583,
+        "age_tail_cost": -0.8772105232189549,
+        "resource": -0.8449952730255125,
+        "delta_quality": 0.8764080296339865
+      },
+      "top10_Q_given_top10_R_within_environment": 0.3,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 32,
+          "all_feasible_episodes": 32,
+          "mean_delta_on_feasible": 0.5112361111111079,
+          "mean_relative_change_on_feasible": 0.2005423026434943
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 32,
+          "all_feasible_episodes": 32,
+          "mean_delta_on_feasible": 1.2345833333333336,
+          "mean_relative_change_on_feasible": 0.3623788716446147
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 32,
+          "all_feasible_episodes": 32,
+          "mean_delta_on_feasible": 0.000419622395833333,
+          "mean_relative_change_on_feasible": 66.12205667567949
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 32,
+          "mean_delta_on_feasible": -211.72510160974275,
+          "mean_relative_change_on_feasible": -0.004378369943580523
+        }
+      },
+      "success_detail": {
+        "feasible_count": 32,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          0,
+          0,
+          16,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          4,
+          0,
+          0,
+          1,
+          0
+        ],
+        "quality_delta_mean": 0.009123851568688085,
+        "quality_stage_reward_difference": -0.011527435424033682,
+        "full_reward_difference": -0.011527435424033682,
+        "psnr_delta": 1.0496717866692218
+      }
+    },
+    "160441552/6000000/switch300_2_to_0": {
+      "quality": {
+        "n": 160,
+        "mean": 0.19756832063709517,
+        "median": 0.19816353236958176,
+        "std": 0.011012731443764722,
+        "p50": 0.19816353236958176,
+        "p75": 0.2039580358373684,
+        "p90": 0.21198580062958577,
+        "p95": 0.21581229950223788,
+        "p99": 0.22082596420680256,
+        "maximum": 0.2225475686132306
+      },
+      "delta_quality": {
+        "n": 160,
+        "mean": -0.0007942856662888666,
+        "median": -0.0008314640586866429,
+        "std": 0.006370925219275841,
+        "p50": -0.0008314640586866429,
+        "p75": 0.0035498175313027416,
+        "p90": 0.0069598877676568275,
+        "p95": 0.009976840312330813,
+        "p99": 0.014805736367261452,
+        "maximum": 0.016527340773689503
+      },
+      "delta_psnr": {
+        "n": 160,
+        "mean": 0.7243139630380607,
+        "median": 0.7387808964671407,
+        "std": 0.23147702546691562,
+        "p50": 0.7387808964671407,
+        "p75": 0.912974091855526,
+        "p90": 0.9833066268522284,
+        "p95": 1.052973580954299,
+        "p99": 1.1937320355207337,
+        "maximum": 1.3018600482787939
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.3875,
+            "ci95": [
+              0.2125,
+              0.56875
+            ]
+          },
+          "feasible": {
+            "mean": 0.3875,
+            "ci95": [
+              0.2125,
+              0.56875
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.2875,
+            "ci95": [
+              0.14375,
+              0.44375
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.1875,
+            "ci95": [
+              0.06875,
+              0.325
+            ]
+          },
+          "feasible": {
+            "mean": 0.1875,
+            "ci95": [
+              0.06875,
+              0.325
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.1625,
+            "ci95": [
+              0.05625,
+              0.29375
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          },
+          "feasible": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.99375,
+            "ci95": [
+              0.98125,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.99375,
+            "ci95": [
+              0.98125,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.6125,
+            "ci95": [
+              0.53125,
+              0.69375
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.925,
+            "ci95": [
+              0.81875,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.925,
+            "ci95": [
+              0.81875,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.55625,
+            "ci95": [
+              0.46875,
+              0.64375
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.78125,
+            "ci95": [
+              0.61859375,
+              0.925
+            ]
+          },
+          "feasible": {
+            "mean": 0.78125,
+            "ci95": [
+              0.61859375,
+              0.925
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.4625,
+            "ci95": [
+              0.35,
+              0.58125
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.01427461185125849,
+        "ci95": [
+          -0.014630020923767218,
+          -0.013880312288759066
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 4.887648192523086e-06,
+        "between_environment_mean_Q_variance": 0.00011639260565996115,
+        "between_minus_sampling_variance": 0.00011578164963589577,
+        "Q_envmean_vs_SNR_correlation": 0.9778971460726525,
+        "within_environment_Q_vs_total_correlation": 0.6844389100292886,
+        "environment_fraction_with_any_positive_delta": 0.65,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9844839698036189,
+        "mean_aoi": -0.8499386979254901,
+        "age_mean_cost": -0.8499386979254872,
+        "age_max_cost": -0.8040250285754444,
+        "age_tail_cost": -0.8104293531321409,
+        "resource": -0.7593629090478463,
+        "delta_quality": 0.8295160613346623
+      },
+      "top10_Q_given_top10_R_within_environment": 0.6,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 30,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": 0.5052555555555549,
+          "mean_relative_change_on_feasible": 0.19695440853795879
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 30,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": 1.146111111111111,
+          "mean_relative_change_on_feasible": 0.3281541657205413
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 30,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": 0.00042852777777777805,
+          "mean_relative_change_on_feasible": 37.275726975451136
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": -57.139532025330844,
+          "mean_relative_change_on_feasible": -0.0011497924047165653
+        }
+      },
+      "success_detail": {
+        "feasible_count": 30,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          3,
+          0,
+          8,
+          0,
+          0,
+          6,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          4,
+          3
+        ],
+        "quality_delta_mean": 0.008474913878239869,
+        "quality_stage_reward_difference": -0.011091650298607592,
+        "full_reward_difference": -0.013203458825066948,
+        "psnr_delta": 1.0129017145414638
+      }
+    },
+    "160441552/6000000/switch300_2_to_1": {
+      "quality": {
+        "n": 160,
+        "mean": 0.19756832063709517,
+        "median": 0.19816353236958176,
+        "std": 0.011012731443764722,
+        "p50": 0.19816353236958176,
+        "p75": 0.2039580358373684,
+        "p90": 0.21198580062958577,
+        "p95": 0.21581229950223788,
+        "p99": 0.22082596420680256,
+        "maximum": 0.2225475686132306
+      },
+      "delta_quality": {
+        "n": 160,
+        "mean": -0.0007942856662888666,
+        "median": -0.0008314640586866429,
+        "std": 0.006370925219275841,
+        "p50": -0.0008314640586866429,
+        "p75": 0.0035498175313027416,
+        "p90": 0.0069598877676568275,
+        "p95": 0.009976840312330813,
+        "p99": 0.014805736367261452,
+        "maximum": 0.016527340773689503
+      },
+      "delta_psnr": {
+        "n": 160,
+        "mean": 0.7243139630380607,
+        "median": 0.7387808964671407,
+        "std": 0.23147702546691562,
+        "p50": 0.7387808964671407,
+        "p75": 0.912974091855526,
+        "p90": 0.9833066268522284,
+        "p95": 1.052973580954299,
+        "p99": 1.1937320355207337,
+        "maximum": 1.3018600482787939
+      },
+      "success": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.3875,
+            "ci95": [
+              0.2125,
+              0.56875
+            ]
+          },
+          "feasible": {
+            "mean": 0.3875,
+            "ci95": [
+              0.2125,
+              0.56875
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.2875,
+            "ci95": [
+              0.14375,
+              0.44375
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.1875,
+            "ci95": [
+              0.06875,
+              0.325
+            ]
+          },
+          "feasible": {
+            "mean": 0.1875,
+            "ci95": [
+              0.06875,
+              0.325
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.1625,
+            "ci95": [
+              0.05625,
+              0.29375
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          },
+          "feasible": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.15
+            ]
+          }
+        }
+      },
+      "success_vs_fixed_1m": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.99375,
+            "ci95": [
+              0.98125,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.99375,
+            "ci95": [
+              0.98125,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.6125,
+            "ci95": [
+              0.53125,
+              0.69375
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.925,
+            "ci95": [
+              0.81875,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.925,
+            "ci95": [
+              0.81875,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.55625,
+            "ci95": [
+              0.46875,
+              0.64375
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.78125,
+            "ci95": [
+              0.61859375,
+              0.925
+            ]
+          },
+          "feasible": {
+            "mean": 0.78125,
+            "ci95": [
+              0.61859375,
+              0.925
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.4625,
+            "ci95": [
+              0.35,
+              0.58125
+            ]
+          }
+        }
+      },
+      "full_reward_difference": {
+        "mean": -0.017109453516358175,
+        "ci95": [
+          -0.017539861975757545,
+          -0.016582680698960132
+        ]
+      },
+      "environment_vs_policy": {
+        "exogenous_all_repeats_exact": true,
+        "within_environment_Q_variance": 4.887648192523086e-06,
+        "between_environment_mean_Q_variance": 0.00011639260565996115,
+        "between_minus_sampling_variance": 0.00011578164963589577,
+        "Q_envmean_vs_SNR_correlation": 0.9778971460726525,
+        "within_environment_Q_vs_total_correlation": 0.6844389100292886,
+        "environment_fraction_with_any_positive_delta": 0.65,
+        "environment_fraction_with_any_main_safe_success": 0.0,
+        "first_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "second_half_safe_probability": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "reward_correlations": {
+        "quality": 0.9844839698036189,
+        "mean_aoi": -0.8499386979254901,
+        "age_mean_cost": -0.8499386979254872,
+        "age_max_cost": -0.8040250285754444,
+        "age_tail_cost": -0.8104293531321409,
+        "resource": -0.7593629090478463,
+        "delta_quality": 0.8295160613346623
+      },
+      "top10_Q_given_top10_R_within_environment": 0.6,
+      "cost_on_feasible_success": {
+        "mean_aoi": {
+          "failing_feasible_episodes": 30,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": 0.5052555555555549,
+          "mean_relative_change_on_feasible": 0.19695440853795879
+        },
+        "max_aoi": {
+          "failing_feasible_episodes": 30,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": 1.146111111111111,
+          "mean_relative_change_on_feasible": 0.3281541657205413
+        },
+        "age_tail_cost": {
+          "failing_feasible_episodes": 30,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": 0.00042852777777777805,
+          "mean_relative_change_on_feasible": 37.275726975451136
+        },
+        "resource": {
+          "failing_feasible_episodes": 0,
+          "all_feasible_episodes": 30,
+          "mean_delta_on_feasible": -57.139532025330844,
+          "mean_relative_change_on_feasible": -0.0011497924047165653
+        }
+      },
+      "success_detail": {
+        "feasible_count": 30,
+        "safe_count": 0,
+        "environment_success_counts": [
+          0,
+          3,
+          0,
+          8,
+          0,
+          0,
+          6,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          4,
+          3
+        ],
+        "quality_delta_mean": 0.008474913878239869,
+        "quality_stage_reward_difference": -0.011091650298607592,
+        "full_reward_difference": -0.015492364636407564,
+        "psnr_delta": 1.0129017145414638
+      }
+    }
+  },
+  "historical_overview": {
+    "recomposition/104948945/C1": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.805094130513409,
+      "fixed_quality_Q": 0.2630792255077297,
+      "fixed_quality_reward_times100": 0.15992958691713877
+    },
+    "recomposition/104948945/C2": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.583729860759213,
+      "fixed_quality_Q": 0.26911585018874234,
+      "fixed_quality_reward_times100": 0.6005150974724033
+    },
+    "recomposition/104948945/C3": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.677110584884156,
+      "fixed_quality_Q": 0.26911585018874234,
+      "fixed_quality_reward_times100": 0.6005150974724033
+    },
+    "recomposition/111868397/C1": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.434582923674835,
+      "fixed_quality_Q": 0.27031006848089045,
+      "fixed_quality_reward_times100": 0.2552845524879364
+    },
+    "recomposition/111868397/C2": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.39675077077855,
+      "fixed_quality_Q": 0.2769573684572342,
+      "fixed_quality_reward_times100": 0.6233391999213814
+    },
+    "recomposition/111868397/C3": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.328429226966684,
+      "fixed_quality_Q": 0.2769573684572342,
+      "fixed_quality_reward_times100": 0.6233391999213814
+    },
+    "recomposition/160441552/C1": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.348829646937892,
+      "fixed_quality_Q": 0.2458228741382797,
+      "fixed_quality_reward_times100": 0.7435615969430739
+    },
+    "recomposition/160441552/C2": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.325288299937638,
+      "fixed_quality_Q": 0.23961800565694197,
+      "fixed_quality_reward_times100": 0.13266128609490577
+    },
+    "recomposition/160441552/C3": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.524779260852718,
+      "fixed_quality_Q": 0.23961800565694197,
+      "fixed_quality_reward_times100": 0.13266128609490577
+    },
+    "half_short/104948945/steps_1000000": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.171990338727143,
+      "fixed_quality_Q": 0.2283163585894142,
+      "fixed_quality_reward_times100": 0.44005536519102706
+    },
+    "half_short/104948945/steps_200000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.1581748224983799,
+      "fixed_quality_reward_times100": -0.7205617090492835
+    },
+    "half_short/104948945/steps_400000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.15817805448829933,
+      "fixed_quality_reward_times100": -0.6826661465175206
+    },
+    "half_short/104948945/steps_600000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.185846931344348,
+      "fixed_quality_reward_times100": -0.09721788883718686
+    },
+    "half_short/104948945/steps_800000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.18754166338251027,
+      "fixed_quality_reward_times100": -0.1225823289042793
+    },
+    "half_short/111868397/steps_1000000": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.34288206001324,
+      "fixed_quality_Q": 0.1948503301804889,
+      "fixed_quality_reward_times100": 0.19773259232325519
+    },
+    "half_short/111868397/steps_200000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.16024926012839208,
+      "fixed_quality_reward_times100": -0.7847016295872585
+    },
+    "half_short/111868397/steps_400000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.19708799327361282,
+      "fixed_quality_reward_times100": 0.2183156142001164
+    },
+    "half_short/111868397/steps_600000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.18946047071531838,
+      "fixed_quality_reward_times100": 0.14516765094448242
+    },
+    "half_short/111868397/steps_800000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.19881001776550772,
+      "fixed_quality_reward_times100": 0.2626126352328028
+    },
+    "half_short/160441552/steps_1000000": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.627898787006046,
+      "fixed_quality_Q": 0.18352157999874025,
+      "fixed_quality_reward_times100": -0.5402807304841035
+    },
+    "half_short/160441552/steps_200000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.19920351879242632,
+      "fixed_quality_reward_times100": -0.32673567383434676
+    },
+    "half_short/160441552/steps_400000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.19459604169809425,
+      "fixed_quality_reward_times100": -0.35262542517983614
+    },
+    "half_short/160441552/steps_600000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.18023567757814712,
+      "fixed_quality_reward_times100": -0.22612763080786155
+    },
+    "half_short/160441552/steps_800000": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2"
+      ],
+      "full13_mean_reward_times100": null,
+      "fixed_quality_Q": 0.1628701626549412,
+      "fixed_quality_reward_times100": -0.6140669285543495
+    },
+    "half_objective/104948945/C1": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.805094130513409,
+      "fixed_quality_Q": 0.2630792255077297,
+      "fixed_quality_reward_times100": 0.15992958691713877
+    },
+    "half_objective/104948945/C3": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.677110584884156,
+      "fixed_quality_Q": 0.26911585018874234,
+      "fixed_quality_reward_times100": 0.6005150974724033
+    },
+    "half_objective/104948945/original_rl": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.641034929283595,
+      "fixed_quality_Q": 0.2328780887450963,
+      "fixed_quality_reward_times100": 0.3894897882671028
+    },
+    "half_objective/111868397/C1": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.434582923674835,
+      "fixed_quality_Q": 0.27031006848089045,
+      "fixed_quality_reward_times100": 0.2552845524879364
+    },
+    "half_objective/111868397/C3": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.328429226966684,
+      "fixed_quality_Q": 0.2769573684572342,
+      "fixed_quality_reward_times100": 0.6233391999213814
+    },
+    "half_objective/111868397/original_rl": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.495020384849223,
+      "fixed_quality_Q": 0.2261122276767888,
+      "fixed_quality_reward_times100": 0.270411984633632
+    },
+    "half_objective/160441552/C1": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.348829646937892,
+      "fixed_quality_Q": 0.2458228741382797,
+      "fixed_quality_reward_times100": 0.7435615969430739
+    },
+    "half_objective/160441552/C3": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.524779260852718,
+      "fixed_quality_Q": 0.23961800565694197,
+      "fixed_quality_reward_times100": 0.13266128609490577
+    },
+    "half_objective/160441552/original_rl": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.26429788993755,
+      "fixed_quality_Q": 0.20553874886083084,
+      "fixed_quality_reward_times100": 0.36001138648490705
+    },
+    "half_objective/rules/G_equal_local16": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.859142628909728,
+      "fixed_quality_Q": 0.2770210295651179,
+      "fixed_quality_reward_times100": 0.6245314012805349
+    },
+    "half_objective/rules/G_equal_local16_Qhalf_local": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.209129936255941,
+      "fixed_quality_Q": 0.2765582613888165,
+      "fixed_quality_reward_times100": 0.6854784209014813
+    },
+    "half_objective/rules/G_urgency_local16": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.946343725467711,
+      "fixed_quality_Q": 0.26828933991440146,
+      "fixed_quality_reward_times100": 0.34224014972193245
+    },
+    "half_objective/rules/G_urgency_local16_Qhalf_local": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.301607939599474,
+      "fixed_quality_Q": 0.2666038425653976,
+      "fixed_quality_reward_times100": 0.4964605755811197
+    },
+    "half_objective/rules/R_equal_instruction": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -9.071796755336916,
+      "fixed_quality_Q": 0.2769673281762291,
+      "fixed_quality_reward_times100": 0.6232833193360905
+    },
+    "half_objective/rules/R_equal_maxquality": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -29.43675399446538,
+      "fixed_quality_Q": 0.20034013978115395,
+      "fixed_quality_reward_times100": -8.982551368652834
+    },
+    "half_objective/rules/R_equal_minload": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.606182390151064,
+      "fixed_quality_Q": 0.15817353969597617,
+      "fixed_quality_reward_times100": -0.6720726472845759
+    },
+    "half_objective/rules/R_equal_single": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.606182390151064,
+      "fixed_quality_Q": 0.15817353969597617,
+      "fixed_quality_reward_times100": -0.6720726472845759
+    },
+    "half_objective/rules/R_instruction": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -9.044140503931573,
+      "fixed_quality_Q": 0.2769673281762291,
+      "fixed_quality_reward_times100": 0.6232833193360905
+    },
+    "half_objective/rules/R_single": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.550659386743312,
+      "fixed_quality_Q": 0.15822537012903146,
+      "fixed_quality_reward_times100": -0.6463030052786726
+    },
+    "half_objective/rules/greedy_modes_16": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.752963531577967,
+      "fixed_quality_Q": 0.2773135390887214,
+      "fixed_quality_reward_times100": 0.6528898794058706
+    },
+    "half_objective/rules/greedy_modes_16_Qhalf_local": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.195490142137253,
+      "fixed_quality_Q": 0.27689188225302597,
+      "fixed_quality_reward_times100": 0.7100068848184665
+    },
+    "half_objective/rules/greedy_modes_3": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.752963531577967,
+      "fixed_quality_Q": 0.2773135390887214,
+      "fixed_quality_reward_times100": 0.6528898794058706
+    },
+    "half_objective/rules/greedy_modes_3_Qhalf_local": {
+      "scenes": [
+        "early50_0_to_1",
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1"
+      ],
+      "full13_mean_reward_times100": -8.195490142137253,
+      "fixed_quality_Q": 0.27689188225302597,
+      "fixed_quality_reward_times100": 0.7100068848184665
+    },
+    "recomposition/104948945/C0": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1",
+        "early50_0_to_1",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0"
+      ],
+      "full13_mean_reward_times100": -8.711390910539532,
+      "fixed_quality_Q": 0.2630792255077297,
+      "fixed_quality_reward_times100": 0.15992958691713877
+    },
+    "recomposition/111868397/C0": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1",
+        "early50_0_to_1",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0"
+      ],
+      "full13_mean_reward_times100": -8.50339553946217,
+      "fixed_quality_Q": 0.27031006848089045,
+      "fixed_quality_reward_times100": 0.2552845524879364
+    },
+    "recomposition/160441552/C0": {
+      "scenes": [
+        "fixed_0",
+        "fixed_1",
+        "fixed_2",
+        "switch300_0_to_1",
+        "switch300_0_to_2",
+        "switch300_1_to_0",
+        "switch300_1_to_2",
+        "switch300_2_to_0",
+        "switch300_2_to_1",
+        "early50_0_to_1",
+        "late550_0_to_2",
+        "multi_0_1_2",
+        "multi_2_1_0"
+      ],
+      "full13_mean_reward_times100": -8.154901961431005,
+      "fixed_quality_Q": 0.2458228741382797,
+      "fixed_quality_reward_times100": 0.7435615969430739
+    }
+  },
+  "gradient_joint": {
+    "104948945": {
+      "gradient_norm": {
+        "baseline_GAE": 0.1556082376699786,
+        "tail_quality": 0.18648665693951136,
+        "tail_total": 0.13724904459133083,
+        "expected_quality": 0.18497915368631507,
+        "negative_AoI_cost": 0.16796525785146038,
+        "negative_resource_cost": 0.1360705801313669,
+        "feasible_success": 0.0,
+        "safe_success": 0.0,
+        "negative_service_exceedance": 0.11252151154716318,
+        "tail_quality_feasible_part": 0.0,
+        "baseline_GAE_feasible_part": 0.0
+      },
+      "cosine": {
+        "baseline_GAE": {
+          "baseline_GAE": 1.0,
+          "tail_quality": -0.058446276553111416,
+          "tail_total": 0.4261506407084003,
+          "expected_quality": 0.007383589893558674,
+          "negative_AoI_cost": 0.34483615050533056,
+          "negative_resource_cost": 0.22497291287047344,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.2840084787736571,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "tail_quality": {
+          "baseline_GAE": -0.058446276553111416,
+          "tail_quality": 1.0,
+          "tail_total": 0.5299439676970232,
+          "expected_quality": 0.9499088613115542,
+          "negative_AoI_cost": -0.5685088217928991,
+          "negative_resource_cost": -0.7772162877741806,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": -0.1807185992906773,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "tail_total": {
+          "baseline_GAE": 0.4261506407084003,
+          "tail_quality": 0.5299439676970232,
+          "tail_total": 1.0,
+          "expected_quality": 0.5186035799462804,
+          "negative_AoI_cost": 0.29341442113146576,
+          "negative_resource_cost": -0.23678480249181819,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.2571813727054876,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "expected_quality": {
+          "baseline_GAE": 0.007383589893558674,
+          "tail_quality": 0.9499088613115542,
+          "tail_total": 0.5186035799462804,
+          "expected_quality": 1.0,
+          "negative_AoI_cost": -0.5945856444624579,
+          "negative_resource_cost": -0.7920501466639017,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": -0.07662808016638846,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "negative_AoI_cost": {
+          "baseline_GAE": 0.34483615050533056,
+          "tail_quality": -0.5685088217928991,
+          "tail_total": 0.29341442113146576,
+          "expected_quality": -0.5945856444624579,
+          "negative_AoI_cost": 0.9999999999999999,
+          "negative_resource_cost": 0.5614163455013259,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.4310366867701927,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "negative_resource_cost": {
+          "baseline_GAE": 0.22497291287047344,
+          "tail_quality": -0.7772162877741806,
+          "tail_total": -0.23678480249181819,
+          "expected_quality": -0.7920501466639017,
+          "negative_AoI_cost": 0.5614163455013259,
+          "negative_resource_cost": 1.0,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.030079207029693168,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "feasible_success": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "safe_success": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "negative_service_exceedance": {
+          "baseline_GAE": 0.2840084787736571,
+          "tail_quality": -0.1807185992906773,
+          "tail_total": 0.2571813727054876,
+          "expected_quality": -0.07662808016638846,
+          "negative_AoI_cost": 0.4310366867701927,
+          "negative_resource_cost": 0.030079207029693168,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 1.0,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "tail_quality_feasible_part": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "baseline_GAE_feasible_part": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        }
+      }
+    },
+    "111868397": {
+      "gradient_norm": {
+        "baseline_GAE": 0.13163286551364262,
+        "tail_quality": 0.1630735274514381,
+        "tail_total": 0.1326935523066188,
+        "expected_quality": 0.17966265620055905,
+        "negative_AoI_cost": 0.1741268082811999,
+        "negative_resource_cost": 0.14099046070757046,
+        "feasible_success": 0.0,
+        "safe_success": 0.0,
+        "negative_service_exceedance": 0.07814713193900677,
+        "tail_quality_feasible_part": 0.0,
+        "baseline_GAE_feasible_part": 0.0
+      },
+      "cosine": {
+        "baseline_GAE": {
+          "baseline_GAE": 0.9999999999999998,
+          "tail_quality": 0.18756194121999345,
+          "tail_total": 0.29739233665449544,
+          "expected_quality": 0.12319842987826922,
+          "negative_AoI_cost": 0.14954566586760373,
+          "negative_resource_cost": -0.031268797845295966,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": -0.20100288467552935,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "tail_quality": {
+          "baseline_GAE": 0.18756194121999345,
+          "tail_quality": 1.0,
+          "tail_total": 0.6298203950847848,
+          "expected_quality": 0.9611878469797456,
+          "negative_AoI_cost": -0.42618832474496726,
+          "negative_resource_cost": -0.740999970244123,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.14250159077026317,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "tail_total": {
+          "baseline_GAE": 0.29739233665449544,
+          "tail_quality": 0.6298203950847848,
+          "tail_total": 1.0,
+          "expected_quality": 0.5579747142939068,
+          "negative_AoI_cost": 0.3379540841375028,
+          "negative_resource_cost": -0.34269813844495506,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.32589446902968205,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "expected_quality": {
+          "baseline_GAE": 0.12319842987826922,
+          "tail_quality": 0.9611878469797456,
+          "tail_total": 0.5579747142939068,
+          "expected_quality": 1.0,
+          "negative_AoI_cost": -0.4661128605882326,
+          "negative_resource_cost": -0.7932342194057034,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.1722040924168531,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "negative_AoI_cost": {
+          "baseline_GAE": 0.14954566586760373,
+          "tail_quality": -0.42618832474496726,
+          "tail_total": 0.3379540841375028,
+          "expected_quality": -0.4661128605882326,
+          "negative_AoI_cost": 1.0,
+          "negative_resource_cost": 0.509872958062888,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 0.23475800090736454,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "negative_resource_cost": {
+          "baseline_GAE": -0.031268797845295966,
+          "tail_quality": -0.740999970244123,
+          "tail_total": -0.34269813844495506,
+          "expected_quality": -0.7932342194057034,
+          "negative_AoI_cost": 0.509872958062888,
+          "negative_resource_cost": 0.9999999999999998,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": -0.13231270578978307,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "feasible_success": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "safe_success": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "negative_service_exceedance": {
+          "baseline_GAE": -0.20100288467552935,
+          "tail_quality": 0.14250159077026317,
+          "tail_total": 0.32589446902968205,
+          "expected_quality": 0.1722040924168531,
+          "negative_AoI_cost": 0.23475800090736454,
+          "negative_resource_cost": -0.13231270578978307,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": 1.0,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "tail_quality_feasible_part": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "baseline_GAE_feasible_part": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        }
+      }
+    },
+    "160441552": {
+      "gradient_norm": {
+        "baseline_GAE": 0.12010970844167691,
+        "tail_quality": 0.1574232284239927,
+        "tail_total": 0.1273797863097628,
+        "expected_quality": 0.172142270361547,
+        "negative_AoI_cost": 0.18302099824855642,
+        "negative_resource_cost": 0.11714840626815966,
+        "feasible_success": 0.11538490174042275,
+        "safe_success": 0.0,
+        "negative_service_exceedance": 0.10986295472123707,
+        "tail_quality_feasible_part": 0.04324564840760415,
+        "baseline_GAE_feasible_part": 0.04796353959585133
+      },
+      "cosine": {
+        "baseline_GAE": {
+          "baseline_GAE": 1.0,
+          "tail_quality": 0.2436769246793559,
+          "tail_total": 0.19641231542581641,
+          "expected_quality": 0.3156423689837813,
+          "negative_AoI_cost": 0.062304368681180944,
+          "negative_resource_cost": -0.112889787781111,
+          "feasible_success": 0.022967269729303123,
+          "safe_success": null,
+          "negative_service_exceedance": -0.01918505932723335,
+          "tail_quality_feasible_part": 0.04721313038455541,
+          "baseline_GAE_feasible_part": 0.5497160669369876
+        },
+        "tail_quality": {
+          "baseline_GAE": 0.2436769246793559,
+          "tail_quality": 0.9999999999999999,
+          "tail_total": 0.15235173253918577,
+          "expected_quality": 0.8592103204718295,
+          "negative_AoI_cost": -0.4716175114022294,
+          "negative_resource_cost": -0.7684797317365434,
+          "feasible_success": 0.18759046278855793,
+          "safe_success": null,
+          "negative_service_exceedance": -0.17502962760201113,
+          "tail_quality_feasible_part": 0.46133017618957123,
+          "baseline_GAE_feasible_part": 0.21777551719081728
+        },
+        "tail_total": {
+          "baseline_GAE": 0.19641231542581641,
+          "tail_quality": 0.15235173253918577,
+          "tail_total": 1.0,
+          "expected_quality": 0.20282806008706464,
+          "negative_AoI_cost": 0.5928797159411946,
+          "negative_resource_cost": 0.003172592636401171,
+          "feasible_success": 0.20685677872707303,
+          "safe_success": null,
+          "negative_service_exceedance": 0.6049468912379449,
+          "tail_quality_feasible_part": 0.1226576774302704,
+          "baseline_GAE_feasible_part": 0.07195775145627485
+        },
+        "expected_quality": {
+          "baseline_GAE": 0.3156423689837813,
+          "tail_quality": 0.8592103204718295,
+          "tail_total": 0.20282806008706464,
+          "expected_quality": 1.0000000000000002,
+          "negative_AoI_cost": -0.5230059941673829,
+          "negative_resource_cost": -0.7714725186501357,
+          "feasible_success": 0.13418515772584202,
+          "safe_success": null,
+          "negative_service_exceedance": -0.12650556245597117,
+          "tail_quality_feasible_part": 0.2737524194781479,
+          "baseline_GAE_feasible_part": 0.23618395112455162
+        },
+        "negative_AoI_cost": {
+          "baseline_GAE": 0.062304368681180944,
+          "tail_quality": -0.4716175114022294,
+          "tail_total": 0.5928797159411946,
+          "expected_quality": -0.5230059941673829,
+          "negative_AoI_cost": 1.0,
+          "negative_resource_cost": 0.5364178974361382,
+          "feasible_success": 0.03479477152462103,
+          "safe_success": null,
+          "negative_service_exceedance": 0.5649670702954182,
+          "tail_quality_feasible_part": -0.11620851308805642,
+          "baseline_GAE_feasible_part": -0.06453382761756375
+        },
+        "negative_resource_cost": {
+          "baseline_GAE": -0.112889787781111,
+          "tail_quality": -0.7684797317365434,
+          "tail_total": 0.003172592636401171,
+          "expected_quality": -0.7714725186501357,
+          "negative_AoI_cost": 0.5364178974361382,
+          "negative_resource_cost": 0.9999999999999999,
+          "feasible_success": -0.23594032017794384,
+          "safe_success": null,
+          "negative_service_exceedance": 0.2741034628376469,
+          "tail_quality_feasible_part": -0.4406964957760155,
+          "baseline_GAE_feasible_part": -0.09697395031862965
+        },
+        "feasible_success": {
+          "baseline_GAE": 0.022967269729303123,
+          "tail_quality": 0.18759046278855793,
+          "tail_total": 0.20685677872707303,
+          "expected_quality": 0.13418515772584202,
+          "negative_AoI_cost": 0.03479477152462103,
+          "negative_resource_cost": -0.23594032017794384,
+          "feasible_success": 1.0000000000000002,
+          "safe_success": null,
+          "negative_service_exceedance": -0.026165702313080158,
+          "tail_quality_feasible_part": 0.1601616804405224,
+          "baseline_GAE_feasible_part": -0.047310456311764615
+        },
+        "safe_success": {
+          "baseline_GAE": null,
+          "tail_quality": null,
+          "tail_total": null,
+          "expected_quality": null,
+          "negative_AoI_cost": null,
+          "negative_resource_cost": null,
+          "feasible_success": null,
+          "safe_success": null,
+          "negative_service_exceedance": null,
+          "tail_quality_feasible_part": null,
+          "baseline_GAE_feasible_part": null
+        },
+        "negative_service_exceedance": {
+          "baseline_GAE": -0.01918505932723335,
+          "tail_quality": -0.17502962760201113,
+          "tail_total": 0.6049468912379449,
+          "expected_quality": -0.12650556245597117,
+          "negative_AoI_cost": 0.5649670702954182,
+          "negative_resource_cost": 0.2741034628376469,
+          "feasible_success": -0.026165702313080158,
+          "safe_success": null,
+          "negative_service_exceedance": 1.0000000000000002,
+          "tail_quality_feasible_part": -0.033516575770625924,
+          "baseline_GAE_feasible_part": -0.11262629946337362
+        },
+        "tail_quality_feasible_part": {
+          "baseline_GAE": 0.04721313038455541,
+          "tail_quality": 0.46133017618957123,
+          "tail_total": 0.1226576774302704,
+          "expected_quality": 0.2737524194781479,
+          "negative_AoI_cost": -0.11620851308805642,
+          "negative_resource_cost": -0.4406964957760155,
+          "feasible_success": 0.1601616804405224,
+          "safe_success": null,
+          "negative_service_exceedance": -0.033516575770625924,
+          "tail_quality_feasible_part": 1.0,
+          "baseline_GAE_feasible_part": 0.11542124588668688
+        },
+        "baseline_GAE_feasible_part": {
+          "baseline_GAE": 0.5497160669369876,
+          "tail_quality": 0.21777551719081728,
+          "tail_total": 0.07195775145627485,
+          "expected_quality": 0.23618395112455162,
+          "negative_AoI_cost": -0.06453382761756375,
+          "negative_resource_cost": -0.09697395031862965,
+          "feasible_success": -0.047310456311764615,
+          "safe_success": null,
+          "negative_service_exceedance": -0.11262629946337362,
+          "tail_quality_feasible_part": 0.11542124588668688,
+          "baseline_GAE_feasible_part": 0.9999999999999998
+        }
+      }
+    }
+  },
+  "checkpoint_trend": {
+    "104948945": {
+      "early": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "late": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "sampled_reward_change": {
+        "mean": 0.002704196877860001,
+        "ci95": [
+          0.0025227314248780935,
+          0.0028997279745669223
+        ]
+      },
+      "sampled_quality_change": {
+        "mean": 0.00893845999185837,
+        "ci95": [
+          0.008433264153290052,
+          0.00948091710876202
+        ]
+      }
+    },
+    "111868397": {
+      "early": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "late": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.334375,
+            "ci95": [
+              0.171875,
+              0.50625
+            ]
+          },
+          "feasible": {
+            "mean": 0.334375,
+            "ci95": [
+              0.171875,
+              0.50625
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.209375,
+            "ci95": [
+              0.103125,
+              0.325
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.11875
+            ]
+          },
+          "feasible": {
+            "mean": 0.05,
+            "ci95": [
+              0.0,
+              0.11875
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0375,
+            "ci95": [
+              0.0,
+              0.1
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "sampled_reward_change": {
+        "mean": 0.006649526608470684,
+        "ci95": [
+          0.006514216678760134,
+          0.00678868616115517
+        ]
+      },
+      "sampled_quality_change": {
+        "mean": 0.010754311006497244,
+        "ci95": [
+          0.010299530034992115,
+          0.011220938726150431
+        ]
+      }
+    },
+    "160441552": {
+      "early": {
+        "0.001": {
+          "improvement": {
+            "mean": 0.140625,
+            "ci95": [
+              0.059375,
+              0.234375
+            ]
+          },
+          "feasible": {
+            "mean": 0.140625,
+            "ci95": [
+              0.059375,
+              0.234375
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "late": {
+        "0.001": {
+          "improvement": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.446875,
+            "ci95": [
+              0.378125,
+              0.5125
+            ]
+          }
+        },
+        "0.005": {
+          "improvement": {
+            "mean": 0.94375,
+            "ci95": [
+              0.859375,
+              1.0
+            ]
+          },
+          "feasible": {
+            "mean": 0.94375,
+            "ci95": [
+              0.859375,
+              1.0
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.41875,
+            "ci95": [
+              0.35625,
+              0.475
+            ]
+          }
+        },
+        "0.01": {
+          "improvement": {
+            "mean": 0.828125,
+            "ci95": [
+              0.671875,
+              0.953125
+            ]
+          },
+          "feasible": {
+            "mean": 0.828125,
+            "ci95": [
+              0.671875,
+              0.953125
+            ]
+          },
+          "safe": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "zero_regression": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "strict_service": {
+            "mean": 0.35,
+            "ci95": [
+              0.275,
+              0.425
+            ]
+          }
+        }
+      },
+      "sampled_reward_change": {
+        "mean": 0.007512587264179244,
+        "ci95": [
+          0.007356988181153486,
+          0.007672472517702786
+        ]
+      },
+      "sampled_quality_change": {
+        "mean": 0.01744152287594345,
+        "ci95": [
+          0.01699067567101704,
+          0.017896169234269652
+        ]
+      }
+    }
+  },
+  "new_evaluation_episodes": 3060,
+  "new_evaluation_physical_steps": 1836000,
+  "new_training_steps": 0,
+  "new_optimizer_updates": 0
+}

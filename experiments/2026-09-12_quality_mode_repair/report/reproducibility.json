@@ -1,0 +1,12 @@
+{
+  "state": "PASS",
+  "runs": 2,
+  "identical_outputs": {
+    "results.json": "3d9c2ca7748ad08f58ed99e5742cc4947c6753a416ee2a05385e77e021afe0e8",
+    "audit.json": "963e010162ecc43bd7de6259eaf55fdbbcc926ee08d9b78c8a8fa1239b4ba40c",
+    "physical_statistics.json": "256ee229feac05e24f2310d6d62a14457580eca9f812f22e8964e42ce0a4d6dc",
+    "REPORT.md": "1466ee1de1a88edf0462554e31870e552ed88ede62c20ec02718757f23f7a594"
+  },
+  "analysis_manifest_sha256": "afa0d483dbeda2e817280c3a917f229103a68c2a0a6aa2254e654e8b9ad7e559",
+  "original_hashes_rechecked": true
+}

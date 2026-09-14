@@ -1,0 +1,5662 @@
+{
+  "state": "PASS",
+  "protocol_sha256": "dcf10f4eb3804c84da21dc5c2dab53de3c61e45ed1b71ab0af1fc68e7567728f",
+  "manifest_sha256": "3e4c21a05e9a4997d56ec7a615e12895e471e7b8dbc2ad5565cb213d92ca11c0",
+  "protected_original_files": 1053,
+  "original_hash_changes": [],
+  "git_changes": [],
+  "total_training_steps": 6000000,
+  "training_jobs": 6,
+  "evaluated_traces": 280,
+  "evaluated_complete_episodes": 5600,
+  "evaluation_physical_steps": 3360000,
+  "every_new_evaluation_original_checker": "PASS",
+  "independent_offline_profile_executor_reward_audit": {
+    "seed_104948945/original_rl/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/original_rl/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/quality_rule_hybrid/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_1000000/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_1000000/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 1.1102230246251565e-16,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_200000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_200000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_200000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_400000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_400000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_400000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_600000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_600000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_600000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_800000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_800000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_all_at_800000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_200000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_200000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_200000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_400000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_400000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_400000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_600000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_600000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_600000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_800000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_800000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_104948945/residual_quality_at_800000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/original_rl/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/quality_rule_hybrid/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_1000000/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_1000000/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_200000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_200000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_200000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_400000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_400000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_400000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_600000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_600000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_600000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_800000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_800000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_all_at_800000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_200000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_200000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_200000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_400000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_400000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_400000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_600000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_600000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_600000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_800000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_800000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_111868397/residual_quality_at_800000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/original_rl/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/quality_rule_hybrid/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_1000000/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_1000000/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_200000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_200000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_200000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_400000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_400000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_400000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_600000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_600000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_600000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_800000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_800000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_all_at_800000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_200000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_200000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_200000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_400000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_400000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_400000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_600000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_600000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_600000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_800000/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 4.163336342344337e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_800000/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "seed_160441552/residual_quality_at_800000/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 2.7755575615628914e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_instruction/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/R_equal_instruction/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_3/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/fixed_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/fixed_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/fixed_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/switch300_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/switch300_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/switch300_1_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/switch300_1_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/switch300_2_to_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/switch300_2_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/early50_0_to_1": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/late550_0_to_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 5.551115123125783e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/multi_0_1_2": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    },
+    "rules/greedy_modes_16/multi_2_1_0": {
+      "physical_slots": 12000,
+      "max_reward_reconstruction_error": 8.326672684688674e-17,
+      "checks": [
+        "AoI",
+        "cache",
+        "timestamp",
+        "one_resource_floor",
+        "budget",
+        "profile_quality",
+        "profile_load",
+        "original_mask",
+        "preferred_action_fallback",
+        "stable_AoI_scheduler",
+        "delivery",
+        "usage",
+        "reward_components"
+      ]
+    }
+  },
+  "fixed_nonquality_parent_trajectory_exact_matches": [
+    "seed_104948945/residual_quality_at_1000000/fixed_0",
+    "seed_104948945/residual_quality_at_1000000/fixed_1",
+    "seed_111868397/residual_quality_at_1000000/fixed_0",
+    "seed_111868397/residual_quality_at_1000000/fixed_1",
+    "seed_160441552/residual_quality_at_1000000/fixed_0",
+    "seed_160441552/residual_quality_at_1000000/fixed_1"
+  ],
+  "paired_training_exogenous_ledger_models": [
+    104948945,
+    111868397,
+    160441552
+  ],
+  "final_test_used": false,
+  "final_test_verification": {
+    "guarded_environment_whitelist": true,
+    "actual_evaluation_seed_union": [
+      201800446,
+      204985084,
+      205988792,
+      207198655,
+      207714607,
+      211075276,
+      216214719,
+      218167351,
+      218487414,
+      219037752,
+      223828264,
+      224738031,
+      232720412,
+      243240890,
+      245043960,
+      265167367,
+      275961110,
+      277619122,
+      280460255,
+      286277135
+    ],
+    "training_seed_lists_checked": true,
+    "intersection_with_reserved": []
+  },
+  "trace_sha256": {
+    "seed_104948945/original_rl/fixed_0": "ec67a092d3876cb8b68d47199bcfce5189f24cae4e2a8152188c344742015d62",
+    "seed_104948945/original_rl/fixed_1": "188cf6bf39987284cc693893f2c57bbeaf69cc4d89a703d272e07cf6bed99113",
+    "seed_104948945/original_rl/fixed_2": "14d904c132af205a2fcf09ac0e453c3e9612c3b844773af6f7b2cc591f4ee878",
+    "seed_104948945/original_rl/switch300_0_to_1": "2471dc392ff92221dd8b77256b8917014c618cefe4a8f3245ef2ef2bedf558d4",
+    "seed_104948945/original_rl/switch300_0_to_2": "3e0510b95365e176df31418802c23db77f1ef9335243def6055475b202f51a32",
+    "seed_104948945/original_rl/switch300_1_to_0": "1178ba5d32b92ce313995ec96b4a552b48994d8f918c3afdba7ed822a7c9b100",
+    "seed_104948945/original_rl/switch300_1_to_2": "9abb26ac7552418729fcb8eabb27c8224ea59181945c76fd41fb2bf05e5145b9",
+    "seed_104948945/original_rl/switch300_2_to_0": "8d164df3c4b2764e2e787053eca66bdc716a6cd2856cec891b92306eb2b4d0b4",
+    "seed_104948945/original_rl/switch300_2_to_1": "a0539ada506116173e2d9240249571da0f5597ae6c99ea8c775d0d5f7015770a",
+    "seed_104948945/original_rl/early50_0_to_1": "b1dcc21abf324468d6ec8aac347fd2f8114fafe725de321be8b5b389ecf341ee",
+    "seed_104948945/original_rl/late550_0_to_2": "4734f4b9314706c63181c8acbfdb7427b3636e913284566115d9c94eb54f0140",
+    "seed_104948945/original_rl/multi_0_1_2": "9799cc7befe4fa61498fe5c1e9677ccc72bd8d1fcfbba16006c895f3c486e4df",
+    "seed_104948945/original_rl/multi_2_1_0": "d77f92dabf0ee56f068167851648cfcb70fc4ce6362624bb5aa09599f6f16cba",
+    "seed_104948945/quality_rule_hybrid/fixed_0": "ec67a092d3876cb8b68d47199bcfce5189f24cae4e2a8152188c344742015d62",
+    "seed_104948945/quality_rule_hybrid/fixed_1": "188cf6bf39987284cc693893f2c57bbeaf69cc4d89a703d272e07cf6bed99113",
+    "seed_104948945/quality_rule_hybrid/fixed_2": "0ebedeeb44bba9015771be761e8a73037447713e0024095993fee5b19dcd4053",
+    "seed_104948945/quality_rule_hybrid/switch300_0_to_1": "2471dc392ff92221dd8b77256b8917014c618cefe4a8f3245ef2ef2bedf558d4",
+    "seed_104948945/quality_rule_hybrid/switch300_0_to_2": "af1b7eba4deba97239cdc9bf8afde6355763dd20c33fbd65c441f5f1e3e87ad1",
+    "seed_104948945/quality_rule_hybrid/switch300_1_to_0": "1178ba5d32b92ce313995ec96b4a552b48994d8f918c3afdba7ed822a7c9b100",
+    "seed_104948945/quality_rule_hybrid/switch300_1_to_2": "26dbe1138710a50a342bdb6950f516ad6ed78f77172afe5041c54c6f8664a086",
+    "seed_104948945/quality_rule_hybrid/switch300_2_to_0": "7cf43bd9853194a0c158faea69eb126837eda2cc823a413bce3874534a4936c6",
+    "seed_104948945/quality_rule_hybrid/switch300_2_to_1": "b29a9418fd178ec4206e8085947f20010878b4e31f0bdd35d8f29bfd4331edef",
+    "seed_104948945/quality_rule_hybrid/early50_0_to_1": "b1dcc21abf324468d6ec8aac347fd2f8114fafe725de321be8b5b389ecf341ee",
+    "seed_104948945/quality_rule_hybrid/late550_0_to_2": "78d8a56685faef38062203adc4dc83dbd445c6618fda71dd2d16b5956ee80e1d",
+    "seed_104948945/quality_rule_hybrid/multi_0_1_2": "234cabe97e72a2a3d7e29ef6334daef1a48084576f8fb2135e943d11c6ef46b6",
+    "seed_104948945/quality_rule_hybrid/multi_2_1_0": "60262f286eb27f75b5a5c3ef77e1447d8256f791fefab48d9bb6d23e9cc9ce30",
+    "seed_104948945/residual_all_at_1000000/fixed_0": "95f9ce279376c65dd995ca7674d1890769333274c693f5cfaac3bc2e79bc5484",
+    "seed_104948945/residual_all_at_1000000/fixed_1": "81636c8ed9923639066faa09786eb3008b5acb3c2bb27aea2a3698df8105c531",
+    "seed_104948945/residual_all_at_1000000/fixed_2": "b9268c7d25b1e9c366ffd2862612c411d607fd65130dc3ce3e69e7235f4f54da",
+    "seed_104948945/residual_all_at_1000000/switch300_0_to_1": "c9d170992100ca88cc8793bd702ccff61d0d9aef8656d58491433c99d3001d54",
+    "seed_104948945/residual_all_at_1000000/switch300_0_to_2": "dd0c718bfeb991165fc74078399aa6a4fa1d8a1f2bb1d0856cafce5f77fe0854",
+    "seed_104948945/residual_all_at_1000000/switch300_1_to_0": "c7933c76bde88f26dc8c1b5db5411d1f50cafc08e7a52a1d88fa1b9076ba5086",
+    "seed_104948945/residual_all_at_1000000/switch300_1_to_2": "2c8dc7c444b033552dfe51b3e7481d6b4334d56a184921a1e76a2a00444e9ecd",
+    "seed_104948945/residual_all_at_1000000/switch300_2_to_0": "974d51d80332a803688489a321de7e26b5e5736b086f50e0d011825341d27164",
+    "seed_104948945/residual_all_at_1000000/switch300_2_to_1": "341e7a292d5d9843f5aa36531382bf6394c3d7c5917e52d776149b0b07f7b54d",
+    "seed_104948945/residual_all_at_1000000/early50_0_to_1": "ef45da5cd8101dc557ae280729539f2f9d252c68b153c1dbccdbd6ad173e80a6",
+    "seed_104948945/residual_all_at_1000000/late550_0_to_2": "bd465de1fa2744e877ee7bd63a478808717cf15979a7762374db3c65b60a1aed",
+    "seed_104948945/residual_all_at_1000000/multi_0_1_2": "7eb65df5e95d0c7bde6e35f1325571905079e2ba5c90f659cb4f81d0d7770e9f",
+    "seed_104948945/residual_all_at_1000000/multi_2_1_0": "554562a22b6a1f79f24ea231f395a3e455895d16efe9f60998e012085b9dca5d",
+    "seed_104948945/residual_quality_at_1000000/fixed_0": "ec67a092d3876cb8b68d47199bcfce5189f24cae4e2a8152188c344742015d62",
+    "seed_104948945/residual_quality_at_1000000/fixed_1": "188cf6bf39987284cc693893f2c57bbeaf69cc4d89a703d272e07cf6bed99113",
+    "seed_104948945/residual_quality_at_1000000/fixed_2": "b76f51315a2900e5553517848064ef4d7e8f4bd6b78faa82470cf2f5d41d88d5",
+    "seed_104948945/residual_quality_at_1000000/switch300_0_to_1": "2471dc392ff92221dd8b77256b8917014c618cefe4a8f3245ef2ef2bedf558d4",
+    "seed_104948945/residual_quality_at_1000000/switch300_0_to_2": "65bdb6d3c5b618f10639b3752b5bcfc142f3c388fe864b93745a11f718892682",
+    "seed_104948945/residual_quality_at_1000000/switch300_1_to_0": "1178ba5d32b92ce313995ec96b4a552b48994d8f918c3afdba7ed822a7c9b100",
+    "seed_104948945/residual_quality_at_1000000/switch300_1_to_2": "195eb8722649a25ca9794f2580fb43cf26093647ed2f1d665bf8bb875deadd1f",
+    "seed_104948945/residual_quality_at_1000000/switch300_2_to_0": "afa507e9a45716c68205ce3630c2af0327431c79af7f3fdb981e62f5b6fc39d7",
+    "seed_104948945/residual_quality_at_1000000/switch300_2_to_1": "6e849a6d9bf17b04cf6b2cc9de4f64a2f27f06bec4e59873858253f3a1403649",
+    "seed_104948945/residual_quality_at_1000000/early50_0_to_1": "b1dcc21abf324468d6ec8aac347fd2f8114fafe725de321be8b5b389ecf341ee",
+    "seed_104948945/residual_quality_at_1000000/late550_0_to_2": "81ed0b4d60f83cac99bb620adddc7a2134f6bda6d2df5c7bf605ed206440bfb9",
+    "seed_104948945/residual_quality_at_1000000/multi_0_1_2": "e690cae88ddb541c5281d849cd67c4baf1f3be1e179b28a60583f966674d80c0",
+    "seed_104948945/residual_quality_at_1000000/multi_2_1_0": "74b9a2fc52b21d7ba10a7c95909829dda2ff340db9006abd5e1e32635814a9ea",
+    "seed_104948945/residual_all_at_200000/fixed_0": "869d9bd204362a35042b1bc7819dc3663c8a4b6729e9262f3836f29a0f8fa040",
+    "seed_104948945/residual_all_at_200000/fixed_1": "55234e25e03d36c5fb5810434e5d9f2ccd08cde43e1643a6ebc2fbcad8dad6c3",
+    "seed_104948945/residual_all_at_200000/fixed_2": "5cd2b43d3efa43079cb10901218f276173c5877dd5b1230418e71565e65ba9b8",
+    "seed_104948945/residual_all_at_400000/fixed_0": "b81658f710411815dcd514cef1b3e14535e7a91df1d56034e6e9d59fef667fdc",
+    "seed_104948945/residual_all_at_400000/fixed_1": "d890c11d6d956c551ca4403404256182b3735e0ebf608593d3f0aedba1466a62",
+    "seed_104948945/residual_all_at_400000/fixed_2": "5ab6d630a7fb6701f634137170e3586aa9942e8673c9234918eb1310c1e43eb7",
+    "seed_104948945/residual_all_at_600000/fixed_0": "6935be5d6d9d8d1277d7085b708c9761eb0bb91db345e71f19066ec5570a3c36",
+    "seed_104948945/residual_all_at_600000/fixed_1": "f11329389086102d1ccaaf5ae09e8634de1ef0be0ae6ea46c944472907403327",
+    "seed_104948945/residual_all_at_600000/fixed_2": "d04e99ea9d997f28d9ec408baefe453b0d0ed43b3d17d061873b0380e5ceaab7",
+    "seed_104948945/residual_all_at_800000/fixed_0": "43d8c7515b6da602d2b1344e60e905da6ac5318fa05bc7f44f794c64ce8b0f3f",
+    "seed_104948945/residual_all_at_800000/fixed_1": "c35f2851ce0e7cf2df64e6815ed8a490fbd772793f9b65840690037f281fa1bb",
+    "seed_104948945/residual_all_at_800000/fixed_2": "676a2407b20e2620ce78b127ffd835bb3887299937ce7138e2d0d9b2c7384776",
+    "seed_104948945/residual_quality_at_200000/fixed_0": "ec67a092d3876cb8b68d47199bcfce5189f24cae4e2a8152188c344742015d62",
+    "seed_104948945/residual_quality_at_200000/fixed_1": "188cf6bf39987284cc693893f2c57bbeaf69cc4d89a703d272e07cf6bed99113",
+    "seed_104948945/residual_quality_at_200000/fixed_2": "1e3b628dc926f9bebd85d8ce74875ef34f152d70bbda32259a305c5ad0f0718c",
+    "seed_104948945/residual_quality_at_400000/fixed_0": "ec67a092d3876cb8b68d47199bcfce5189f24cae4e2a8152188c344742015d62",
+    "seed_104948945/residual_quality_at_400000/fixed_1": "188cf6bf39987284cc693893f2c57bbeaf69cc4d89a703d272e07cf6bed99113",
+    "seed_104948945/residual_quality_at_400000/fixed_2": "fababb422828a79941ec62a60c4f76eac39a0b7e209af876dae160e171dee791",
+    "seed_104948945/residual_quality_at_600000/fixed_0": "ec67a092d3876cb8b68d47199bcfce5189f24cae4e2a8152188c344742015d62",
+    "seed_104948945/residual_quality_at_600000/fixed_1": "188cf6bf39987284cc693893f2c57bbeaf69cc4d89a703d272e07cf6bed99113",
+    "seed_104948945/residual_quality_at_600000/fixed_2": "1a2a4f72a47818bc1427c5c28635642a42c1468e77faa25f90fcdffa81942bc4",
+    "seed_104948945/residual_quality_at_800000/fixed_0": "ec67a092d3876cb8b68d47199bcfce5189f24cae4e2a8152188c344742015d62",
+    "seed_104948945/residual_quality_at_800000/fixed_1": "188cf6bf39987284cc693893f2c57bbeaf69cc4d89a703d272e07cf6bed99113",
+    "seed_104948945/residual_quality_at_800000/fixed_2": "e54474700ce19b4c8714659c0716555ba9c6230400f14230543c649874fb4572",
+    "seed_111868397/original_rl/fixed_0": "bae52c6d48f80a6a0e2f0da3f88fb2911ddbf03d5e3eede18dc04d9f2d5ab661",
+    "seed_111868397/original_rl/fixed_1": "9d90bb3c0ec01a6217d99709f766579fa037848268b736d2a4ed83279767f899",
+    "seed_111868397/original_rl/fixed_2": "248a083ed3c790f6ebe0eaa3d4a3afb277601ebdc704848dfa34f35fd1762051",
+    "seed_111868397/original_rl/switch300_0_to_1": "9ffb5154d5bc0cd983caddb4a08132f2c23de3f95f35f60210d911da32e55772",
+    "seed_111868397/original_rl/switch300_0_to_2": "18dab4c2b4169eddcbcbd5a913d51c8cc731c2b83b3d0d09540a05140ff4de09",
+    "seed_111868397/original_rl/switch300_1_to_0": "49e40139b6c63973601e5d1e699a96e306723262483be2e5ceff4652ebe5fc72",
+    "seed_111868397/original_rl/switch300_1_to_2": "c0275832babc2590973ffde148174c77b44057d1f3fd94f04bf62a6930dfee66",
+    "seed_111868397/original_rl/switch300_2_to_0": "b810977de1d2c483aeb83e6986aa75d3369ab67df72ab23d98e2936e68ca6fe5",
+    "seed_111868397/original_rl/switch300_2_to_1": "6e9a4e66db36bd00a8ab5a259ad499cf9ebd0126df6600dd14a6422dbbe3ec8c",
+    "seed_111868397/original_rl/early50_0_to_1": "c688ba42b1b2f833afaf7a76d4cdf370b80b477184f8aa8ea736cac35b12b8ab",
+    "seed_111868397/original_rl/late550_0_to_2": "7982018bd814f7ecd1b4309f41466a2608dd3748c14b0c51cd1911738e0ffe3a",
+    "seed_111868397/original_rl/multi_0_1_2": "4b3410c3406c7fe8a8a997773a620e3711fddb9475eeffa953cfdac624520f8b",
+    "seed_111868397/original_rl/multi_2_1_0": "2b6d6d5dd4238820df4be31431139de2c5fc1b778f45d6dba967752809d1fc4a",
+    "seed_111868397/quality_rule_hybrid/fixed_0": "bae52c6d48f80a6a0e2f0da3f88fb2911ddbf03d5e3eede18dc04d9f2d5ab661",
+    "seed_111868397/quality_rule_hybrid/fixed_1": "9d90bb3c0ec01a6217d99709f766579fa037848268b736d2a4ed83279767f899",
+    "seed_111868397/quality_rule_hybrid/fixed_2": "c48f3b14de17c300015dec1c78b42de6bfb8a7e8ed81ba6ade5bef1fa154e845",
+    "seed_111868397/quality_rule_hybrid/switch300_0_to_1": "9ffb5154d5bc0cd983caddb4a08132f2c23de3f95f35f60210d911da32e55772",
+    "seed_111868397/quality_rule_hybrid/switch300_0_to_2": "1dbb58fec532672c9828dd236f6afbc9e69f4a5c70c93e3da3e3b5e4279e77b1",
+    "seed_111868397/quality_rule_hybrid/switch300_1_to_0": "49e40139b6c63973601e5d1e699a96e306723262483be2e5ceff4652ebe5fc72",
+    "seed_111868397/quality_rule_hybrid/switch300_1_to_2": "5f1ab59dcc5a9753732484d768867404519f56c14987f6aad65789c0dfb586c1",
+    "seed_111868397/quality_rule_hybrid/switch300_2_to_0": "74104deb2f46726ca7172e7f6ef37857778c8e90803eaca26754be5e47b46332",
+    "seed_111868397/quality_rule_hybrid/switch300_2_to_1": "fb28b61cda5d347307e98f7065febb065bb96733c1e6d884c69ebdbda9cd4c4a",
+    "seed_111868397/quality_rule_hybrid/early50_0_to_1": "c688ba42b1b2f833afaf7a76d4cdf370b80b477184f8aa8ea736cac35b12b8ab",
+    "seed_111868397/quality_rule_hybrid/late550_0_to_2": "bb7419a82b0cf6ccc0476625ddf0207242448f55e55e48c9bdaaa653203fbd1a",
+    "seed_111868397/quality_rule_hybrid/multi_0_1_2": "fe3f6e183f049c7a62449387645776d6561ff2fe78712a91e82e269c41ba28cd",
+    "seed_111868397/quality_rule_hybrid/multi_2_1_0": "6eb35e8309e5e1ec453132a6dbde2d1ed80718788fafcc129621b117168d89a8",
+    "seed_111868397/residual_all_at_1000000/fixed_0": "86836be62a1eb77623f99cc408909cbd4384c297af800e1db72c2fdf02a13d64",
+    "seed_111868397/residual_all_at_1000000/fixed_1": "0e41f82578c7b41438b0043918a1fd0e63f716b43344bc7e4bf5e96e34c009af",
+    "seed_111868397/residual_all_at_1000000/fixed_2": "d02439116e220c910352af3604fe6008300714378aec0960fdd72f3118321c72",
+    "seed_111868397/residual_all_at_1000000/switch300_0_to_1": "ca60b0c643e8e05dc4613c25dcd807077c145296003a941fba3facbf218e90b6",
+    "seed_111868397/residual_all_at_1000000/switch300_0_to_2": "4cdd311943a1ec5eece29ab48ec3c0dbd952df8c328fce6181dc94e323945fee",
+    "seed_111868397/residual_all_at_1000000/switch300_1_to_0": "4ed27e925a95b30073b11d28f5466930e6b29462501ce8d6e7e4932f47f86eab",
+    "seed_111868397/residual_all_at_1000000/switch300_1_to_2": "84427301458d5c91e8844e2daaf9d9342fcfcf2a084a65320cfa6d9d1069a3bd",
+    "seed_111868397/residual_all_at_1000000/switch300_2_to_0": "7345dccad4931bdc4e5fa0ec77704b5d66a1686be9e017e929b5cb5ecd726d2f",
+    "seed_111868397/residual_all_at_1000000/switch300_2_to_1": "e4a94ad855e22bf4d39c3b0f634aaff8a77e9f622352cdb95b147c6ec35ea51a",
+    "seed_111868397/residual_all_at_1000000/early50_0_to_1": "060774a32b75985c97b3073fbec6b8ecc83fe8bf67ac4f45523591f36f998db6",
+    "seed_111868397/residual_all_at_1000000/late550_0_to_2": "3e704e1d416e253f9f0d53908a02cd301e6f24f0cfc08edf641ef178a0eef126",
+    "seed_111868397/residual_all_at_1000000/multi_0_1_2": "139db7c630c445dbac3390b12e92f1456c587bf26e6425955a5c1fff7ed45235",
+    "seed_111868397/residual_all_at_1000000/multi_2_1_0": "48b3a5dd1b402835641f71b0ff30a128c44f3073c8d6be6e330729ff5b0020f4",
+    "seed_111868397/residual_quality_at_1000000/fixed_0": "bae52c6d48f80a6a0e2f0da3f88fb2911ddbf03d5e3eede18dc04d9f2d5ab661",
+    "seed_111868397/residual_quality_at_1000000/fixed_1": "9d90bb3c0ec01a6217d99709f766579fa037848268b736d2a4ed83279767f899",
+    "seed_111868397/residual_quality_at_1000000/fixed_2": "bdfb2877a0d747ced4dbc9e583c144c8ce4ebf9cb51b00752fb2c7ec99cae779",
+    "seed_111868397/residual_quality_at_1000000/switch300_0_to_1": "9ffb5154d5bc0cd983caddb4a08132f2c23de3f95f35f60210d911da32e55772",
+    "seed_111868397/residual_quality_at_1000000/switch300_0_to_2": "9de1ffbc539c66a5b5d2dea93bdac50a5ceaaab81336f214a36fb44921715b1d",
+    "seed_111868397/residual_quality_at_1000000/switch300_1_to_0": "49e40139b6c63973601e5d1e699a96e306723262483be2e5ceff4652ebe5fc72",
+    "seed_111868397/residual_quality_at_1000000/switch300_1_to_2": "eaac5c8977d8e98cfbc9d6f4da258fb6b56f162280e57433a64dde9a6da175ce",
+    "seed_111868397/residual_quality_at_1000000/switch300_2_to_0": "f47562e5fbf4677db3c0eeca15c596eda33749a2c5439848877b6a12acdcff1e",
+    "seed_111868397/residual_quality_at_1000000/switch300_2_to_1": "4b0f585edfcc1f7774fd336da0e1f18c8ac39b9639c858dbb725f75dbb7b7cef",
+    "seed_111868397/residual_quality_at_1000000/early50_0_to_1": "c688ba42b1b2f833afaf7a76d4cdf370b80b477184f8aa8ea736cac35b12b8ab",
+    "seed_111868397/residual_quality_at_1000000/late550_0_to_2": "b4a8452580bb7e00b1077ee738d4891b43037364f80055b06830bc088f319b55",
+    "seed_111868397/residual_quality_at_1000000/multi_0_1_2": "d25a94c9c715dcc8594adeec5ace25ecea3041fa540aef8a0103bfad244f4997",
+    "seed_111868397/residual_quality_at_1000000/multi_2_1_0": "7c3429d935a568ef423dafcbec85092bd424f74480726cf1eeb1ba7c9114dff6",
+    "seed_111868397/residual_all_at_200000/fixed_0": "9d61d17227542306585d6d897283137778a2a546bac95308b4191576352fe094",
+    "seed_111868397/residual_all_at_200000/fixed_1": "789dead013cd823c9d6367c64d2807884a29cfa687c48d061d17813ac74bef06",
+    "seed_111868397/residual_all_at_200000/fixed_2": "348b5d43454f2a8e94804526418144c08b781c2fcd267115a5eb83e3e1a27a03",
+    "seed_111868397/residual_all_at_400000/fixed_0": "9b3399a96d4eb8e36de88e19f9bb5752fa2833456b39898e16a897e3d73693bd",
+    "seed_111868397/residual_all_at_400000/fixed_1": "3ade2eb309d29e4b8ea455fbe166250d9ec12b20d17945985d3621339a2c3290",
+    "seed_111868397/residual_all_at_400000/fixed_2": "c5b008fbb09b0d43a5595d2eca9bc6701e3a43eff1bbfe66491d7476d7f956e3",
+    "seed_111868397/residual_all_at_600000/fixed_0": "4f6888c1635633315bcaeb76991898d2f782ba6617df46f28b8333ede989564d",
+    "seed_111868397/residual_all_at_600000/fixed_1": "81fc5559847c055d862e0ff8d7e5acf728b0d79bdb76fb48afc992dd81155bbe",
+    "seed_111868397/residual_all_at_600000/fixed_2": "512bb3bb1f41357b5a9eef085f9464cd25d23e3035baf55ce7003a02a73ec796",
+    "seed_111868397/residual_all_at_800000/fixed_0": "6b96bf414ec71e83874174bb8f9f0a703950d6e8f8489d21e59ce311ae8f49c7",
+    "seed_111868397/residual_all_at_800000/fixed_1": "b96c4447fae83e05902c6835ee8a8bf5da3cb4e65b339b10258cfbc5dc9109fa",
+    "seed_111868397/residual_all_at_800000/fixed_2": "8079e5aada9da155d3089fb88cb1c33d38a4849ebd80ac2e13b13a89127db03d",
+    "seed_111868397/residual_quality_at_200000/fixed_0": "bae52c6d48f80a6a0e2f0da3f88fb2911ddbf03d5e3eede18dc04d9f2d5ab661",
+    "seed_111868397/residual_quality_at_200000/fixed_1": "9d90bb3c0ec01a6217d99709f766579fa037848268b736d2a4ed83279767f899",
+    "seed_111868397/residual_quality_at_200000/fixed_2": "bc481c029d08238c52959770eb62136f8297db9f5bce20d35854212fa4835580",
+    "seed_111868397/residual_quality_at_400000/fixed_0": "bae52c6d48f80a6a0e2f0da3f88fb2911ddbf03d5e3eede18dc04d9f2d5ab661",
+    "seed_111868397/residual_quality_at_400000/fixed_1": "9d90bb3c0ec01a6217d99709f766579fa037848268b736d2a4ed83279767f899",
+    "seed_111868397/residual_quality_at_400000/fixed_2": "52c8ac9d243069929ba139676ef7400311e525ba2dc3fd1ad3a06d272a6255b8",
+    "seed_111868397/residual_quality_at_600000/fixed_0": "bae52c6d48f80a6a0e2f0da3f88fb2911ddbf03d5e3eede18dc04d9f2d5ab661",
+    "seed_111868397/residual_quality_at_600000/fixed_1": "9d90bb3c0ec01a6217d99709f766579fa037848268b736d2a4ed83279767f899",
+    "seed_111868397/residual_quality_at_600000/fixed_2": "31114454761195162619bc15e0f0aeb11a58280887b5358f95dd255879ccfda1",
+    "seed_111868397/residual_quality_at_800000/fixed_0": "bae52c6d48f80a6a0e2f0da3f88fb2911ddbf03d5e3eede18dc04d9f2d5ab661",
+    "seed_111868397/residual_quality_at_800000/fixed_1": "9d90bb3c0ec01a6217d99709f766579fa037848268b736d2a4ed83279767f899",
+    "seed_111868397/residual_quality_at_800000/fixed_2": "6d4449dd9bc957943b48fb9776e34107accb8fd601f36c987fa9db1832bc41cc",
+    "seed_160441552/original_rl/fixed_0": "8c3f82699fae30a0704683aed5aaea52db4b018ba273d5ac87ee7caf83ea412b",
+    "seed_160441552/original_rl/fixed_1": "fd79837d2b661be3bb5cc78d4b1426533f1f6a1c59a2688adf57ee1322e4a908",
+    "seed_160441552/original_rl/fixed_2": "97daf817c8bd89d5f31df8f677b7887ff9432faadc5ae95bd82debcd8b3bce6c",
+    "seed_160441552/original_rl/switch300_0_to_1": "773171254e466000e16780edc0a90c71305c0d268c8fc5e5d55dacc57fe38862",
+    "seed_160441552/original_rl/switch300_0_to_2": "48f402eec90745e423e37277be8bbf01f24966a4fbd3d7e1d534609d7f1f0801",
+    "seed_160441552/original_rl/switch300_1_to_0": "ef9f1633953ed0c967585de1038c0319aff1e9230de773d05b127a5352fefb1d",
+    "seed_160441552/original_rl/switch300_1_to_2": "82d1e2c9c4cab08bbe38d96ec13922a18004f6a46a60628de02855ba79e90af1",
+    "seed_160441552/original_rl/switch300_2_to_0": "5819531ca8ce73901a232e9734fbbbbdb7ea0847b5cabac24c505724b1c161e5",
+    "seed_160441552/original_rl/switch300_2_to_1": "e8b95962296b87def2d3d628ac07e9df6ed87ab38ade65034fe19f14f36e50cc",
+    "seed_160441552/original_rl/early50_0_to_1": "486c43c7816f021a21e427a07f674fc6c410180254bd7daa246c9b234bdf5e7d",
+    "seed_160441552/original_rl/late550_0_to_2": "92ed3354fe0cafa5c1077e09bf1b3650480f2b21135e7f4a5c9887aa57a05f65",
+    "seed_160441552/original_rl/multi_0_1_2": "3eaab801a497b171d8ca884987f017d0d548b7f676bed95b1c269cc7d8a90bd5",
+    "seed_160441552/original_rl/multi_2_1_0": "86c8c8ffa1242429272b424de1b1baca86793289ee6255c67322b929729d5961",
+    "seed_160441552/quality_rule_hybrid/fixed_0": "8c3f82699fae30a0704683aed5aaea52db4b018ba273d5ac87ee7caf83ea412b",
+    "seed_160441552/quality_rule_hybrid/fixed_1": "fd79837d2b661be3bb5cc78d4b1426533f1f6a1c59a2688adf57ee1322e4a908",
+    "seed_160441552/quality_rule_hybrid/fixed_2": "8d4fe46a84536aacd328d93d143a8b2a66cc032f32c55521b5f27439445f9203",
+    "seed_160441552/quality_rule_hybrid/switch300_0_to_1": "773171254e466000e16780edc0a90c71305c0d268c8fc5e5d55dacc57fe38862",
+    "seed_160441552/quality_rule_hybrid/switch300_0_to_2": "6500993faf8486db0080777230feeb6a64978e4bdc5415e023ed0cd47cb7f30f",
+    "seed_160441552/quality_rule_hybrid/switch300_1_to_0": "ef9f1633953ed0c967585de1038c0319aff1e9230de773d05b127a5352fefb1d",
+    "seed_160441552/quality_rule_hybrid/switch300_1_to_2": "493071f727a93cdb7f9165e6657b7bcea5c9ec5297f096b4eda851befb538827",
+    "seed_160441552/quality_rule_hybrid/switch300_2_to_0": "b9c57d1321406de60acb3b613b5e180d3d5ddf91f298d5b4cbb46bfeca4b63f1",
+    "seed_160441552/quality_rule_hybrid/switch300_2_to_1": "7a2de10d5c7f77119afa7dfe77124b63e0f13ad66c6a83fbd05ccf272deb8b84",
+    "seed_160441552/quality_rule_hybrid/early50_0_to_1": "486c43c7816f021a21e427a07f674fc6c410180254bd7daa246c9b234bdf5e7d",
+    "seed_160441552/quality_rule_hybrid/late550_0_to_2": "8977a64a4f010b77e6cb33588b8ae19c9fd8a5ec8794f32475ea171302a4d96d",
+    "seed_160441552/quality_rule_hybrid/multi_0_1_2": "d2f4c52e048bcaf83b6da964ec591a07561c7dfc8da270938943ae96148ca701",
+    "seed_160441552/quality_rule_hybrid/multi_2_1_0": "3c7d1de7b32e3506048d6d451e8182cf431f6068685afcd51511c69582154ebc",
+    "seed_160441552/residual_all_at_1000000/fixed_0": "b92d0f51ffd34724918064b278508cd46963ba90850e3734655a3a5cabf2315d",
+    "seed_160441552/residual_all_at_1000000/fixed_1": "aa9b592ce38faea84e91542823b41662acce6cb5a6c36db2709a8883e5693aab",
+    "seed_160441552/residual_all_at_1000000/fixed_2": "2ae9b68aee0a50d332e0c6258896a30441e452571246f94d71c69fad48008a78",
+    "seed_160441552/residual_all_at_1000000/switch300_0_to_1": "028d3bf8720e3bd117df64db0c3619242778e7b96580b88605c3b178dd25c882",
+    "seed_160441552/residual_all_at_1000000/switch300_0_to_2": "97c7a3fe526e279d27031c7f0e4c77e0ef364c4f2139706add55ccd46121f46d",
+    "seed_160441552/residual_all_at_1000000/switch300_1_to_0": "40592b6418b8587e6d5aea77f216b9cdf549c3642174710e9d84d2a0ac064300",
+    "seed_160441552/residual_all_at_1000000/switch300_1_to_2": "07f2cf0bc16dc6c738d5af8ee9679d31be6f70a64da533ac2b04f391534c22e7",
+    "seed_160441552/residual_all_at_1000000/switch300_2_to_0": "a3d0291b2572529fc3337446a46277977cac2cb5e49a09f9aa4e9f78fda98557",
+    "seed_160441552/residual_all_at_1000000/switch300_2_to_1": "fa271c1fd680be2b58d75e50db69e889acbd5c9dfe1836fc97705b50c60dfd44",
+    "seed_160441552/residual_all_at_1000000/early50_0_to_1": "89a8bb46993df8073e446e9431b52cf99d5b5774925cfe87fdb6d16e6c27dd86",
+    "seed_160441552/residual_all_at_1000000/late550_0_to_2": "320e5349c5230e86f72ce911b21adb4d8e3121264ba551a1be654c635dc07ed9",
+    "seed_160441552/residual_all_at_1000000/multi_0_1_2": "246c94a10d87f4d7ed16f3d80b0ccfb093989e8371dbad94aef494ef8d22f8fc",
+    "seed_160441552/residual_all_at_1000000/multi_2_1_0": "cf935cbe0dd25e5c5387c5e5a19a671b0f3a7a5d5e174c842c380f83721bb447",
+    "seed_160441552/residual_quality_at_1000000/fixed_0": "8c3f82699fae30a0704683aed5aaea52db4b018ba273d5ac87ee7caf83ea412b",
+    "seed_160441552/residual_quality_at_1000000/fixed_1": "fd79837d2b661be3bb5cc78d4b1426533f1f6a1c59a2688adf57ee1322e4a908",
+    "seed_160441552/residual_quality_at_1000000/fixed_2": "360a721cf528b9aa03df66514e54ade6c62cfb18138c049cb390f4ee5a6fd94c",
+    "seed_160441552/residual_quality_at_1000000/switch300_0_to_1": "773171254e466000e16780edc0a90c71305c0d268c8fc5e5d55dacc57fe38862",
+    "seed_160441552/residual_quality_at_1000000/switch300_0_to_2": "9d3d7d91de9ef0fb3a38d3e38d08c4e6281a0e16740d432016f9e504e735138f",
+    "seed_160441552/residual_quality_at_1000000/switch300_1_to_0": "ef9f1633953ed0c967585de1038c0319aff1e9230de773d05b127a5352fefb1d",
+    "seed_160441552/residual_quality_at_1000000/switch300_1_to_2": "44e2f1e9be750cacc6f1f0934a4263fae7f5a81939b186df28a679bfa23a2c89",
+    "seed_160441552/residual_quality_at_1000000/switch300_2_to_0": "640bcb15ee9b1a84c6739a5bcd8f0b31d4387e3c77c71d9e63a86e18dc3e4801",
+    "seed_160441552/residual_quality_at_1000000/switch300_2_to_1": "9f6d9f3b3a09b685be39ef1872ff634c2667c52a56530e94a5d03da5165d0c61",
+    "seed_160441552/residual_quality_at_1000000/early50_0_to_1": "486c43c7816f021a21e427a07f674fc6c410180254bd7daa246c9b234bdf5e7d",
+    "seed_160441552/residual_quality_at_1000000/late550_0_to_2": "12753ac964514b62fcdab7c851e7af2354cba79a50341e8758f2f9035cd70fc0",
+    "seed_160441552/residual_quality_at_1000000/multi_0_1_2": "4feb3736c4ef19c4afe3e5d46c56f0ab14a21606f6ff24324b9cd9865e578c70",
+    "seed_160441552/residual_quality_at_1000000/multi_2_1_0": "137357a18a9788c9d7d67f5fa7c54524bf1a418e451214b333064e815d3419fc",
+    "seed_160441552/residual_all_at_200000/fixed_0": "8d0d7874812f914591e0632fed52d1421e26bf1ccbd52c8a8b800e26d930d00b",
+    "seed_160441552/residual_all_at_200000/fixed_1": "8466758c234edca4ee2611356cdae5c07b95732fcbe307b2cf59c5bcd1c923c2",
+    "seed_160441552/residual_all_at_200000/fixed_2": "0cd4432d780ee4de6e04a9bd1042e161af0e8873a9f96156087fc3c3e61989f0",
+    "seed_160441552/residual_all_at_400000/fixed_0": "3bb8a311181f7caba1197b7441370bb06693034d6d67117e559395a8185d90ea",
+    "seed_160441552/residual_all_at_400000/fixed_1": "7a67c76041df059749080fb686f04e96d40ee04f37b3bac8372175d25dbc2365",
+    "seed_160441552/residual_all_at_400000/fixed_2": "2fbc5e37110cf2eb4524dc708f1024e16310e49c7fd764d8d788919c7dd3d818",
+    "seed_160441552/residual_all_at_600000/fixed_0": "7a9c206d7e231c8ad73a47a6c0e61dade2266d2e4ae2af5e06861b806581a3b7",
+    "seed_160441552/residual_all_at_600000/fixed_1": "2c0b2d1ee1c5b8aa2e9e9719930e0206c1b33fb4576382beb98c74dd084b9b06",
+    "seed_160441552/residual_all_at_600000/fixed_2": "bc40ccea0818c67e738f0435e13da1d10910dd3288dab83e4026cb3232bcd0be",
+    "seed_160441552/residual_all_at_800000/fixed_0": "c11967e6a7fc2933d3502efaeed4118084bc957da5546cc14a8406e6c434c80b",
+    "seed_160441552/residual_all_at_800000/fixed_1": "c944721e6179b4a46b0f17dd254fa1973c6e648eaefa1f2198400c63e01d4782",
+    "seed_160441552/residual_all_at_800000/fixed_2": "80ceee60bd795fcd6ee6bc6fd082f21c6140e09fb22c0729f81be572f8bcff32",
+    "seed_160441552/residual_quality_at_200000/fixed_0": "8c3f82699fae30a0704683aed5aaea52db4b018ba273d5ac87ee7caf83ea412b",
+    "seed_160441552/residual_quality_at_200000/fixed_1": "fd79837d2b661be3bb5cc78d4b1426533f1f6a1c59a2688adf57ee1322e4a908",
+    "seed_160441552/residual_quality_at_200000/fixed_2": "8bf2dfe40ba67d54a161a8f15ef42dd2ecdaf6db51dadcbf19a05090871e0d46",
+    "seed_160441552/residual_quality_at_400000/fixed_0": "8c3f82699fae30a0704683aed5aaea52db4b018ba273d5ac87ee7caf83ea412b",
+    "seed_160441552/residual_quality_at_400000/fixed_1": "fd79837d2b661be3bb5cc78d4b1426533f1f6a1c59a2688adf57ee1322e4a908",
+    "seed_160441552/residual_quality_at_400000/fixed_2": "beb089158eebf511e20dfb32defe51399de797db05618c8b1386a413e617902a",
+    "seed_160441552/residual_quality_at_600000/fixed_0": "8c3f82699fae30a0704683aed5aaea52db4b018ba273d5ac87ee7caf83ea412b",
+    "seed_160441552/residual_quality_at_600000/fixed_1": "fd79837d2b661be3bb5cc78d4b1426533f1f6a1c59a2688adf57ee1322e4a908",
+    "seed_160441552/residual_quality_at_600000/fixed_2": "38db17f3d1608f02d5af3ef517f35eba04f4f5725ac3a691126d2e8afc4c45a1",
+    "seed_160441552/residual_quality_at_800000/fixed_0": "8c3f82699fae30a0704683aed5aaea52db4b018ba273d5ac87ee7caf83ea412b",
+    "seed_160441552/residual_quality_at_800000/fixed_1": "fd79837d2b661be3bb5cc78d4b1426533f1f6a1c59a2688adf57ee1322e4a908",
+    "seed_160441552/residual_quality_at_800000/fixed_2": "a67e75da0f4ccf91fb3844f9b8d184cc2bda60f25ef0dabde74a5dfe61d85e81",
+    "rules/R_instruction/fixed_0": "ced2fa5c502ced7db1ea10d3b220383382ebb07982257d6d45be8cbb59f7df58",
+    "rules/R_instruction/fixed_1": "7cd2f5559866d574c173b5c0f39fb55eb6758f6e96870184367ae86262db3ac2",
+    "rules/R_instruction/fixed_2": "76f7f17c615162ffd99699457911e59db0aabd243b4c8cec9cb8c0c151a23017",
+    "rules/R_instruction/switch300_0_to_1": "c90eca161fc8fa3d6bf79baad82a784e2e7f8b4b646bce1ce891df54e5f3204f",
+    "rules/R_instruction/switch300_0_to_2": "9047474165981b3548ab7d1a7595978ccabead77c8f62a32d7b166d017c1db22",
+    "rules/R_instruction/switch300_1_to_0": "b084c21fcb6dfd5723b9546eca7bc3633f2d4f23340419f7ae59fc98df6dd1db",
+    "rules/R_instruction/switch300_1_to_2": "0eb80e4da46f49d63cb9c7b09c1464dcea3966effd5e616fc622fc55f06ae05a",
+    "rules/R_instruction/switch300_2_to_0": "bf3ed93462bcd2f79ac8c16e01b6c5ff26d749125d7779e66277e50e88d89fd4",
+    "rules/R_instruction/switch300_2_to_1": "f7832f75299d80bb3e7e735de45f575ff8f2abde35db31a8aaa51d97b2283899",
+    "rules/R_instruction/early50_0_to_1": "d05d18890ffb23f3b67796d823fd22bb48563f9774c58d7167be4e233dd17a17",
+    "rules/R_instruction/late550_0_to_2": "9f46f941c585a4fdb3399af8148c2a5d2e2edf824033941cf8be826a88c3525d",
+    "rules/R_instruction/multi_0_1_2": "53ee3d09f0746908477cf68e000df673b8afd8840b4f686a8704e7baa3db51e4",
+    "rules/R_instruction/multi_2_1_0": "e99d853324df32491f44bc819d5f09de1c164665fb2cd77af15b6465b04ac883",
+    "rules/R_equal_instruction/fixed_0": "ced2fa5c502ced7db1ea10d3b220383382ebb07982257d6d45be8cbb59f7df58",
+    "rules/R_equal_instruction/fixed_1": "f44c60374c2f0bca6a2ccc86026dfbe8dbe9f5f38f0148b02ed1bcdb7895c22a",
+    "rules/R_equal_instruction/fixed_2": "76f7f17c615162ffd99699457911e59db0aabd243b4c8cec9cb8c0c151a23017",
+    "rules/R_equal_instruction/switch300_0_to_1": "3e13f0989fb86f6764c298f498d0cd2e8c00669422e8d8f01aad77d192939b36",
+    "rules/R_equal_instruction/switch300_0_to_2": "9047474165981b3548ab7d1a7595978ccabead77c8f62a32d7b166d017c1db22",
+    "rules/R_equal_instruction/switch300_1_to_0": "149b48de2881bca282d1b8c08a42d8d4115562e2d0d2cdb721a9b622b6b3dd88",
+    "rules/R_equal_instruction/switch300_1_to_2": "985e116a857aa0fea59d56f7c69d21f58f455b8732aa39bdb5c4f2ccf2421d1c",
+    "rules/R_equal_instruction/switch300_2_to_0": "bf3ed93462bcd2f79ac8c16e01b6c5ff26d749125d7779e66277e50e88d89fd4",
+    "rules/R_equal_instruction/switch300_2_to_1": "dc2dfe28aed7fe5271ae8482e86d6a9993f52fca52da65d153995f3529cf9405",
+    "rules/R_equal_instruction/early50_0_to_1": "9aecbb99e0799bf8deec064249abfc7add08ca3c270dc3096862da183a567240",
+    "rules/R_equal_instruction/late550_0_to_2": "9f46f941c585a4fdb3399af8148c2a5d2e2edf824033941cf8be826a88c3525d",
+    "rules/R_equal_instruction/multi_0_1_2": "4d879c87cfea4180533eb612fc554c1cf77035bba9eed0f898b6d92c8e64be25",
+    "rules/R_equal_instruction/multi_2_1_0": "82846d588b7b2ce7593b93ae8e2b5646e8eead94ef974ea4648fe6b318104bbc",
+    "rules/greedy_modes_3/fixed_0": "5ddc156382bd3bf5ac8683f2ff5093018bba0fb1c440905be4897b917a0130f6",
+    "rules/greedy_modes_3/fixed_1": "903d2ae99c5792d303817e89d574ef052754ddd950e9f8c747bbc0648d5f446a",
+    "rules/greedy_modes_3/fixed_2": "3344b94b818f6c57794730bc768ae01639324365bf9dc76baea2d4604f815b5f",
+    "rules/greedy_modes_3/switch300_0_to_1": "c7eb31558381d414550f3710562352a2629a99b0ab1bb1f85d987a30c83e09d5",
+    "rules/greedy_modes_3/switch300_0_to_2": "115c8771f803211e30c9073914256ffb225189371f3adfe3d7bbdb52d21774ff",
+    "rules/greedy_modes_3/switch300_1_to_0": "15ccb139e788649a2fc93c379e781c3cbf1e424e7d8ab7cf2c8a1c67bfa5000c",
+    "rules/greedy_modes_3/switch300_1_to_2": "c0aade922226e3813852d0088d3feed693e317073b1cdd24fdc2f31e23ca9288",
+    "rules/greedy_modes_3/switch300_2_to_0": "fb86937c89185aeefe9f503ee01558857a25274151300e9e6d26a76bbfb0815d",
+    "rules/greedy_modes_3/switch300_2_to_1": "ff1c6d4602b25827fca471a20a0c970469128046271b011eaeb7a1c441421601",
+    "rules/greedy_modes_3/early50_0_to_1": "e3da6efc30c2e011e6f67ceb9ad1f9ed1abf1c50da12183878a02101ba3b625c",
+    "rules/greedy_modes_3/late550_0_to_2": "d035ade281d340f83973bda083f3f3bf07ae577e12e7b5fe9246b3956ea90235",
+    "rules/greedy_modes_3/multi_0_1_2": "c5df1b9cd689289a5df8155e709a559da6cd8f2730d7be666c2e306f44be4bac",
+    "rules/greedy_modes_3/multi_2_1_0": "e8d7a0237a6b31aca8277cfe185f519f33f7b0544adcf8cad52119d2e145355b",
+    "rules/greedy_modes_16/fixed_0": "5ddc156382bd3bf5ac8683f2ff5093018bba0fb1c440905be4897b917a0130f6",
+    "rules/greedy_modes_16/fixed_1": "903d2ae99c5792d303817e89d574ef052754ddd950e9f8c747bbc0648d5f446a",
+    "rules/greedy_modes_16/fixed_2": "3344b94b818f6c57794730bc768ae01639324365bf9dc76baea2d4604f815b5f",
+    "rules/greedy_modes_16/switch300_0_to_1": "c7eb31558381d414550f3710562352a2629a99b0ab1bb1f85d987a30c83e09d5",
+    "rules/greedy_modes_16/switch300_0_to_2": "115c8771f803211e30c9073914256ffb225189371f3adfe3d7bbdb52d21774ff",
+    "rules/greedy_modes_16/switch300_1_to_0": "15ccb139e788649a2fc93c379e781c3cbf1e424e7d8ab7cf2c8a1c67bfa5000c",
+    "rules/greedy_modes_16/switch300_1_to_2": "c0aade922226e3813852d0088d3feed693e317073b1cdd24fdc2f31e23ca9288",
+    "rules/greedy_modes_16/switch300_2_to_0": "fb86937c89185aeefe9f503ee01558857a25274151300e9e6d26a76bbfb0815d",
+    "rules/greedy_modes_16/switch300_2_to_1": "ff1c6d4602b25827fca471a20a0c970469128046271b011eaeb7a1c441421601",
+    "rules/greedy_modes_16/early50_0_to_1": "e3da6efc30c2e011e6f67ceb9ad1f9ed1abf1c50da12183878a02101ba3b625c",
+    "rules/greedy_modes_16/late550_0_to_2": "d035ade281d340f83973bda083f3f3bf07ae577e12e7b5fe9246b3956ea90235",
+    "rules/greedy_modes_16/multi_0_1_2": "c5df1b9cd689289a5df8155e709a559da6cd8f2730d7be666c2e306f44be4bac",
+    "rules/greedy_modes_16/multi_2_1_0": "e8d7a0237a6b31aca8277cfe185f519f33f7b0544adcf8cad52119d2e145355b"
+  },
+  "all_required_models_and_baselines_evaluated": true,
+  "results_sha256": "3d9c2ca7748ad08f58ed99e5742cc4947c6753a416ee2a05385e77e021afe0e8",
+  "physical_statistics_sha256": "256ee229feac05e24f2310d6d62a14457580eca9f812f22e8964e42ce0a4d6dc"
+}

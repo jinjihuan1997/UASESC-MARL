@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "full_aggregation_passes": 2,
+  "all_output_sha256_equal": true,
+  "outputs": {
+    "history_distributions.json": "335509434e0f7799b8a7d85ada927970317bfe6d9408f0b8aa387474327144bc",
+    "history_episode_metrics.json": "db364c02287e1b02e7ce16ec5dbbfb0dfa396a59d547c582486876dfeb716c67",
+    "history_inventory.json": "87f7eafe820513d0e56503fd72b94f974612afd037e9d80c83b8a98279e371ca",
+    "training_evidence.json": "1dfc6bbaf698ca7fe3d6436714353ceb6e3f587a69f59c1f4224e6b647b637c8",
+    "controlled_results.json": "5ffeeddb69d4d1b7fd872c0c62cc4dcebf8ba30257935e5f40e2cad1f7f62397",
+    "controlled_audit.json": "0c275aeb534c34e2d97379661412685fdc6b4e76acbad249ee7bd169025e8fe7",
+    "checkpoint_tail_trend.json": "8ef31b8d826efad06d4b4a4cb99d157e0dfe8c50bfe7da8baf147419014de3fd",
+    "additional_results.json": "f6372a86298971d01878e2dc52ef9a7b8152c6dcd4401e8ce3b8db0b0399e680",
+    "results.json": "e70d1dee40ecf4d5ef161b85bb03468b3c86413b5f776a5c2bd1ab7928cf40cd",
+    "REPORT.md": "b182a247dfb9fb090b23846c565615a51c76334a5762a76f159643a40fa2fc3f"
+  },
+  "analysis_arrays_elementwise_equal": true,
+  "gradient_vector_reaggregation": "PASS: saved per-actor gradient vectors reproduce every norm and cosine exactly",
+  "no_new_physical_steps": true,
+  "no_new_optimizer_steps": true,
+  "excluded_metadata": [
+    "gradient_audit elapsed seconds",
+    "resource timestamps",
+    "status timestamps"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "device": "cpu",
+  "workers": 3,
+  "torch_threads": 1,
+  "blas_threads": 1,
+  "preflight_single_worker_measured_steps_per_second": 4918.646330352977,
+  "reason": "Exact frozen CPU execution reproduced; small batch inference and native checks measured fast; 3 single-thread workers within current 20 CPU capacity; GPU untouched"
+}

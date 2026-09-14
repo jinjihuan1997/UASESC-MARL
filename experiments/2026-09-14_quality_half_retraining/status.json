@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "updated_utc": "2026-09-14T03:38:42.332946+00:00",
+  "completed_training_steps": 3000000,
+  "completed_evaluation_steps": 900000,
+  "report": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-14_quality_half_retraining/report/REPORT.md",
+  "reserved_final_test_used": false
+}

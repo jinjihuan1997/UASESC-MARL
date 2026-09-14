@@ -1,0 +1,8 @@
+{
+  "source_sha256": {
+    "aggregate.py": "55eaee66b742e89e38df21097eb1ffafffc8b6f4da94210c9392742652fdd98d",
+    "write_report.py": "ca424e07f1611f4cf93699365843c8af6a3fabeb234dd12272f2bfa57f129fa7",
+    "finalize.py": "f811ee80766422c313c3a87f20b4a3d2a324ff867c8509ce21bd7274353cb240"
+  },
+  "manifest_sha256": "494f443053f97384d3f32bff02637cf1f97452f7ac82780dc4bc8272b2c39189"
+}

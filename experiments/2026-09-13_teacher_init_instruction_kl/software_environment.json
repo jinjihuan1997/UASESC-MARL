@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-13T04:50:51.443567+00:00",
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "executable": "/home/king/miniconda3/envs/harl_sionna/bin/python",
+  "torch": "2.4.1+cu121",
+  "numpy": "1.26.4",
+  "cuda": "12.1",
+  "cpu_count": 20,
+  "load": [
+    1.9150390625,
+    2.3564453125,
+    2.1748046875
+  ],
+  "gpu": "name, utilization.gpu [%], memory.used [MiB], temperature.gpu\nNVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 19 MiB, 34\n"
+}

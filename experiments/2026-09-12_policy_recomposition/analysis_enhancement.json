@@ -1,0 +1,14 @@
+{
+  "changes": [
+    "Explicit answers to all eight report questions",
+    "All-13-scene quality-slot UAV statistics and fixed-quality resource tradeoff explanation"
+  ],
+  "unchanged": [
+    "Protocol",
+    "Evaluation implementation",
+    "All model weights",
+    "Raw trajectories",
+    "Seeds and metrics"
+  ],
+  "editing_failure": "One code-edit assertion failed before adding report section; corrected before execution; no physical or gradient steps."
+}

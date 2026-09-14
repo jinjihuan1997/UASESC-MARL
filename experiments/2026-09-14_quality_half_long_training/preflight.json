@@ -1,0 +1,19 @@
+{
+  "state": "PASS",
+  "full_state_migration_and_next_update_exact": true,
+  "checkpoint_replay_across_real_termination": true,
+  "physical_steps": 16000,
+  "actor_optimizer_steps": 160,
+  "critic_optimizer_steps": 40,
+  "timing": {
+    "update": 252,
+    "physical_steps": 4000,
+    "actor_optimizer_steps": 40,
+    "critic_optimizer_steps": 10,
+    "collect_seconds": 1.9958805302157998,
+    "update_seconds": 1.1532929809764028,
+    "total_seconds": 3.1491735111922026
+  },
+  "source_semantics": "same next update as old completed state; only budget and output metadata differ",
+  "reserved_final_test_used": false
+}

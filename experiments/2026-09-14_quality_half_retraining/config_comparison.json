@@ -1,0 +1,68 @@
+{
+  "104948945": {
+    "all_original_algo_and_env_config_fields_unchanged": true,
+    "quality_multiplier": 0.5,
+    "effective_weights": [
+      [
+        0.25,
+        0.4,
+        0.1
+      ],
+      [
+        0.1,
+        0.7,
+        0.1
+      ],
+      [
+        0.35,
+        0.2,
+        0.1
+      ]
+    ],
+    "original_model_dir": null
+  },
+  "111868397": {
+    "all_original_algo_and_env_config_fields_unchanged": true,
+    "quality_multiplier": 0.5,
+    "effective_weights": [
+      [
+        0.25,
+        0.4,
+        0.1
+      ],
+      [
+        0.1,
+        0.7,
+        0.1
+      ],
+      [
+        0.35,
+        0.2,
+        0.1
+      ]
+    ],
+    "original_model_dir": null
+  },
+  "160441552": {
+    "all_original_algo_and_env_config_fields_unchanged": true,
+    "quality_multiplier": 0.5,
+    "effective_weights": [
+      [
+        0.25,
+        0.4,
+        0.1
+      ],
+      [
+        0.1,
+        0.7,
+        0.1
+      ],
+      [
+        0.35,
+        0.2,
+        0.1
+      ]
+    ],
+    "original_model_dir": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "state": "PASS",
+  "started_utc": "2026-09-12T06:05:16.903503+00:00",
+  "checks": {
+    "A_historical_reproduction": {
+      "path": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-11_alternating_training/evaluation/seed_104948945/joint_at_1000000/fixed_0.npz",
+      "sha256": "eb012d0061dc9d83ab93ce0d1db4999296f1d0e59545eba01f6a068f8ed7d0ec",
+      "max_abs_trace_difference": 0.0,
+      "tolerance": 1e-09
+    },
+    "cross_device": {
+      "raw_action_max_absolute_difference": 2.384185791015625e-07,
+      "reward_max_absolute_difference": 1.1102230246251565e-16,
+      "modes_equal": true,
+      "note": "Cross-device float32 networks need not be bitwise equal. No tolerance is enlarged; CPU retains historical comparability."
+    },
+    "repeated_action_seed_bitwise_replay": true,
+    "different_action_seed_same_exogenous_sequence": true,
+    "separate_agent_rng_and_ambient_restoration": true,
+    "original_random_switch_and_terminal": true,
+    "allocation_no_physical_advance": true,
+    "all_new_steps_original_physics_reward_audited": true,
+    "protected_input_hashes_unchanged": true
+  },
+  "benchmarks": [
+    {
+      "device": "cpu",
+      "steps": 800,
+      "seconds": 0.6051538484171033,
+      "steps_per_second": 1321.9778773489659,
+      "setup_included": true
+    },
+    {
+      "device": "cuda:0",
+      "steps": 800,
+      "seconds": 1.0028168642893434,
+      "steps_per_second": 797.7528385174579,
+      "setup_included": true
+    }
+  ],
+  "fitting_benchmarks": [
+    {
+      "device": "cpu",
+      "seconds": 0.10060395393520594,
+      "batches": 20,
+      "rows_per_batch": 1024
+    },
+    {
+      "device": "cuda:0",
+      "seconds": 0.012401625514030457,
+      "batches": 20,
+      "rows_per_batch": 1024
+    }
+  ],
+  "execution_device": "cpu",
+  "fitting_device": "cuda:0",
+  "maximum_concurrency": 1,
+  "torch_threads": 1,
+  "completed_utc": "2026-09-12T06:05:24.233742+00:00",
+  "expected_formal_execution_steps": 1454400,
+  "expected_seconds_from_short_batch": 1100.1696964222938,
+  "note": "Short checked-rollout timing includes setup and is a rough execution estimate; probe fitting measured separately."
+}

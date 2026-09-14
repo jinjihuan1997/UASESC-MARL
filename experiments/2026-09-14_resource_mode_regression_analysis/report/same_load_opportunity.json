@@ -1,0 +1,4740 @@
+{
+  "104948945": {
+    "final_scenes": {
+      "fixed_0": {
+        "score_opportunity_x100": 0.004241493055555563,
+        "score_opportunity_per_environment": [
+          0.0003055555555555589,
+          0.007180555555555566,
+          0.0,
+          0.0,
+          0.0016805555555555636,
+          0.0,
+          0.0005092592592592643,
+          0.0006875000000000029,
+          0.006289351851851866,
+          0.0005601851851851909,
+          0.004837962962962976,
+          0.0,
+          0.00015277777777777946,
+          0.0,
+          0.0044814814814814995,
+          0.02792013888888889,
+          0.01881712962962965,
+          0.0,
+          0.0,
+          0.01140740740740742
+        ],
+        "fraction_all_uav_slots": 0.008888888888888889,
+        "by_instruction": {
+          "0": {
+            "slots": 12000,
+            "fraction": 0.008888888888888889,
+            "score_opportunity_x100": 0.004241493055555563
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.022083333333333333,
+            "score_opportunity_x100": 0.0040810763888888945,
+            "replacements": {
+              "6_to_10": {
+                "slots": 214,
+                "gain_x100": 0.003785706018518521,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 51,
+                "gain_x100": 0.0002953703703703731,
+                "mean_quality_difference": 0.4400000000000042,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.004583333333333333,
+            "score_opportunity_x100": 0.00016041666666666833,
+            "replacements": {
+              "14_to_10": {
+                "slots": 26,
+                "gain_x100": 8.657407407407492e-05,
+                "mean_quality_difference": 0.4400000000000043,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 29,
+                "gain_x100": 7.38425925925934e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "fixed_1": {
+        "score_opportunity_x100": 0.0,
+        "score_opportunity_per_environment": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.0,
+        "by_instruction": {
+          "1": {
+            "slots": 12000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "fixed_2": {
+        "score_opportunity_x100": 0.21717475694444444,
+        "score_opportunity_per_environment": [
+          0.15919814814814817,
+          0.28076805555555595,
+          0.2010555555555554,
+          0.23560023148148176,
+          0.16444490740740736,
+          0.18126111111111096,
+          0.30006990740740813,
+          0.23867893518518518,
+          0.2138856481481481,
+          0.18544652777777773,
+          0.21224907407407406,
+          0.1855858796296295,
+          0.28177592592592593,
+          0.1970824074074073,
+          0.20292222222222212,
+          0.2651736111111116,
+          0.25884768518518536,
+          0.17987731481481484,
+          0.17726365740740735,
+          0.2223083333333334
+        ],
+        "fraction_all_uav_slots": 0.10277777777777777,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.10277777777777777,
+            "score_opportunity_x100": 0.21717475694444444
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.24783333333333332,
+            "score_opportunity_x100": 0.17807773148148145,
+            "replacements": {
+              "1_to_5": {
+                "slots": 1347,
+                "gain_x100": 0.14497486111111102,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 1546,
+                "gain_x100": 0.03271430555555558,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 34,
+                "gain_x100": 0.00022101851851852094,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 47,
+                "gain_x100": 0.00016754629629629796,
+                "mean_quality_difference": 0.4400000000000044,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.005416666666666667,
+            "score_opportunity_x100": 0.0017158912037037036,
+            "replacements": {
+              "1_to_5": {
+                "slots": 28,
+                "gain_x100": 0.001116111111111111,
+                "mean_quality_difference": 4.919999999999997,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 35,
+                "gain_x100": 0.0005926504629629636,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 2,
+                "gain_x100": 7.129629629629708e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.05508333333333333,
+            "score_opportunity_x100": 0.037381134259259256,
+            "replacements": {
+              "2_to_10": {
+                "slots": 658,
+                "gain_x100": 0.03737043981481482,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 3,
+                "gain_x100": 1.0694444444444465e-05,
+                "mean_quality_difference": 0.4400000000000001,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_0_to_1": {
+        "score_opportunity_x100": 0.0037984375000000062,
+        "score_opportunity_per_environment": [
+          0.00015277777777777946,
+          0.007078703703703713,
+          0.0,
+          0.0,
+          0.0016805555555555636,
+          0.0,
+          0.0003055555555555589,
+          0.0006875000000000029,
+          0.006289351851851866,
+          0.0004583333333333379,
+          0.004837962962962976,
+          0.0,
+          0.00015277777777777946,
+          0.0,
+          0.0043796296296296465,
+          0.02012847222222224,
+          0.01881712962962965,
+          0.0,
+          0.0,
+          0.01100000000000001
+        ],
+        "fraction_all_uav_slots": 0.007555555555555556,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.015111111111111112,
+            "score_opportunity_x100": 0.007596875000000013
+          },
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.019416666666666665,
+            "score_opportunity_x100": 0.003694039351851857,
+            "replacements": {
+              "6_to_10": {
+                "slots": 182,
+                "gain_x100": 0.003398668981481484,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 51,
+                "gain_x100": 0.0002953703703703731,
+                "mean_quality_difference": 0.4400000000000042,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.00325,
+            "score_opportunity_x100": 0.00010439814814814925,
+            "replacements": {
+              "14_to_10": {
+                "slots": 14,
+                "gain_x100": 4.0740740740741145e-05,
+                "mean_quality_difference": 0.44000000000000433,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 25,
+                "gain_x100": 6.36574074074081e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_0_to_2": {
+        "score_opportunity_x100": 0.11971778935185182,
+        "score_opportunity_per_environment": [
+          0.08932499999999997,
+          0.14195671296296283,
+          0.09158495370370365,
+          0.15572083333333345,
+          0.08355462962962963,
+          0.06854166666666665,
+          0.1414236111111112,
+          0.12826736111111106,
+          0.12658888888888895,
+          0.09178402777777782,
+          0.11901087962962964,
+          0.11398657407407406,
+          0.18000902777777766,
+          0.12346087962962964,
+          0.08696666666666666,
+          0.17644722222222234,
+          0.15886898148148143,
+          0.09494884259259256,
+          0.10932962962962964,
+          0.11257939814814812
+        ],
+        "fraction_all_uav_slots": 0.05736111111111111,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.015111111111111112,
+            "score_opportunity_x100": 0.007596875000000013
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.09961111111111111,
+            "score_opportunity_x100": 0.23183870370370369
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.13191666666666665,
+            "score_opportunity_x100": 0.09476079861111107,
+            "replacements": {
+              "1_to_5": {
+                "slots": 791,
+                "gain_x100": 0.08111736111111108,
+                "mean_quality_difference": 4.919999999999999,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 684,
+                "gain_x100": 0.013084270833333342,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 78,
+                "gain_x100": 0.0004522222222222267,
+                "mean_quality_difference": 0.4400000000000044,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 30,
+                "gain_x100": 0.00010694444444444555,
+                "mean_quality_difference": 0.4400000000000045,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0005,
+            "score_opportunity_x100": 0.0001933101851851852,
+            "replacements": {
+              "1_to_5": {
+                "slots": 4,
+                "gain_x100": 0.00015944444444444437,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 2,
+                "gain_x100": 3.3865740740740856e-05,
+                "mean_quality_difference": 2.090000000000007,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.03966666666666667,
+            "score_opportunity_x100": 0.024763680555555556,
+            "replacements": {
+              "2_to_10": {
+                "slots": 434,
+                "gain_x100": 0.024648587962962962,
+                "mean_quality_difference": 7.010000000000001,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 14,
+                "gain_x100": 4.0740740740741145e-05,
+                "mean_quality_difference": 0.44000000000000433,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 28,
+                "gain_x100": 7.435185185185263e-05,
+                "mean_quality_difference": 0.4400000000000047,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_1_to_0": {
+        "score_opportunity_x100": 0.0001933449074074088,
+        "score_opportunity_per_environment": [
+          5.0925925925926485e-05,
+          0.000662037037037044,
+          5.0925925925926485e-05,
+          0.0,
+          0.00020370370370370594,
+          0.0,
+          0.0004074074074074119,
+          0.00030555555555555707,
+          5.092592592592618e-05,
+          0.0010150462962962988,
+          5.0925925925926485e-05,
+          0.0,
+          0.0003564814814814833,
+          0.00010185185185185297,
+          5.0925925925926485e-05,
+          0.00015277777777777946,
+          0.0,
+          0.0,
+          0.0,
+          0.00040740740740741036
+        ],
+        "fraction_all_uav_slots": 0.0013333333333333333,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.0026666666666666666,
+            "score_opportunity_x100": 0.0003866898148148176
+          },
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.004,
+            "score_opportunity_x100": 0.0001933449074074088,
+            "replacements": {
+              "2_to_10": {
+                "slots": 1,
+                "gain_x100": 4.056712962962964e-05,
+                "mean_quality_difference": 7.010000000000002,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 31,
+                "gain_x100": 0.00011203703703703793,
+                "mean_quality_difference": 0.4400000000000038,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 16,
+                "gain_x100": 4.0740740740741185e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_1_to_2": {
+        "score_opportunity_x100": 0.11122983796296293,
+        "score_opportunity_per_environment": [
+          0.0894833333333333,
+          0.13014814814814807,
+          0.09876805555555553,
+          0.14778750000000004,
+          0.09663726851851848,
+          0.06900185185185188,
+          0.15901666666666658,
+          0.11936620370370372,
+          0.08236180555555556,
+          0.07815856481481484,
+          0.10061365740740742,
+          0.10123101851851847,
+          0.18904374999999998,
+          0.11548703703703708,
+          0.10473587962962957,
+          0.12405393518518515,
+          0.14051041666666658,
+          0.07706967592592591,
+          0.07857337962962962,
+          0.1225486111111111
+        ],
+        "fraction_all_uav_slots": 0.04702777777777778,
+        "by_instruction": {
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.09405555555555556,
+            "score_opportunity_x100": 0.22245967592592586
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.11116666666666666,
+            "score_opportunity_x100": 0.0911878009259259,
+            "replacements": {
+              "1_to_5": {
+                "slots": 789,
+                "gain_x100": 0.08143624999999996,
+                "mean_quality_difference": 4.919999999999999,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 495,
+                "gain_x100": 0.009516273148148156,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 18,
+                "gain_x100": 0.00011763888888889017,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 32,
+                "gain_x100": 0.00011763888888889,
+                "mean_quality_difference": 0.4400000000000043,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0004166666666666667,
+            "score_opportunity_x100": 0.00017637731481481478,
+            "replacements": {
+              "1_to_5": {
+                "slots": 4,
+                "gain_x100": 0.00015944444444444437,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.693287037037039e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0295,
+            "score_opportunity_x100": 0.01986565972222222,
+            "replacements": {
+              "2_to_10": {
+                "slots": 349,
+                "gain_x100": 0.01982109953703704,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 2,
+                "gain_x100": 3.3865740740740795e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 3,
+                "gain_x100": 1.069444444444454e-05,
+                "mean_quality_difference": 0.44000000000000367,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_2_to_0": {
+        "score_opportunity_x100": 0.09593918981481481,
+        "score_opportunity_per_environment": [
+          0.07533125000000003,
+          0.13044861111111114,
+          0.08858726851851849,
+          0.09232453703703701,
+          0.07846157407407409,
+          0.09045393518518517,
+          0.11229305555555555,
+          0.08486342592592598,
+          0.09097731481481486,
+          0.09380486111111111,
+          0.09214305555555555,
+          0.08998541666666664,
+          0.11407893518518525,
+          0.0908266203703704,
+          0.10937314814814812,
+          0.12506180555555582,
+          0.10740138888888887,
+          0.08142361111111114,
+          0.07271875,
+          0.09822523148148148
+        ],
+        "fraction_all_uav_slots": 0.05319444444444445,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.004055555555555555,
+            "score_opportunity_x100": 0.001435763888888892
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.10233333333333333,
+            "score_opportunity_x100": 0.1904426157407407
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.13666666666666666,
+            "score_opportunity_x100": 0.08324943287037036,
+            "replacements": {
+              "1_to_5": {
+                "slots": 518,
+                "gain_x100": 0.05939305555555553,
+                "mean_quality_difference": 4.92,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 1088,
+                "gain_x100": 0.0236455439814815,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 27,
+                "gain_x100": 0.00018587962962963138,
+                "mean_quality_difference": 0.44000000000000417,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 7,
+                "gain_x100": 2.4953703703703978e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.004416666666666667,
+            "score_opportunity_x100": 0.001273854166666667,
+            "replacements": {
+              "1_to_5": {
+                "slots": 17,
+                "gain_x100": 0.0006776388888888886,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 35,
+                "gain_x100": 0.0005926504629629636,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 1,
+                "gain_x100": 3.564814814814854e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0185,
+            "score_opportunity_x100": 0.011415902777777777,
+            "replacements": {
+              "2_to_10": {
+                "slots": 200,
+                "gain_x100": 0.011342569444444445,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 14,
+                "gain_x100": 5.092592592592639e-05,
+                "mean_quality_difference": 0.44000000000000433,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 8,
+                "gain_x100": 2.240740740740761e-05,
+                "mean_quality_difference": 0.44000000000000394,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_2_to_1": {
+        "score_opportunity_x100": 0.09522130787037036,
+        "score_opportunity_per_environment": [
+          0.0750766203703704,
+          0.12943356481481483,
+          0.08858726851851849,
+          0.09173888888888887,
+          0.07846157407407409,
+          0.09045393518518517,
+          0.11219120370370371,
+          0.08476157407407413,
+          0.09097731481481486,
+          0.09380486111111111,
+          0.09209212962962962,
+          0.08988356481481477,
+          0.11407893518518525,
+          0.0908266203703704,
+          0.10927129629629628,
+          0.11668449074074073,
+          0.10740138888888887,
+          0.08142361111111114,
+          0.06940856481481479,
+          0.09786874999999999
+        ],
+        "fraction_all_uav_slots": 0.051166666666666666,
+        "by_instruction": {
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.10233333333333333,
+            "score_opportunity_x100": 0.1904426157407407
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.13233333333333333,
+            "score_opportunity_x100": 0.08263832175925925,
+            "replacements": {
+              "1_to_5": {
+                "slots": 518,
+                "gain_x100": 0.05939305555555553,
+                "mean_quality_difference": 4.92,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 1048,
+                "gain_x100": 0.023113368055555573,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 15,
+                "gain_x100": 0.00010694444444444561,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 7,
+                "gain_x100": 2.4953703703703978e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.004416666666666667,
+            "score_opportunity_x100": 0.001273854166666667,
+            "replacements": {
+              "1_to_5": {
+                "slots": 17,
+                "gain_x100": 0.0006776388888888886,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 35,
+                "gain_x100": 0.0005926504629629636,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 1,
+                "gain_x100": 3.564814814814854e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.01675,
+            "score_opportunity_x100": 0.011309131944444443,
+            "replacements": {
+              "2_to_10": {
+                "slots": 199,
+                "gain_x100": 0.011302002314814813,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 2,
+                "gain_x100": 7.129629629629664e-06,
+                "mean_quality_difference": 0.4400000000000013,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "early50_0_to_1": {
+        "score_opportunity_x100": 0.0009981481481481503,
+        "score_opportunity_per_environment": [
+          0.0,
+          0.005856481481481487,
+          0.0,
+          0.0,
+          0.0014768518518518574,
+          0.0,
+          0.00020370370370370594,
+          0.0005856481481481499,
+          0.0005601851851851877,
+          0.0003564814814814849,
+          0.001120370370370372,
+          0.0,
+          0.00015277777777777946,
+          0.0,
+          0.003488425925925938,
+          0.003921296296296303,
+          0.00020370370370370594,
+          0.0,
+          0.0,
+          0.0020370370370370403
+        ],
+        "fraction_all_uav_slots": 0.002111111111111111,
+        "by_instruction": {
+          "0": {
+            "slots": 1000,
+            "fraction": 0.025333333333333333,
+            "score_opportunity_x100": 0.011977777777777806
+          },
+          "1": {
+            "slots": 11000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.004916666666666666,
+            "score_opportunity_x100": 0.000954861111111113,
+            "replacements": {
+              "6_to_10": {
+                "slots": 35,
+                "gain_x100": 0.0008224537037037044,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 24,
+                "gain_x100": 0.00013240740740740867,
+                "mean_quality_difference": 0.4400000000000044,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0014166666666666668,
+            "score_opportunity_x100": 4.3287037037037466e-05,
+            "replacements": {
+              "14_to_10": {
+                "slots": 7,
+                "gain_x100": 1.7824074074074224e-05,
+                "mean_quality_difference": 0.44000000000000383,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 10,
+                "gain_x100": 2.5462962962963243e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "late550_0_to_2": {
+        "score_opportunity_x100": 0.019154884259259264,
+        "score_opportunity_per_environment": [
+          0.014077083333333336,
+          0.02648101851851853,
+          0.014907407407407402,
+          0.017757638888888882,
+          0.01830231481481482,
+          0.006377777777777775,
+          0.002001851851851855,
+          0.02035717592592592,
+          0.013874305555555567,
+          0.01734976851851852,
+          0.029044675925925936,
+          0.024593981481481477,
+          0.007765277777777779,
+          0.014110185185185182,
+          0.011656481481481497,
+          0.061939814814814795,
+          0.035293055555555584,
+          0.00910810185185185,
+          0.016573148148148146,
+          0.021526620370370377
+        ],
+        "fraction_all_uav_slots": 0.014611111111111111,
+        "by_instruction": {
+          "0": {
+            "slots": 11000,
+            "fraction": 0.009606060606060606,
+            "score_opportunity_x100": 0.004613194444444452
+          },
+          "2": {
+            "slots": 1000,
+            "fraction": 0.06966666666666667,
+            "score_opportunity_x100": 0.17911347222222218
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.037333333333333336,
+            "score_opportunity_x100": 0.01763701388888889,
+            "replacements": {
+              "1_to_5": {
+                "slots": 130,
+                "gain_x100": 0.012596111111111107,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 261,
+                "gain_x100": 0.004717013888888892,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 53,
+                "gain_x100": 0.00030962962962963246,
+                "mean_quality_difference": 0.4400000000000042,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 4,
+                "gain_x100": 1.4259259259259352e-05,
+                "mean_quality_difference": 0.44000000000000306,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0065,
+            "score_opportunity_x100": 0.001517870370370372,
+            "replacements": {
+              "2_to_10": {
+                "slots": 24,
+                "gain_x100": 0.0013630555555555557,
+                "mean_quality_difference": 7.010000000000001,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 23,
+                "gain_x100": 7.384259259259328e-05,
+                "mean_quality_difference": 0.4400000000000042,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 31,
+                "gain_x100": 8.097222222222306e-05,
+                "mean_quality_difference": 0.4400000000000046,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "multi_0_1_2": {
+        "score_opportunity_x100": 0.07870612268518516,
+        "score_opportunity_per_environment": [
+          0.051286342592592585,
+          0.09701597222222219,
+          0.08071712962962961,
+          0.08997430555555548,
+          0.05190717592592591,
+          0.043268749999999974,
+          0.13609351851851842,
+          0.07847013888888889,
+          0.09288680555555562,
+          0.07113009259259259,
+          0.07475578703703706,
+          0.07243055555555557,
+          0.0928152777777778,
+          0.06179768518518516,
+          0.07477939814814816,
+          0.11479513888888886,
+          0.11042870370370364,
+          0.04450347222222221,
+          0.047399074074074066,
+          0.08766712962962969
+        ],
+        "fraction_all_uav_slots": 0.03825,
+        "by_instruction": {
+          "0": {
+            "slots": 4000,
+            "fraction": 0.018916666666666665,
+            "score_opportunity_x100": 0.010140625000000016
+          },
+          "1": {
+            "slots": 4000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 4000,
+            "fraction": 0.09583333333333334,
+            "score_opportunity_x100": 0.2259777430555555
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.08841666666666667,
+            "score_opportunity_x100": 0.0629119560185185,
+            "replacements": {
+              "1_to_5": {
+                "slots": 549,
+                "gain_x100": 0.054290833333333316,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 430,
+                "gain_x100": 0.008188252314814822,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 64,
+                "gain_x100": 0.0003687037037037072,
+                "mean_quality_difference": 0.44000000000000433,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 18,
+                "gain_x100": 6.416666666666737e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0004166666666666667,
+            "score_opportunity_x100": 0.000126712962962963,
+            "replacements": {
+              "1_to_5": {
+                "slots": 3,
+                "gain_x100": 0.00011958333333333328,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 2,
+                "gain_x100": 7.129629629629708e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.025916666666666668,
+            "score_opportunity_x100": 0.015667453703703704,
+            "replacements": {
+              "2_to_10": {
+                "slots": 272,
+                "gain_x100": 0.015447962962962962,
+                "mean_quality_difference": 7.010000000000001,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 8,
+                "gain_x100": 0.00013546296296296323,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 9,
+                "gain_x100": 2.2916666666666874e-05,
+                "mean_quality_difference": 0.44000000000000405,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 22,
+                "gain_x100": 6.111111111111169e-05,
+                "mean_quality_difference": 0.44000000000000433,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "multi_2_1_0": {
+        "score_opportunity_x100": 0.06295774305555557,
+        "score_opportunity_per_environment": [
+          0.041609490740740766,
+          0.08828032407407405,
+          0.06241828703703701,
+          0.057683564814814826,
+          0.05440115740740744,
+          0.060060648148148155,
+          0.060477083333333376,
+          0.05897500000000002,
+          0.0576349537037037,
+          0.06580324074074075,
+          0.054183564814814816,
+          0.057557175925925914,
+          0.07668865740740752,
+          0.05830254629629631,
+          0.07266944444444444,
+          0.09204074074074077,
+          0.06767314814814815,
+          0.05723148148148148,
+          0.050677083333333324,
+          0.0647872685185185
+        ],
+        "fraction_all_uav_slots": 0.03688888888888889,
+        "by_instruction": {
+          "0": {
+            "slots": 4000,
+            "fraction": 0.0030833333333333333,
+            "score_opportunity_x100": 0.00074652777777778
+          },
+          "1": {
+            "slots": 4000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 4000,
+            "fraction": 0.10758333333333334,
+            "score_opportunity_x100": 0.18812670138888887
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.092,
+            "score_opportunity_x100": 0.05373780092592592,
+            "replacements": {
+              "1_to_5": {
+                "slots": 306,
+                "gain_x100": 0.03595472222222221,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 788,
+                "gain_x100": 0.017711782407407423,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 10,
+                "gain_x100": 7.129629629629708e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.003916666666666666,
+            "score_opportunity_x100": 0.0011264004629629632,
+            "replacements": {
+              "1_to_5": {
+                "slots": 15,
+                "gain_x100": 0.0005979166666666666,
+                "mean_quality_difference": 4.92,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 31,
+                "gain_x100": 0.0005249189814814819,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 1,
+                "gain_x100": 3.564814814814854e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.01475,
+            "score_opportunity_x100": 0.008093541666666667,
+            "replacements": {
+              "2_to_10": {
+                "slots": 142,
+                "gain_x100": 0.007999837962962962,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 23,
+                "gain_x100": 6.111111111111155e-05,
+                "mean_quality_difference": 0.4400000000000033,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 12,
+                "gain_x100": 3.2592592592592905e-05,
+                "mean_quality_difference": 0.4400000000000042,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    "overall_opportunity_x100": 0.06225638888888888,
+    "quality_timeline": {
+      "1000000": {
+        "score_opportunity_x100": 0.0,
+        "score_opportunity_per_environment": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.0,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "2000000": {
+        "score_opportunity_x100": 0.048828969907407725,
+        "score_opportunity_per_environment": [
+          0.06099398148148202,
+          0.04094027777777827,
+          0.054123611111111566,
+          0.045882407407407906,
+          0.05214513888888935,
+          0.054024768518519034,
+          0.033468750000000276,
+          0.04384236111111158,
+          0.05061064814814877,
+          0.05098981481481534,
+          0.046940509259259716,
+          0.05695277777777837,
+          0.0410488425925929,
+          0.05047615740740783,
+          0.04913449074074128,
+          0.04401898148148202,
+          0.05487060185185239,
+          0.04670717592592632,
+          0.058565046296296795,
+          0.040843055555556076
+        ],
+        "fraction_all_uav_slots": 0.21633333333333332,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.21633333333333332,
+            "score_opportunity_x100": 0.048828969907407725
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.27341666666666664,
+            "score_opportunity_x100": 0.023347754629629805,
+            "replacements": {
+              "7_to_11": {
+                "slots": 41,
+                "gain_x100": 0.0008466435185185198,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 3240,
+                "gain_x100": 0.02250111111111128,
+                "mean_quality_difference": 0.44000000000000333,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.015333333333333332,
+            "score_opportunity_x100": 0.0064159375,
+            "replacements": {
+              "1_to_5": {
+                "slots": 103,
+                "gain_x100": 0.004942777777777775,
+                "mean_quality_difference": 4.920000000000001,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 59,
+                "gain_x100": 0.001100636574074075,
+                "mean_quality_difference": 2.0900000000000025,
+                "exact_equal_load": true
+              },
+              "7_to_11": {
+                "slots": 22,
+                "gain_x100": 0.0003725231481481486,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.36025,
+            "score_opportunity_x100": 0.01906527777777792,
+            "replacements": {
+              "1_to_5": {
+                "slots": 1,
+                "gain_x100": 3.986111111111109e-05,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 4322,
+                "gain_x100": 0.019025416666666812,
+                "mean_quality_difference": 0.44000000000000333,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "4000000": {
+        "score_opportunity_x100": 0.005071111111111112,
+        "score_opportunity_per_environment": [
+          0.011256712962962968,
+          0.0007486111111111118,
+          0.0068865740740740745,
+          0.009425694444444443,
+          0.005506018518518521,
+          0.0034789351851851856,
+          0.005679398148148149,
+          0.007951157407407407,
+          0.0011358796296296293,
+          0.00275300925925926,
+          0.007100462962962964,
+          0.005559490740740741,
+          0.007563888888888892,
+          0.005172222222222224,
+          0.0030203703703703716,
+          0.010222916666666665,
+          0.004614814814814816,
+          0.0006773148148148159,
+          0.0004277777777777799,
+          0.002240972222222226
+        ],
+        "fraction_all_uav_slots": 0.0038055555555555555,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.0038055555555555555,
+            "score_opportunity_x100": 0.005071111111111112
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0013333333333333333,
+            "score_opportunity_x100": 0.0005100925925925928,
+            "replacements": {
+              "3_to_11": {
+                "slots": 6,
+                "gain_x100": 0.00034076388888888877,
+                "mean_quality_difference": 7.009999999999999,
+                "exact_equal_load": true
+              },
+              "7_to_11": {
+                "slots": 10,
+                "gain_x100": 0.00016932870370370393,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.010083333333333333,
+            "score_opportunity_x100": 0.004561018518518519,
+            "replacements": {
+              "2_to_10": {
+                "slots": 74,
+                "gain_x100": 0.004202754629629629,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "7_to_11": {
+                "slots": 14,
+                "gain_x100": 0.00023706018518518534,
+                "mean_quality_difference": 2.090000000000001,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 33,
+                "gain_x100": 0.00012120370370370442,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "6000000": {
+        "score_opportunity_x100": 0.24600155092592588,
+        "score_opportunity_per_environment": [
+          0.307329166666666,
+          0.2303324074074071,
+          0.25463796296296254,
+          0.21622546296296277,
+          0.26228773148148116,
+          0.2012726851851851,
+          0.2085060185185186,
+          0.2573472222222217,
+          0.2998009259259254,
+          0.2734407407407403,
+          0.23793032407407377,
+          0.2994120370370366,
+          0.24617314814814786,
+          0.2528555555555551,
+          0.2674081018518514,
+          0.23063055555555545,
+          0.21493726851851847,
+          0.20434652777777765,
+          0.234610185185185,
+          0.2205469907407408
+        ],
+        "fraction_all_uav_slots": 0.10644444444444444,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.10644444444444444,
+            "score_opportunity_x100": 0.24600155092592588
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.10141666666666667,
+            "score_opportunity_x100": 0.09851236111111107,
+            "replacements": {
+              "1_to_5": {
+                "slots": 1169,
+                "gain_x100": 0.0976995833333333,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 48,
+                "gain_x100": 0.0008127777777777782,
+                "mean_quality_difference": 2.090000000000001,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.014083333333333333,
+            "score_opportunity_x100": 0.0028616550925925945,
+            "replacements": {
+              "7_to_11": {
+                "slots": 169,
+                "gain_x100": 0.0028616550925925958,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.20383333333333334,
+            "score_opportunity_x100": 0.14462753472222223,
+            "replacements": {
+              "2_to_10": {
+                "slots": 2343,
+                "gain_x100": 0.14340480324074073,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 40,
+                "gain_x100": 0.0006773148148148156,
+                "mean_quality_difference": 2.0900000000000025,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 63,
+                "gain_x100": 0.0005454166666666726,
+                "mean_quality_difference": 0.44000000000000467,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "8000000": {
+        "score_opportunity_x100": 0.009298819444444457,
+        "score_opportunity_per_environment": [
+          0.007468287037037045,
+          0.009450000000000004,
+          0.006897916666666678,
+          0.011959953703703726,
+          0.010636111111111124,
+          0.0036717592592592618,
+          0.007030787037037045,
+          0.004366898148148155,
+          0.007272222222222234,
+          0.0058722222222222275,
+          0.008194212962962973,
+          0.0096201388888889,
+          0.02778773148148152,
+          0.0049016203703703765,
+          0.01111574074074075,
+          0.009548842592592607,
+          0.011308564814814827,
+          0.009615277777777792,
+          0.009976620370370384,
+          0.009281481481481495
+        ],
+        "fraction_all_uav_slots": 0.01575,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.01575,
+            "score_opportunity_x100": 0.009298819444444457
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.037,
+            "score_opportunity_x100": 0.008157430555555564,
+            "replacements": {
+              "2_to_10": {
+                "slots": 10,
+                "gain_x100": 0.0005679398148148148,
+                "mean_quality_difference": 7.010000000000001,
+                "exact_equal_load": true
+              },
+              "7_to_11": {
+                "slots": 433,
+                "gain_x100": 0.007585925925925934,
+                "mean_quality_difference": 2.0900000000000025,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 1,
+                "gain_x100": 3.564814814814854e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.01025,
+            "score_opportunity_x100": 0.0011413888888888923,
+            "replacements": {
+              "2_to_10": {
+                "slots": 12,
+                "gain_x100": 0.0006815277777777779,
+                "mean_quality_difference": 7.010000000000002,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 6,
+                "gain_x100": 4.2777777777778245e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 105,
+                "gain_x100": 0.00041708333333333614,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "10000000": {
+        "score_opportunity_x100": 0.21717475694444444,
+        "score_opportunity_per_environment": [
+          0.15919814814814817,
+          0.28076805555555595,
+          0.2010555555555554,
+          0.23560023148148176,
+          0.16444490740740736,
+          0.18126111111111096,
+          0.30006990740740813,
+          0.23867893518518518,
+          0.2138856481481481,
+          0.18544652777777773,
+          0.21224907407407406,
+          0.1855858796296295,
+          0.28177592592592593,
+          0.1970824074074073,
+          0.20292222222222212,
+          0.2651736111111116,
+          0.25884768518518536,
+          0.17987731481481484,
+          0.17726365740740735,
+          0.2223083333333334
+        ],
+        "fraction_all_uav_slots": 0.10277777777777777,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.10277777777777777,
+            "score_opportunity_x100": 0.21717475694444444
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.24783333333333332,
+            "score_opportunity_x100": 0.17807773148148145,
+            "replacements": {
+              "1_to_5": {
+                "slots": 1347,
+                "gain_x100": 0.14497486111111102,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 1546,
+                "gain_x100": 0.03271430555555558,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 34,
+                "gain_x100": 0.00022101851851852094,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 47,
+                "gain_x100": 0.00016754629629629796,
+                "mean_quality_difference": 0.4400000000000044,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.005416666666666667,
+            "score_opportunity_x100": 0.0017158912037037036,
+            "replacements": {
+              "1_to_5": {
+                "slots": 28,
+                "gain_x100": 0.001116111111111111,
+                "mean_quality_difference": 4.919999999999997,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 35,
+                "gain_x100": 0.0005926504629629636,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 2,
+                "gain_x100": 7.129629629629708e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.05508333333333333,
+            "score_opportunity_x100": 0.037381134259259256,
+            "replacements": {
+              "2_to_10": {
+                "slots": 658,
+                "gain_x100": 0.03737043981481482,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 3,
+                "gain_x100": 1.0694444444444465e-05,
+                "mean_quality_difference": 0.4400000000000001,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "111868397": {
+    "final_scenes": {
+      "fixed_0": {
+        "score_opportunity_x100": 0.005347916666666678,
+        "score_opportunity_per_environment": [
+          0.005750000000000031,
+          0.00020370370370370594,
+          0.007518518518518539,
+          0.0,
+          0.006143518518518527,
+          0.004314814814814836,
+          0.006314814814814814,
+          0.0039074074074074245,
+          0.012319444444444464,
+          0.0037731481481481505,
+          0.009162037037037036,
+          0.0009675925925926029,
+          0.00237962962962963,
+          0.001069444444444453,
+          0.0017314814814815005,
+          0.0009768518518518553,
+          0.01842592592592593,
+          0.005365740740740775,
+          0.009444444444444483,
+          0.0071898148148148155
+        ],
+        "fraction_all_uav_slots": 0.014333333333333333,
+        "by_instruction": {
+          "0": {
+            "slots": 12000,
+            "fraction": 0.014333333333333333,
+            "score_opportunity_x100": 0.005347916666666678
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.015833333333333335,
+            "score_opportunity_x100": 0.0007537037037037119,
+            "replacements": {
+              "14_to_10": {
+                "slots": 190,
+                "gain_x100": 0.0007537037037037119,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.027166666666666665,
+            "score_opportunity_x100": 0.004594212962962967,
+            "replacements": {
+              "1_to_5": {
+                "slots": 78,
+                "gain_x100": 0.003957638888888887,
+                "mean_quality_difference": 4.92,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 248,
+                "gain_x100": 0.0006365740740740789,
+                "mean_quality_difference": 0.4400000000000032,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "fixed_1": {
+        "score_opportunity_x100": 0.0,
+        "score_opportunity_per_environment": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.0,
+        "by_instruction": {
+          "1": {
+            "slots": 12000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "fixed_2": {
+        "score_opportunity_x100": 0.0006476620370370416,
+        "score_opportunity_per_environment": [
+          0.0,
+          0.00014259259259259352,
+          0.00014259259259259352,
+          0.005841435185185228,
+          0.0,
+          7.1296296296296e-05,
+          0.00014259259259259352,
+          7.129629629629708e-05,
+          0.0012120370370370425,
+          7.129629629629708e-05,
+          0.00021388888888889123,
+          0.00042777777777777877,
+          0.0003564814814814841,
+          0.00014259259259259352,
+          0.0,
+          0.0007664351851851891,
+          0.0004277777777777818,
+          0.0004990740740740751,
+          0.0022814814814815045,
+          0.00014259259259259243
+        ],
+        "fraction_all_uav_slots": 0.004527777777777778,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.004527777777777778,
+            "score_opportunity_x100": 0.0006476620370370416
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 8.333333333333333e-05,
+            "score_opportunity_x100": 1.693287037037039e-05,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.693287037037039e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0135,
+            "score_opportunity_x100": 0.0006307291666666713,
+            "replacements": {
+              "3_to_11": {
+                "slots": 1,
+                "gain_x100": 5.6793981481481466e-05,
+                "mean_quality_difference": 7.009999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 161,
+                "gain_x100": 0.0005739351851851898,
+                "mean_quality_difference": 0.44000000000000355,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_0_to_1": {
+        "score_opportunity_x100": 0.004352546296296302,
+        "score_opportunity_per_environment": [
+          0.003712962962962972,
+          0.00015277777777777946,
+          0.006601851851851861,
+          0.0,
+          0.005277777777777777,
+          0.0022083333333333447,
+          0.006314814814814814,
+          0.0028888888888888944,
+          0.012115740740740759,
+          0.003620370370370371,
+          0.008023148148148147,
+          0.00030555555555555864,
+          0.002277777777777777,
+          0.0007638888888888938,
+          0.0006620370370370443,
+          0.0009768518518518553,
+          0.01149074074074074,
+          0.004398148148148174,
+          0.00822222222222225,
+          0.007037037037037036
+        ],
+        "fraction_all_uav_slots": 0.009916666666666667,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.019833333333333335,
+            "score_opportunity_x100": 0.008705092592592605
+          },
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.006083333333333333,
+            "score_opportunity_x100": 0.00029791666666666996,
+            "replacements": {
+              "14_to_10": {
+                "slots": 73,
+                "gain_x100": 0.00029791666666666996,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.023666666666666666,
+            "score_opportunity_x100": 0.004054629629629633,
+            "replacements": {
+              "1_to_5": {
+                "slots": 69,
+                "gain_x100": 0.0035020833333333327,
+                "mean_quality_difference": 4.919999999999999,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 215,
+                "gain_x100": 0.0005525462962963003,
+                "mean_quality_difference": 0.44000000000000317,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_0_to_2": {
+        "score_opportunity_x100": 0.004730416666666675,
+        "score_opportunity_per_environment": [
+          0.003712962962962972,
+          0.00015277777777777946,
+          0.006744444444444455,
+          0.004206481481481518,
+          0.005277777777777777,
+          0.002350925925925939,
+          0.00638611111111111,
+          0.0029601851851851916,
+          0.01304259259259262,
+          0.003620370370370371,
+          0.008023148148148147,
+          0.00030555555555555864,
+          0.0024203703703703713,
+          0.0007638888888888938,
+          0.000804629629629638,
+          0.0011194444444444494,
+          0.011633333333333334,
+          0.00468333333333336,
+          0.009291666666666705,
+          0.007108333333333333
+        ],
+        "fraction_all_uav_slots": 0.012861111111111111,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.019833333333333335,
+            "score_opportunity_x100": 0.008705092592592605
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.005888888888888889,
+            "score_opportunity_x100": 0.0007557407407407469
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.006083333333333333,
+            "score_opportunity_x100": 0.00029791666666666996,
+            "replacements": {
+              "14_to_10": {
+                "slots": 73,
+                "gain_x100": 0.00029791666666666996,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0325,
+            "score_opportunity_x100": 0.004432500000000007,
+            "replacements": {
+              "1_to_5": {
+                "slots": 69,
+                "gain_x100": 0.0035020833333333327,
+                "mean_quality_difference": 4.919999999999999,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 321,
+                "gain_x100": 0.0009304166666666739,
+                "mean_quality_difference": 0.4400000000000032,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_1_to_0": {
+        "score_opportunity_x100": 0.0011023148148148212,
+        "score_opportunity_per_environment": [
+          0.0016805555555555734,
+          0.0,
+          0.0035185185185185185,
+          0.005111111111111144,
+          0.0010694444444444562,
+          0.0020046296296296388,
+          5.0925925925926485e-05,
+          0.00045833333333333837,
+          0.0010185185185185297,
+          0.0010185185185185293,
+          0.0003055555555555589,
+          0.0024305555555555565,
+          0.0006620370370370443,
+          0.0008148148148148238,
+          0.00045833333333333837,
+          0.00010185185185185297,
+          0.0,
+          0.0012407407407407415,
+          0.0,
+          0.00010185185185185205
+        ],
+        "fraction_all_uav_slots": 0.005416666666666667,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.010833333333333334,
+            "score_opportunity_x100": 0.0022046296296296423
+          },
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.007583333333333333,
+            "score_opportunity_x100": 0.00040486111111111555,
+            "replacements": {
+              "14_to_10": {
+                "slots": 91,
+                "gain_x100": 0.00040486111111111555,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.008666666666666666,
+            "score_opportunity_x100": 0.0006974537037037056,
+            "replacements": {
+              "1_to_5": {
+                "slots": 9,
+                "gain_x100": 0.0004555555555555554,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 95,
+                "gain_x100": 0.00024189814814815018,
+                "mean_quality_difference": 0.4400000000000037,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_1_to_2": {
+        "score_opportunity_x100": 0.000274490740740743,
+        "score_opportunity_per_environment": [
+          7.129629629629708e-05,
+          7.129629629629642e-05,
+          0.0002138888888888906,
+          0.002495370370370395,
+          0.0,
+          7.129629629629708e-05,
+          7.129629629629642e-05,
+          7.129629629629642e-05,
+          0.00042777777777778023,
+          0.0,
+          7.129629629629708e-05,
+          7.129629629629708e-05,
+          0.00014259259259259417,
+          7.1296296296296e-05,
+          7.129629629629664e-05,
+          0.00014259259259259352,
+          7.129629629629708e-05,
+          0.00021388888888888995,
+          0.0009981481481481553,
+          0.00014259259259259287
+        ],
+        "fraction_all_uav_slots": 0.002138888888888889,
+        "by_instruction": {
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.004277777777777778,
+            "score_opportunity_x100": 0.0005489814814814859
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.006416666666666667,
+            "score_opportunity_x100": 0.000274490740740743,
+            "replacements": {
+              "14_to_10": {
+                "slots": 77,
+                "gain_x100": 0.000274490740740743,
+                "mean_quality_difference": 0.4400000000000036,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_2_to_0": {
+        "score_opportunity_x100": 0.0029144328703703797,
+        "score_opportunity_per_environment": [
+          0.0009675925925926032,
+          7.129629629629642e-05,
+          0.010374074074074086,
+          0.007927546296296344,
+          0.0003055555555555589,
+          0.00032592592592592845,
+          0.00014259259259259352,
+          0.00020370370370370594,
+          0.004408333333333357,
+          0.002483333333333348,
+          0.0007120370370370385,
+          0.005910185185185196,
+          0.000488888888888893,
+          0.0004990740740740789,
+          0.0029814814814814942,
+          0.0007333333333333403,
+          0.00014259259259259417,
+          0.0006518518518518583,
+          0.002709259259259286,
+          0.016250000000000004
+        ],
+        "fraction_all_uav_slots": 0.009083333333333334,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.012833333333333334,
+            "score_opportunity_x100": 0.005037962962962977
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.005333333333333333,
+            "score_opportunity_x100": 0.000790902777777783
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.008583333333333333,
+            "score_opportunity_x100": 0.0004303240740740788,
+            "replacements": {
+              "14_to_10": {
+                "slots": 103,
+                "gain_x100": 0.0004303240740740788,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.018666666666666668,
+            "score_opportunity_x100": 0.002484108796296301,
+            "replacements": {
+              "1_to_5": {
+                "slots": 33,
+                "gain_x100": 0.0017652777777777773,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "3_to_11": {
+                "slots": 1,
+                "gain_x100": 5.6793981481481466e-05,
+                "mean_quality_difference": 7.009999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 190,
+                "gain_x100": 0.0006620370370370424,
+                "mean_quality_difference": 0.44000000000000355,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "switch300_2_to_1": {
+        "score_opportunity_x100": 0.0003954513888888915,
+        "score_opportunity_per_environment": [
+          0.0,
+          7.129629629629642e-05,
+          0.00014259259259259352,
+          0.0036312500000000207,
+          0.0,
+          7.1296296296296e-05,
+          0.00014259259259259352,
+          0.0,
+          0.0009268518518518561,
+          7.129629629629708e-05,
+          0.00014259259259259417,
+          0.0002851851851851864,
+          0.00028518518518518704,
+          0.00014259259259259352,
+          0.0,
+          7.129629629629708e-05,
+          0.00014259259259259417,
+          0.00014259259259259352,
+          0.001639814814814831,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.0026666666666666666,
+        "by_instruction": {
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.005333333333333333,
+            "score_opportunity_x100": 0.000790902777777783
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.008,
+            "score_opportunity_x100": 0.0003954513888888915,
+            "replacements": {
+              "3_to_11": {
+                "slots": 1,
+                "gain_x100": 5.6793981481481466e-05,
+                "mean_quality_difference": 7.009999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 95,
+                "gain_x100": 0.0003386574074074101,
+                "mean_quality_difference": 0.4400000000000035,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "early50_0_to_1": {
+        "score_opportunity_x100": 0.0011263888888888897,
+        "score_opportunity_per_environment": [
+          0.0004074074074074119,
+          0.00015277777777777946,
+          0.006041666666666672,
+          0.0,
+          0.0,
+          0.0,
+          5.0925925925926024e-05,
+          0.0024305555555555565,
+          0.004657407407407407,
+          0.0011898148148148148,
+          5.0925925925926485e-05,
+          0.0,
+          0.002277777777777777,
+          0.0,
+          0.0,
+          0.00040740740740741096,
+          0.003518518518518518,
+          0.0,
+          0.0,
+          0.0013425925925925938
+        ],
+        "fraction_all_uav_slots": 0.0016666666666666668,
+        "by_instruction": {
+          "0": {
+            "slots": 1000,
+            "fraction": 0.02,
+            "score_opportunity_x100": 0.013516666666666677
+          },
+          "1": {
+            "slots": 11000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0008333333333333334,
+            "score_opportunity_x100": 4.5833333333333835e-05,
+            "replacements": {
+              "14_to_10": {
+                "slots": 10,
+                "gain_x100": 4.5833333333333835e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.004166666666666667,
+            "score_opportunity_x100": 0.001080555555555556,
+            "replacements": {
+              "1_to_5": {
+                "slots": 18,
+                "gain_x100": 0.0009965277777777776,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 32,
+                "gain_x100": 8.402777777777838e-05,
+                "mean_quality_difference": 0.44000000000000317,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "late550_0_to_2": {
+        "score_opportunity_x100": 0.005275092592592603,
+        "score_opportunity_per_environment": [
+          0.005393518518518546,
+          0.000275000000000003,
+          0.0074675925925926125,
+          0.00014259259259259417,
+          0.005888888888888895,
+          0.0041111111111111305,
+          0.006314814814814814,
+          0.0036018518518518656,
+          0.012217592592592611,
+          0.0036712962962962975,
+          0.009162037037037036,
+          0.0009166666666666764,
+          0.0024509259259259267,
+          0.0011509259259259337,
+          0.001578703703703721,
+          0.0010481481481481522,
+          0.018324074074074076,
+          0.00500925925925929,
+          0.009587037037037078,
+          0.0071898148148148155
+        ],
+        "fraction_all_uav_slots": 0.01386111111111111,
+        "by_instruction": {
+          "0": {
+            "slots": 11000,
+            "fraction": 0.014787878787878787,
+            "score_opportunity_x100": 0.0057118686868686975
+          },
+          "2": {
+            "slots": 1000,
+            "fraction": 0.0036666666666666666,
+            "score_opportunity_x100": 0.00047055555555555967
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0135,
+            "score_opportunity_x100": 0.0006416666666666737,
+            "replacements": {
+              "14_to_10": {
+                "slots": 162,
+                "gain_x100": 0.0006416666666666737,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.02808333333333333,
+            "score_opportunity_x100": 0.004633425925925931,
+            "replacements": {
+              "1_to_5": {
+                "slots": 78,
+                "gain_x100": 0.003957638888888887,
+                "mean_quality_difference": 4.92,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 259,
+                "gain_x100": 0.000675787037037042,
+                "mean_quality_difference": 0.4400000000000033,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "multi_0_1_2": {
+        "score_opportunity_x100": 0.0034730555555555595,
+        "score_opportunity_per_environment": [
+          0.0025740740740740832,
+          0.00015277777777777946,
+          0.0062962962962963024,
+          0.001497222222222235,
+          0.0039861111111111095,
+          0.0015972222222222267,
+          0.005175925925925925,
+          0.0029601851851851903,
+          0.01142314814814816,
+          0.003620370370370371,
+          0.0068842592592592575,
+          0.00030555555555555864,
+          0.002277777777777777,
+          0.000152777777777779,
+          0.0006111111111111178,
+          0.001048148148148152,
+          0.008074074074074072,
+          0.002401851851851863,
+          0.005940740740740752,
+          0.002481481481481482
+        ],
+        "fraction_all_uav_slots": 0.006611111111111111,
+        "by_instruction": {
+          "0": {
+            "slots": 4000,
+            "fraction": 0.016583333333333332,
+            "score_opportunity_x100": 0.010002083333333342
+          },
+          "1": {
+            "slots": 4000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 4000,
+            "fraction": 0.00325,
+            "score_opportunity_x100": 0.0004170833333333366
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.004,
+            "score_opportunity_x100": 0.00020879629629629858,
+            "replacements": {
+              "14_to_10": {
+                "slots": 48,
+                "gain_x100": 0.00020879629629629858,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.015833333333333335,
+            "score_opportunity_x100": 0.0032642592592592615,
+            "replacements": {
+              "1_to_5": {
+                "slots": 55,
+                "gain_x100": 0.0028756944444444437,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 135,
+                "gain_x100": 0.00038856481481481777,
+                "mean_quality_difference": 0.4400000000000033,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "multi_2_1_0": {
+        "score_opportunity_x100": 0.0015002662037037126,
+        "score_opportunity_per_environment": [
+          0.0008148148148148238,
+          7.129629629629642e-05,
+          0.0018231481481481675,
+          0.002918287037037053,
+          0.0008657407407407502,
+          0.0009879629629629704,
+          0.0013324074074074085,
+          0.0007129629629629708,
+          0.0023000000000000086,
+          0.0012518518518518592,
+          0.00042777777777778213,
+          0.0009574074074074165,
+          0.00031574074074074355,
+          0.0006824074074074134,
+          0.0007129629629629708,
+          0.004626851851851851,
+          0.00014259259259259417,
+          0.0021981481481481583,
+          0.006506481481481529,
+          0.0003564814814814854
+        ],
+        "fraction_all_uav_slots": 0.008222222222222223,
+        "by_instruction": {
+          "0": {
+            "slots": 4000,
+            "fraction": 0.019416666666666665,
+            "score_opportunity_x100": 0.003667361111111133
+          },
+          "1": {
+            "slots": 4000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 4000,
+            "fraction": 0.00525,
+            "score_opportunity_x100": 0.0008334375000000052
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.00975,
+            "score_opportunity_x100": 0.0004659722222222273,
+            "replacements": {
+              "14_to_10": {
+                "slots": 117,
+                "gain_x100": 0.0004659722222222273,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.014916666666666667,
+            "score_opportunity_x100": 0.0010342939814814852,
+            "replacements": {
+              "1_to_5": {
+                "slots": 11,
+                "gain_x100": 0.00048402777777777767,
+                "mean_quality_difference": 4.919999999999999,
+                "exact_equal_load": true
+              },
+              "3_to_11": {
+                "slots": 1,
+                "gain_x100": 5.6793981481481466e-05,
+                "mean_quality_difference": 7.009999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 167,
+                "gain_x100": 0.0004934722222222262,
+                "mean_quality_difference": 0.4400000000000035,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    "overall_opportunity_x100": 0.002395387286324792,
+    "quality_timeline": {
+      "1000000": {
+        "score_opportunity_x100": 0.02250597222222225,
+        "score_opportunity_per_environment": [
+          0.031566435185185246,
+          0.037929629629629646,
+          0.011514351851851868,
+          0.0,
+          0.018216203703703727,
+          0.008216898148148159,
+          0.016932870370370383,
+          0.07874675925925943,
+          0.0,
+          0.012209490740740762,
+          0.05072731481481496,
+          0.007396990740740751,
+          0.0,
+          0.008127777777777788,
+          0.009856712962962979,
+          0.06432708333333344,
+          0.03880300925925931,
+          0.022440509259259285,
+          0.009722222222222233,
+          0.023385185185185252
+        ],
+        "fraction_all_uav_slots": 0.025555555555555557,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.025555555555555557,
+            "score_opportunity_x100": 0.02250597222222225
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.07666666666666666,
+            "score_opportunity_x100": 0.02250597222222225,
+            "replacements": {
+              "3_to_11": {
+                "slots": 1,
+                "gain_x100": 0.00011358796296296299,
+                "mean_quality_difference": 7.010000000000002,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 704,
+                "gain_x100": 0.0210983564814815,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 215,
+                "gain_x100": 0.0012940277777777865,
+                "mean_quality_difference": 0.4400000000000029,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "2000000": {
+        "score_opportunity_x100": 0.0018893518518518662,
+        "score_opportunity_per_environment": [
+          0.00491944444444448,
+          0.0004277777777777799,
+          0.0012833333333333414,
+          0.00014259259259259284,
+          0.0015685185185185318,
+          0.001996296296296307,
+          0.0,
+          0.0007129629629629708,
+          0.0032083333333333447,
+          0.0006416666666666737,
+          0.0049194444444444815,
+          0.00021388888888888865,
+          0.00983888888888898,
+          0.0002138888888888891,
+          0.0014259259259259383,
+          0.0014972222222222342,
+          0.0011407407407407484,
+          0.001568518518518529,
+          0.0012120370370370442,
+          0.0008555555555555624
+        ],
+        "fraction_all_uav_slots": 0.008055555555555555,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.008055555555555555,
+            "score_opportunity_x100": 0.0018893518518518662
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0025833333333333333,
+            "score_opportunity_x100": 0.00011763888888889017,
+            "replacements": {
+              "15_to_11": {
+                "slots": 31,
+                "gain_x100": 0.00011763888888889017,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0215,
+            "score_opportunity_x100": 0.001764583333333346,
+            "replacements": {
+              "14_to_10": {
+                "slots": 258,
+                "gain_x100": 0.001764583333333346,
+                "mean_quality_difference": 0.4400000000000032,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 8.333333333333333e-05,
+            "score_opportunity_x100": 7.129629629629708e-06,
+            "replacements": {
+              "15_to_11": {
+                "slots": 1,
+                "gain_x100": 7.129629629629708e-06,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "4000000": {
+        "score_opportunity_x100": 0.009934490740740794,
+        "score_opportunity_per_environment": [
+          0.006951388888888956,
+          0.005988888888888917,
+          0.009829166666666729,
+          0.0019250000000000178,
+          0.009597453703703754,
+          0.007967361111111189,
+          0.013724537037037077,
+          0.010017129629629693,
+          0.01818703703703713,
+          0.010052777777777855,
+          0.005574074074074096,
+          0.013549537037037141,
+          0.008003009259259312,
+          0.012956481481481553,
+          0.011196759259259323,
+          0.007200925925925981,
+          0.01301157407407412,
+          0.010498379629629667,
+          0.006042361111111151,
+          0.016415972222222255
+        ],
+        "fraction_all_uav_slots": 0.04077777777777778,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.04077777777777778,
+            "score_opportunity_x100": 0.009934490740740794
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.07883333333333334,
+            "score_opportunity_x100": 0.007884722222222262,
+            "replacements": {
+              "3_to_11": {
+                "slots": 17,
+                "gain_x100": 0.0011926736111111114,
+                "mean_quality_difference": 7.010000000000002,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 150,
+                "gain_x100": 0.003166446759259262,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 650,
+                "gain_x100": 0.0030479166666667,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 129,
+                "gain_x100": 0.0004776851851851897,
+                "mean_quality_difference": 0.44000000000000417,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0435,
+            "score_opportunity_x100": 0.002049768518518531,
+            "replacements": {
+              "15_to_11": {
+                "slots": 522,
+                "gain_x100": 0.002049768518518531,
+                "mean_quality_difference": 0.4400000000000027,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "6000000": {
+        "score_opportunity_x100": 0.01574319444444446,
+        "score_opportunity_per_environment": [
+          0.017739814814814837,
+          0.0042016203703703755,
+          0.012502777777777786,
+          0.013118518518518613,
+          0.01479074074074075,
+          0.030853472222222275,
+          0.007761574074074082,
+          0.013392361111111117,
+          0.014025925925925928,
+          0.019165740740740754,
+          0.01837986111111113,
+          0.01801203703703706,
+          0.021575231481481497,
+          0.016636342592592605,
+          0.015667361111111132,
+          0.009618518518518526,
+          0.010712268518518529,
+          0.023603935185185207,
+          0.013223842592592601,
+          0.019881944444444462
+        ],
+        "fraction_all_uav_slots": 0.024944444444444446,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.024944444444444446,
+            "score_opportunity_x100": 0.01574319444444446
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.058583333333333334,
+            "score_opportunity_x100": 0.015030231481481488,
+            "replacements": {
+              "1_to_5": {
+                "slots": 47,
+                "gain_x100": 0.0036672222222222193,
+                "mean_quality_difference": 4.919999999999996,
+                "exact_equal_load": true
+              },
+              "3_to_11": {
+                "slots": 3,
+                "gain_x100": 0.00017038194444444444,
+                "mean_quality_difference": 7.010000000000001,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 653,
+                "gain_x100": 0.011192627314814824,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.01625,
+            "score_opportunity_x100": 0.0007129629629629691,
+            "replacements": {
+              "14_to_10": {
+                "slots": 149,
+                "gain_x100": 0.0005489814814814863,
+                "mean_quality_difference": 0.44000000000000383,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 46,
+                "gain_x100": 0.00016398148148148267,
+                "mean_quality_difference": 0.4400000000000032,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "8000000": {
+        "score_opportunity_x100": 0.052753506944444466,
+        "score_opportunity_per_environment": [
+          0.028687037037037063,
+          0.055944907407407526,
+          0.058018981481481546,
+          0.0616356481481482,
+          0.051038425925926084,
+          0.062319444444444476,
+          0.043562037037037135,
+          0.05277546296296309,
+          0.06206990740740741,
+          0.0605645833333334,
+          0.017872685185185193,
+          0.050762962962963065,
+          0.029521527777777792,
+          0.06133425925925933,
+          0.05633217592592607,
+          0.04121736111111119,
+          0.040583796296296375,
+          0.06603819444444457,
+          0.09686574074074043,
+          0.057925000000000074
+        ],
+        "fraction_all_uav_slots": 0.08005555555555556,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.08005555555555556,
+            "score_opportunity_x100": 0.052753506944444466
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.21033333333333334,
+            "score_opportunity_x100": 0.0428337615740741,
+            "replacements": {
+              "3_to_11": {
+                "slots": 8,
+                "gain_x100": 0.00045435185185185183,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 2498,
+                "gain_x100": 0.042315243055555576,
+                "mean_quality_difference": 2.090000000000001,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 18,
+                "gain_x100": 6.416666666666714e-05,
+                "mean_quality_difference": 0.4400000000000033,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.029833333333333333,
+            "score_opportunity_x100": 0.009919745370370369,
+            "replacements": {
+              "1_to_5": {
+                "slots": 131,
+                "gain_x100": 0.0052218055555555525,
+                "mean_quality_difference": 4.919999999999998,
+                "exact_equal_load": true
+              },
+              "3_to_11": {
+                "slots": 35,
+                "gain_x100": 0.0019877893518518517,
+                "mean_quality_difference": 7.009999999999999,
+                "exact_equal_load": true
+              },
+              "7_to_11": {
+                "slots": 151,
+                "gain_x100": 0.002556863425925927,
+                "mean_quality_difference": 2.090000000000001,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 41,
+                "gain_x100": 0.00015328703703703853,
+                "mean_quality_difference": 0.4400000000000044,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "10000000": {
+        "score_opportunity_x100": 0.0006476620370370416,
+        "score_opportunity_per_environment": [
+          0.0,
+          0.00014259259259259352,
+          0.00014259259259259352,
+          0.005841435185185228,
+          0.0,
+          7.1296296296296e-05,
+          0.00014259259259259352,
+          7.129629629629708e-05,
+          0.0012120370370370425,
+          7.129629629629708e-05,
+          0.00021388888888889123,
+          0.00042777777777777877,
+          0.0003564814814814841,
+          0.00014259259259259352,
+          0.0,
+          0.0007664351851851891,
+          0.0004277777777777818,
+          0.0004990740740740751,
+          0.0022814814814815045,
+          0.00014259259259259243
+        ],
+        "fraction_all_uav_slots": 0.004527777777777778,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.004527777777777778,
+            "score_opportunity_x100": 0.0006476620370370416
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 8.333333333333333e-05,
+            "score_opportunity_x100": 1.693287037037039e-05,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.693287037037039e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0135,
+            "score_opportunity_x100": 0.0006307291666666713,
+            "replacements": {
+              "3_to_11": {
+                "slots": 1,
+                "gain_x100": 5.6793981481481466e-05,
+                "mean_quality_difference": 7.009999999999998,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 161,
+                "gain_x100": 0.0005739351851851898,
+                "mean_quality_difference": 0.44000000000000355,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "160441552": {
+    "final_scenes": {
+      "fixed_0": {
+        "score_opportunity_x100": 0.00025717592592592816,
+        "score_opportunity_per_environment": [
+          0.001578703703703719,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.001425925925925936,
+          0.0014259259259259396,
+          0.0,
+          0.0,
+          0.00040740740740740955,
+          0.00020370370370370594,
+          0.0,
+          0.00010185185185185297,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.002277777777777778,
+        "by_instruction": {
+          "0": {
+            "slots": 12000,
+            "fraction": 0.002277777777777778,
+            "score_opportunity_x100": 0.00025717592592592816
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.006833333333333334,
+            "score_opportunity_x100": 0.00025717592592592816,
+            "replacements": {
+              "14_to_10": {
+                "slots": 4,
+                "gain_x100": 1.7824074074074146e-05,
+                "mean_quality_difference": 0.44000000000000217,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 78,
+                "gain_x100": 0.00023935185185185395,
+                "mean_quality_difference": 0.4400000000000037,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "fixed_1": {
+        "score_opportunity_x100": 0.0,
+        "score_opportunity_per_environment": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.0,
+        "by_instruction": {
+          "1": {
+            "slots": 12000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "fixed_2": {
+        "score_opportunity_x100": 0.013772662037037137,
+        "score_opportunity_per_environment": [
+          0.012833333333333452,
+          0.012762037037037127,
+          0.012619444444444542,
+          0.0173962962962964,
+          0.012762037037037146,
+          0.01433055555555566,
+          0.014045370370370474,
+          0.01283333333333342,
+          0.014259259259259369,
+          0.013332407407407505,
+          0.013617592592592723,
+          0.013118518518518614,
+          0.015400000000000169,
+          0.012904629629629728,
+          0.01131828703703712,
+          0.01433055555555566,
+          0.014669212962963073,
+          0.012120370370370465,
+          0.015114814814814945,
+          0.015685185185185316
+        ],
+        "fraction_all_uav_slots": 0.10047222222222223,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.10047222222222223,
+            "score_opportunity_x100": 0.013772662037037137
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.30141666666666667,
+            "score_opportunity_x100": 0.013772662037037137,
+            "replacements": {
+              "6_to_10": {
+                "slots": 2,
+                "gain_x100": 3.3865740740740815e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 3024,
+                "gain_x100": 0.011478703703703779,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 591,
+                "gain_x100": 0.0022600925925926143,
+                "mean_quality_difference": 0.44000000000000417,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "switch300_0_to_1": {
+        "score_opportunity_x100": 0.00012476851851851944,
+        "score_opportunity_per_environment": [
+          0.0003564814814814845,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.001425925925925936,
+          0.0,
+          0.0,
+          0.0,
+          0.00040740740740740955,
+          0.00020370370370370594,
+          0.0,
+          0.00010185185185185297,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.001138888888888889,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.002277777777777778,
+            "score_opportunity_x100": 0.0002495370370370389
+          },
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.003416666666666667,
+            "score_opportunity_x100": 0.00012476851851851944,
+            "replacements": {
+              "14_to_10": {
+                "slots": 1,
+                "gain_x100": 5.0925925925926024e-06,
+                "mean_quality_difference": 0.4400000000000013,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 40,
+                "gain_x100": 0.00011967592592592683,
+                "mean_quality_difference": 0.44000000000000294,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "switch300_0_to_2": {
+        "score_opportunity_x100": 0.005778564814814857,
+        "score_opportunity_per_environment": [
+          0.005347222222222268,
+          0.005275925925925954,
+          0.005133333333333366,
+          0.005489814814814853,
+          0.004420370370370398,
+          0.005846296296296333,
+          0.005632407407407441,
+          0.007343518518518561,
+          0.005347222222222253,
+          0.005775000000000035,
+          0.005846296296296349,
+          0.005632407407407447,
+          0.008769444444444531,
+          0.005612037037037067,
+          0.004766666666666702,
+          0.0053472222222222575,
+          0.0063759259259259645,
+          0.0055611111111111555,
+          0.006202777777777824,
+          0.005846296296296335
+        ],
+        "fraction_all_uav_slots": 0.04172222222222222,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.002277777777777778,
+            "score_opportunity_x100": 0.0002495370370370389
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.08116666666666666,
+            "score_opportunity_x100": 0.011307592592592675
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.12516666666666668,
+            "score_opportunity_x100": 0.005778564814814857,
+            "replacements": {
+              "14_to_10": {
+                "slots": 1180,
+                "gain_x100": 0.0045716203703704,
+                "mean_quality_difference": 0.44000000000000294,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 322,
+                "gain_x100": 0.0012069444444444558,
+                "mean_quality_difference": 0.440000000000004,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "switch300_1_to_0": {
+        "score_opportunity_x100": 0.00016805555555555722,
+        "score_opportunity_per_environment": [
+          0.0019351851851852054,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0014259259259259396,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.0015,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.003,
+            "score_opportunity_x100": 0.0003361111111111145
+          },
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0045,
+            "score_opportunity_x100": 0.00016805555555555722,
+            "replacements": {
+              "14_to_10": {
+                "slots": 3,
+                "gain_x100": 1.2731481481481545e-05,
+                "mean_quality_difference": 0.44000000000000244,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 51,
+                "gain_x100": 0.0001553240740740757,
+                "mean_quality_difference": 0.44000000000000455,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "switch300_1_to_2": {
+        "score_opportunity_x100": 0.005517442129629669,
+        "score_opportunity_per_environment": [
+          0.00532939814814819,
+          0.006060185185185219,
+          0.004420370370370401,
+          0.0036361111111111316,
+          0.005846296296296343,
+          0.005846296296296333,
+          0.005988888888888926,
+          0.004349074074074103,
+          0.0035648148148148375,
+          0.005775000000000034,
+          0.005917592592592647,
+          0.004705555555555587,
+          0.008769444444444531,
+          0.005489814814814847,
+          0.0044203703703704,
+          0.005632407407407445,
+          0.005988888888888929,
+          0.005917592592592627,
+          0.006773148148148199,
+          0.005917592592592633
+        ],
+        "fraction_all_uav_slots": 0.03902777777777778,
+        "by_instruction": {
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.07805555555555556,
+            "score_opportunity_x100": 0.011034884259259338
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.11708333333333333,
+            "score_opportunity_x100": 0.005517442129629669,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.693287037037039e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 1133,
+                "gain_x100": 0.004416805555555585,
+                "mean_quality_difference": 0.44000000000000294,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 271,
+                "gain_x100": 0.0010837037037037143,
+                "mean_quality_difference": 0.4400000000000042,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "switch300_2_to_0": {
+        "score_opportunity_x100": 0.010348275462963036,
+        "score_opportunity_per_environment": [
+          0.008850925925926005,
+          0.016051851851851897,
+          0.00914629629629637,
+          0.010124074074074134,
+          0.007272222222222277,
+          0.009451851851851918,
+          0.008046296296296345,
+          0.020533333333333424,
+          0.009625000000000064,
+          0.010215740740740813,
+          0.00770000000000007,
+          0.007913888888888937,
+          0.01733518518518524,
+          0.009961111111111174,
+          0.007234027777777824,
+          0.011213888888888973,
+          0.009411111111111183,
+          0.007730555555555616,
+          0.009227777777777854,
+          0.009920370370370439
+        ],
+        "fraction_all_uav_slots": 0.0811111111111111,
+        "by_instruction": {
+          "0": {
+            "slots": 6000,
+            "fraction": 0.04055555555555555,
+            "score_opportunity_x100": 0.004328703703703735
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.12166666666666667,
+            "score_opportunity_x100": 0.01636784722222234
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.24333333333333335,
+            "score_opportunity_x100": 0.010348275462963036,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.6932870370370408e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 2046,
+                "gain_x100": 0.007705601851851903,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 873,
+                "gain_x100": 0.0026257407407407627,
+                "mean_quality_difference": 0.4400000000000036,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "switch300_2_to_1": {
+        "score_opportunity_x100": 0.00818392361111117,
+        "score_opportunity_per_environment": [
+          0.0076287037037037694,
+          0.008412962962963016,
+          0.007771296296296357,
+          0.010124074074074134,
+          0.007272222222222277,
+          0.008840740740740802,
+          0.007842592592592639,
+          0.008056481481481532,
+          0.009625000000000064,
+          0.007414814814814859,
+          0.00770000000000007,
+          0.007913888888888937,
+          0.009696296296296389,
+          0.007771296296296349,
+          0.0068266203703704125,
+          0.007343518518518568,
+          0.007985185185185243,
+          0.007272222222222278,
+          0.008769444444444517,
+          0.009411111111111174
+        ],
+        "fraction_all_uav_slots": 0.060833333333333336,
+        "by_instruction": {
+          "1": {
+            "slots": 6000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 6000,
+            "fraction": 0.12166666666666667,
+            "score_opportunity_x100": 0.01636784722222234
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.1825,
+            "score_opportunity_x100": 0.00818392361111117,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.6932870370370408e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 1906,
+                "gain_x100": 0.007086851851851899,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 283,
+                "gain_x100": 0.001080138888888899,
+                "mean_quality_difference": 0.4400000000000041,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "early50_0_to_1": {
+        "score_opportunity_x100": 3.819444444444485e-05,
+        "score_opportunity_per_environment": [
+          0.00020370370370370594,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.00010185185185185297,
+          0.0,
+          0.0,
+          0.0,
+          0.00015277777777777916,
+          0.00020370370370370594,
+          0.0,
+          0.00010185185185185297,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fraction_all_uav_slots": 0.00025,
+        "by_instruction": {
+          "0": {
+            "slots": 1000,
+            "fraction": 0.003,
+            "score_opportunity_x100": 0.0004583333333333382
+          },
+          "1": {
+            "slots": 11000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.00075,
+            "score_opportunity_x100": 3.819444444444485e-05,
+            "replacements": {
+              "15_to_11": {
+                "slots": 9,
+                "gain_x100": 3.819444444444485e-05,
+                "mean_quality_difference": 0.44000000000000444,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "late550_0_to_2": {
+        "score_opportunity_x100": 0.0009181944444444513,
+        "score_opportunity_per_environment": [
+          0.0015175925925926068,
+          0.0004990740740740765,
+          0.0007129629629629691,
+          0.0006416666666666708,
+          0.0005703703703703755,
+          0.000499074074074076,
+          0.0009268518518518583,
+          0.000998148148148154,
+          0.0008555555555555581,
+          0.0019962962962963102,
+          0.001375000000000013,
+          0.00042777777777778245,
+          0.0014259259259259405,
+          0.0014768518518518585,
+          0.0008453703703703766,
+          0.0006416666666666711,
+          0.0005296296296296328,
+          0.000784259259259265,
+          0.0010694444444444549,
+          0.0005703703703703745
+        ],
+        "fraction_all_uav_slots": 0.006888888888888889,
+        "by_instruction": {
+          "0": {
+            "slots": 11000,
+            "fraction": 0.0014545454545454545,
+            "score_opportunity_x100": 0.00016944444444444578
+          },
+          "2": {
+            "slots": 1000,
+            "fraction": 0.06666666666666667,
+            "score_opportunity_x100": 0.009154444444444512
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.020666666666666667,
+            "score_opportunity_x100": 0.0009181944444444513,
+            "replacements": {
+              "14_to_10": {
+                "slots": 154,
+                "gain_x100": 0.0005983796296296336,
+                "mean_quality_difference": 0.44000000000000306,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 94,
+                "gain_x100": 0.00031981481481481764,
+                "mean_quality_difference": 0.4400000000000037,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "multi_0_1_2": {
+        "score_opportunity_x100": 0.0035068865740741,
+        "score_opportunity_per_environment": [
+          0.003636111111111145,
+          0.0035648148148148297,
+          0.0025666666666666824,
+          0.0038500000000000274,
+          0.0034043981481481703,
+          0.003493518518518543,
+          0.0029231481481481678,
+          0.002709259259259276,
+          0.0032083333333333564,
+          0.0035648148148148427,
+          0.0034935185185185525,
+          0.0037074074074074288,
+          0.003636111111111148,
+          0.004970370370370405,
+          0.003198148148148164,
+          0.0031370370370370606,
+          0.005021296296296334,
+          0.0038500000000000266,
+          0.003921296296296331,
+          0.0022814814814815
+        ],
+        "fraction_all_uav_slots": 0.024333333333333332,
+        "by_instruction": {
+          "0": {
+            "slots": 4000,
+            "fraction": 0.003416666666666667,
+            "score_opportunity_x100": 0.00037430555555555833
+          },
+          "1": {
+            "slots": 4000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 4000,
+            "fraction": 0.06958333333333333,
+            "score_opportunity_x100": 0.01014635416666674
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.073,
+            "score_opportunity_x100": 0.0035068865740741,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.6932870370370408e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 655,
+                "gain_x100": 0.0026715740740740927,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 220,
+                "gain_x100": 0.0008183796296296369,
+                "mean_quality_difference": 0.4400000000000038,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "multi_2_1_0": {
+        "score_opportunity_x100": 0.006013969907407451,
+        "score_opportunity_per_environment": [
+          0.006936111111111172,
+          0.006060185185185221,
+          0.005275925925925966,
+          0.007221296296296337,
+          0.005133333333333371,
+          0.006630555555555597,
+          0.004562962962962983,
+          0.0059175925925926305,
+          0.006661111111111155,
+          0.004919444444444472,
+          0.0070583333333333964,
+          0.005703703703703739,
+          0.008932407407407498,
+          0.004919444444444477,
+          0.00511550925925929,
+          0.005418518518518555,
+          0.005846296296296336,
+          0.005062037037037072,
+          0.0063453703703704204,
+          0.0065592592592592985
+        ],
+        "fraction_all_uav_slots": 0.04547222222222222,
+        "by_instruction": {
+          "0": {
+            "slots": 4000,
+            "fraction": 0.009666666666666667,
+            "score_opportunity_x100": 0.0010083333333333433
+          },
+          "1": {
+            "slots": 4000,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0
+          },
+          "2": {
+            "slots": 4000,
+            "fraction": 0.12675,
+            "score_opportunity_x100": 0.01703357638888901
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.13641666666666666,
+            "score_opportunity_x100": 0.006013969907407451,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1,
+                "gain_x100": 1.6932870370370408e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 1349,
+                "gain_x100": 0.005007037037037071,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 287,
+                "gain_x100": 0.0009900000000000093,
+                "mean_quality_difference": 0.4400000000000042,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      }
+    },
+    "overall_opportunity_x100": 0.004202162571225102,
+    "quality_timeline": {
+      "1000000": {
+        "score_opportunity_x100": 0.10094664351851865,
+        "score_opportunity_per_environment": [
+          0.051493750000000206,
+          0.12098981481481476,
+          0.12011643518518507,
+          0.10642754629629596,
+          0.052830555555555755,
+          0.11710416666666651,
+          0.11312939814814801,
+          0.1154999999999999,
+          0.12667569444444443,
+          0.11685462962962945,
+          0.042278703703703915,
+          0.028322453703703766,
+          0.11975995370370368,
+          0.12651527777777774,
+          0.12022337962962953,
+          0.12141759259259265,
+          0.11772800925925926,
+          0.12425162037037035,
+          0.057429166666666955,
+          0.11988472222222216
+        ],
+        "fraction_all_uav_slots": 0.2011111111111111,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.2011111111111111,
+            "score_opportunity_x100": 0.10094664351851865
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.20758333333333334,
+            "score_opportunity_x100": 0.02014298611111118,
+            "replacements": {
+              "6_to_10": {
+                "slots": 561,
+                "gain_x100": 0.012631921296296313,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 590,
+                "gain_x100": 0.0027270833333333517,
+                "mean_quality_difference": 0.4400000000000031,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 1340,
+                "gain_x100": 0.004783981481481516,
+                "mean_quality_difference": 0.4400000000000032,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.39575,
+            "score_opportunity_x100": 0.08080365740740747,
+            "replacements": {
+              "6_to_10": {
+                "slots": 5,
+                "gain_x100": 0.00010159722222222242,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "7_to_11": {
+                "slots": 4744,
+                "gain_x100": 0.08070206018518525,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      },
+      "2000000": {
+        "score_opportunity_x100": 0.04032777777777783,
+        "score_opportunity_per_environment": [
+          0.04555995370370382,
+          0.028732407407407432,
+          0.03712916666666688,
+          0.04519699074074091,
+          0.0432541666666668,
+          0.03656851851851863,
+          0.044966898148148256,
+          0.018925925925925964,
+          0.02902083333333342,
+          0.02594050925925929,
+          0.030999305555555648,
+          0.035220370370370485,
+          0.10727662037036993,
+          0.03723287037037044,
+          0.03282222222222225,
+          0.06889004629629653,
+          0.032687731481481595,
+          0.02891064814814822,
+          0.05173680555555559,
+          0.025483564814814865
+        ],
+        "fraction_all_uav_slots": 0.07288888888888889,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.07288888888888889,
+            "score_opportunity_x100": 0.04032777777777783
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0005,
+            "score_opportunity_x100": 0.00010159722222222238,
+            "replacements": {
+              "6_to_10": {
+                "slots": 6,
+                "gain_x100": 0.00010159722222222238,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.2135,
+            "score_opportunity_x100": 0.03129729166666672,
+            "replacements": {
+              "6_to_10": {
+                "slots": 1157,
+                "gain_x100": 0.026042754629629652,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 1405,
+                "gain_x100": 0.005254537037037071,
+                "mean_quality_difference": 0.4400000000000029,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.004666666666666667,
+            "score_opportunity_x100": 0.008928888888888886,
+            "replacements": {
+              "1_to_5": {
+                "slots": 56,
+                "gain_x100": 0.008928888888888886,
+                "mean_quality_difference": 4.919999999999997,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "4000000": {
+        "score_opportunity_x100": 0.03500113425925933,
+        "score_opportunity_per_environment": [
+          0.0243833333333334,
+          0.025648842592592702,
+          0.03172685185185192,
+          0.1288145833333335,
+          0.029766203703703777,
+          0.03614722222222229,
+          0.024222916666666733,
+          0.025399305555555626,
+          0.04596828703703714,
+          0.02646875000000007,
+          0.01830532407407413,
+          0.030140509259259343,
+          0.024846759259259325,
+          0.029142361111111167,
+          0.029124537037037126,
+          0.023135648148148204,
+          0.026290509259259312,
+          0.03867824074074081,
+          0.07070810185185207,
+          0.011104398148148188
+        ],
+        "fraction_all_uav_slots": 0.05291666666666667,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.05291666666666667,
+            "score_opportunity_x100": 0.03500113425925933
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.014333333333333333,
+            "score_opportunity_x100": 0.0047073379629629705,
+            "replacements": {
+              "6_to_10": {
+                "slots": 172,
+                "gain_x100": 0.0047073379629629705,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.14441666666666667,
+            "score_opportunity_x100": 0.03029379629629636,
+            "replacements": {
+              "6_to_10": {
+                "slots": 812,
+                "gain_x100": 0.02492518518518521,
+                "mean_quality_difference": 2.090000000000002,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 921,
+                "gain_x100": 0.005368611111111151,
+                "mean_quality_difference": 0.44000000000000333,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "6000000": {
+        "score_opportunity_x100": 0.17443983796296303,
+        "score_opportunity_per_environment": [
+          0.13966296296296307,
+          0.21221990740740707,
+          0.09307407407407442,
+          0.34190138888888977,
+          0.09380810185185194,
+          0.11394282407407422,
+          0.2067803240740738,
+          0.14906597222222231,
+          0.23446435185185172,
+          0.1207840277777778,
+          0.14508310185185178,
+          0.12075972222222238,
+          0.3035342592592588,
+          0.15898425925925935,
+          0.1318625000000001,
+          0.26267824074074003,
+          0.1446909722222222,
+          0.13924814814814832,
+          0.16797407407407464,
+          0.2082775462962961
+        ],
+        "fraction_all_uav_slots": 0.11102777777777778,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.11102777777777778,
+            "score_opportunity_x100": 0.17443983796296303
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.216,
+            "score_opportunity_x100": 0.15909063657407407,
+            "replacements": {
+              "2_to_10": {
+                "slots": 2589,
+                "gain_x100": 0.15907994212962964,
+                "mean_quality_difference": 7.01,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 3,
+                "gain_x100": 1.0694444444444561e-05,
+                "mean_quality_difference": 0.44000000000000483,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.11708333333333333,
+            "score_opportunity_x100": 0.015349201388888957,
+            "replacements": {
+              "6_to_10": {
+                "slots": 144,
+                "gain_x100": 0.005045995370370377,
+                "mean_quality_difference": 2.090000000000003,
+                "exact_equal_load": true
+              },
+              "7_to_11": {
+                "slots": 27,
+                "gain_x100": 0.000728113425925927,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 1234,
+                "gain_x100": 0.009575092592592654,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "8000000": {
+        "score_opportunity_x100": 0.03624420138888889,
+        "score_opportunity_per_environment": [
+          0.022740277777777783,
+          0.06177013888888889,
+          0.027591666666666653,
+          0.004650462962962968,
+          0.026000462962962954,
+          0.02805023148148148,
+          0.04219282407407406,
+          0.04130162037037035,
+          0.028584953703703717,
+          0.04499930555555554,
+          0.04840694444444444,
+          0.027405324074074068,
+          0.030514814814814807,
+          0.02503472222222222,
+          0.042366203703703684,
+          0.05883726851851858,
+          0.04030509259259259,
+          0.029984953703703715,
+          0.04462986111111117,
+          0.04951689814814815
+        ],
+        "fraction_all_uav_slots": 0.025694444444444443,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.025694444444444443,
+            "score_opportunity_x100": 0.03624420138888889
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 3,
+            "fraction": 0.07708333333333334,
+            "score_opportunity_x100": 0.03624420138888889,
+            "replacements": {
+              "1_to_5": {
+                "slots": 70,
+                "gain_x100": 0.002869999999999998,
+                "mean_quality_difference": 4.92,
+                "exact_equal_load": true
+              },
+              "2_to_10": {
+                "slots": 356,
+                "gain_x100": 0.020218657407407414,
+                "mean_quality_difference": 7.010000000000002,
+                "exact_equal_load": true
+              },
+              "3_to_11": {
+                "slots": 163,
+                "gain_x100": 0.009257418981481481,
+                "mean_quality_difference": 7.009999999999999,
+                "exact_equal_load": true
+              },
+              "6_to_10": {
+                "slots": 202,
+                "gain_x100": 0.0034204398148148176,
+                "mean_quality_difference": 2.0900000000000016,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 79,
+                "gain_x100": 0.00028162037037037207,
+                "mean_quality_difference": 0.44000000000000267,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 55,
+                "gain_x100": 0.00019606481481481623,
+                "mean_quality_difference": 0.4400000000000031,
+                "exact_equal_load": true
+              }
+            }
+          }
+        ]
+      },
+      "10000000": {
+        "score_opportunity_x100": 0.013772662037037137,
+        "score_opportunity_per_environment": [
+          0.012833333333333452,
+          0.012762037037037127,
+          0.012619444444444542,
+          0.0173962962962964,
+          0.012762037037037146,
+          0.01433055555555566,
+          0.014045370370370474,
+          0.01283333333333342,
+          0.014259259259259369,
+          0.013332407407407505,
+          0.013617592592592723,
+          0.013118518518518614,
+          0.015400000000000169,
+          0.012904629629629728,
+          0.01131828703703712,
+          0.01433055555555566,
+          0.014669212962963073,
+          0.012120370370370465,
+          0.015114814814814945,
+          0.015685185185185316
+        ],
+        "fraction_all_uav_slots": 0.10047222222222223,
+        "by_instruction": {
+          "2": {
+            "slots": 12000,
+            "fraction": 0.10047222222222223,
+            "score_opportunity_x100": 0.013772662037037137
+          }
+        },
+        "uavs": [
+          {
+            "uav": 1,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          },
+          {
+            "uav": 2,
+            "fraction": 0.30141666666666667,
+            "score_opportunity_x100": 0.013772662037037137,
+            "replacements": {
+              "6_to_10": {
+                "slots": 2,
+                "gain_x100": 3.3865740740740815e-05,
+                "mean_quality_difference": 2.0900000000000034,
+                "exact_equal_load": true
+              },
+              "14_to_10": {
+                "slots": 3024,
+                "gain_x100": 0.011478703703703779,
+                "mean_quality_difference": 0.440000000000003,
+                "exact_equal_load": true
+              },
+              "15_to_11": {
+                "slots": 591,
+                "gain_x100": 0.0022600925925926143,
+                "mean_quality_difference": 0.44000000000000417,
+                "exact_equal_load": true
+              }
+            }
+          },
+          {
+            "uav": 3,
+            "fraction": 0.0,
+            "score_opportunity_x100": 0.0,
+            "replacements": {}
+          }
+        ]
+      }
+    }
+  }
+}

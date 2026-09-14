@@ -1,0 +1,4 @@
+{
+  "state": "NOT_RUN_STAGE_A_GATE_FAILED",
+  "reason": "All three fixed A3 students fail the preregistered score gate. No conditional integration preflight, critic warmup or RL training is authorized. Core analytic KL, rollback and finite native HAPPO equivalence were checked with preflight prototypes before stage A."
+}

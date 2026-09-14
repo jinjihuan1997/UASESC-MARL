@@ -1,0 +1,2182 @@
+{
+  "state": "PASS",
+  "source_sha256": "d93e58ee6c4dd9bebcc5ebd13d03372dc63c0604f23e8670d7f58bcd25f03b60",
+  "results": {
+    "1032592498/fixed_0": {
+      "0": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 109,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 163,
+            "same_mode_capacity_difference_sum": -54
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 132,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 135,
+            "same_mode_capacity_difference_sum": -2
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 146,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 124,
+            "same_mode_capacity_difference_sum": 22
+          }
+        ]
+      }
+    },
+    "1032592498/fixed_1": {
+      "1": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 8,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 27,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 70,
+            "same_mode_capacity_difference_sum": -45
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 26,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 32,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 132,
+            "same_mode_capacity_difference_sum": -107
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 24,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 53,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 120,
+            "same_mode_capacity_difference_sum": -68
+          }
+        ]
+      }
+    },
+    "1032592498/fixed_2": {
+      "2": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 47,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 24,
+            "same_mode_capacity_difference_sum": 23
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 72,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 67,
+            "same_mode_capacity_difference_sum": 5
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 39,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 40,
+            "same_mode_capacity_difference_sum": -1
+          }
+        ]
+      }
+    },
+    "1032592498/switch300_0_to_1": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 45,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 85,
+            "same_mode_capacity_difference_sum": -41
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 69,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 61,
+            "same_mode_capacity_difference_sum": 9
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 74,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 63,
+            "same_mode_capacity_difference_sum": 11
+          }
+        ]
+      },
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 8,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 41,
+            "same_mode_capacity_difference_sum": -26
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 16,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 27,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 59,
+            "same_mode_capacity_difference_sum": -33
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 6,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 31,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 54,
+            "same_mode_capacity_difference_sum": -23
+          }
+        ]
+      }
+    },
+    "1032592498/switch300_0_to_2": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 45,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 85,
+            "same_mode_capacity_difference_sum": -41
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 69,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 61,
+            "same_mode_capacity_difference_sum": 9
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 74,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 63,
+            "same_mode_capacity_difference_sum": 11
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 20,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 9,
+            "same_mode_capacity_difference_sum": 11
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 38,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 46,
+            "same_mode_capacity_difference_sum": -8
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 14,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 20,
+            "same_mode_capacity_difference_sum": -6
+          }
+        ]
+      }
+    },
+    "1032592498/switch300_1_to_0": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 55,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 73,
+            "same_mode_capacity_difference_sum": -18
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 64,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 74,
+            "same_mode_capacity_difference_sum": -10
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 3,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 81,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 61,
+            "same_mode_capacity_difference_sum": 21
+          }
+        ]
+      },
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 3,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 15,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 38,
+            "same_mode_capacity_difference_sum": -24
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 15,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 15,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 76,
+            "same_mode_capacity_difference_sum": -64
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 12,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 20,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 68,
+            "same_mode_capacity_difference_sum": -48
+          }
+        ]
+      }
+    },
+    "1032592498/switch300_1_to_2": {
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 3,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 15,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 38,
+            "same_mode_capacity_difference_sum": -24
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 15,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 15,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 76,
+            "same_mode_capacity_difference_sum": -64
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 12,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 20,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 68,
+            "same_mode_capacity_difference_sum": -48
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 23,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 9,
+            "same_mode_capacity_difference_sum": 14
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 38,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 46,
+            "same_mode_capacity_difference_sum": -8
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 13,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 23,
+            "same_mode_capacity_difference_sum": -10
+          }
+        ]
+      }
+    },
+    "1032592498/switch300_2_to_0": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 58,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 82,
+            "same_mode_capacity_difference_sum": -25
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 52,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 73,
+            "same_mode_capacity_difference_sum": -20
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 73,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 47,
+            "same_mode_capacity_difference_sum": 26
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 29,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 15,
+            "same_mode_capacity_difference_sum": 14
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 34,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 23,
+            "same_mode_capacity_difference_sum": 11
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 27,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 23,
+            "same_mode_capacity_difference_sum": 4
+          }
+        ]
+      }
+    },
+    "1032592498/switch300_2_to_1": {
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 7,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 49,
+            "same_mode_capacity_difference_sum": -33
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 3,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 19,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 40,
+            "same_mode_capacity_difference_sum": -21
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 14,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 27,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 67,
+            "same_mode_capacity_difference_sum": -40
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 29,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 15,
+            "same_mode_capacity_difference_sum": 14
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 34,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 23,
+            "same_mode_capacity_difference_sum": 11
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 27,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 23,
+            "same_mode_capacity_difference_sum": 4
+          }
+        ]
+      }
+    },
+    "1032592498/early50_0_to_1": {
+      "0": {
+        "slots": 500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 9,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 18,
+            "same_mode_capacity_difference_sum": -9
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 12,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 8,
+            "same_mode_capacity_difference_sum": 4
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 14,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 14,
+            "same_mode_capacity_difference_sum": 0
+          }
+        ]
+      },
+      "1": {
+        "slots": 5500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 19,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 42,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 102,
+            "same_mode_capacity_difference_sum": -61
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 18,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 34,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 134,
+            "same_mode_capacity_difference_sum": -107
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 29,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 49,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 110,
+            "same_mode_capacity_difference_sum": -65
+          }
+        ]
+      }
+    },
+    "1032592498/late550_0_to_2": {
+      "0": {
+        "slots": 5500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 97,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 149,
+            "same_mode_capacity_difference_sum": -52
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 122,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 115,
+            "same_mode_capacity_difference_sum": 8
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 134,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 114,
+            "same_mode_capacity_difference_sum": 20
+          }
+        ]
+      },
+      "2": {
+        "slots": 500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 4,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 1,
+            "same_mode_capacity_difference_sum": 3
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 4,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 10,
+            "same_mode_capacity_difference_sum": -6
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 4,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 6,
+            "same_mode_capacity_difference_sum": -2
+          }
+        ]
+      }
+    },
+    "1032592498/multi_0_1_2": {
+      "0": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 27,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 60,
+            "same_mode_capacity_difference_sum": -34
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 48,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 44,
+            "same_mode_capacity_difference_sum": 5
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 58,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 45,
+            "same_mode_capacity_difference_sum": 13
+          }
+        ]
+      },
+      "1": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 7,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 43,
+            "same_mode_capacity_difference_sum": -36
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 10,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 13,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 45,
+            "same_mode_capacity_difference_sum": -35
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 8,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 22,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 42,
+            "same_mode_capacity_difference_sum": -20
+          }
+        ]
+      },
+      "2": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 10,
+            "same_mode_capacity_difference_sum": 1
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 22,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 28,
+            "same_mode_capacity_difference_sum": -6
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 11,
+            "same_mode_capacity_difference_sum": 0
+          }
+        ]
+      }
+    },
+    "1032592498/multi_2_1_0": {
+      "0": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 41,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 51,
+            "same_mode_capacity_difference_sum": -10
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 60,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 44,
+            "same_mode_capacity_difference_sum": 17
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 52,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 50,
+            "same_mode_capacity_difference_sum": 2
+          }
+        ]
+      },
+      "1": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 12,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 34,
+            "same_mode_capacity_difference_sum": -22
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 9,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 18,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 56,
+            "same_mode_capacity_difference_sum": -39
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 7,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 35,
+            "same_mode_capacity_difference_sum": -19
+          }
+        ]
+      },
+      "2": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 9,
+            "same_mode_capacity_difference_sum": 7
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 25,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 15,
+            "same_mode_capacity_difference_sum": 10
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 19,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 17,
+            "same_mode_capacity_difference_sum": 2
+          }
+        ]
+      }
+    },
+    "788864185/fixed_0": {
+      "0": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 130,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 147,
+            "same_mode_capacity_difference_sum": -17
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 120,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 162,
+            "same_mode_capacity_difference_sum": -42
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 142,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 102,
+            "same_mode_capacity_difference_sum": 40
+          }
+        ]
+      }
+    },
+    "788864185/fixed_1": {
+      "1": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 21,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 17,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 130,
+            "same_mode_capacity_difference_sum": -116
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 10,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 50,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 104,
+            "same_mode_capacity_difference_sum": -58
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 81,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 68,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 135,
+            "same_mode_capacity_difference_sum": -67
+          }
+        ]
+      }
+    },
+    "788864185/fixed_2": {
+      "2": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 58,
+            "same_mode_capacity_difference_sum": -47
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 107,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 29,
+            "same_mode_capacity_difference_sum": 78
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 35,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 42,
+            "same_mode_capacity_difference_sum": -7
+          }
+        ]
+      }
+    },
+    "788864185/switch300_0_to_1": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 63,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 80,
+            "same_mode_capacity_difference_sum": -17
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 63,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 79,
+            "same_mode_capacity_difference_sum": -16
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 75,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 46,
+            "same_mode_capacity_difference_sum": 29
+          }
+        ]
+      },
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 14,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 64,
+            "same_mode_capacity_difference_sum": -50
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 7,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 23,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 53,
+            "same_mode_capacity_difference_sum": -32
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 60,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 43,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 83,
+            "same_mode_capacity_difference_sum": -41
+          }
+        ]
+      }
+    },
+    "788864185/switch300_0_to_2": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 63,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 80,
+            "same_mode_capacity_difference_sum": -17
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 63,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 79,
+            "same_mode_capacity_difference_sum": -16
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 75,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 46,
+            "same_mode_capacity_difference_sum": 29
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 4,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 29,
+            "same_mode_capacity_difference_sum": -25
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 50,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 14,
+            "same_mode_capacity_difference_sum": 36
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 14,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 24,
+            "same_mode_capacity_difference_sum": -10
+          }
+        ]
+      }
+    },
+    "788864185/switch300_1_to_0": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 52,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 65,
+            "same_mode_capacity_difference_sum": -14
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 56,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 62,
+            "same_mode_capacity_difference_sum": -6
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 62,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 65,
+            "same_mode_capacity_difference_sum": -3
+          }
+        ]
+      },
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 9,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 69,
+            "same_mode_capacity_difference_sum": -60
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 8,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 29,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 59,
+            "same_mode_capacity_difference_sum": -30
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 41,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 31,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 68,
+            "same_mode_capacity_difference_sum": -37
+          }
+        ]
+      }
+    },
+    "788864185/switch300_1_to_2": {
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 9,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 69,
+            "same_mode_capacity_difference_sum": -60
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 8,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 29,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 59,
+            "same_mode_capacity_difference_sum": -30
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 41,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 31,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 68,
+            "same_mode_capacity_difference_sum": -37
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 4,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 27,
+            "same_mode_capacity_difference_sum": -23
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 50,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 16,
+            "same_mode_capacity_difference_sum": 34
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 24,
+            "same_mode_capacity_difference_sum": -8
+          }
+        ]
+      }
+    },
+    "788864185/switch300_2_to_0": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 62,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 69,
+            "same_mode_capacity_difference_sum": -8
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 50,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 77,
+            "same_mode_capacity_difference_sum": -27
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 70,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 66,
+            "same_mode_capacity_difference_sum": 3
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 8,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 30,
+            "same_mode_capacity_difference_sum": -22
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 58,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 13,
+            "same_mode_capacity_difference_sum": 45
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 21,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 19,
+            "same_mode_capacity_difference_sum": 2
+          }
+        ]
+      }
+    },
+    "788864185/switch300_2_to_1": {
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 20,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 74,
+            "same_mode_capacity_difference_sum": -56
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 22,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 37,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 79,
+            "same_mode_capacity_difference_sum": -47
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 43,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 35,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 55,
+            "same_mode_capacity_difference_sum": -23
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 8,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 30,
+            "same_mode_capacity_difference_sum": -22
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 58,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 13,
+            "same_mode_capacity_difference_sum": 45
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 21,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 19,
+            "same_mode_capacity_difference_sum": 2
+          }
+        ]
+      }
+    },
+    "788864185/early50_0_to_1": {
+      "0": {
+        "slots": 500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 17,
+            "same_mode_capacity_difference_sum": -6
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 9,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 17,
+            "same_mode_capacity_difference_sum": -8
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 22,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 8,
+            "same_mode_capacity_difference_sum": 14
+          }
+        ]
+      },
+      "1": {
+        "slots": 5500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 63,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 25,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 153,
+            "same_mode_capacity_difference_sum": -129
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 38,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 55,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 114,
+            "same_mode_capacity_difference_sum": -60
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 85,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 52,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 110,
+            "same_mode_capacity_difference_sum": -62
+          }
+        ]
+      }
+    },
+    "788864185/late550_0_to_2": {
+      "0": {
+        "slots": 5500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 122,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 139,
+            "same_mode_capacity_difference_sum": -17
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 114,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 146,
+            "same_mode_capacity_difference_sum": -32
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 133,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 93,
+            "same_mode_capacity_difference_sum": 40
+          }
+        ]
+      },
+      "2": {
+        "slots": 500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 0,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 8,
+            "same_mode_capacity_difference_sum": -8
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 8,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 3,
+            "same_mode_capacity_difference_sum": 5
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 3,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 7,
+            "same_mode_capacity_difference_sum": -4
+          }
+        ]
+      }
+    },
+    "788864185/multi_0_1_2": {
+      "0": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 41,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 50,
+            "same_mode_capacity_difference_sum": -9
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 41,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 57,
+            "same_mode_capacity_difference_sum": -16
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 51,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 34,
+            "same_mode_capacity_difference_sum": 17
+          }
+        ]
+      },
+      "1": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 4,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 4,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 50,
+            "same_mode_capacity_difference_sum": -46
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 7,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 22,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 36,
+            "same_mode_capacity_difference_sum": -15
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 32,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 23,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 42,
+            "same_mode_capacity_difference_sum": -21
+          }
+        ]
+      },
+      "2": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 3,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 17,
+            "same_mode_capacity_difference_sum": -14
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 26,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 12,
+            "same_mode_capacity_difference_sum": 14
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 13,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 18,
+            "same_mode_capacity_difference_sum": -5
+          }
+        ]
+      }
+    },
+    "788864185/multi_2_1_0": {
+      "0": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 42,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 45,
+            "same_mode_capacity_difference_sum": -3
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 35,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 41,
+            "same_mode_capacity_difference_sum": -6
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 40,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 42,
+            "same_mode_capacity_difference_sum": -2
+          }
+        ]
+      },
+      "1": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 3,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 13,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 44,
+            "same_mode_capacity_difference_sum": -31
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 4,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 20,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 39,
+            "same_mode_capacity_difference_sum": -19
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 49,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 34,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 37,
+            "same_mode_capacity_difference_sum": -8
+          }
+        ]
+      },
+      "2": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 3,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 24,
+            "same_mode_capacity_difference_sum": -21
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 38,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 10,
+            "same_mode_capacity_difference_sum": 28
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 15,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 11,
+            "same_mode_capacity_difference_sum": 4
+          }
+        ]
+      }
+    },
+    "1626362722/fixed_0": {
+      "0": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 149,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 148,
+            "same_mode_capacity_difference_sum": 1
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 195,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 131,
+            "same_mode_capacity_difference_sum": 66
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 110,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 159,
+            "same_mode_capacity_difference_sum": -49
+          }
+        ]
+      }
+    },
+    "1626362722/fixed_1": {
+      "1": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 29,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 20,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 86,
+            "same_mode_capacity_difference_sum": -68
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 52,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 33,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 182,
+            "same_mode_capacity_difference_sum": -154
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 31,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 47,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 195,
+            "same_mode_capacity_difference_sum": -150
+          }
+        ]
+      }
+    },
+    "1626362722/fixed_2": {
+      "2": {
+        "slots": 6000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 76,
+            "same_mode_capacity_difference_sum": -60
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 130,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 38,
+            "same_mode_capacity_difference_sum": 92
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 42,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 32,
+            "same_mode_capacity_difference_sum": 10
+          }
+        ]
+      }
+    },
+    "1626362722/switch300_0_to_1": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 75,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 75,
+            "same_mode_capacity_difference_sum": 0
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 104,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 62,
+            "same_mode_capacity_difference_sum": 44
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 54,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 84,
+            "same_mode_capacity_difference_sum": -31
+          }
+        ]
+      },
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 6,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 9,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 72,
+            "same_mode_capacity_difference_sum": -63
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 8,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 22,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 70,
+            "same_mode_capacity_difference_sum": -53
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 14,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 26,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 78,
+            "same_mode_capacity_difference_sum": -53
+          }
+        ]
+      }
+    },
+    "1626362722/switch300_0_to_2": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 75,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 75,
+            "same_mode_capacity_difference_sum": 0
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 104,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 62,
+            "same_mode_capacity_difference_sum": 44
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 54,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 84,
+            "same_mode_capacity_difference_sum": -31
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 7,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 33,
+            "same_mode_capacity_difference_sum": -26
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 61,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 18,
+            "same_mode_capacity_difference_sum": 43
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 14,
+            "same_mode_capacity_difference_sum": 2
+          }
+        ]
+      }
+    },
+    "1626362722/switch300_1_to_0": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 75,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 62,
+            "same_mode_capacity_difference_sum": 14
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 88,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 73,
+            "same_mode_capacity_difference_sum": 15
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 59,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 79,
+            "same_mode_capacity_difference_sum": -21
+          }
+        ]
+      },
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 24,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 9,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 56,
+            "same_mode_capacity_difference_sum": -49
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 6,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 19,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 62,
+            "same_mode_capacity_difference_sum": -46
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 12,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 24,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 100,
+            "same_mode_capacity_difference_sum": -76
+          }
+        ]
+      }
+    },
+    "1626362722/switch300_1_to_2": {
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 24,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 9,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 56,
+            "same_mode_capacity_difference_sum": -49
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 6,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 19,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 62,
+            "same_mode_capacity_difference_sum": -46
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 12,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 24,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 100,
+            "same_mode_capacity_difference_sum": -76
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 12,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 35,
+            "same_mode_capacity_difference_sum": -23
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 68,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 22,
+            "same_mode_capacity_difference_sum": 46
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 19,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 22,
+            "same_mode_capacity_difference_sum": -3
+          }
+        ]
+      }
+    },
+    "1626362722/switch300_2_to_0": {
+      "0": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 65,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 53,
+            "same_mode_capacity_difference_sum": 12
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 84,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 79,
+            "same_mode_capacity_difference_sum": 5
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 62,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 86,
+            "same_mode_capacity_difference_sum": -24
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 42,
+            "same_mode_capacity_difference_sum": -31
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 67,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 19,
+            "same_mode_capacity_difference_sum": 48
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 28,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 19,
+            "same_mode_capacity_difference_sum": 9
+          }
+        ]
+      }
+    },
+    "1626362722/switch300_2_to_1": {
+      "1": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 11,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 13,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 50,
+            "same_mode_capacity_difference_sum": -37
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 9,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 16,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 86,
+            "same_mode_capacity_difference_sum": -78
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 9,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 26,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 99,
+            "same_mode_capacity_difference_sum": -74
+          }
+        ]
+      },
+      "2": {
+        "slots": 3000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 11,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 42,
+            "same_mode_capacity_difference_sum": -31
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 67,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 19,
+            "same_mode_capacity_difference_sum": 48
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 28,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 19,
+            "same_mode_capacity_difference_sum": 9
+          }
+        ]
+      }
+    },
+    "1626362722/early50_0_to_1": {
+      "0": {
+        "slots": 500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 22,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 18,
+            "same_mode_capacity_difference_sum": 4
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 19,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 15,
+            "same_mode_capacity_difference_sum": 4
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 14,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 18,
+            "same_mode_capacity_difference_sum": -4
+          }
+        ]
+      },
+      "1": {
+        "slots": 5500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 6,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 23,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 110,
+            "same_mode_capacity_difference_sum": -89
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 49,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 29,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 165,
+            "same_mode_capacity_difference_sum": -150
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 39,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 46,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 158,
+            "same_mode_capacity_difference_sum": -115
+          }
+        ]
+      }
+    },
+    "1626362722/late550_0_to_2": {
+      "0": {
+        "slots": 5500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 141,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 141,
+            "same_mode_capacity_difference_sum": 0
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 180,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 119,
+            "same_mode_capacity_difference_sum": 63
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 102,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 150,
+            "same_mode_capacity_difference_sum": -48
+          }
+        ]
+      },
+      "2": {
+        "slots": 500,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 1,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 6,
+            "same_mode_capacity_difference_sum": -5
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 10,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 4,
+            "same_mode_capacity_difference_sum": 6
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 3,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 3,
+            "same_mode_capacity_difference_sum": 0
+          }
+        ]
+      }
+    },
+    "1626362722/multi_0_1_2": {
+      "0": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 57,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 50,
+            "same_mode_capacity_difference_sum": 7
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 67,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 46,
+            "same_mode_capacity_difference_sum": 23
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 36,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 63,
+            "same_mode_capacity_difference_sum": -27
+          }
+        ]
+      },
+      "1": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 3,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 2,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 18,
+            "same_mode_capacity_difference_sum": -16
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 14,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 10,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 58,
+            "same_mode_capacity_difference_sum": -53
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 4,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 18,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 49,
+            "same_mode_capacity_difference_sum": -31
+          }
+        ]
+      },
+      "2": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 6,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 22,
+            "same_mode_capacity_difference_sum": -16
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 44,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 15,
+            "same_mode_capacity_difference_sum": 31
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 12,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 11,
+            "same_mode_capacity_difference_sum": 1
+          }
+        ]
+      }
+    },
+    "1626362722/multi_2_1_0": {
+      "0": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 48,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 52,
+            "same_mode_capacity_difference_sum": -4
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 1,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 66,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 51,
+            "same_mode_capacity_difference_sum": 15
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 42,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 49,
+            "same_mode_capacity_difference_sum": -8
+          }
+        ]
+      },
+      "1": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 10,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 7,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 41,
+            "same_mode_capacity_difference_sum": -35
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 2,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 8,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 49,
+            "same_mode_capacity_difference_sum": -42
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 4,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 14,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 44,
+            "same_mode_capacity_difference_sum": -31
+          }
+        ]
+      },
+      "2": {
+        "slots": 2000,
+        "by_uav": [
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 4,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 32,
+            "same_mode_capacity_difference_sum": -28
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 46,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 13,
+            "same_mode_capacity_difference_sum": 33
+          },
+          {
+            "no_delivery_slots": 0,
+            "feasible_mode_set_changed_slots": 0,
+            "teacher_budget_supports_more_deliveries_same_executed_mode": 21,
+            "teacher_budget_supports_fewer_deliveries_same_executed_mode": 12,
+            "same_mode_capacity_difference_sum": 9
+          }
+        ]
+      }
+    }
+  },
+  "examples": [
+    {
+      "student": 1032592498,
+      "scene": "fixed_0",
+      "environment_seed": 520827611,
+      "slot": 1,
+      "uav": 2,
+      "instruction_id": 0,
+      "executed_mode": 5,
+      "predicted_load": 5135.426402438187,
+      "student_budget": 20364.661376615208,
+      "teacher_budget_at_same_student_SUT_observation": 21789.473444223404,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 1032592498,
+      "scene": "fixed_1",
+      "environment_seed": 1989227368,
+      "slot": 1,
+      "uav": 3,
+      "instruction_id": 1,
+      "executed_mode": 5,
+      "predicted_load": 5175.253920763754,
+      "student_budget": 20410.184937411996,
+      "teacher_budget_at_same_student_SUT_observation": 20849.99996200204,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 1032592498,
+      "scene": "fixed_2",
+      "environment_seed": 586567769,
+      "slot": 2,
+      "uav": 3,
+      "instruction_id": 2,
+      "executed_mode": 5,
+      "predicted_load": 5465.995764429028,
+      "student_budget": 20124.37290323892,
+      "teacher_budget_at_same_student_SUT_observation": 22956.521772172142,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 788864185,
+      "scene": "fixed_0",
+      "environment_seed": 586567769,
+      "slot": 1,
+      "uav": 3,
+      "instruction_id": 0,
+      "executed_mode": 5,
+      "predicted_load": 5103.4662441091605,
+      "student_budget": 20386.30501587108,
+      "teacher_budget_at_same_student_SUT_observation": 21789.473444223404,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 788864185,
+      "scene": "fixed_1",
+      "environment_seed": 586567769,
+      "slot": 1,
+      "uav": 3,
+      "instruction_id": 1,
+      "executed_mode": 0,
+      "predicted_load": 3055.4662441091605,
+      "student_budget": 21221.042186021805,
+      "teacher_budget_at_same_student_SUT_observation": 21789.473444223404,
+      "cached_blocks": 7,
+      "student_deliveries": 6,
+      "same_mode_capacity_under_teacher_budget": 7,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 788864185,
+      "scene": "fixed_2",
+      "environment_seed": 520827611,
+      "slot": 2,
+      "uav": 2,
+      "instruction_id": 2,
+      "executed_mode": 5,
+      "predicted_load": 5275.3556647748255,
+      "student_budget": 20837.3843729496,
+      "teacher_budget_at_same_student_SUT_observation": 21789.473444223404,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 1626362722,
+      "scene": "fixed_0",
+      "environment_seed": 1989227368,
+      "slot": 1,
+      "uav": 3,
+      "instruction_id": 0,
+      "executed_mode": 5,
+      "predicted_load": 5175.253920763754,
+      "student_budget": 20621.450554685278,
+      "teacher_budget_at_same_student_SUT_observation": 20849.99996200204,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 1626362722,
+      "scene": "fixed_1",
+      "environment_seed": 1989227368,
+      "slot": 1,
+      "uav": 3,
+      "instruction_id": 1,
+      "executed_mode": 5,
+      "predicted_load": 5175.253920763754,
+      "student_budget": 20414.38039412674,
+      "teacher_budget_at_same_student_SUT_observation": 20849.99996200204,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    },
+    {
+      "student": 1626362722,
+      "scene": "fixed_2",
+      "environment_seed": 586567769,
+      "slot": 2,
+      "uav": 3,
+      "instruction_id": 2,
+      "executed_mode": 5,
+      "predicted_load": 5465.995764429028,
+      "student_budget": 20114.04251712434,
+      "teacher_budget_at_same_student_SUT_observation": 22956.521772172142,
+      "cached_blocks": 7,
+      "student_deliveries": 3,
+      "same_mode_capacity_under_teacher_budget": 4,
+      "causal_closed_loop_effect": "NOT_IDENTIFIED"
+    }
+  ],
+  "physical_steps": 0,
+  "interpretation": "Posthoc capacity sensitivity holding the executed mode and cache fixed; not actual teacher closed-loop deliveries, not a training label and not a new controller. No cause-specific reward decomposition is identified."
+}

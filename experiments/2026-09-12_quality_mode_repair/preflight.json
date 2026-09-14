@@ -1,0 +1,102 @@
+{
+  "state": "PASS",
+  "checks": {
+    "inputs_source_profile_git_model_config": "PASS",
+    "104948945_zero_init_all_instructions_logits_probabilities_masks_actions_and_logp": "PASS",
+    "104948945_paired_critic_valuenorm_adapter_initialization": "PASS",
+    "104948945_arbitrary_residual_gate_invariance_gradients_freeze_guard": "PASS",
+    "104948945_no_quality_minibatch_skips_momentum_critic_updates_only": "PASS",
+    "111868397_zero_init_all_instructions_logits_probabilities_masks_actions_and_logp": "PASS",
+    "111868397_paired_critic_valuenorm_adapter_initialization": "PASS",
+    "111868397_arbitrary_residual_gate_invariance_gradients_freeze_guard": "PASS",
+    "111868397_no_quality_minibatch_skips_momentum_critic_updates_only": "PASS",
+    "160441552_zero_init_all_instructions_logits_probabilities_masks_actions_and_logp": "PASS",
+    "160441552_paired_critic_valuenorm_adapter_initialization": "PASS",
+    "160441552_arbitrary_residual_gate_invariance_gradients_freeze_guard": "PASS",
+    "160441552_no_quality_minibatch_skips_momentum_critic_updates_only": "PASS",
+    "single_slot_floor_once_budget_reward_checker": "PASS",
+    "residual_all_full_checkpoint_save_load_resume_cross_termination": "PASS",
+    "residual_quality_full_checkpoint_save_load_resume_cross_termination": "PASS",
+    "exogenous_pairing_independent_of_extra_action_draws": "PASS",
+    "greedy_modes_3_frozen_load_and_real_step": "PASS",
+    "greedy_modes_16_frozen_load_and_real_step": "PASS",
+    "original_critic_models_profile_configs_unchanged": "PASS"
+  },
+  "benchmarks": {
+    "benchmark_cpu.log": {
+      "device": "cpu",
+      "update_seconds": [
+        1.6234586760401726,
+        1.6279427101835608
+      ],
+      "steps_per_second": 2460.4775140639954,
+      "added_steps": 8000,
+      "formal": false
+    },
+    "benchmark_cuda.log": {
+      "device": "cuda:0",
+      "update_seconds": [
+        2.621611088514328,
+        2.541327412240207
+      ],
+      "steps_per_second": 1549.505189502227,
+      "added_steps": 8000,
+      "formal": false
+    },
+    "benchmark_cpu_pair0.log": {
+      "device": "cpu",
+      "update_seconds": [
+        1.6905657202005386,
+        1.675620217807591
+      ],
+      "steps_per_second": 2376.5769768302916,
+      "added_steps": 8000,
+      "formal": false
+    },
+    "benchmark_cpu_pair1.log": {
+      "device": "cpu",
+      "update_seconds": [
+        1.658865231089294,
+        1.6552543323487043
+      ],
+      "steps_per_second": 2413.9141171180217,
+      "added_steps": 8000,
+      "formal": false
+    }
+  },
+  "resource_settings": {
+    "device": "cpu",
+    "workers": 2,
+    "torch_threads": 1,
+    "blas_threads": 1,
+    "source": "measured preflight throughput"
+  },
+  "execution_code_sha256": {
+    "repair_support.py": "50db1329b197a3477915af0633f373b0d86c781ce2ac547973542f3338506e16",
+    "adapter_policy.py": "853ea8f95517a242327bed9d82c4b73e851510feaa7a4667584ffdc600f52018",
+    "repair_training.py": "c2613ec97eb752574e80a228ae697331642cb5ed4e93bf7761f72f23190bb3d7",
+    "repair_evaluation.py": "da9f383e22d3ae3658168b9d85de8e0d9131ee7ecb9050266e366c8b18309fe5",
+    "preflight.py": "3734826dbd5d17a133b9d6becb433a04929e4051d2e23db5c67396cd3bc1011e",
+    "supervise.py": "5c9f740fba63571f4670f1f6a02f4b0538a2367945d7d23bbaeec5848255d337",
+    "run_training.sh": "5856ab873993c1da51ce774f5b929fced243966703ac04a14ec88ed93662decb",
+    "prepare.py": "bb3085454cdf1334d146f7a790c6806645ea27fce2a0055ba1c9eb499aa3bdab",
+    "seal_preflight.py": "84d05b5e5abcec24076bb6524dbcc9d7af6051029154ea3961d2a86d86f83faf"
+  },
+  "manifest_sha256": "3e4c21a05e9a4997d56ec7a615e12895e471e7b8dbc2ad5565cb213d92ca11c0",
+  "failures_preserved": [
+    "preflight_attempts/20260912T213134658990.json",
+    "preflight_attempts/20260912T213158356124.json"
+  ],
+  "fixes": [
+    "Categorical logp identity checked with exact float64 accumulation of the unchanged float32 /16 values; no tolerance relaxation.",
+    "Snapshot action RNG list cloned to prevent later in-memory list updates from changing captured state. Full disk resume then matched exactly."
+  ],
+  "preflight_training_cost": {
+    "benchmark_steps": 32000,
+    "one_completed_semantic_check_run_training_steps": 4848,
+    "one_completed_semantic_check_run_evaluation_steps": 20,
+    "earlier_attempts": "Retained in attempt logs; not formal training or reusable weights.",
+    "excluded_from_formal_budget": true
+  },
+  "utc": "2026-09-12T12:36:16.409384+00:00"
+}

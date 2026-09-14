@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "71b58e9a6bc02440b9d2f2d0befe6adaa5b10e939c6aee80e659c1cfbcc21dbc",
+  "manifest_sha256": "bdaf567bb9321448d2f936136607f224030e21498a1acd08eeea1b9ba55c65f3",
+  "code_sha256": {
+    "support.py": "5f2c0e5a7d28b73a9d7e49d20cbd1175e95343916a86a7093d4f8af2c62f5267",
+    "composition_policy.py": "ccf5b880b00b6e4326aa2a1594f103b85c1d6614e73d803e9a1ac52971cfb854",
+    "evaluate.py": "c100fc1633ed6fc928e127c8eff463210aedf25eae5c444ffdbdb48639c39940",
+    "validate.py": "2475446bf394ea936108bb3b7bcb0e2ef0ba64e764fb0c851c94cd87626155f7"
+  },
+  "preflight_sha256": "3034e5502d855eedf1a7529b1cdf1d786a3637b46950a57b4f0f0673e087dbcf"
+}

@@ -1,0 +1,6 @@
+{
+  "state": "PASS",
+  "checked_training_episode": 25,
+  "corrected_issue": "Offline reset reconstruction used target index rather than target minus one; reset increments the index. Original training and online audits unaffected. Failure log preserved in evaluation_validation.log.",
+  "extra_physical_steps": 0
+}

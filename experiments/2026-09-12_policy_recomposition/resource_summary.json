@@ -1,0 +1,54 @@
+{
+  "resource_settings": {
+    "device": "cpu",
+    "workers": 3,
+    "torch_threads": 1,
+    "blas_threads": 1,
+    "preflight_single_worker_measured_steps_per_second": 4918.646330352977,
+    "reason": "Exact frozen CPU execution reproduced; small batch inference and native checks measured fast; 3 single-thread workers within current 20 CPU capacity; GPU untouched"
+  },
+  "timing": {
+    "primary": {
+      "episodes": 2340,
+      "physical_steps": 1404000,
+      "wall_span_seconds": 98.748282,
+      "sum_worker_seconds": 286.9825645368546,
+      "median_batch_physical_steps_per_second": 4884.420761382733
+    },
+    "preflight": {
+      "episodes": 1280,
+      "physical_steps": 768000,
+      "wall_span_seconds": 280.21685,
+      "sum_worker_seconds": 155.3822996672243,
+      "median_batch_physical_steps_per_second": 4953.16344578083
+    }
+  },
+  "initial": {
+    "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+    "executable": "/home/king/miniconda3/envs/harl_sionna/bin/python",
+    "torch": "2.4.1+cu121",
+    "numpy": "1.26.4",
+    "cuda": "12.1",
+    "cpu_count": 20,
+    "load": [
+      3.443359375,
+      3.4814453125,
+      2.91943359375
+    ],
+    "gpu": "name, utilization.gpu [%], memory.used [MiB], temperature.gpu\nNVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 19 MiB, 38\n"
+  },
+  "final_utc": "2026-09-12T14:48:06.966887+00:00",
+  "final_load": [
+    3.41845703125,
+    3.96923828125,
+    3.943359375
+  ],
+  "final_gpu": "name, utilization.gpu [%], memory.used [MiB], temperature.gpu\nNVIDIA GeForce RTX 4070 Ti SUPER, 0 %, 19 MiB, 38\n",
+  "pauses": [],
+  "resumes": [],
+  "thermal_stops": 0,
+  "other_processes_terminated": 0,
+  "remaining_own_workers": [],
+  "peak_process_memory": null,
+  "peak_memory_note": "not instrumented; no value inferred"
+}

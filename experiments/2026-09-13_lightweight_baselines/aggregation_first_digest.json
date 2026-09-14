@@ -1,0 +1,10 @@
+{
+  "results.json": "272faa4c28a2257cdf74db13a9d425736e792dbbf4a11ea65f4ab75576549018",
+  "paired_differences.json": "c59c4b18f2ae77365b17fbb72adab1bf1504d67b2ade9f008db93d8ffb7c0823",
+  "physical_statistics.json": "a2117b982292960af91d36943225da36ee9bfd55d8399afa5b69ae061e4786ce",
+  "independent_audit.json": "9607736277876e59e424a4e361867a2591a3ed7b531b39802ee8fa435d53f4f0",
+  "episode_scores.npz": "b46b68be419541d76cc688534f7473ff0d420895add484d41dea60822be31bc0",
+  "complexity.json": "ee46dcbd57dfa42e2469a327d07b4104ff8b12dec9a03b92cf7eb15de6148b89",
+  "REPORT.md": "3ad2155f175386f3fef853db2d88e36b6522a1d266ca5a1d0ff3f77f62cc069b",
+  "DETAILS.md": "dae4b7c474ec5a89aad0f14cc45fdc737004bb3f403f1450174cf25d635e2452"
+}

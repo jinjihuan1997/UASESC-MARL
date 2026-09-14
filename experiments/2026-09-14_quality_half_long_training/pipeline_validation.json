@@ -1,0 +1,44 @@
+{
+  "state": "PASS",
+  "policy_replays": {
+    "104948945": {
+      "inherited_fixed_0_actions_exact": true,
+      "read_only_replay_decisions": 12000,
+      "new_physical_steps": 0,
+      "source_sha256": "2c698feb842bf85470496cc8909b30b87bc41dbabe71fe003f95c11dac2c4dce"
+    },
+    "111868397": {
+      "inherited_fixed_0_actions_exact": true,
+      "read_only_replay_decisions": 12000,
+      "new_physical_steps": 0,
+      "source_sha256": "4ede10ace2fbc9107126e00ada84a7cfcbd741381f46eb702021481ad96804a6"
+    },
+    "160441552": {
+      "inherited_fixed_0_actions_exact": true,
+      "read_only_replay_decisions": 12000,
+      "new_physical_steps": 0,
+      "source_sha256": "869481a6bca70a3ea2cfade8516d55a0ddaca96cc214920fe51523d29fca17c1"
+    }
+  },
+  "new_training_offline_reconstruction": {
+    "physical_slots": 6000,
+    "max_reward_reconstruction_error": 1.1102230246251565e-16,
+    "checks": [
+      "AoI",
+      "cache",
+      "timestamp",
+      "one_resource_floor",
+      "budget",
+      "profile_quality",
+      "profile_load",
+      "original_mask",
+      "preferred_action_fallback",
+      "stable_AoI_scheduler",
+      "delivery",
+      "usage",
+      "reward_components"
+    ]
+  },
+  "new_physical_steps": 0,
+  "new_optimizer_steps": 0
+}

@@ -1,0 +1,26 @@
+{
+  "state": "SEMANTICS_PASS",
+  "checks": {
+    "inputs_source_profile_git_model_config": "PASS",
+    "104948945_zero_init_all_instructions_logits_probabilities_masks_actions_and_logp": "PASS",
+    "104948945_paired_critic_valuenorm_adapter_initialization": "PASS",
+    "104948945_arbitrary_residual_gate_invariance_gradients_freeze_guard": "PASS",
+    "104948945_no_quality_minibatch_skips_momentum_critic_updates_only": "PASS",
+    "111868397_zero_init_all_instructions_logits_probabilities_masks_actions_and_logp": "PASS",
+    "111868397_paired_critic_valuenorm_adapter_initialization": "PASS",
+    "111868397_arbitrary_residual_gate_invariance_gradients_freeze_guard": "PASS",
+    "111868397_no_quality_minibatch_skips_momentum_critic_updates_only": "PASS",
+    "160441552_zero_init_all_instructions_logits_probabilities_masks_actions_and_logp": "PASS",
+    "160441552_paired_critic_valuenorm_adapter_initialization": "PASS",
+    "160441552_arbitrary_residual_gate_invariance_gradients_freeze_guard": "PASS",
+    "160441552_no_quality_minibatch_skips_momentum_critic_updates_only": "PASS",
+    "single_slot_floor_once_budget_reward_checker": "PASS",
+    "residual_all_full_checkpoint_save_load_resume_cross_termination": "PASS",
+    "residual_quality_full_checkpoint_save_load_resume_cross_termination": "PASS",
+    "exogenous_pairing_independent_of_extra_action_draws": "PASS",
+    "greedy_modes_3_frozen_load_and_real_step": "PASS",
+    "greedy_modes_16_frozen_load_and_real_step": "PASS",
+    "original_critic_models_profile_configs_unchanged": "PASS"
+  },
+  "utc": "2026-09-12T12:35:53.924139+00:00"
+}

@@ -1,0 +1,584 @@
+{
+  "104948945": {
+    "1000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.865166666666667,
+        "mid_deliverable_blocks_under_actual_budget": 3.8964166666666666,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.7491666666666665,
+        "static_equal_capacity_difference": -0.14725,
+        "actual_budget_below_four_mid_blocks_fraction": 0.13025,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.030416666666666668,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.17766666666666667
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.109666666666667,
+        "mid_deliverable_blocks_under_actual_budget": 2.741416666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.809833333333333,
+        "static_equal_capacity_difference": 1.0684166666666666,
+        "actual_budget_below_four_mid_blocks_fraction": 0.9063333333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.8226666666666667,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.0069166666666666664
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.186833333333333,
+        "mid_deliverable_blocks_under_actual_budget": 4.121,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.57475,
+        "static_equal_capacity_difference": -0.54625,
+        "actual_budget_below_four_mid_blocks_fraction": 0.12975,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.004666666666666667,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5074166666666666
+      }
+    ],
+    "2000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.407416666666666,
+        "mid_deliverable_blocks_under_actual_budget": 4.3780833333333335,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.4025833333333333,
+        "static_equal_capacity_difference": -0.9755,
+        "actual_budget_below_four_mid_blocks_fraction": 0.3,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.08991666666666667,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5400833333333334
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.1459166666666665,
+        "mid_deliverable_blocks_under_actual_budget": 3.1705,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.921333333333333,
+        "static_equal_capacity_difference": -0.24916666666666668,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5440833333333334,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.25283333333333335,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.36091666666666666
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.5281666666666665,
+        "mid_deliverable_blocks_under_actual_budget": 3.0994166666666665,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.1281666666666665,
+        "static_equal_capacity_difference": 0.02875,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5429166666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.19858333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.17666666666666667
+      }
+    ],
+    "4000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.358583333333334,
+        "mid_deliverable_blocks_under_actual_budget": 3.0568333333333335,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.8375833333333333,
+        "static_equal_capacity_difference": -0.21925,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5256666666666666,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.23616666666666666,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.39275
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.1634166666666665,
+        "mid_deliverable_blocks_under_actual_budget": 3.132416666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.5915,
+        "static_equal_capacity_difference": -0.5409166666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5089166666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.08808333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.43191666666666667
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.23175,
+        "mid_deliverable_blocks_under_actual_budget": 4.54425,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.475,
+        "static_equal_capacity_difference": -1.06925,
+        "actual_budget_below_four_mid_blocks_fraction": 0.22183333333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.143,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.6054166666666667
+      }
+    ],
+    "6000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.6575,
+        "mid_deliverable_blocks_under_actual_budget": 4.137083333333333,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.58275,
+        "static_equal_capacity_difference": -0.5543333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.3315,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.28733333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5174166666666666
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.195333333333333,
+        "mid_deliverable_blocks_under_actual_budget": 3.1935,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.88275,
+        "static_equal_capacity_difference": -0.31075,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5125,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.14308333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.321
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.2058333333333335,
+        "mid_deliverable_blocks_under_actual_budget": 3.328,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.695666666666667,
+        "static_equal_capacity_difference": -0.6323333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.48275,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.05358333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.46625
+      }
+    ],
+    "8000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 6.0515,
+        "mid_deliverable_blocks_under_actual_budget": 3.7781666666666665,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.68125,
+        "static_equal_capacity_difference": -0.09691666666666666,
+        "actual_budget_below_four_mid_blocks_fraction": 0.44975,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.38675,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4360833333333333
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.763083333333333,
+        "mid_deliverable_blocks_under_actual_budget": 3.29775,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.4424166666666665,
+        "static_equal_capacity_difference": 0.14466666666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5518333333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.4394166666666667,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.34983333333333333
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 6.207916666666667,
+        "mid_deliverable_blocks_under_actual_budget": 3.8238333333333334,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.6961666666666666,
+        "static_equal_capacity_difference": -0.12766666666666668,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4005,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.32616666666666666,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.38616666666666666
+      }
+    ],
+    "10000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.444916666666667,
+        "mid_deliverable_blocks_under_actual_budget": 3.248666666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.2988333333333335,
+        "static_equal_capacity_difference": 0.050166666666666665,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5636666666666666,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.25275,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.20425
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.74975,
+        "mid_deliverable_blocks_under_actual_budget": 4.154416666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.2503333333333333,
+        "static_equal_capacity_difference": -0.9040833333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.48575,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.49983333333333335
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.05025,
+        "mid_deliverable_blocks_under_actual_budget": 3.51725,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.422416666666667,
+        "static_equal_capacity_difference": -1.0948333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.49983333333333335,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.038,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.49983333333333335
+      }
+    ]
+  },
+  "111868397": {
+    "1000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.099916666666667,
+        "mid_deliverable_blocks_under_actual_budget": 3.55475,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.33725,
+        "static_equal_capacity_difference": -0.2175,
+        "actual_budget_below_four_mid_blocks_fraction": 0.46725,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.07983333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.2885
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.0495,
+        "mid_deliverable_blocks_under_actual_budget": 3.6435,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.3676666666666666,
+        "static_equal_capacity_difference": -0.2758333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.40658333333333335,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.035833333333333335,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.29983333333333334
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.016,
+        "mid_deliverable_blocks_under_actual_budget": 3.537166666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.6823333333333332,
+        "static_equal_capacity_difference": 0.14516666666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.45716666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.20708333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.06191666666666667
+      }
+    ],
+    "2000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.184666666666667,
+        "mid_deliverable_blocks_under_actual_budget": 3.48625,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.49575,
+        "static_equal_capacity_difference": 0.0095,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4705,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.09608333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.08683333333333333
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.080333333333333,
+        "mid_deliverable_blocks_under_actual_budget": 3.07375,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.7815,
+        "static_equal_capacity_difference": 0.70775,
+        "actual_budget_below_four_mid_blocks_fraction": 0.88425,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.7153333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.009166666666666667
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.71725,
+        "mid_deliverable_blocks_under_actual_budget": 4.285,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.74,
+        "static_equal_capacity_difference": -0.545,
+        "actual_budget_below_four_mid_blocks_fraction": 0.019083333333333334,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.0005,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5283333333333333
+      }
+    ],
+    "4000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.182083333333333,
+        "mid_deliverable_blocks_under_actual_budget": 3.4306666666666668,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.095833333333333,
+        "static_equal_capacity_difference": -0.3348333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4851666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.11525,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.33641666666666664
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.13525,
+        "mid_deliverable_blocks_under_actual_budget": 3.7013333333333334,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.824,
+        "static_equal_capacity_difference": -0.8773333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.459,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.07783333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4691666666666667
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.282416666666666,
+        "mid_deliverable_blocks_under_actual_budget": 3.3540833333333335,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.83275,
+        "static_equal_capacity_difference": -0.5213333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4666666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.07183333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4508333333333333
+      }
+    ],
+    "6000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.578083333333334,
+        "mid_deliverable_blocks_under_actual_budget": 4.1425833333333335,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.352,
+        "static_equal_capacity_difference": -0.7905833333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4851666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.34258333333333335,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4975
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.126666666666667,
+        "mid_deliverable_blocks_under_actual_budget": 3.4959166666666666,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.6336666666666666,
+        "static_equal_capacity_difference": -0.86225,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5021666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.09483333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4825
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.02575,
+        "mid_deliverable_blocks_under_actual_budget": 3.3346666666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.585166666666667,
+        "static_equal_capacity_difference": 0.2505,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5756666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.3551666666666667,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.1125
+      }
+    ],
+    "8000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.260666666666666,
+        "mid_deliverable_blocks_under_actual_budget": 3.4395,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.86575,
+        "static_equal_capacity_difference": -0.57375,
+        "actual_budget_below_four_mid_blocks_fraction": 0.49683333333333335,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.16733333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4633333333333333
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.384333333333333,
+        "mid_deliverable_blocks_under_actual_budget": 4.15875,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.936,
+        "static_equal_capacity_difference": -1.22275,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4895833333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.25875,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.49933333333333335
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.39825,
+        "mid_deliverable_blocks_under_actual_budget": 3.284666666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.1275833333333334,
+        "static_equal_capacity_difference": -0.15708333333333332,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5221666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.22691666666666666,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.34658333333333335
+      }
+    ],
+    "10000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.5754166666666665,
+        "mid_deliverable_blocks_under_actual_budget": 4.3509166666666665,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.65075,
+        "static_equal_capacity_difference": -0.7001666666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.35358333333333336,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.26658333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5053333333333333
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 6.2828333333333335,
+        "mid_deliverable_blocks_under_actual_budget": 3.68275,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.7905,
+        "static_equal_capacity_difference": 0.10775,
+        "actual_budget_below_four_mid_blocks_fraction": 0.46375,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.4225,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.3824166666666667
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.904416666666667,
+        "mid_deliverable_blocks_under_actual_budget": 2.9154166666666668,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.503416666666667,
+        "static_equal_capacity_difference": 0.588,
+        "actual_budget_below_four_mid_blocks_fraction": 0.6740833333333334,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.538,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.07641666666666666
+      }
+    ]
+  },
+  "160441552": {
+    "1000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.284583333333333,
+        "mid_deliverable_blocks_under_actual_budget": 2.9575833333333335,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.2680833333333332,
+        "static_equal_capacity_difference": 0.3105,
+        "actual_budget_below_four_mid_blocks_fraction": 0.6505833333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.378,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.15616666666666668
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.014083333333334,
+        "mid_deliverable_blocks_under_actual_budget": 3.62325,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.6818333333333335,
+        "static_equal_capacity_difference": -0.9414166666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.46641666666666665,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.035666666666666666,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4736666666666667
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.1,
+        "mid_deliverable_blocks_under_actual_budget": 3.69325,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.2043333333333335,
+        "static_equal_capacity_difference": -0.48891666666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.44383333333333336,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.06183333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.41641666666666666
+      }
+    ],
+    "2000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.411666666666667,
+        "mid_deliverable_blocks_under_actual_budget": 2.7653333333333334,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.469333333333333,
+        "static_equal_capacity_difference": 0.704,
+        "actual_budget_below_four_mid_blocks_fraction": 0.7024166666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.595,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.08675
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.0555,
+        "mid_deliverable_blocks_under_actual_budget": 3.4965,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.948583333333333,
+        "static_equal_capacity_difference": -0.5479166666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.47075,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.0485,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.42425
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.6786666666666665,
+        "mid_deliverable_blocks_under_actual_budget": 4.315916666666666,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.6826666666666665,
+        "static_equal_capacity_difference": -0.63325,
+        "actual_budget_below_four_mid_blocks_fraction": 0.14958333333333335,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.06416666666666666,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5568333333333333
+      }
+    ],
+    "4000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.71125,
+        "mid_deliverable_blocks_under_actual_budget": 3.414416666666667,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.4843333333333333,
+        "static_equal_capacity_difference": 0.06991666666666667,
+        "actual_budget_below_four_mid_blocks_fraction": 0.46375,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.2693333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.20666666666666667
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.496833333333333,
+        "mid_deliverable_blocks_under_actual_budget": 3.5923333333333334,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.51675,
+        "static_equal_capacity_difference": -0.07558333333333334,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4055,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.12325,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.19375
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.63575,
+        "mid_deliverable_blocks_under_actual_budget": 3.719,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.530666666666667,
+        "static_equal_capacity_difference": -0.18833333333333332,
+        "actual_budget_below_four_mid_blocks_fraction": 0.3174166666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.09066666666666667,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.25975
+      }
+    ],
+    "6000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.31875,
+        "mid_deliverable_blocks_under_actual_budget": 3.4744166666666665,
+        "mid_deliverable_blocks_under_static_equal_budget": 2.975416666666667,
+        "static_equal_capacity_difference": -0.499,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4678333333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.133,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4370833333333333
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.224833333333334,
+        "mid_deliverable_blocks_under_actual_budget": 3.1464166666666666,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.1766666666666667,
+        "static_equal_capacity_difference": 0.03025,
+        "actual_budget_below_four_mid_blocks_fraction": 0.56825,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.27991666666666665,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.26358333333333334
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.0905,
+        "mid_deliverable_blocks_under_actual_budget": 3.72475,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.30275,
+        "static_equal_capacity_difference": -0.422,
+        "actual_budget_below_four_mid_blocks_fraction": 0.22525,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.00875,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.3875
+      }
+    ],
+    "8000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.311416666666666,
+        "mid_deliverable_blocks_under_actual_budget": 3.7125,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.1325833333333333,
+        "static_equal_capacity_difference": -0.5799166666666666,
+        "actual_budget_below_four_mid_blocks_fraction": 0.49575,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.16916666666666666,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.4775
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.60875,
+        "mid_deliverable_blocks_under_actual_budget": 4.3975,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.2641666666666667,
+        "static_equal_capacity_difference": -1.1333333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.4821666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.46058333333333334,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5021666666666667
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.413833333333334,
+        "mid_deliverable_blocks_under_actual_budget": 2.7749166666666665,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.223,
+        "static_equal_capacity_difference": 0.44808333333333333,
+        "actual_budget_below_four_mid_blocks_fraction": 0.6200833333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.475,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.18625
+      }
+    ],
+    "10000000": [
+      {
+        "uav": 1,
+        "cache_blocks_mean": 5.5485,
+        "mid_deliverable_blocks_under_actual_budget": 2.94025,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.31125,
+        "static_equal_capacity_difference": 0.371,
+        "actual_budget_below_four_mid_blocks_fraction": 0.6375833333333333,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.43975,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.14633333333333334
+      },
+      {
+        "uav": 2,
+        "cache_blocks_mean": 5.35625,
+        "mid_deliverable_blocks_under_actual_budget": 3.2870833333333334,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.070333333333333,
+        "static_equal_capacity_difference": -0.21675,
+        "actual_budget_below_four_mid_blocks_fraction": 0.5431666666666667,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.2685,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.37683333333333335
+      },
+      {
+        "uav": 3,
+        "cache_blocks_mean": 5.4848333333333334,
+        "mid_deliverable_blocks_under_actual_budget": 4.603833333333333,
+        "mid_deliverable_blocks_under_static_equal_budget": 3.59,
+        "static_equal_capacity_difference": -1.0138333333333334,
+        "actual_budget_below_four_mid_blocks_fraction": 0.22125,
+        "same_input_equal_affords_more_mid_blocks_fraction": 0.10108333333333333,
+        "same_input_equal_affords_fewer_mid_blocks_fraction": 0.5865833333333333
+      }
+    ]
+  }
+}

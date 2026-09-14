@@ -1,0 +1,912 @@
+{
+  "state": "PASS",
+  "reference_commit": "7cc2372d19f36ed7d91ed289f83dcc79fe0f3e9d",
+  "protected_input_files": 823,
+  "protected_hashes_unchanged": true,
+  "diagnostic_code_hashes_verified": true,
+  "original_actor_updates": 0,
+  "original_critic_updates": 0,
+  "execution_episodes": 2280,
+  "probe_episodes": 144,
+  "new_formal_physical_steps": 1454400,
+  "complete_probe_networks": 18,
+  "probe_training_epochs": 50,
+  "paired_fixed_environment_scenarios": 60,
+  "paired_random_switch_environments": 12,
+  "historical_A_blocks_reproduced": 9,
+  "historical_rule_blocks_reproduced": 6,
+  "all_exogenous_pairing_passed": true,
+  "all_step_physics_reward_checks_passed": true,
+  "reserved_final_test_seed_overlap": [],
+  "actually_used_environment_seeds": [
+    9911123,
+    201800446,
+    204985084,
+    205988792,
+    207198655,
+    207714607,
+    211075276,
+    216214719,
+    218167351,
+    218487414,
+    219037752,
+    223828264,
+    224738031,
+    232720412,
+    243240890,
+    245043960,
+    265167367,
+    275961110,
+    277619122,
+    280460255,
+    286277135,
+    458508367,
+    491730400,
+    572357234,
+    928094584,
+    1230521832,
+    1515908811,
+    1561379015,
+    1704486172,
+    1752029611,
+    1756024822,
+    1772891497,
+    1898317899
+  ],
+  "execution_files": [
+    {
+      "path": "execution/rules/R_equal_instruction/fixed_0/trajectory.npz",
+      "sha256": "793f468b16a1a65675c150ef6f65ce254a0d0ed57746a6b55e53b98327b649e2",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/rules/R_equal_instruction/fixed_1/trajectory.npz",
+      "sha256": "1c478a9719370ada11d1ceb3538fcb2a4e187e895c566b44c2866b087be1db60",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/rules/R_equal_instruction/fixed_2/trajectory.npz",
+      "sha256": "26423491c7c0b1e21077e4d119a99668f7fbce8f27382cc8c1ded2f639d41fa5",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/rules/R_instruction/fixed_0/trajectory.npz",
+      "sha256": "8a444961bb95e9a4904fa11d256f7e1dada5ee0739568ee187d6c3700052020c",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/rules/R_instruction/fixed_1/trajectory.npz",
+      "sha256": "f49e99e1fca5f8ce40340fc74330e13ad7c4d14799558d458aa8ffdf26812ed1",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/rules/R_instruction/fixed_2/trajectory.npz",
+      "sha256": "693c664cb8d0199e9e3c5e8b60a79b441412ac9a6f82a5a5562dd9a8a9ad6a22",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/A_action0/trajectory.npz",
+      "sha256": "a076af8ab97ad6bfa97e766a769afe48b8a0ea0e2d5fb71ec620ca4d039b8f65",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/B_action710921/trajectory.npz",
+      "sha256": "23470f6026495e5e6486a27764fd94407946ebaa14fb1465d3cfee27b40849fd",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/B_action710929/trajectory.npz",
+      "sha256": "9a69b6ba4f8d5fc9609aa39302ecf6dab023b386d96998584638a03d58c1c8e3",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/B_action710933/trajectory.npz",
+      "sha256": "a981e7dd9167a0ca4f3d1284c72512d3f35c105542ed40a01c5e404ba7e6a82f",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/C_action710921/trajectory.npz",
+      "sha256": "560f740296fd3bb8d78ab48b31d0607fb227e35f976e5a4e191d4c4b0b675fbc",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/C_action710929/trajectory.npz",
+      "sha256": "0e043c8eeb1ca22456026dd89fea9cde8fa4fe6c65d21e50b751d33505ada285",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/C_action710933/trajectory.npz",
+      "sha256": "601c9497652f4941479152a7c321eee6521f94637e95e3562ac6f1d674673bc1",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/D_action710921/trajectory.npz",
+      "sha256": "47e4726abc4635be7046eca4da76f87c4fa0cadbf7dc1f72fc7f5eb30c0b9edf",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/D_action710929/trajectory.npz",
+      "sha256": "f5d26e0a20c7bf21e12755acdd9f7f22d151ee47ccdb6d67dd7989cfbd11dad7",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/D_action710933/trajectory.npz",
+      "sha256": "a524fa7d7270e17a6de3c4a3c5cd77c615ee675e29f6a99f4598465a599429bc",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/E_action0/trajectory.npz",
+      "sha256": "5638da69faabadf59850f50f1b31c75fb8126123f5450c521b716b4ae7548902",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_0/F_action0/trajectory.npz",
+      "sha256": "5a01c54da608c3028b845c7e6a5e1c95d31ef9765ab69a382dc1e16918b6297a",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/A_action0/trajectory.npz",
+      "sha256": "24211e4cfdf812010bd567d60f4fd189ee475d6207e16f5f1716be8de9787808",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/B_action710921/trajectory.npz",
+      "sha256": "d6a1e61244678822a607e28ab7ffc03ad9153b0977b01a17ae9ca4235cbdf398",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/B_action710929/trajectory.npz",
+      "sha256": "f070c424b5158a2687c8545354d3cdba955b2b3b2e0c8cbc0fad464bc7d4654e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/B_action710933/trajectory.npz",
+      "sha256": "4bcc24578fd105c8a60683739dee620d2dcbe735abd61743ed2c8f750251114e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/C_action710921/trajectory.npz",
+      "sha256": "f7219f742985638ca73b030fe408935cfe6c0740c59202c78cf1d6f16c2c9ebb",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/C_action710929/trajectory.npz",
+      "sha256": "85c9a1d536571bfed6a0ca2252b371ad4d9eb23b1ed034da14cb0fc0fa30b1e8",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/C_action710933/trajectory.npz",
+      "sha256": "aef2ea948b455a479467ac6d3e03017918ba078f642585f4948150376b39f34c",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/D_action710921/trajectory.npz",
+      "sha256": "742b8ab09760ecfd07320848debbab34e6570f3a6f118a4139056acd21469af4",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/D_action710929/trajectory.npz",
+      "sha256": "4dc8d54fe85a20acdd4887694a4d85ce2ba9f7db5564227612c7d54bafc44a8b",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/D_action710933/trajectory.npz",
+      "sha256": "51a63b70303b20092c12a823ace1b3e6ae4c4276c4f96a67b5a9a2bcd598f3dd",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/E_action0/trajectory.npz",
+      "sha256": "38e5757e65e687d95b1ffe7f7b241af9e38747c7a04724efd80a438fda27bbf5",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_1/F_action0/trajectory.npz",
+      "sha256": "7d5c8fe1b5ecb5402e66145186256402a26400880a584629c0dac8c7e3d4cac0",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/A_action0/trajectory.npz",
+      "sha256": "1cdeb961b3cc5b5eb298a9b1eef3fb52957155a5c02698875d54561799585ee4",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/B_action710921/trajectory.npz",
+      "sha256": "bb6d7962659d046ceb06e0a18cf52ac58391b4a7052c162d5a03bae28f96e104",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/B_action710929/trajectory.npz",
+      "sha256": "2392422004afdd28c03298fdcd4e205fb07a6ae8d489090e855328f1d58c1785",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/B_action710933/trajectory.npz",
+      "sha256": "8e37db0dfcd076a54e3eaf3a974d2660c63bd65fe1f3bc3131818f77d9265f02",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/C_action710921/trajectory.npz",
+      "sha256": "386f2e05bd0fa5d806e0d0eca91659bf7a547846b032f17587474657ccfbc499",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/C_action710929/trajectory.npz",
+      "sha256": "c1e912a5cff7e7aab6550e700fb0972b73b0034280bc422df1ad611fad06055e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/C_action710933/trajectory.npz",
+      "sha256": "70c4aaf3b844865afdb7164b665e8603cfaba81a93c0467ed93fa006df8876cf",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/D_action710921/trajectory.npz",
+      "sha256": "75a96fa5f0a9d138d83552282b1fa04c814f0bc484cce1ef4c7332040abfb35e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/D_action710929/trajectory.npz",
+      "sha256": "80b6ca2b890542b8f38368fad151f80e24af366eff5a621f9e6ac8e306ac99fd",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/D_action710933/trajectory.npz",
+      "sha256": "7f56ba410831b9009c50c3c4c742b350610af1eccf761564aa6471c7195b35cb",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/E_action0/trajectory.npz",
+      "sha256": "4d1da366ededd9bfb861d45b3e4b9b0546a43e87d7e2b81db19e5912fceef5bd",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_104948945/fixed_2/F_action0/trajectory.npz",
+      "sha256": "5cd93ef9aa09aa8de2fbb705d9db18763bd6f73db17453d7c9cf30d566d74306",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/A_action0/trajectory.npz",
+      "sha256": "2a5c9cac27c8040f7f2d505cc3e4ac8e6fcb9fd72121be70aa518014c59bdefd",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/B_action710921/trajectory.npz",
+      "sha256": "7021176b86fd3a1f4d6489bbe936466fecacca17c32bbfbaeb14448a92868792",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/B_action710929/trajectory.npz",
+      "sha256": "7ee8d08158cd6b19f786899f26a8bc352608f27b29f379752fcff35aaadda394",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/B_action710933/trajectory.npz",
+      "sha256": "3c370f786a17a7cc748109570f1973c8ec5d5089c6db1ddb3a6c7899d29f113b",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/C_action710921/trajectory.npz",
+      "sha256": "e415204dd00a50a4a94b08b9f45fa3d0b5008c35685fc109ffefdeb56de48dc2",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/C_action710929/trajectory.npz",
+      "sha256": "b30f6ee8e7ddd01e7186066a9c568233fb1d60395c4c7b88b2ee10489c332f05",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/C_action710933/trajectory.npz",
+      "sha256": "cf657d62d13c9784fd688a87737e0365fcf763c5535dadd6dfccf06d0bc96c66",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/D_action710921/trajectory.npz",
+      "sha256": "1e59e3d411004a600014a2787ae42c3f269d6bd171e9e5ed8d92e0e7843aa192",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/D_action710929/trajectory.npz",
+      "sha256": "f612832b332a4001adb460873020509319cb92d27f751840da8891d7c2e74287",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/D_action710933/trajectory.npz",
+      "sha256": "78cdc3fa615056c90b3931f18a94944e4fb7bfe857817bab99b00adde3370241",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/E_action0/trajectory.npz",
+      "sha256": "e8967fface4a9b1464cc5e39dc6810754506c56866a35f5efea546277eecd004",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_0/F_action0/trajectory.npz",
+      "sha256": "59323036f56c8ee00e540d36c1beda9706a06522038db84ca0d0e5be583027a4",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/A_action0/trajectory.npz",
+      "sha256": "473cd7e53c19875ab977bbe7881f644ba9ccfac059a3f11ab0883f3fa6f8a076",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/B_action710921/trajectory.npz",
+      "sha256": "a22dd8ceab9a3a0f64b169cbcff6b9b2b902e79fbbd81f640f224a0f7c9ceeef",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/B_action710929/trajectory.npz",
+      "sha256": "9fe7116450ea76d5688ab8620f9390f7cdd9c3b64097085af4935b34d79a574a",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/B_action710933/trajectory.npz",
+      "sha256": "44510ec0cf94da21e31463ebde30784ac8982efb0f0ca183544db12d3fceced4",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/C_action710921/trajectory.npz",
+      "sha256": "8f4e1d4f2a25fb2a2fa34eb7244f8e43a9d0d364574e4b5cb1526e81a912265c",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/C_action710929/trajectory.npz",
+      "sha256": "f4d3ac406b6573423db345f89312d19a4c87de783008a06a3140967577b8536e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/C_action710933/trajectory.npz",
+      "sha256": "ab29ae998f6c9517063b53958d41b6a1d60f2aa745bfbaadf64b720480926bb0",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/D_action710921/trajectory.npz",
+      "sha256": "da31a9105a0e66c42ec5f755ab0d546132a037845a79778eaee2cb1064b5de5c",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/D_action710929/trajectory.npz",
+      "sha256": "27b86dbf2e967791f576efd3376c1bdbf3155b192a9fe000c7b0e5425649739a",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/D_action710933/trajectory.npz",
+      "sha256": "7eeea15a96153d769a413242325e15963b8f24653a76542044c3766e60013c5e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/E_action0/trajectory.npz",
+      "sha256": "6ec35f4e2fb854695dda9b44dd13a85e3c0ce8bc3eb499d189ba2ba6af8af057",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_1/F_action0/trajectory.npz",
+      "sha256": "f0ba997c73199c56f9bab2218bfc2c85c95c4565e895a1b57b5242e52f890da7",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/A_action0/trajectory.npz",
+      "sha256": "9d5b8f679866aa94dc16357887e1c72964b430fe4cbf7777bb871e4e3c1e902f",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/B_action710921/trajectory.npz",
+      "sha256": "215b4fb61c37ccf8e58910f35aa3558f45cd072afab9aed0444ca00d150749d2",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/B_action710929/trajectory.npz",
+      "sha256": "05213ba678a4d654a84a2c92526117a858025622fc948fd53ef233894482f35b",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/B_action710933/trajectory.npz",
+      "sha256": "a81ed7a23d8f49d1cd35bf6e03280ec57e143f81cec536e6cef9bfc638d6ef9e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/C_action710921/trajectory.npz",
+      "sha256": "a4a6f97e2a10d6fec9861d1ad857fd64bae6e1861cafbd9fb73d6ab482422884",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/C_action710929/trajectory.npz",
+      "sha256": "0350ad3c8d11c8c1b37a85f61aeb067ce23e39e70ed2aab004ea7b92e86c3809",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/C_action710933/trajectory.npz",
+      "sha256": "03747081e709057ae6a502c272128b8cca624ca34b6ade9f9524438294c31344",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/D_action710921/trajectory.npz",
+      "sha256": "416ea5ef4fca82e67be5aafc8c33ca1958c8b63564934102e20f75fac79a4cdf",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/D_action710929/trajectory.npz",
+      "sha256": "21b38e579ecb8e5b8f740cf4265335b97ffc5ede6791c76ce1703b68ff3a4ea7",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/D_action710933/trajectory.npz",
+      "sha256": "1c57b2ffdfd6da75f5f443f4e8fe9c2c18d585310a5e5d8fa3e6febad1b236d0",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/E_action0/trajectory.npz",
+      "sha256": "d7abf58b66d2bb2f9867e3ad179a3d2f6a0fe4c81543a4bbea570912623f39e2",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_111868397/fixed_2/F_action0/trajectory.npz",
+      "sha256": "bfe6a533ed7f7782bac2eb1ad8eeff847cbafaf72e4dc0067cd020a6f4cfe271",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/A_action0/trajectory.npz",
+      "sha256": "a8750b6cec31cbb296ed9618bd978bc4b4a707230b31028ac11f698be228dadf",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/B_action710921/trajectory.npz",
+      "sha256": "3e7c836cd4ac363bb7b78396c7f33b890d6b64349ce8d88994dfe36dda3038e6",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/B_action710929/trajectory.npz",
+      "sha256": "7d28268b8843b6c3ef3fd4b3c7bb23a4f837534e8a0cd7d57f2a3a8b921d40e0",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/B_action710933/trajectory.npz",
+      "sha256": "9f6cf91e6f4517be1e7b395e635eb60a6549faa75b14f3f3a13935cc82ee9d71",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/C_action710921/trajectory.npz",
+      "sha256": "669588ae5f9bb094877a271da11011e4eaf16ffb12c71c2f980382ad881fa0f7",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/C_action710929/trajectory.npz",
+      "sha256": "e08ef73eb990c649c31cdcea70b8bacbdbcd663d95029cba83287dffae2915b2",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/C_action710933/trajectory.npz",
+      "sha256": "8452f03c11ea3ad48c083937e40a7ad19e6dd5adbf990f9d22fa3804a3e65fc3",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/D_action710921/trajectory.npz",
+      "sha256": "62483361283a3607ea15d2259f05167eed887a4c4d9b301b1aa65576a212e801",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/D_action710929/trajectory.npz",
+      "sha256": "a2a374532972e64c18c68c8d9c10c59eb7aaf6a9b93ab16ff1bd45ec7fee642f",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/D_action710933/trajectory.npz",
+      "sha256": "cd5bbc3a8ea4732c8f3da5705928d27efdcef259dc85fc12b54b2cf62efeb7b7",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/E_action0/trajectory.npz",
+      "sha256": "a171c2498e98d79f318210dd7f22ec6daf6ef7077f1655e287c983e67c8bcda5",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_0/F_action0/trajectory.npz",
+      "sha256": "b63fcf3ef66cae642dc75e71fecd1affa9a37bf9835c19d7ab51088623a02e65",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/A_action0/trajectory.npz",
+      "sha256": "886c5171b23b7a4001168bdfc015bbd31f2720fc1efab0a4fdf17942212ea7aa",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/B_action710921/trajectory.npz",
+      "sha256": "63aa3c73209f9cbbbcd40cff35463ad5435e5a7d8f6a0204fa5d3fc7f9f69732",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/B_action710929/trajectory.npz",
+      "sha256": "bdab91d8d1ea25fc754cc3431cea20b35848f9eb05fad57a3dafb61873c82975",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/B_action710933/trajectory.npz",
+      "sha256": "6cbf0719558d68a480daa716be2b6da3ef2e39f1f40115bf845bc6550cc8134f",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/C_action710921/trajectory.npz",
+      "sha256": "029f5a7ca8803a9c9ee80d804d8610fde571d4969394259977531a1bb4bfc4be",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/C_action710929/trajectory.npz",
+      "sha256": "45893bbe4d0c67a4d78aff93896e43cfe5e0888c1b764e0be10b4ac84eaf2131",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/C_action710933/trajectory.npz",
+      "sha256": "bb3e16962e603092062f746df259ac00a5b0524b985976abc64342f1fdb6f174",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/D_action710921/trajectory.npz",
+      "sha256": "1a7c847d995e4f99810e8f039f0c56b77825b5076d7e2ccbd5edbfbf4ec4edf9",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/D_action710929/trajectory.npz",
+      "sha256": "beb6603ae27feb008447740e1cb3904703790d13c8ac1091a309d8e9a35456c9",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/D_action710933/trajectory.npz",
+      "sha256": "94cb31e17546efd50714498a567e6c2024ace7f6bf8186f1c77d01f3df48f1e3",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/E_action0/trajectory.npz",
+      "sha256": "acc5059563fab7369d260de1e1770ef39b7d8086fd4d433beefd0e4dc373bb00",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_1/F_action0/trajectory.npz",
+      "sha256": "6bb643c46c6cd4356e630d8a4cf37229dae1802091ddf407f4a29cfa01663c0c",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/A_action0/trajectory.npz",
+      "sha256": "5f526ae4684c24e708f94a361a3bcd5a2da582bea2677c449c8d131da6aebd09",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/B_action710921/trajectory.npz",
+      "sha256": "1132a117a989cea3ab73dcb4e81b1d142d2be011255b3306021a16dd54a89ca5",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/B_action710929/trajectory.npz",
+      "sha256": "1ba0a6b21c3a1c50228c08a9d710cb1d55226298d38cadc7c6c05e0b2142282a",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/B_action710933/trajectory.npz",
+      "sha256": "0c4b042e96dfd56db573ae5953a746bffd7831c3464f5e7810f2c67c9844f10c",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/C_action710921/trajectory.npz",
+      "sha256": "90c2511d281c47bb9a329b7a338fe8d194c07c128a817bf2fa750e4b5ce7194e",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/C_action710929/trajectory.npz",
+      "sha256": "fbbdf78895b3013065dc23a9c0bfe9681ad0d254dbd49941800c06b2ec095fa8",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/C_action710933/trajectory.npz",
+      "sha256": "5258dd0c7ec45b5485afd6dfc5df8841da793622004deb4df66c7ae5013a1732",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/D_action710921/trajectory.npz",
+      "sha256": "3233809ee0abd35da4ce5aa265baa14b1ab3c34a10e1a8de2ed37776ec6a6b2f",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/D_action710929/trajectory.npz",
+      "sha256": "35e146cc4fe915cb7c21e7777b8c2ad3071319a841bac514b5697872fe9d1282",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/D_action710933/trajectory.npz",
+      "sha256": "5b6fe8b0b067540382d1da2b922542fbd897c3f50084e7d0c040f4857ea137e9",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/E_action0/trajectory.npz",
+      "sha256": "871112c61d72158c585e760e37fb829cacfda07d9daa907d4aee95c65c0e5faf",
+      "episodes": 20,
+      "physics_steps": 12000
+    },
+    {
+      "path": "execution/seed_160441552/fixed_2/F_action0/trajectory.npz",
+      "sha256": "21e969d766864617e273944e71b53ccf5d876b91214d4ba23aa04cb2e4d4398f",
+      "episodes": 20,
+      "physics_steps": 12000
+    }
+  ],
+  "probe_files": [
+    {
+      "path": "probe/seed_104948945/action820921/trajectory.npz",
+      "sha256": "340b2ef81bcc6eb93bbd9ecbfa8225e96b4f1a8c8fc59051ce4703298119d47f",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_104948945/action820929/trajectory.npz",
+      "sha256": "cbe83fd004d42bb707e600f637dbf65d2743c76913da8e4b730cfdc63cd5c697",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_104948945/action820933/trajectory.npz",
+      "sha256": "fd0912528fbaeb2048473a0beb8817a8b109b5af05f928646994c948707c1598",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_104948945/action820939/trajectory.npz",
+      "sha256": "8ad4e6c613b3520086aeb724aead8eba46b47a72548aafb36ba7ff125c192796",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_111868397/action820921/trajectory.npz",
+      "sha256": "a5839032f136144815b83dc22a50458816069fb35384db241445c96596b0be81",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_111868397/action820929/trajectory.npz",
+      "sha256": "12e057cb59884c83bc9654e2b624b4b013d4b845f067f807e323ec0ed91972f3",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_111868397/action820933/trajectory.npz",
+      "sha256": "ec58645b4076fe60468c0dc0cc5e7b1440b2146255a8a065c36d40a9e1377749",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_111868397/action820939/trajectory.npz",
+      "sha256": "ce97cd63c9cca78d8f00c43cd5125589a655c0461823bb79df73781252604d12",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_160441552/action820921/trajectory.npz",
+      "sha256": "ecda2b23607ef9aacd679deefb12e43f74eef62086c988aabb8b141b80f2ce59",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_160441552/action820929/trajectory.npz",
+      "sha256": "6c694607f49df740568dda1d543ba222e0a293a9197481c6caa9e9030e205eb2",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_160441552/action820933/trajectory.npz",
+      "sha256": "e29f04e028cbc18962b1e70d46bd3798e97fc58db17bf0133a04fbbb2e8a1994",
+      "episodes": 12
+    },
+    {
+      "path": "probe/seed_160441552/action820939/trajectory.npz",
+      "sha256": "4913469b422063cf97f579fa80b6b978fb133db9420010fcdec30bd23706be65",
+      "episodes": 12
+    }
+  ],
+  "no_rl_training": true,
+  "full_actor_gradient_variance_computed": false,
+  "uav_logit_gradient_proxy_computed": true,
+  "analysis_amendment": {
+    "recorded_utc": "2026-09-12T06:15:01.674182+00:00",
+    "reason": "Report-only bug: raw NPZ uses bar_ls_main_mean/avg_kept_real_symbols_mean; l_z_mean/n_z_mean are normalized runtime names. Correct exact-equivalence grouping field lookup only. support.py adds explicit hash verification for this documented reporting amendment, preserving the original collection/fitting code identity.",
+    "old_manifest_backup": "logs/before_reporting_fix_manifest.json",
+    "changed_files": [
+      "aggregate.py",
+      "support.py"
+    ],
+    "new_sha256": {
+      "aggregate.py": "28bdc4475058530d0566ec3ac982a1ef17f448edf3b80aaa757de8f555844182",
+      "support.py": "cfa3023e7590af0084a9752f3ef15747afc3d3d12f5e9a439e032ce7db375fab"
+    },
+    "collection_and_fitting_identity_unchanged": true,
+    "resampled_episodes": 0,
+    "refitted_networks": 0,
+    "reward_physics_seeds_hyperparameters_tolerances_changed": false,
+    "independent_verifier_sha256": "11d38bb4ee76c2808cd4b92a58c04c28cc52b6b7deea884ed58e897baa1bf952"
+  },
+  "independent_verification": {
+    "state": "PASS",
+    "probe_networks_reloaded": 18,
+    "heldout_prediction_replay": "bitwise identical on original fitting device",
+    "device": "cuda:0",
+    "full_return_direct_sum_verified_parent_models": 3,
+    "normalization_fit_only_verified": true,
+    "physical_equivalence_matches_original_runtime_loader": true,
+    "checks": [
+      {
+        "parent_seed": 104948945,
+        "initialization_seed": 930921,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 104948945,
+        "initialization_seed": 930929,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 104948945,
+        "initialization_seed": 930941,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 111868397,
+        "initialization_seed": 930921,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 111868397,
+        "initialization_seed": 930929,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 111868397,
+        "initialization_seed": 930941,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 160441552,
+        "initialization_seed": 930921,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 160441552,
+        "initialization_seed": 930929,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      },
+      {
+        "parent_seed": 160441552,
+        "initialization_seed": 930941,
+        "loaded_probe_prediction_max_abs_difference": {
+          "P0": 0.0,
+          "P1": 0.0
+        }
+      }
+    ],
+    "new_environment_steps": 0,
+    "rl_training_steps": 0,
+    "verification_script_sha256": "11d38bb4ee76c2808cd4b92a58c04c28cc52b6b7deea884ed58e897baa1bf952"
+  },
+  "statistical_units": "20 paired validation environments conditional on frozen models; 4 held-out probe environment clusters"
+}

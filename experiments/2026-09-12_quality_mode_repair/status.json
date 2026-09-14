@@ -1,0 +1,12 @@
+{
+  "state": "complete",
+  "completed_training_steps": 6000000,
+  "training_jobs": 6,
+  "evaluation_episodes": 5600,
+  "evaluation_physical_steps": 3360000,
+  "audit": "PASS",
+  "final_test_used": false,
+  "report": "report/REPORT.md",
+  "results_sha256": "3d9c2ca7748ad08f58ed99e5742cc4947c6753a416ee2a05385e77e021afe0e8",
+  "reaggregation": "PASS_twice_identical"
+}

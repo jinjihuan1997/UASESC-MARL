@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "completed_additional_steps": 27000000,
+  "completed_cumulative_steps": 30000000,
+  "completed_evaluation_steps": 900000,
+  "report": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-14_quality_half_long_training/report/REPORT.md",
+  "updated_utc": "2026-09-14T05:53:14.973184+00:00",
+  "reserved_final_test_used": false
+}

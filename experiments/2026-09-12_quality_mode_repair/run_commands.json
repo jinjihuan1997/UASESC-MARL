@@ -1,0 +1,681 @@
+{
+  "training": [
+    {
+      "kind": "training",
+      "name": "seed_104948945/residual_all",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_training.py",
+        "--seed",
+        "104948945",
+        "--arm",
+        "residual_all",
+        "--device",
+        "cpu",
+        "--resume"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/jobs/seed_104948945/residual_all/status.json"
+    },
+    {
+      "kind": "training",
+      "name": "seed_104948945/residual_quality",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_training.py",
+        "--seed",
+        "104948945",
+        "--arm",
+        "residual_quality",
+        "--device",
+        "cpu",
+        "--resume"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/jobs/seed_104948945/residual_quality/status.json"
+    },
+    {
+      "kind": "training",
+      "name": "seed_111868397/residual_all",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_training.py",
+        "--seed",
+        "111868397",
+        "--arm",
+        "residual_all",
+        "--device",
+        "cpu",
+        "--resume"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/jobs/seed_111868397/residual_all/status.json"
+    },
+    {
+      "kind": "training",
+      "name": "seed_111868397/residual_quality",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_training.py",
+        "--seed",
+        "111868397",
+        "--arm",
+        "residual_quality",
+        "--device",
+        "cpu",
+        "--resume"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/jobs/seed_111868397/residual_quality/status.json"
+    },
+    {
+      "kind": "training",
+      "name": "seed_160441552/residual_all",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_training.py",
+        "--seed",
+        "160441552",
+        "--arm",
+        "residual_all",
+        "--device",
+        "cpu",
+        "--resume"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/jobs/seed_160441552/residual_all/status.json"
+    },
+    {
+      "kind": "training",
+      "name": "seed_160441552/residual_quality",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_training.py",
+        "--seed",
+        "160441552",
+        "--arm",
+        "residual_quality",
+        "--device",
+        "cpu",
+        "--resume"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/jobs/seed_160441552/residual_quality/status.json"
+    }
+  ],
+  "evaluation": [
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_all_at_200000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_all",
+        "--steps",
+        "200000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_all_at_200000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_all_at_400000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_all",
+        "--steps",
+        "400000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_all_at_400000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_all_at_600000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_all",
+        "--steps",
+        "600000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_all_at_600000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_all_at_800000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_all",
+        "--steps",
+        "800000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_all_at_800000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_all_at_1000000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_all",
+        "--steps",
+        "1000000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_all_at_1000000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_quality_at_200000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "200000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_quality_at_200000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_quality_at_400000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "400000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_quality_at_400000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_quality_at_600000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "600000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_quality_at_600000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_quality_at_800000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "800000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_quality_at_800000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/residual_quality_at_1000000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "1000000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/residual_quality_at_1000000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/original_rl",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "original_rl"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/original_rl/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_104948945/quality_rule_hybrid",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "104948945",
+        "--method",
+        "quality_rule_hybrid"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_104948945/quality_rule_hybrid/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_all_at_200000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_all",
+        "--steps",
+        "200000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_all_at_200000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_all_at_400000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_all",
+        "--steps",
+        "400000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_all_at_400000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_all_at_600000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_all",
+        "--steps",
+        "600000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_all_at_600000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_all_at_800000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_all",
+        "--steps",
+        "800000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_all_at_800000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_all_at_1000000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_all",
+        "--steps",
+        "1000000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_all_at_1000000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_quality_at_200000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "200000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_quality_at_200000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_quality_at_400000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "400000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_quality_at_400000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_quality_at_600000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "600000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_quality_at_600000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_quality_at_800000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "800000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_quality_at_800000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/residual_quality_at_1000000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "1000000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/residual_quality_at_1000000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/original_rl",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "original_rl"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/original_rl/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_111868397/quality_rule_hybrid",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "111868397",
+        "--method",
+        "quality_rule_hybrid"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_111868397/quality_rule_hybrid/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_all_at_200000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_all",
+        "--steps",
+        "200000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_all_at_200000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_all_at_400000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_all",
+        "--steps",
+        "400000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_all_at_400000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_all_at_600000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_all",
+        "--steps",
+        "600000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_all_at_600000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_all_at_800000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_all",
+        "--steps",
+        "800000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_all_at_800000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_all_at_1000000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_all",
+        "--steps",
+        "1000000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_all_at_1000000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_quality_at_200000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "200000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_quality_at_200000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_quality_at_400000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "400000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_quality_at_400000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_quality_at_600000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "600000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_quality_at_600000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_quality_at_800000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "800000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_quality_at_800000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/residual_quality_at_1000000",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "residual_quality",
+        "--steps",
+        "1000000"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/residual_quality_at_1000000/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/original_rl",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "original_rl"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/original_rl/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "seed_160441552/quality_rule_hybrid",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--seed",
+        "160441552",
+        "--method",
+        "quality_rule_hybrid"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/seed_160441552/quality_rule_hybrid/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "rules/R_instruction",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--method",
+        "R_instruction"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/rules/R_instruction/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "rules/R_equal_instruction",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--method",
+        "R_equal_instruction"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/rules/R_equal_instruction/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "rules/greedy_modes_3",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--method",
+        "greedy_modes_3"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/rules/greedy_modes_3/status.json"
+    },
+    {
+      "kind": "evaluation",
+      "name": "rules/greedy_modes_16",
+      "command": [
+        "/home/king/miniconda3/envs/harl_sionna/bin/python",
+        "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/repair_evaluation.py",
+        "--method",
+        "greedy_modes_16"
+      ],
+      "status": "/home/king/Downloads/Projects/2_th_paper_TMC/experiments/2026-09-12_quality_mode_repair/evaluation/rules/greedy_modes_16/status.json"
+    }
+  ],
+  "max_workers": 2,
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  }
+}

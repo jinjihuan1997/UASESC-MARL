@@ -1,0 +1,12 @@
+{
+  "state": "complete",
+  "completed_scope": "read-only resource-mode and checkpoint regression analysis",
+  "new_physical_steps": 0,
+  "new_training_steps": 0,
+  "new_optimizer_updates": 0,
+  "protected_union_count": 5363,
+  "protected_changes": [],
+  "report": "report/REPORT.md",
+  "reproducibility": "PASS",
+  "no_next_experiment_started": true
+}

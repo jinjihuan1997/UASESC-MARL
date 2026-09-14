@@ -1,0 +1,14 @@
+{
+  "state": "PASS",
+  "complete_aggregation_runs": 2,
+  "deterministic_output_sha256": {
+    "results.json": "a340064435bc897b1ac0c05068b30589756176f9ee515cf886aff8c5066d6901",
+    "paired_differences.json": "580e72bad2266105f6f8fedbbcea4c8e69ac53010746d96193db299d11720aba",
+    "physical_statistics.json": "8a4af9ce55d631ed916abef463303c4e82415fb20834826564c04241f71ecd47",
+    "gap_decomposition.json": "0ef06f489fa83e900463b7ac62dc7f3b64256a71a0ef06de8459378847f0a49c",
+    "audit.json": "b41555740d391b3951e8fd2ac95239699e6a48ff228b7252492de39ef824b536",
+    "REPORT.md": "63d40458694d895de2d5264bf0f170eeee4565aeeede438022042b4298d467fc"
+  },
+  "protected_inputs_unchanged": true,
+  "git_status_unchanged": true
+}

@@ -1,0 +1,9 @@
+{
+  "state": "PASS",
+  "checks": {
+    "critic_warmup": "BLOCKED_BY_FAILED_A_GATE",
+    "joint_HAPPO": "BLOCKED_BY_FAILED_A_GATE"
+  },
+  "gradient_steps": 0,
+  "environment_steps": 0
+}

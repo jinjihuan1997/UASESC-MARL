@@ -1,30 +1,13 @@
-# 2026-09-14同步说明
+# 2026-09-14核心内容清理
 
-这是对main分支的正常追加提交，保留此前7cc2372及其历史，不使用force push。所有科学源码、原始报告、数值和模型文件均来自本地已完成实验，不在同步时修改算法或结果。README与本说明为发布索引。
+在已发布提交`d0315bfe8b74039e7a32eb2b15effbb05ba5e264`之上，以普通提交收紧main当前文件范围。不强制推送、不改写旧历史。本地科研工作区、模型、数据、报告和论文不修改。
 
-实际上传清单在发布任务本地审计目录中逐文件保存SHA-256、Git blob ID和模式，推送后重新从GitHub取回提交树核对。原始工作区和其未提交修改不由发布任务写入或清理。
+清理前：78,946个文件，17,810,726,997字节。原科学文件保留3,405个、116,474,384字节，另新增或更新少量发布文档、清单和检查脚本。所有保留科学文件沿用原字节与SHA-256，不重新打分、不修改实验内容。
 
-不上传大于10MiB的模型文件、完整训练状态、原始数据集、教师/DAgger训练数据NPZ以及本地安装/缓存/私有配置。小型策略权重按上次已授权范围保留。不存在按得分删除实验或替换种子。
+删除当前Git文件中的全部4,602个权重/状态/拟合参数文件，以及原始轨迹、生成数据、日志、媒体、每次运行重复的源代码副本等。文件分类清单由发布任务保存在本地审计目录。完整原件仍在本地。
 
-## 唯一文件格式转换
+最新长期训练、资源—选模回归诊断、TailRL诊断等主要REPORT、results与审计文件保留。大型附件，例如TailRL的98MB历史逐回合记录、19MB历史分布、策略重组的18MB细分物理统计和大型差异日志，不在当前分支；相应主报告、主要结果和分析代码保留。历史报告对本地附件的引用按原样保留，不伪造附件可用性。
 
-- 原路径：`experiments/2026-09-12_credit_assignment_probe/logs/HARL_original_worktree.diff`
-- 发布路径：`experiments/2026-09-12_credit_assignment_probe/logs/HARL_original_worktree.diff.gz`
-- 原始字节数：132364514
-- 原始SHA-256：`7a31d84de7ae09675bf6a774cee3cfa3dfb7eb22418cbbfe736233b43956fdd2`
-- gzip SHA-256：`43b95cb8d43c8b221b121788188468c51cc607d5f0f40e63ba4d71e4b2c2e90f`
+发布前检查逐文件SHA、索引路径/模式/blob、权重和原始数据排除；推送后通过独立GitHub取回的提交树再次核对。新清单描述当前发布文件，不替代原实验manifest中的输入成本和科学协议。
 
-该日志原大小超过100MiB。gzip采用无损压缩，解压后内容已按SHA-256核对；本地原文件没有改变。若需要在新检出副本还原，可在目标路径尚不存在时运行：
-
-```python
-from pathlib import Path
-import gzip, hashlib
-src = Path("experiments/2026-09-12_credit_assignment_probe/logs/HARL_original_worktree.diff.gz")
-dst = src.with_suffix("")
-assert not dst.exists()
-with gzip.open(src, "rb") as reader, dst.open("xb") as writer:
-    while chunk := reader.read(1024 * 1024):
-        writer.write(chunk)
-```
-
-数值结果、CSV/JSON/NPZ轨迹没有采用有损变换。模拟器生成的评估轨迹属于结果记录；教师监督训练用的数据包留在本地，不能把排除训练数据解释为该阶段没有训练成本。
+当前文件树变小不等于历史体积变小：旧提交仍可包含之前的大文件，本轮没有执行历史重写或GitHub历史清除。

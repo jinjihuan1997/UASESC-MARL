@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "scope": "core_code_and_compact_numerical_results_only",
-  "parent_commit": "d0315bfe8b74039e7a32eb2b15effbb05ba5e264",
+  "parent_commit": "4ad014ab7f82a2740e5e5f80631e6a864b8afb72",
   "date": "2026-09-14",
   "all_learned_weights_excluded": true,
   "datasets_and_raw_trajectories_excluded": true,
   "max_file_bytes": 8388608,
-  "history_rewritten": false,
+  "history_rewritten": true,
   "scientific_files_byte_identical": true,
   "files": [
     {
@@ -2938,11 +2938,27 @@
       "category": "core_source_configuration_license"
     },
     {
-      "path": "PUBLICATION_POLICY.md",
-      "bytes": 1779,
-      "sha256": "b1e6e90d48f8b5c771244a08cbf98a8d6a59f8c3be1111352d00b5117d16c89b",
+      "path": "HISTORY_REWRITE.json",
+      "bytes": 6127,
+      "sha256": "635346aef169a6943b5e7410590cd4682d78d8e6a22da96a43259c080772331a",
       "mode": "100644",
-      "oid": "ffe7262f10a1f0870719323dfbc52c2a5357ed4f",
+      "oid": "16ebc6a2eb70bdc5c1873dd00a529b3d64cca184",
+      "category": "publication_policy_and_verification"
+    },
+    {
+      "path": "HISTORY_REWRITE.md",
+      "bytes": 1997,
+      "sha256": "70535464003bd132fb7abf3bc9af51addd7f5223039b6dff7605114389bce8ac",
+      "mode": "100644",
+      "oid": "b57c0a57299bd02b8625f634205320284392d8e3",
+      "category": "publication_policy_and_verification"
+    },
+    {
+      "path": "PUBLICATION_POLICY.md",
+      "bytes": 1976,
+      "sha256": "fdd555fc107141de5a1ed0a71be649ac9b958db5f1b0af3ea6cad12e1bfb19ec",
+      "mode": "100644",
+      "oid": "b8b5a873aecb8b76b607f72fedd7a2cd2af056c3",
       "category": "publication_policy_and_verification"
     },
     {
@@ -3851,18 +3867,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 7291,
-      "sha256": "416e196353eac149d46282790f9525312180be67a2e6a0ad0d2eb0b87422395b",
+      "bytes": 7408,
+      "sha256": "0d103c3748523ba3506572a98f3217d207bff6a22cf54ed51b43d125f7a2f585",
       "mode": "100644",
-      "oid": "f44b1877f0865a3bf043f6835704ba9db62da011",
+      "oid": "c8de1a47b97356dad83c490b8dae6a65fb25b25c",
       "category": "publication_policy_and_verification"
     },
     {
       "path": "SYNC_INFO.md",
-      "bytes": 1588,
-      "sha256": "23c0d605d5510f8dc079106c1508b693367199caec6b97b98bfe5b365f98e4d7",
+      "bytes": 1916,
+      "sha256": "59b165ee4cacb24020c73311858b77e6cd429a2a01cd5f558309003419bf2747",
       "mode": "100644",
-      "oid": "9eb565bee12b42e62c213412c2b3d3c3c9465055",
+      "oid": "d656ce7d631072c77c545d4f277702ad53997f2e",
       "category": "publication_policy_and_verification"
     },
     {
@@ -27289,5 +27305,7 @@
       "oid": "98124a9342c8163d72c880761a7b2016035c4224",
       "category": "publication_policy_and_verification"
     }
-  ]
+  ],
+  "pre_rewrite_head": "41282e4162adfc0a3bc6ba9c583e67320bec419a",
+  "history_migration": "HISTORY_REWRITE.json"
 }

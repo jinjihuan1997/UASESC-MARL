@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-14",
+  "scope": "All reachable main history, using the previously approved 3411-path code/results allowlist and an 8MiB blob ceiling.",
+  "old_main": "41282e4162adfc0a3bc6ba9c583e67320bec419a",
+  "filtered_main_before_documentation": "4ad014ab7f82a2740e5e5f80631e6a864b8afb72",
+  "old_commits": 24,
+  "retained_commits_before_documentation": 9,
+  "empty_commits_pruned": 15,
+  "current_scientific_tree_changed_by_filter": false,
+  "old_and_filtered_current_tree": "a76636f70ec98a2d71ab9a0912ec62a699d164a4",
+  "original_history_backup": "Preserved locally as a complete non-shallow Git object store, without alternates and with its push URL disabled.",
+  "commit_map": [
+    {
+      "original": "139796fa67beea4feb4b85b31ae674c35f494738",
+      "rewritten": null,
+      "filtered_equivalent": "cdd0e50814a635da4160d938d5ca059959bf9e1b",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "275b7765bf943d03b3fff671c54f34fd89401497",
+      "rewritten": null,
+      "filtered_equivalent": "cdd0e50814a635da4160d938d5ca059959bf9e1b",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "e2f3065637bb8e62e9f456652d53c91d82b7a652",
+      "rewritten": null,
+      "filtered_equivalent": "cdd0e50814a635da4160d938d5ca059959bf9e1b",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "c89a6ba5e652de0975ac544b50d59f4fb8f6af08",
+      "rewritten": null,
+      "filtered_equivalent": "cdd0e50814a635da4160d938d5ca059959bf9e1b",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "01fa2d382099f9b8735f59bf510a336f9001286d",
+      "rewritten": "fd998b7342dad2a55d44adeae35d8e9ff2090b12",
+      "filtered_equivalent": "fd998b7342dad2a55d44adeae35d8e9ff2090b12",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "894953118e7d084d862d7365f517ba89b43dc613",
+      "rewritten": "f6a63a5967a377e93d41e4948e09dede5b614cf2",
+      "filtered_equivalent": "f6a63a5967a377e93d41e4948e09dede5b614cf2",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "eb74c48830d7bd325882bd1cb1faac3e56fecc49",
+      "rewritten": "cdd0e50814a635da4160d938d5ca059959bf9e1b",
+      "filtered_equivalent": "cdd0e50814a635da4160d938d5ca059959bf9e1b",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "48b41fc1cbbcf84f2885b2abae657ea59b847077",
+      "rewritten": "5ec3bccf56fcd54c3badb25489d96a97deb2fddd",
+      "filtered_equivalent": "5ec3bccf56fcd54c3badb25489d96a97deb2fddd",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "f31c276e4f25cb810f069fea68508867f70f712e",
+      "rewritten": "aefd446c5a41045d6db896fda6d410c8523662f3",
+      "filtered_equivalent": "aefd446c5a41045d6db896fda6d410c8523662f3",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "00028edbb9b2581b618988a00b710eb7b04abe05",
+      "rewritten": "775f6e1393ba37d5a8074f2cf376d76268983bef",
+      "filtered_equivalent": "775f6e1393ba37d5a8074f2cf376d76268983bef",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "9aed3070aa995a00ed1e9623fe05a57e3287c081",
+      "rewritten": null,
+      "filtered_equivalent": "d541a919a9b70d3e3352bee709f159109a7bbece",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "7cc2372d19f36ed7d91ed289f83dcc79fe0f3e9d",
+      "rewritten": null,
+      "filtered_equivalent": "d541a919a9b70d3e3352bee709f159109a7bbece",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "382c0555a832afd7489a5182a32cc637381be0b0",
+      "rewritten": "d541a919a9b70d3e3352bee709f159109a7bbece",
+      "filtered_equivalent": "d541a919a9b70d3e3352bee709f159109a7bbece",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "188944a04fe2bcd7c8682c58b323dd73676dbc5e",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "77097842fdfbd3e77cf2d55a8c13e8692bc34545",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "363301f3918a966b5f6f5f7f118bb650ce508109",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "343e67d374f25fbebedd6d8bd1fe270e3c63b897",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "91055a633ab1de49e1c811a047ee5f005c85d2bb",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "62ffd2c9e534f97c9066208317bde72c3aec28e4",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "0bed0c196c6d8c75bcc33bf60a5848ccff47c2fe",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "124791b3a5ebb9fcac315d13192e7f135c342249",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "d0315bfe8b74039e7a32eb2b15effbb05ba5e264",
+      "rewritten": null,
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": true
+    },
+    {
+      "original": "66999a168eeea63641278badd9fe8ae6614c35ea",
+      "rewritten": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "filtered_equivalent": "bdcd6fecb22b8b08521fbce530f34f3274930158",
+      "pruned_after_filter": false
+    },
+    {
+      "original": "41282e4162adfc0a3bc6ba9c583e67320bec419a",
+      "rewritten": "4ad014ab7f82a2740e5e5f80631e6a864b8afb72",
+      "filtered_equivalent": "4ad014ab7f82a2740e5e5f80631e6a864b8afb72",
+      "pruned_after_filter": false
+    }
+  ],
+  "server_cached_objects_purged": "Not verifiable or controlled by this operation; see GitHub documentation."
+}

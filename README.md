@@ -30,7 +30,7 @@
 
 | 实验 | 实际范围及报告 |
 |---|---|
-| [9月11日交替训练](experiments/2026-09-11_alternating_training/REPORT.md) | 历史冻结参考，原提交7cc2372保留在Git历史中 |
+| [9月11日交替训练](experiments/2026-09-11_alternating_training/REPORT.md) | 历史冻结参考；原始出处7cc2372，清理后的提交对应见HISTORY_REWRITE.json |
 | [同观测强贪心](experiments/2026-09-11_observation_matched_greedy/REPORT.md) | 资源预测器和局部模式评分，区别于具有全局信息的一步择优 |
 | [冻结归因与价值探针](experiments/2026-09-12_credit_assignment_probe/report/REPORT.md) | 已完成，包含报告修正及审计 |
 | [质量门控模式修复](experiments/2026-09-12_quality_mode_repair/report/REPORT.md) | 六个固定预算训练任务及评估已完成 |
@@ -67,6 +67,6 @@ PYTHONDONTWRITEBYTECODE=1 python scripts/check_publication.py --staged
 
 检查器只核对，不执行训练、暂存、提交或推送。推送后核对GitHub提交树与清单。不要直接对整个本地工作区执行无范围限制的`git add .`。
 
-此次用普通清理提交更新main；旧提交仍可能包含此前上传的大文件。当前文件树缩小不代表Git历史对象已清除。若只需要当前内容，可使用GitHub下载当前分支源码包，或浅克隆当前main。
+已根据追加授权清理main的全部可达历史，原先的权重和大体量数据不再随完整新克隆下载。核心代码和汇总结果历史按当前批准的路径保留，提交映射与边界见[历史清理说明](HISTORY_REWRITE.md)。旧克隆不要将旧历史合并回main；本地完整原件继续保留。
 
 第三方组件许可证保留在对应目录。最新报告优先于历史README中的旧实验结论。
